@@ -1,3 +1,33 @@
+/*自定义标签 拒绝*/
+:is(a[data-ref^="拒绝"],.page-title-sizer-wrapper span[data-ref^="拒绝"]){
+  color: #34495e!important;
+}
+:is(a[data-ref^="拒绝"],.page-title-sizer-wrapper span[data-ref^="拒绝"]):hover{
+    color: #34495e!important;
+}
+:is(a[data-ref^="拒绝"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid #34495e;
+}
+:is(a[data-ref^="拒绝"],.page-title-sizer-wrapper span[data-ref^="拒绝"])::before{
+  content: "\EB3B";
+  font-size: var(--Icon_size_inPage);
+  font-family: var(--Font_icon_name);
+  color: #34495e;
+  margin-right: var(--fonticon_Mr);
+}
+:is([data-ref^="拒绝"]) > a > span.page-icon {
+  text-indent:-9999px;
+   position: relative;
+  margin-right:var(--pageIconML) !important;
+}
+:is([data-ref^="拒绝"])>a::before {
+  font-family: var(--Font_icon_name);
+  font-size: var(--Sidebar_icon_size);
+  color: #34495e;;
+  content: "\EB3B";
+}
+/*自定义标签 拒绝*/
 /*自定义标签 目标*/
 :is(a[data-ref^="目标"],.page-title-sizer-wrapper span[data-ref^="目标"]){
   color: #217DBA!important;
