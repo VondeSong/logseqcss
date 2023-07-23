@@ -1555,22 +1555,23 @@ a[data-ref^="阅读"].tag:before {
   margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 主义*/
+
 /*自定义标签 案例*/
 :is(a[data-ref^="案例"],.page-title-sizer-wrapper span[data-ref^="案例"]){
-  color: #666E7F!important;
+  color: #6D7485!important;
 }
 :is(a[data-ref^="案例"],.page-title-sizer-wrapper span[data-ref^="案例"]):hover{
-    color: #666E7F!important;
+    color: #6D7485!important;
 }
 :is(a[data-ref^="案例"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
 :is(a[data-ref^="案例"],.page-title-sizer-wrapper span[data-ref^="案例"])::before{
-  content: "\f534";
+  content: "\EAB7";
   font-size: var(--Icon_size_inPage);
   font-family: var(--Font_icon_name);
-  color: #666E7F;
+  color: #6D7485;
   margin-right: var(--fonticon_Mr);
 }
 :is([data-ref^="案例"]) > a > span.page-icon {
@@ -1581,8 +1582,8 @@ a[data-ref^="阅读"].tag:before {
 :is([data-ref^="案例"])>a::before {
   font-family: var(--Font_icon_name);
   font-size: var(--Sidebar_icon_size);
-  color: #666E7F;;
-  content: "\f534";
+  color: #6D7485;;
+  content: "\EAB7";
   margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 案例*/
