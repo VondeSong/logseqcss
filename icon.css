@@ -1,3 +1,118 @@
+/*自定义标签 EmEditor emeditor Emeditor Emeditor*/
+:is(a[data-ref^="EmEditor"],.page-title-sizer-wrapper span[data-ref^="EmEditor"],a[data-ref^="emeditor"],.page-title-sizer-wrapper span[data-ref^="emeditor"],a[data-ref^="Emeditor"],.page-title-sizer-wrapper span[data-ref^="Emeditor"],a[data-ref^="Emeditor"],.page-title-sizer-wrapper span[data-ref^="Emeditor"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="EmEditor"],.page-title-sizer-wrapper span[data-ref^="EmEditor"],a[data-ref^="emeditor"],.page-title-sizer-wrapper span[data-ref^="emeditor"],a[data-ref^="Emeditor"],.page-title-sizer-wrapper span[data-ref^="Emeditor"],a[data-ref^="Emeditor"],.page-title-sizer-wrapper span[data-ref^="Emeditor"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="EmEditor"],.page-title-sizer-wrapper span[data-ref^="EmEditor"],a[data-ref^="emeditor"],.page-title-sizer-wrapper span[data-ref^="emeditor"],a[data-ref^="Emeditor"],.page-title-sizer-wrapper span[data-ref^="Emeditor"],a[data-ref^="Emeditor"],.page-title-sizer-wrapper span[data-ref^="Emeditor"])::before{
+  content: "";
+  background-image: url("https://files.getquicker.net/_icons/C98DFCB1DAADAF310B98628EDA41354128787578.png");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="EmEditor"],[data-ref^="emeditor"],[data-ref^="Emeditor"],[data-ref^="Emeditor"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="EmEditor"],[data-ref^="emeditor"],[data-ref^="Emeditor"],[data-ref^="Emeditor"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://files.getquicker.net/_icons/C98DFCB1DAADAF310B98628EDA41354128787578.png");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 EmEditor emeditor Emeditor Emeditor*/
+/*自定义标签 相处之道*/
+:is(a[data-ref^="相处之道"],.page-title-sizer-wrapper span[data-ref^="相处之道"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="相处之道"],.page-title-sizer-wrapper span[data-ref^="相处之道"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="相处之道"],.page-title-sizer-wrapper span[data-ref^="相处之道"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhps2BwW9zOA-ywfgKA/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="相处之道"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="相处之道"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhps2BwW9zOA-ywfgKA/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 相处之道*/
+/*自定义标签 抖音 tiktok Tiktok*/
+:is(a[data-ref^="抖音"],.page-title-sizer-wrapper span[data-ref^="抖音"],a[data-ref^="tiktok"],.page-title-sizer-wrapper span[data-ref^="tiktok"],a[data-ref^="Tiktok"],.page-title-sizer-wrapper span[data-ref^="Tiktok"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="抖音"],.page-title-sizer-wrapper span[data-ref^="抖音"],a[data-ref^="tiktok"],.page-title-sizer-wrapper span[data-ref^="tiktok"],a[data-ref^="Tiktok"],.page-title-sizer-wrapper span[data-ref^="Tiktok"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="抖音"],.page-title-sizer-wrapper span[data-ref^="抖音"],a[data-ref^="tiktok"],.page-title-sizer-wrapper span[data-ref^="tiktok"],a[data-ref^="Tiktok"],.page-title-sizer-wrapper span[data-ref^="Tiktok"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhps6344uYeqBqna3pA/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="抖音"],[data-ref^="tiktok"],[data-ref^="Tiktok"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="抖音"],[data-ref^="tiktok"],[data-ref^="Tiktok"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhps6344uYeqBqna3pA/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 抖音 tiktok Tiktok*/
+
 /*自定义标签 拒绝*/
 :is(a[data-ref^="拒绝"],.page-title-sizer-wrapper span[data-ref^="拒绝"]){
   color: #34495e!important;
