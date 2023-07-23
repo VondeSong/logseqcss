@@ -1568,7 +1568,7 @@ a[data-ref^="阅读"].tag:before {
   border: 1px solid inherit;
 }
 :is(a[data-ref^="案例"],.page-title-sizer-wrapper span[data-ref^="案例"])::before{
-  content: "\EAB7";
+  content: "\f534";
   font-size: var(--Icon_size_inPage);
   font-family: var(--Font_icon_name);
   color: #6D7485;
@@ -1583,7 +1583,7 @@ a[data-ref^="阅读"].tag:before {
   font-family: var(--Font_icon_name);
   font-size: var(--Sidebar_icon_size);
   color: #6D7485;;
-  content: "\EAB7";
+  content: "\f534";
   margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 案例*/
