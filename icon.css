@@ -912,7 +912,7 @@ a[data-href$=".docx"]::before{
   font-size: var(--Sidebar_icon_size);
   color: #34495e;;
   content: "\EB3B";
-  margin-right: 5px;
+  margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 拒绝*/
 /*自定义标签 目标*/
@@ -943,7 +943,7 @@ a[data-href$=".docx"]::before{
   font-size: var(--Sidebar_icon_size);
   color: #217DBA;;
   content: "\EB35";
-  margin-right: 5px;
+  margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 目标*/
 /*自定义标签 课程*/
@@ -1012,7 +1012,7 @@ a[data-href$=".docx"]::before{
   font-size: var(--Sidebar_icon_size);
   color: #f7a0a8;;
   content: "\EA0B";
-  margin-right: 5px;
+  margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 出轨*/
 /*自定义标签 自律*/
@@ -1039,7 +1039,7 @@ a[data-href$=".docx"]::before{
   font-size: var(--Sidebar_icon_size);
   color: #217DBA;;
   content: "\fb7c";
-  margin-right: 5px;
+ margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 自律*/
 /*自定义标签 哲学*/
@@ -1066,7 +1066,7 @@ a[data-href$=".docx"]::before{
   font-size: var(--Sidebar_icon_size);
   color: #217DBA;;
   content: "\EC8B";
-  margin-right: 5px;
+  margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 哲学*/
 /*自定义标签 修行*/
@@ -1093,7 +1093,7 @@ a[data-href$=".docx"]::before{
   font-size: var(--Sidebar_icon_size);
   color: #217DBA;;
   content: "\ecc9";
-  margin-right: 5px;
+  margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 修行*/
 /*自定义标签 命运*/
@@ -1120,7 +1120,7 @@ a[data-href$=".docx"]::before{
   font-size: var(--Sidebar_icon_size);
   color: #217DBA;;
   content: "\EAB5";
-  margin-right: 5px;
+  margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 命运*/
 
