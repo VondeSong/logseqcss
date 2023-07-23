@@ -34,6 +34,1536 @@
   /*自定义图标*/
   --customIcon_bottom_BackgroundColor : red;
 }
+
+/*自定义标签 云盘 云存储*/
+:is(a[data-ref="云盘"],.page-title-sizer-wrapper span[data-ref="云盘"],a[data-ref="云存储"],.page-title-sizer-wrapper span[data-ref="云存储"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="云盘"],.page-title-sizer-wrapper span[data-ref="云盘"],a[data-ref="云存储"],.page-title-sizer-wrapper span[data-ref="云存储"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="云盘"],.page-title-sizer-wrapper span[data-ref="云盘"],a[data-ref="云存储"],.page-title-sizer-wrapper span[data-ref="云存储"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfooh8CspyAzxnTDtg/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="云盘"],[data-ref="云存储"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="云盘"],[data-ref="云存储"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfooh8CspyAzxnTDtg/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 云盘 云存储*/
+/*自定义标签 笔记 记笔记*/
+:is(a[data-ref="笔记"],.page-title-sizer-wrapper span[data-ref="笔记"],a[data-ref="记笔记"],.page-title-sizer-wrapper span[data-ref="记笔记"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="笔记"],.page-title-sizer-wrapper span[data-ref="笔记"],a[data-ref="记笔记"],.page-title-sizer-wrapper span[data-ref="记笔记"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="笔记"],.page-title-sizer-wrapper span[data-ref="笔记"],a[data-ref="记笔记"],.page-title-sizer-wrapper span[data-ref="记笔记"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfopZXZcrf4iCK7S7g/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="笔记"],[data-ref="记笔记"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="笔记"],[data-ref="记笔记"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfopZXZcrf4iCK7S7g/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 笔记 记笔记*/
+/*自定义标签 时间管理*/
+:is(a[data-ref="时间管理"],.page-title-sizer-wrapper span[data-ref="时间管理"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="时间管理"],.page-title-sizer-wrapper span[data-ref="时间管理"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="时间管理"],.page-title-sizer-wrapper span[data-ref="时间管理"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhforKDvrzYz6qhNhwA/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="时间管理"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="时间管理"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhforKDvrzYz6qhNhwA/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 时间管理*/
+/*自定义标签 儿童*/
+:is(a[data-ref="儿童"],.page-title-sizer-wrapper span[data-ref="儿童"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="儿童"],.page-title-sizer-wrapper span[data-ref="儿童"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="儿童"],.page-title-sizer-wrapper span[data-ref="儿童"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfotucwn7cBAFzrlPQ/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="儿童"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="儿童"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfotucwn7cBAFzrlPQ/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 儿童*/
+/*自定义标签 说话 沟通*/
+:is(a[data-ref="说话"],.page-title-sizer-wrapper span[data-ref="说话"],a[data-ref="沟通"],.page-title-sizer-wrapper span[data-ref="沟通"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="说话"],.page-title-sizer-wrapper span[data-ref="说话"],a[data-ref="沟通"],.page-title-sizer-wrapper span[data-ref="沟通"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="说话"],.page-title-sizer-wrapper span[data-ref="说话"],a[data-ref="沟通"],.page-title-sizer-wrapper span[data-ref="沟通"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoxBGeukBkQCVnFeg/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="说话"],[data-ref="沟通"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="说话"],[data-ref="沟通"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoxBGeukBkQCVnFeg/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 说话 沟通*/
+/*自定义标签 历史 过去*/
+:is(a[data-ref="历史"],.page-title-sizer-wrapper span[data-ref="历史"],a[data-ref="过去"],.page-title-sizer-wrapper span[data-ref="过去"]){
+  position: relative;
+  color: #324561!important;
+}
+:is(a[data-ref="历史"],.page-title-sizer-wrapper span[data-ref="历史"],a[data-ref="过去"],.page-title-sizer-wrapper span[data-ref="过去"]):hover{
+  position: relative;
+    color: #324561!important;
+}
+:is(a[data-ref="历史"].tag,a[data-ref="过去"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 2px solid #324561;
+}
+:is(a[data-ref="历史"],.page-title-sizer-wrapper span[data-ref="历史"],a[data-ref="过去"],.page-title-sizer-wrapper span[data-ref="过去"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfo3amVf82jZMBshpg/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="历史"],[data-ref="过去"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="历史"],[data-ref="过去"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfo3amVf82jZMBshpg/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 历史 过去*/
+/*自定义标签 诗词 诗歌 诗*/
+:is(a[data-ref="诗词"],.page-title-sizer-wrapper span[data-ref="诗词"],a[data-ref="诗歌"],.page-title-sizer-wrapper span[data-ref="诗歌"],a[data-ref="诗"],.page-title-sizer-wrapper span[data-ref="诗"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="诗词"],.page-title-sizer-wrapper span[data-ref="诗词"],a[data-ref="诗歌"],.page-title-sizer-wrapper span[data-ref="诗歌"],a[data-ref="诗"],.page-title-sizer-wrapper span[data-ref="诗"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="诗词"],.page-title-sizer-wrapper span[data-ref="诗词"],a[data-ref="诗歌"],.page-title-sizer-wrapper span[data-ref="诗歌"],a[data-ref="诗"],.page-title-sizer-wrapper span[data-ref="诗"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhf0-uIb8eQU_bNN-tw/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="诗词"],[data-ref="诗歌"],[data-ref="诗"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="诗词"],[data-ref="诗歌"],[data-ref="诗"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhf0-uIb8eQU_bNN-tw/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 诗词 诗歌 诗*/
+/*自定义标签 艺术 art skill Art Skill*/
+:is(a[data-ref="艺术"],.page-title-sizer-wrapper span[data-ref="艺术"],a[data-ref="art"],.page-title-sizer-wrapper span[data-ref="art"],a[data-ref="skill"],.page-title-sizer-wrapper span[data-ref="skill"],a[data-ref="Art"],.page-title-sizer-wrapper span[data-ref="Art"],a[data-ref="Skill"],.page-title-sizer-wrapper span[data-ref="Skill"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="艺术"],.page-title-sizer-wrapper span[data-ref="艺术"],a[data-ref="art"],.page-title-sizer-wrapper span[data-ref="art"],a[data-ref="skill"],.page-title-sizer-wrapper span[data-ref="skill"],a[data-ref="Art"],.page-title-sizer-wrapper span[data-ref="Art"],a[data-ref="Skill"],.page-title-sizer-wrapper span[data-ref="Skill"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="艺术"],.page-title-sizer-wrapper span[data-ref="艺术"],a[data-ref="art"],.page-title-sizer-wrapper span[data-ref="art"],a[data-ref="skill"],.page-title-sizer-wrapper span[data-ref="skill"],a[data-ref="Art"],.page-title-sizer-wrapper span[data-ref="Art"],a[data-ref="Skill"],.page-title-sizer-wrapper span[data-ref="Skill"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhf0_j7uWBRKU7ULiwQ/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="艺术"],[data-ref="art"],[data-ref="skill"],[data-ref="Art"],[data-ref="Skill"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="艺术"],[data-ref="art"],[data-ref="skill"],[data-ref="Art"],[data-ref="Skill"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhf0_j7uWBRKU7ULiwQ/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 艺术 art skill Art Skill*/
+/*自定义标签 城市 city City*/
+:is(a[data-ref="城市"],.page-title-sizer-wrapper span[data-ref="城市"],a[data-ref="city"],.page-title-sizer-wrapper span[data-ref="city"],a[data-ref="City"],.page-title-sizer-wrapper span[data-ref="City"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="城市"],.page-title-sizer-wrapper span[data-ref="城市"],a[data-ref="city"],.page-title-sizer-wrapper span[data-ref="city"],a[data-ref="City"],.page-title-sizer-wrapper span[data-ref="City"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="城市"],.page-title-sizer-wrapper span[data-ref="城市"],a[data-ref="city"],.page-title-sizer-wrapper span[data-ref="city"],a[data-ref="City"],.page-title-sizer-wrapper span[data-ref="City"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhf1XUNBVDsZuBhHfrQ/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="城市"],[data-ref="city"],[data-ref="City"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="城市"],[data-ref="city"],[data-ref="City"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhf1XUNBVDsZuBhHfrQ/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 城市 city City*/
+/*自定义标签 小火车*/
+:is(a[data-ref="小火车"],.page-title-sizer-wrapper span[data-ref="小火车"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="小火车"],.page-title-sizer-wrapper span[data-ref="小火车"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="小火车"],.page-title-sizer-wrapper span[data-ref="小火车"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhoRYDtOBJUI1WKtaRg/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="小火车"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="小火车"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhoRYDtOBJUI1WKtaRg/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 小火车*/
+/*自定义标签 2023/01 2023/01*/
+:is(a[data-ref="2023/01"],.page-title-sizer-wrapper span[data-ref="2023/01"],a[data-ref="2023/01"],.page-title-sizer-wrapper span[data-ref="2023/01"]){
+  position: relative;
+  color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/01"],.page-title-sizer-wrapper span[data-ref="2023/01"],a[data-ref="2023/01"],.page-title-sizer-wrapper span[data-ref="2023/01"]):hover{
+  position: relative;
+    color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/01"].tag,a[data-ref="2023/01"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 2px solid #9e5bd9;
+}
+:is(a[data-ref="2023/01"],.page-title-sizer-wrapper span[data-ref="2023/01"],a[data-ref="2023/01"],.page-title-sizer-wrapper span[data-ref="2023/01"])::before{
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E4%B8%80%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="2023/01"],[data-ref="2023/01"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="2023/01"],[data-ref="2023/01"])>a>span.page-icon {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E4%B8%80%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 2023/01 2023/01*/
+/*自定义标签 2023/02 2023/02*/
+:is(a[data-ref="2023/02"],.page-title-sizer-wrapper span[data-ref="2023/02"],a[data-ref="2023/02"],.page-title-sizer-wrapper span[data-ref="2023/02"]){
+  position: relative;
+  color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/02"],.page-title-sizer-wrapper span[data-ref="2023/02"],a[data-ref="2023/02"],.page-title-sizer-wrapper span[data-ref="2023/02"]):hover{
+  position: relative;
+    color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/02"].tag,a[data-ref="2023/02"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 2px solid #9e5bd9;
+}
+:is(a[data-ref="2023/02"],.page-title-sizer-wrapper span[data-ref="2023/02"],a[data-ref="2023/02"],.page-title-sizer-wrapper span[data-ref="2023/02"])::before{
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E4%BA%8C%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="2023/02"],[data-ref="2023/02"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="2023/02"],[data-ref="2023/02"])>a>span.page-icon {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E4%BA%8C%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 2023/02 2023/02*/
+/*自定义标签 2023/03 2023/03*/
+:is(a[data-ref="2023/03"],.page-title-sizer-wrapper span[data-ref="2023/03"],a[data-ref="2023/03"],.page-title-sizer-wrapper span[data-ref="2023/03"]){
+  position: relative;
+  color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/03"],.page-title-sizer-wrapper span[data-ref="2023/03"],a[data-ref="2023/03"],.page-title-sizer-wrapper span[data-ref="2023/03"]):hover{
+  position: relative;
+    color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/03"].tag,a[data-ref="2023/03"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 2px solid #9e5bd9;
+}
+:is(a[data-ref="2023/03"],.page-title-sizer-wrapper span[data-ref="2023/03"],a[data-ref="2023/03"],.page-title-sizer-wrapper span[data-ref="2023/03"])::before{
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E4%B8%89%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="2023/03"],[data-ref="2023/03"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="2023/03"],[data-ref="2023/03"])>a>span.page-icon {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E4%B8%89%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 2023/03 2023/03*/
+/*自定义标签 2023/04 2023/04*/
+:is(a[data-ref="2023/04"],.page-title-sizer-wrapper span[data-ref="2023/04"],a[data-ref="2023/04"],.page-title-sizer-wrapper span[data-ref="2023/04"]){
+  position: relative;
+  color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/04"],.page-title-sizer-wrapper span[data-ref="2023/04"],a[data-ref="2023/04"],.page-title-sizer-wrapper span[data-ref="2023/04"]):hover{
+  position: relative;
+    color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/04"].tag,a[data-ref="2023/04"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 2px solid #9e5bd9;
+}
+:is(a[data-ref="2023/04"],.page-title-sizer-wrapper span[data-ref="2023/04"],a[data-ref="2023/04"],.page-title-sizer-wrapper span[data-ref="2023/04"])::before{
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E5%9B%9B%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="2023/04"],[data-ref="2023/04"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="2023/04"],[data-ref="2023/04"])>a>span.page-icon {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E5%9B%9B%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 2023/04 2023/04*/
+/*自定义标签 2023/05 2023/05*/
+:is(a[data-ref="2023/05"],.page-title-sizer-wrapper span[data-ref="2023/05"],a[data-ref="2023/05"],.page-title-sizer-wrapper span[data-ref="2023/05"]){
+  position: relative;
+  color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/05"],.page-title-sizer-wrapper span[data-ref="2023/05"],a[data-ref="2023/05"],.page-title-sizer-wrapper span[data-ref="2023/05"]):hover{
+  position: relative;
+    color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/05"].tag,a[data-ref="2023/05"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 2px solid #9e5bd9;
+}
+:is(a[data-ref="2023/05"],.page-title-sizer-wrapper span[data-ref="2023/05"],a[data-ref="2023/05"],.page-title-sizer-wrapper span[data-ref="2023/05"])::before{
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E4%BA%94%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="2023/05"],[data-ref="2023/05"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="2023/05"],[data-ref="2023/05"])>a>span.page-icon {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E4%BA%94%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 2023/05 2023/05*/
+/*自定义标签 婴儿 儿童*/
+:is(a[data-ref*="婴儿"],.page-title-sizer-wrapper span[data-ref*="婴儿"],a[data-ref*="儿童"],.page-title-sizer-wrapper span[data-ref*="儿童"]){
+
+  color: #fa91ad!important;
+}
+:is(a[data-ref*="婴儿"],.page-title-sizer-wrapper span[data-ref*="婴儿"],a[data-ref*="儿童"],.page-title-sizer-wrapper span[data-ref*="儿童"]):hover{
+ 
+    color: #fa91ad!important;
+}
+:is(a[data-ref*="婴儿"].tag,a[data-ref*="儿童"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 2px solid #fa91ad;
+}
+:is(a[data-ref*="婴儿"],.page-title-sizer-wrapper span[data-ref*="婴儿"],a[data-ref*="儿童"],.page-title-sizer-wrapper span[data-ref*="儿童"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhokDCitMuiE428qy1A/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref*="婴儿"],[data-ref*="儿童"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref*="婴儿"],[data-ref*="儿童"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhokDCitMuiE428qy1A/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 婴儿 儿童*/
+/*自定义标签 戒色 js 手淫 色欲 好色 打飞机 Js Js js masturbation Js js js Js Masturbation*/
+:is(a[data-ref="戒色"],.page-title-sizer-wrapper span[data-ref="戒色"],a[data-ref="js"],.page-title-sizer-wrapper span[data-ref="js"],a[data-ref="手淫"],.page-title-sizer-wrapper span[data-ref="手淫"],a[data-ref="色欲"],.page-title-sizer-wrapper span[data-ref="色欲"],a[data-ref="好色"],.page-title-sizer-wrapper span[data-ref="好色"],a[data-ref="打飞机"],.page-title-sizer-wrapper span[data-ref="打飞机"],a[data-ref="Js"],.page-title-sizer-wrapper span[data-ref="Js"],a[data-ref="Js"],.page-title-sizer-wrapper span[data-ref="Js"],a[data-ref="js"],.page-title-sizer-wrapper span[data-ref="js"],a[data-ref="masturbation"],.page-title-sizer-wrapper span[data-ref="masturbation"],a[data-ref="Js"],.page-title-sizer-wrapper span[data-ref="Js"],a[data-ref="js"],.page-title-sizer-wrapper span[data-ref="js"],a[data-ref="js"],.page-title-sizer-wrapper span[data-ref="js"],a[data-ref="Js"],.page-title-sizer-wrapper span[data-ref="Js"],a[data-ref="Masturbation"],.page-title-sizer-wrapper span[data-ref="Masturbation"]){
+  position: relative;
+  color: #575353!important;
+}
+:is(a[data-ref="戒色"],.page-title-sizer-wrapper span[data-ref="戒色"],a[data-ref="js"],.page-title-sizer-wrapper span[data-ref="js"],a[data-ref="手淫"],.page-title-sizer-wrapper span[data-ref="手淫"],a[data-ref="色欲"],.page-title-sizer-wrapper span[data-ref="色欲"],a[data-ref="好色"],.page-title-sizer-wrapper span[data-ref="好色"],a[data-ref="打飞机"],.page-title-sizer-wrapper span[data-ref="打飞机"],a[data-ref="Js"],.page-title-sizer-wrapper span[data-ref="Js"],a[data-ref="Js"],.page-title-sizer-wrapper span[data-ref="Js"],a[data-ref="js"],.page-title-sizer-wrapper span[data-ref="js"],a[data-ref="masturbation"],.page-title-sizer-wrapper span[data-ref="masturbation"],a[data-ref="Js"],.page-title-sizer-wrapper span[data-ref="Js"],a[data-ref="js"],.page-title-sizer-wrapper span[data-ref="js"],a[data-ref="js"],.page-title-sizer-wrapper span[data-ref="js"],a[data-ref="Js"],.page-title-sizer-wrapper span[data-ref="Js"],a[data-ref="Masturbation"],.page-title-sizer-wrapper span[data-ref="Masturbation"]):hover{
+  position: relative;
+    color: #575353!important;
+}
+:is(a[data-ref="戒色"].tag,a[data-ref="js"].tag,a[data-ref="手淫"].tag,a[data-ref="色欲"].tag,a[data-ref="好色"].tag,a[data-ref="打飞机"].tag,a[data-ref="Js"].tag,a[data-ref="Js"].tag,a[data-ref="js"].tag,a[data-ref="masturbation"].tag,a[data-ref="Js"].tag,a[data-ref="js"].tag,a[data-ref="js"].tag,a[data-ref="Js"].tag,a[data-ref="Masturbation"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px inset #333333;
+}
+:is(a[data-ref="戒色"],.page-title-sizer-wrapper span[data-ref="戒色"],a[data-ref="js"],.page-title-sizer-wrapper span[data-ref="js"],a[data-ref="手淫"],.page-title-sizer-wrapper span[data-ref="手淫"],a[data-ref="色欲"],.page-title-sizer-wrapper span[data-ref="色欲"],a[data-ref="好色"],.page-title-sizer-wrapper span[data-ref="好色"],a[data-ref="打飞机"],.page-title-sizer-wrapper span[data-ref="打飞机"],a[data-ref="Js"],.page-title-sizer-wrapper span[data-ref="Js"],a[data-ref="Js"],.page-title-sizer-wrapper span[data-ref="Js"],a[data-ref="js"],.page-title-sizer-wrapper span[data-ref="js"],a[data-ref="masturbation"],.page-title-sizer-wrapper span[data-ref="masturbation"],a[data-ref="Js"],.page-title-sizer-wrapper span[data-ref="Js"],a[data-ref="js"],.page-title-sizer-wrapper span[data-ref="js"],a[data-ref="js"],.page-title-sizer-wrapper span[data-ref="js"],a[data-ref="Js"],.page-title-sizer-wrapper span[data-ref="Js"],a[data-ref="Masturbation"],.page-title-sizer-wrapper span[data-ref="Masturbation"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfofnrrnqbl-XwTvDA/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="戒色"],[data-ref="js"],[data-ref="手淫"],[data-ref="色欲"],[data-ref="好色"],[data-ref="打飞机"],[data-ref="Js"],[data-ref="Js"],[data-ref="js"],[data-ref="masturbation"],[data-ref="Js"],[data-ref="js"],[data-ref="js"],[data-ref="Js"],[data-ref="Masturbation"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="戒色"],[data-ref="js"],[data-ref="手淫"],[data-ref="色欲"],[data-ref="好色"],[data-ref="打飞机"],[data-ref="Js"],[data-ref="Js"],[data-ref="js"],[data-ref="masturbation"],[data-ref="Js"],[data-ref="js"],[data-ref="js"],[data-ref="Js"],[data-ref="Masturbation"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfofnrrnqbl-XwTvDA/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 戒色 js 手淫 色欲 好色 打飞机 Js Js js masturbation Js js js Js Masturbation*/
+/*自定义标签 2023/06 2023/06*/
+:is(a[data-ref="2023/06"],.page-title-sizer-wrapper span[data-ref="2023/06"],a[data-ref="2023/06"],.page-title-sizer-wrapper span[data-ref="2023/06"]){
+  position: relative;
+  color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/06"],.page-title-sizer-wrapper span[data-ref="2023/06"],a[data-ref="2023/06"],.page-title-sizer-wrapper span[data-ref="2023/06"]):hover{
+  position: relative;
+    color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/06"],.page-title-sizer-wrapper span[data-ref="2023/06"],a[data-ref="2023/06"],.page-title-sizer-wrapper span[data-ref="2023/06"])::before{
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E5%85%AD%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="2023/06"],[data-ref="2023/06"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="2023/06"],[data-ref="2023/06"])>a>span.page-icon {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E5%85%AD%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 2023/06 2023/06*/
+/*自定义标签 2023/07 2023/07*/
+:is(a[data-ref="2023/07"],.page-title-sizer-wrapper span[data-ref="2023/07"],a[data-ref="2023/07"],.page-title-sizer-wrapper span[data-ref="2023/07"]){
+  position: relative;
+  color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/07"],.page-title-sizer-wrapper span[data-ref="2023/07"],a[data-ref="2023/07"],.page-title-sizer-wrapper span[data-ref="2023/07"]):hover{
+  position: relative;
+    color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/07"],.page-title-sizer-wrapper span[data-ref="2023/07"],a[data-ref="2023/07"],.page-title-sizer-wrapper span[data-ref="2023/07"])::before{
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E4%B8%83%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="2023/07"],[data-ref="2023/07"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="2023/07"],[data-ref="2023/07"])>a>span.page-icon {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E4%B8%83%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 2023/07 2023/07*/
+/*自定义标签 2023/08 2023/08*/
+:is(a[data-ref="2023/08"],.page-title-sizer-wrapper span[data-ref="2023/08"],a[data-ref="2023/08"],.page-title-sizer-wrapper span[data-ref="2023/08"]){
+  position: relative;
+  color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/08"],.page-title-sizer-wrapper span[data-ref="2023/08"],a[data-ref="2023/08"],.page-title-sizer-wrapper span[data-ref="2023/08"]):hover{
+  position: relative;
+    color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/08"],.page-title-sizer-wrapper span[data-ref="2023/08"],a[data-ref="2023/08"],.page-title-sizer-wrapper span[data-ref="2023/08"])::before{
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E5%85%AB%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="2023/08"],[data-ref="2023/08"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="2023/08"],[data-ref="2023/08"])>a>span.page-icon {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E5%85%AB%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 2023/08 2023/08*/
+/*自定义标签 2023/09 2023/09*/
+:is(a[data-ref="2023/09"],.page-title-sizer-wrapper span[data-ref="2023/09"],a[data-ref="2023/09"],.page-title-sizer-wrapper span[data-ref="2023/09"]){
+  position: relative;
+  color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/09"],.page-title-sizer-wrapper span[data-ref="2023/09"],a[data-ref="2023/09"],.page-title-sizer-wrapper span[data-ref="2023/09"]):hover{
+  position: relative;
+    color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/09"],.page-title-sizer-wrapper span[data-ref="2023/09"],a[data-ref="2023/09"],.page-title-sizer-wrapper span[data-ref="2023/09"])::before{
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E4%B9%9D%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="2023/09"],[data-ref="2023/09"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="2023/09"],[data-ref="2023/09"])>a>span.page-icon {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E4%B9%9D%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 2023/09 2023/09*/
+/*自定义标签 2023/10 2023/10*/
+:is(a[data-ref="2023/10"],.page-title-sizer-wrapper span[data-ref="2023/10"],a[data-ref="2023/10"],.page-title-sizer-wrapper span[data-ref="2023/10"]){
+  position: relative;
+  color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/10"],.page-title-sizer-wrapper span[data-ref="2023/10"],a[data-ref="2023/10"],.page-title-sizer-wrapper span[data-ref="2023/10"]):hover{
+  position: relative;
+    color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/10"],.page-title-sizer-wrapper span[data-ref="2023/10"],a[data-ref="2023/10"],.page-title-sizer-wrapper span[data-ref="2023/10"])::before{
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E5%8D%81%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="2023/10"],[data-ref="2023/10"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="2023/10"],[data-ref="2023/10"])>a>span.page-icon {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E5%8D%81%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 2023/10 2023/10*/
+/*自定义标签 2023/11 2023/11*/
+:is(a[data-ref="2023/11"],.page-title-sizer-wrapper span[data-ref="2023/11"],a[data-ref="2023/11"],.page-title-sizer-wrapper span[data-ref="2023/11"]){
+  position: relative;
+  color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/11"],.page-title-sizer-wrapper span[data-ref="2023/11"],a[data-ref="2023/11"],.page-title-sizer-wrapper span[data-ref="2023/11"]):hover{
+  position: relative;
+    color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/11"],.page-title-sizer-wrapper span[data-ref="2023/11"],a[data-ref="2023/11"],.page-title-sizer-wrapper span[data-ref="2023/11"])::before{
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E5%8D%81%E4%B8%80%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="2023/11"],[data-ref="2023/11"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="2023/11"],[data-ref="2023/11"])>a>span.page-icon {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E5%8D%81%E4%B8%80%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 2023/11 2023/11*/
+/*自定义标签 2023/12 2023/12*/
+:is(a[data-ref="2023/12"],.page-title-sizer-wrapper span[data-ref="2023/12"],a[data-ref="2023/12"],.page-title-sizer-wrapper span[data-ref="2023/12"]){
+  position: relative;
+  color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/12"],.page-title-sizer-wrapper span[data-ref="2023/12"],a[data-ref="2023/12"],.page-title-sizer-wrapper span[data-ref="2023/12"]):hover{
+  position: relative;
+    color: #9e5bd9!important;
+}
+:is(a[data-ref="2023/12"],.page-title-sizer-wrapper span[data-ref="2023/12"],a[data-ref="2023/12"],.page-title-sizer-wrapper span[data-ref="2023/12"])::before{
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E5%8D%81%E4%BA%8C%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="2023/12"],[data-ref="2023/12"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="2023/12"],[data-ref="2023/12"])>a>span.page-icon {
+  content: "";
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20aria-label%3D%22Calendar%22%20role%3D%22img%22%20viewBox%3D%220%200%20512%20512%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20style%3D%22cursor%3A%20default%22%3E%20%20%20%20%20%20null%20%20%20%20%20%20%3Cpath%20d%3D%22m512%2C455c0%2C32%20-25%2C57%20-57%2C57l-398%2C0c-32%2C0%20-57%2C-25%20-57%2C-57l0%2C-327c0%2C-31%2025%2C-57%2057%2C-57l398%2C0c32%2C0%2057%2C26%2057%2C57l0%2C327z%22%20fill%3D%22%23f3f4f6%22%2F%3E%20%20%20%20%20%20%3Cpath%20d%3D%22m484%2C0l-47%2C0l-409%2C0c-15%2C0%20-28%2C13%20-28%2C28l0%2C157l512%2C0l0%2C-157c0%2C-15%20-13%2C-28%20-28%2C-28z%22%20fill%3D%22%239e5bd9%22%2F%3E%20%20%20%20%20%20%3Cg%20fill%3D%22%23ffffff%22%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22462%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22419%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%22136%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%22376%22%20cy%3D%2294%22%20r%3D%2214%22%2F%3E%20%20%20%20%20%20%3C%2Fg%3E%20%20%20%20%20%20%3Ctext%20id%3D%22month%22%20x%3D%2232%22%20y%3D%22150%22%20fill%3D%22%23fff%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22120px%22%20style%3D%22text-anchor%3A%20left%22%3E2023%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22day%22%20x%3D%22256%22%20y%3D%22400%22%20fill%3D%22%239e5bd9%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%22180px%22%20style%3D%22text-anchor%3A%20middle%22%3E%E5%8D%81%E4%BA%8C%E6%9C%88%3C%2Ftext%3E%20%20%20%20%20%20%3Ctext%20id%3D%22weekday%22%20x%3D%22256%22%20y%3D%22480%22%20fill%3D%22%2366757f%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20%27Noto%20Sans%27%2C%20%27Noto%20Sans%20CJK%20SC%27%2C%20%27Microsoft%20YaHei%27%2C%20%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91%2C%20sans-serif%2C%20%27Segoe%20UI%27%2C%20Roboto%2C%20%27Helvetica%20Neue%27%2C%20Arial%22%20font-size%3D%2264px%22%20style%3D%22text-anchor%3A%20middle%22%3E%3C%2Ftext%3E%20%20%20%20%20%20null%20%20%20%20%3C%2Fsvg%3E");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 2023/12 2023/12*/
+/*自定义标签 home 家 家庭 Home*/
+:is(a[data-ref="home"],.page-title-sizer-wrapper span[data-ref="home"],a[data-ref="家"],.page-title-sizer-wrapper span[data-ref="家"],a[data-ref="家庭"],.page-title-sizer-wrapper span[data-ref="家庭"],a[data-ref="Home"],.page-title-sizer-wrapper span[data-ref="Home"]){
+ /*position: relative;
+  color: inherit!important;*/
+}
+:is(a[data-ref="home"],.page-title-sizer-wrapper span[data-ref="home"],a[data-ref="家"],.page-title-sizer-wrapper span[data-ref="家"],a[data-ref="家庭"],.page-title-sizer-wrapper span[data-ref="家庭"],a[data-ref="Home"],.page-title-sizer-wrapper span[data-ref="Home"]):hover{
+ /*position: relative;
+    color: inherit!important;*/
+}
+:is(a[data-ref="home"],.page-title-sizer-wrapper span[data-ref="home"],a[data-ref="家"],.page-title-sizer-wrapper span[data-ref="家"],a[data-ref="家庭"],.page-title-sizer-wrapper span[data-ref="家庭"],a[data-ref="Home"],.page-title-sizer-wrapper span[data-ref="Home"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjho9SP4DSOcdA2yJ9sQ/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="home"],[data-ref="家"],[data-ref="家庭"],[data-ref="Home"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="home"],[data-ref="家"],[data-ref="家庭"],[data-ref="Home"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjho9SP4DSOcdA2yJ9sQ/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 home 家 家庭 Home*/
+/*自定义标签 觉悟社*/
+:is(a[data-ref="觉悟社"],.page-title-sizer-wrapper span[data-ref="觉悟社"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="觉悟社"],.page-title-sizer-wrapper span[data-ref="觉悟社"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="觉悟社"],.page-title-sizer-wrapper span[data-ref="觉悟社"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjho9UvTurCOWl1X_3ow/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="觉悟社"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="觉悟社"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjho9UvTurCOWl1X_3ow/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 觉悟社*/
+
+/*自定义标签 健康监测*/
+:is(a[data-ref="健康监测"],.page-title-sizer-wrapper span[data-ref="健康监测"]){
+  position: relative;
+  color: #177838!important;
+}
+:is(a[data-ref="健康监测"],.page-title-sizer-wrapper span[data-ref="健康监测"]):hover{
+  position: relative;
+    color: #177838!important;
+}
+:is(a[data-ref="健康监测"],.page-title-sizer-wrapper span[data-ref="健康监测"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpAKnmkdDinvz5Tigg/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="健康监测"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="健康监测"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpAKnmkdDinvz5Tigg/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 健康监测*/
+/*自定义标签 认知*/
+:is(a[data-ref*="认知"],.page-title-sizer-wrapper span[data-ref*="认知"]){
+  position: relative;
+  color: 56, 180, 123!important;
+}
+:is(a[data-ref*="认知"],.page-title-sizer-wrapper span[data-ref*="认知"]):hover{
+  position: relative;
+    color: 56, 180, 123!important;
+}
+:is(a[data-ref*="认知"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 2px solid 56, 180, 123;
+}
+:is(a[data-ref*="认知"],.page-title-sizer-wrapper span[data-ref*="认知"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpBgxtc8kiMzvQjZ5g/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref*="认知"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref*="认知"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpBgxtc8kiMzvQjZ5g/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 认知*/
+/*自定义标签 PUA 搭讪艺术家 Pick-up pua Pick-Up*/
+:is(a[data-ref="PUA"],.page-title-sizer-wrapper span[data-ref="PUA"],a[data-ref="搭讪艺术家"],.page-title-sizer-wrapper span[data-ref="搭讪艺术家"],a[data-ref="Pick-up"],.page-title-sizer-wrapper span[data-ref="Pick-up"],a[data-ref="pua"],.page-title-sizer-wrapper span[data-ref="pua"],a[data-ref="Pick-Up"],.page-title-sizer-wrapper span[data-ref="Pick-Up"]){
+ 
+  color: #d66508!important;
+}
+:is(a[data-ref="PUA"],.page-title-sizer-wrapper span[data-ref="PUA"],a[data-ref="搭讪艺术家"],.page-title-sizer-wrapper span[data-ref="搭讪艺术家"],a[data-ref="Pick-up"],.page-title-sizer-wrapper span[data-ref="Pick-up"],a[data-ref="pua"],.page-title-sizer-wrapper span[data-ref="pua"],a[data-ref="Pick-Up"],.page-title-sizer-wrapper span[data-ref="Pick-Up"]):hover{
+
+    color: #d66508!important;
+}
+:is(a[data-ref="PUA"].tag,a[data-ref="搭讪艺术家"].tag,a[data-ref="Pick-up"].tag,a[data-ref="pua"].tag,a[data-ref="Pick-Up"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 2px solid #d66508;
+}
+:is(a[data-ref="PUA"],.page-title-sizer-wrapper span[data-ref="PUA"],a[data-ref="搭讪艺术家"],.page-title-sizer-wrapper span[data-ref="搭讪艺术家"],a[data-ref="Pick-up"],.page-title-sizer-wrapper span[data-ref="Pick-up"],a[data-ref="pua"],.page-title-sizer-wrapper span[data-ref="pua"],a[data-ref="Pick-Up"],.page-title-sizer-wrapper span[data-ref="Pick-Up"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpB5JMkLtdpJOWlp_A/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="PUA"],[data-ref="搭讪艺术家"],[data-ref="Pick-up"],[data-ref="pua"],[data-ref="Pick-Up"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="PUA"],[data-ref="搭讪艺术家"],[data-ref="Pick-up"],[data-ref="pua"],[data-ref="Pick-Up"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpB5JMkLtdpJOWlp_A/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 PUA 搭讪艺术家 Pick-up pua Pick-Up*/
+/*自定义标签 男人 man 爷们 汉子 Man*/
+:is(a[data-ref="男人"],.page-title-sizer-wrapper span[data-ref="男人"],a[data-ref="man"],.page-title-sizer-wrapper span[data-ref="man"],a[data-ref="爷们"],.page-title-sizer-wrapper span[data-ref="爷们"],a[data-ref="汉子"],.page-title-sizer-wrapper span[data-ref="汉子"],a[data-ref="Man"],.page-title-sizer-wrapper span[data-ref="Man"]){
+  color: inherit!important;
+}
+:is(a[data-ref="男人"],.page-title-sizer-wrapper span[data-ref="男人"],a[data-ref="man"],.page-title-sizer-wrapper span[data-ref="man"],a[data-ref="爷们"],.page-title-sizer-wrapper span[data-ref="爷们"],a[data-ref="汉子"],.page-title-sizer-wrapper span[data-ref="汉子"],a[data-ref="Man"],.page-title-sizer-wrapper span[data-ref="Man"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="男人"],.page-title-sizer-wrapper span[data-ref="男人"],a[data-ref="man"],.page-title-sizer-wrapper span[data-ref="man"],a[data-ref="爷们"],.page-title-sizer-wrapper span[data-ref="爷们"],a[data-ref="汉子"],.page-title-sizer-wrapper span[data-ref="汉子"],a[data-ref="Man"],.page-title-sizer-wrapper span[data-ref="Man"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpEpU-U6xBia8fhWrw/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="男人"],[data-ref="man"],[data-ref="爷们"],[data-ref="汉子"],[data-ref="Man"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="男人"],[data-ref="man"],[data-ref="爷们"],[data-ref="汉子"],[data-ref="Man"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpEpU-U6xBia8fhWrw/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 男人 man 爷们 汉子 Man*/
+/*自定义标签 女人 美女 熟妇 人妻 woman Woman*/
+:is(a[data-ref="女人"],.page-title-sizer-wrapper span[data-ref="女人"],a[data-ref="美女"],.page-title-sizer-wrapper span[data-ref="美女"],a[data-ref="熟妇"],.page-title-sizer-wrapper span[data-ref="熟妇"],a[data-ref="人妻"],.page-title-sizer-wrapper span[data-ref="人妻"],a[data-ref="woman"],.page-title-sizer-wrapper span[data-ref="woman"],a[data-ref="Woman"],.page-title-sizer-wrapper span[data-ref="Woman"]){
+  color: inherit!important;
+}
+:is(a[data-ref="女人"],.page-title-sizer-wrapper span[data-ref="女人"],a[data-ref="美女"],.page-title-sizer-wrapper span[data-ref="美女"],a[data-ref="熟妇"],.page-title-sizer-wrapper span[data-ref="熟妇"],a[data-ref="人妻"],.page-title-sizer-wrapper span[data-ref="人妻"],a[data-ref="woman"],.page-title-sizer-wrapper span[data-ref="woman"],a[data-ref="Woman"],.page-title-sizer-wrapper span[data-ref="Woman"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="女人"],.page-title-sizer-wrapper span[data-ref="女人"],a[data-ref="美女"],.page-title-sizer-wrapper span[data-ref="美女"],a[data-ref="熟妇"],.page-title-sizer-wrapper span[data-ref="熟妇"],a[data-ref="人妻"],.page-title-sizer-wrapper span[data-ref="人妻"],a[data-ref="woman"],.page-title-sizer-wrapper span[data-ref="woman"],a[data-ref="Woman"],.page-title-sizer-wrapper span[data-ref="Woman"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpEq33nvUmqXiCEHXw/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="女人"],[data-ref="美女"],[data-ref="熟妇"],[data-ref="人妻"],[data-ref="woman"],[data-ref="Woman"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="女人"],[data-ref="美女"],[data-ref="熟妇"],[data-ref="人妻"],[data-ref="woman"],[data-ref="Woman"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpEq33nvUmqXiCEHXw/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 女人 美女 熟妇 人妻 woman Woman*/
+/*自定义标签 青春 youth Youth*/
+:is(a[data-ref="青春"],.page-title-sizer-wrapper span[data-ref="青春"],a[data-ref="youth"],.page-title-sizer-wrapper span[data-ref="youth"],a[data-ref="Youth"],.page-title-sizer-wrapper span[data-ref="Youth"]){
+  color: #e140b5!important;
+}
+:is(a[data-ref="青春"],.page-title-sizer-wrapper span[data-ref="青春"],a[data-ref="youth"],.page-title-sizer-wrapper span[data-ref="youth"],a[data-ref="Youth"],.page-title-sizer-wrapper span[data-ref="Youth"]):hover{
+    color: #e140b5!important;
+}
+:is(a[data-ref="青春"].tag,a[data-ref="youth"].tag,a[data-ref="Youth"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 2px solid #e140b5;
+}
+:is(a[data-ref="青春"],.page-title-sizer-wrapper span[data-ref="青春"],a[data-ref="youth"],.page-title-sizer-wrapper span[data-ref="youth"],a[data-ref="Youth"],.page-title-sizer-wrapper span[data-ref="Youth"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpErA4yhhw8H_vzlFg/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="青春"],[data-ref="youth"],[data-ref="Youth"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="青春"],[data-ref="youth"],[data-ref="Youth"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpErA4yhhw8H_vzlFg/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 青春 youth Youth*/
+a[data-ref="card"] {
+  border: 2px solid #d4dbdb !important;
+  color: #7a756c !important;
+  font-size: 0.8em !important;
+}
+/*自定义标签 拖延*/
+:is(a[data-ref^="拖延"],.page-title-sizer-wrapper span[data-ref^="拖延"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="拖延"],.page-title-sizer-wrapper span[data-ref^="拖延"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="拖延"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 2px solid #8bb7f0;
+}
+:is(a[data-ref^="拖延"],.page-title-sizer-wrapper span[data-ref^="拖延"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpJ_sWC2lfWViZDZ5A/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="拖延"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="拖延"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpJ_sWC2lfWViZDZ5A/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 拖延*/
+
+
+
+
+
+/*自定义标签 正反馈*/
+:is(a[data-ref="正反馈"],.page-title-sizer-wrapper span[data-ref="正反馈"]){
+  color: inherit!important;
+}
+:is(a[data-ref="正反馈"],.page-title-sizer-wrapper span[data-ref="正反馈"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="正反馈"],.page-title-sizer-wrapper span[data-ref="正反馈"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpNmhB4mA2Au_ekGVQ/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="正反馈"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="正反馈"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpNmhB4mA2Au_ekGVQ/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 正反馈*/
+/
+/*自定义标签 王者荣耀*/
+:is(a[data-ref="王者荣耀"],.page-title-sizer-wrapper span[data-ref="王者荣耀"]){
+  color: inherit!important;
+}
+:is(a[data-ref="王者荣耀"],.page-title-sizer-wrapper span[data-ref="王者荣耀"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="王者荣耀"],.page-title-sizer-wrapper span[data-ref="王者荣耀"])::before{
+  content: "";
+  background-image: url("https://files.getquicker.net/_icons/1758EBF0E27B9B9A520E307E83E9D1CADEDD2AA6.png");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="王者荣耀"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="王者荣耀"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://files.getquicker.net/_icons/1758EBF0E27B9B9A520E307E83E9D1CADEDD2AA6.png");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 王者荣耀*/
+/*自定义标签 结构学*/
+:is(a[data-ref="结构学"],.page-title-sizer-wrapper span[data-ref="结构学"]){
+  color: inherit!important;
+}
+:is(a[data-ref="结构学"],.page-title-sizer-wrapper span[data-ref="结构学"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="结构学"],.page-title-sizer-wrapper span[data-ref="结构学"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpNprBn8eiFsqCpWHg/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="结构学"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="结构学"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpNprBn8eiFsqCpWHg/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 结构学*/
+/*自定义标签 主题学习*/
+:is(a[data-ref="主题学习"],.page-title-sizer-wrapper span[data-ref="主题学习"]){
+  color: inherit!important;
+}
+:is(a[data-ref="主题学习"],.page-title-sizer-wrapper span[data-ref="主题学习"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="主题学习"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 2px solid #4b9cc5;
+}
+:is(a[data-ref="主题学习"],.page-title-sizer-wrapper span[data-ref="主题学习"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpNqPKQLHRx6kV_Ibw/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="主题学习"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="主题学习"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpNqPKQLHRx6kV_Ibw/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 主题学习*/
+
 /*实力商家*/
 a[data-ref="实力商家"] {
   border-color: #ff0d0d !important;
