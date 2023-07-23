@@ -1369,3 +1369,127 @@ a[data-ref^="折腾"].tag:before {
   margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 学习*/
+
+/*自定义标签 积极心态*/
+:is(a[data-ref^="积极心态"],.page-title-sizer-wrapper span[data-ref^="积极心态"]){
+  color: #217DBA!important;
+}
+:is(a[data-ref^="积极心态"],.page-title-sizer-wrapper span[data-ref^="积极心态"]):hover{
+    color: #217DBA!important;
+}
+:is(a[data-ref^="积极心态"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid #a3d3d3;
+}
+:is(a[data-ref^="积极心态"],.page-title-sizer-wrapper span[data-ref^="积极心态"])::before{
+  content: "\EA9B";
+  font-size: var(--Icon_size_inPage);
+  font-family: var(--Font_icon_name);
+  color: #217DBA;
+  margin-right: var(--fonticon_Mr);
+}
+:is([data-ref^="积极心态"]) > a > span.page-icon {
+  text-indent:-9999px;
+   position: relative;
+  margin-right:var(--pageIconML) !important;
+}
+:is([data-ref^="积极心态"])>a::before {
+  font-family: var(--Font_icon_name);
+  font-size: var(--Sidebar_icon_size);
+  color: #217DBA;;
+  content: "\EA9B";
+  margin-right: 5px;
+}
+/*自定义标签 积极心态*/
+a[data-ref^="娱乐"].tag {
+  position: relative;
+  background: none;
+  /*box-shadow: none!important;*/
+  --size: 1.5px;
+  --gradient: linear-gradient(100.41deg,#ED6804 0.52%,#1E2BE8 100.52%) !important;
+  border: 0 !important;
+  padding: var(--paddingtag) !important;
+}
+a[data-ref^="娱乐"].tag:before {
+  position: absolute;
+  box-shadow: none!important;
+  padding: var(--size) ;
+    border-radius: inherit !important;
+    background: var(--gradient);
+    content: "";
+    inset: 0;
+    -webkit-mask: linear-gradient(#000,#000) content-box,linear-gradient(#000,#000) !important;
+    -webkit-mask-composite: xor;
+}
+a[data-ref^="生活"].tag {
+  position: relative;
+  background: none;
+  /*box-shadow: none!important;*/
+  --size: 1.5px;
+  --gradient: linear-gradient(100.41deg,#BAAEAE 0.52%,#F58F04 100.52%) !important;
+  border: 0 !important;
+  padding: var(--paddingtag) !important;
+}
+a[data-ref^="生活"].tag:before {
+  position: absolute;
+  box-shadow: none!important;
+  padding: var(--size) ;
+    border-radius: inherit !important;
+    background: var(--gradient);
+    content: "";
+    inset: 0;
+    -webkit-mask: linear-gradient(#000,#000) content-box,linear-gradient(#000,#000) !important;
+    -webkit-mask-composite: xor;
+}
+
+a[data-ref^="阅读"].tag {
+  position: relative;
+  background: none;
+  /*box-shadow: none!important;*/
+  --size: 1.5px;
+  --gradient: linear-gradient(100.41deg,#D1CECE 0.52%,#03AD57 100.52%) !important;
+  border: 0 !important;
+  padding: var(--paddingtag) !important;
+}
+a[data-ref^="阅读"].tag:before {
+  position: absolute;
+  box-shadow: none!important;
+  padding: var(--size) ;
+    border-radius: inherit !important;
+    background: var(--gradient);
+    content: "";
+    inset: 0;
+    -webkit-mask: linear-gradient(#000,#000) content-box,linear-gradient(#000,#000) !important;
+    -webkit-mask-composite: xor;
+}
+/*自定义标签 店铺*/
+:is(a[data-ref="店铺"],.page-title-sizer-wrapper span[data-ref="店铺"]){
+  color: #217DBA!important;
+}
+:is(a[data-ref="店铺"],.page-title-sizer-wrapper span[data-ref="店铺"]):hover{
+    color: #217DBA!important;
+}
+:is(a[data-ref="店铺"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid #a3d3d3;
+}
+:is(a[data-ref="店铺"],.page-title-sizer-wrapper span[data-ref="店铺"])::before{
+  content: "\F36E";
+  font-size: var(--Icon_size_inPage);
+  font-family: var(--Font_icon_name);
+  color: #217DBA;
+  margin-right: var(--fonticon_Mr);
+}
+:is([data-ref="店铺"]) > a > span.page-icon {
+  text-indent:-9999px;
+   position: relative;
+  margin-right:var(--pageIconML) !important;
+}
+:is([data-ref="店铺"])>a::before {
+  font-family: var(--Font_icon_name);
+  font-size: var(--Sidebar_icon_size);
+  color: #217DBA;;
+  content: "\F36E";
+  margin-right: var(--fontmarginright) !important;
+}
+/*自定义标签 店铺*/
