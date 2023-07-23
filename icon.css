@@ -1673,7 +1673,7 @@ a[data-ref^="阅读"].tag:before {
 }
 :is(a[data-ref^="贫穷"],.page-title-sizer-wrapper span[data-ref^="贫穷"])::before{
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpxKyxNJC8WUygikMA/root/content");
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpxLV4tN05HIIsgIYA/root/content");
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -1690,7 +1690,7 @@ a[data-ref^="阅读"].tag:before {
 }
 :is([data-ref^="贫穷"])>a>span.page-icon {
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpxKyxNJC8WUygikMA/root/content");
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpxLV4tN05HIIsgIYA/root/content");
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
