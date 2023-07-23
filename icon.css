@@ -1,3 +1,248 @@
+:root {
+  --leftdocwidth : 0.25rem;
+  --leftdocheight : -0.15rem;
+  --tagsradius:5px;
+}
+/*新增 文件图标*/
+a[data-href$=".xlsx"]{
+  color: #107c42 !important;
+}
+a[data-href$=".xlsx"]::before{
+
+content: "";
+background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhplc9srcm1LxqsXmVA/root/content");
+background-size: 100%;
+width: var(--Lefticon_picture_Width);
+height: var(--Lefticon_picture_Height);
+position: relative;
+top: var(--leftdocwidth);
+left:  var(--leftdocheight);
+z-index: 0;
+display: inline-block;
+overflow:auto;
+}
+a[data-href$=".docx"] {
+  color: #154eb0 !important;
+}
+a[data-href$=".docx"]::before{
+  color: red !important;
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpldYD0CX6CyJOsw_g/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--leftdocwidth);
+  left:  var(--leftdocheight);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  }
+  a[data-href$=".txt"]{
+    color: #6d6d75 !important;
+  }
+  a[data-href$=".txt"]::before{
+    color: red !important;
+    content: "";
+    /*background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpliKkY6LYfhhFv3cQ/root/content");*/
+    background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhplk0-67WpRt9EF1Cw/root/content");
+    background-size: 100%;
+    width: var(--Lefticon_picture_Width);
+    height: var(--Lefticon_picture_Height);
+    position: relative;
+    top: var(--leftdocwidth);
+    left:  var(--leftdocheight);
+    z-index: 0;
+    display: inline-block;
+    overflow:auto;
+    }
+    a[data-href$=".css"]::before{
+      color: red !important;
+      content: "";
+      /*background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpliKkY6LYfhhFv3cQ/root/content");*/
+      background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhplm6RxUXVxsIAxP2w/root/content");
+      background-size: 100%;
+      width: var(--Lefticon_picture_Width);
+      height: var(--Lefticon_picture_Height);
+      position: relative;
+      top: var(--leftdocwidth);
+      left:  var(--leftdocheight);
+      z-index: 0;
+      display: inline-block;
+      overflow:auto;
+      }
+      a[data-href$=".html"]{
+        color: #6d6d75 !important;
+      }
+      a[data-href$=".html"]::before{
+        color: red !important;
+        content: "";
+        /*background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpliKkY6LYfhhFv3cQ/root/content");*/
+        background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhplsbj1yYZSs4QL4_A/root/content");
+        background-size: 100%;
+        width: var(--Lefticon_picture_Width);
+        height: var(--Lefticon_picture_Height);
+        position: relative;
+        top: var(--leftdocwidth);
+        left:  var(--leftdocheight);
+        z-index: 0;
+        display: inline-block;
+        overflow:auto;
+        }
+/*自定义标签 office Office*/
+:is(a[data-ref^="office"],.page-title-sizer-wrapper span[data-ref^="office"],a[data-ref^="Office"],.page-title-sizer-wrapper span[data-ref^="Office"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="office"],.page-title-sizer-wrapper span[data-ref^="office"],a[data-ref^="Office"],.page-title-sizer-wrapper span[data-ref^="Office"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="office"],.page-title-sizer-wrapper span[data-ref^="office"],a[data-ref^="Office"],.page-title-sizer-wrapper span[data-ref^="Office"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhplxowN3H0d4Go2gcg/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="office"],[data-ref^="Office"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="office"],[data-ref^="Office"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhplxowN3H0d4Go2gcg/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 office Office*/
+/*自定义标签 Windows windows*/
+:is(a[data-ref^="Windows"],.page-title-sizer-wrapper span[data-ref^="Windows"],a[data-ref^="windows"],.page-title-sizer-wrapper span[data-ref^="windows"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="Windows"],.page-title-sizer-wrapper span[data-ref^="Windows"],a[data-ref^="windows"],.page-title-sizer-wrapper span[data-ref^="windows"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="Windows"],.page-title-sizer-wrapper span[data-ref^="Windows"],a[data-ref^="windows"],.page-title-sizer-wrapper span[data-ref^="windows"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl0kg-F2iyuoVKDAg/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="Windows"],[data-ref^="windows"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="Windows"],[data-ref^="windows"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl0kg-F2iyuoVKDAg/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 Windows windows*/
+/*自定义标签 Twitter twitter  twitter Twitter*/
+:is(a[data-ref="Twitter"],.page-title-sizer-wrapper span[data-ref="Twitter"],a[data-ref="twitter"],.page-title-sizer-wrapper span[data-ref="twitter"],a[data-ref="twitter"],.page-title-sizer-wrapper span[data-ref="twitter"],a[data-ref="Twitter"],.page-title-sizer-wrapper span[data-ref="Twitter"]){
+  color: inherit!important;
+}
+:is(a[data-ref="Twitter"],.page-title-sizer-wrapper span[data-ref="Twitter"],a[data-ref="twitter"],.page-title-sizer-wrapper span[data-ref="twitter"],a[data-ref="twitter"],.page-title-sizer-wrapper span[data-ref="twitter"],a[data-ref="Twitter"],.page-title-sizer-wrapper span[data-ref="Twitter"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="Twitter"],.page-title-sizer-wrapper span[data-ref="Twitter"],a[data-ref="twitter"],.page-title-sizer-wrapper span[data-ref="twitter"],a[data-ref="twitter"],.page-title-sizer-wrapper span[data-ref="twitter"],a[data-ref="Twitter"],.page-title-sizer-wrapper span[data-ref="Twitter"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl1s_DGsH1SEVe80Q/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="Twitter"],[data-ref="twitter"],[data-ref="twitter"],[data-ref="Twitter"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="Twitter"],[data-ref="twitter"],[data-ref="twitter"],[data-ref="Twitter"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl1s_DGsH1SEVe80Q/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 Twitter twitter  twitter Twitter*/
+
+/*自定义标签 Telegram telegram*/
+:is(a[data-ref="Telegram"],.page-title-sizer-wrapper span[data-ref="Telegram"],a[data-ref="telegram"],.page-title-sizer-wrapper span[data-ref="telegram"]){
+  color: inherit!important;
+}
+:is(a[data-ref="Telegram"],.page-title-sizer-wrapper span[data-ref="Telegram"],a[data-ref="telegram"],.page-title-sizer-wrapper span[data-ref="telegram"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="Telegram"],.page-title-sizer-wrapper span[data-ref="Telegram"],a[data-ref="telegram"],.page-title-sizer-wrapper span[data-ref="telegram"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl3zmpjaXOSZHAjIA/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="Telegram"],[data-ref="telegram"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="Telegram"],[data-ref="telegram"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl3zmpjaXOSZHAjIA/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 Telegram telegram*/
+
 /*自定义标签 onedrive Onedrive*/
 :is(a[data-ref="onedrive"],.page-title-sizer-wrapper span[data-ref="onedrive"],a[data-ref="Onedrive"],.page-title-sizer-wrapper span[data-ref="Onedrive"]){
   color: inherit!important;
