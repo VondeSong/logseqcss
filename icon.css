@@ -1702,3 +1702,45 @@ a[data-ref^="阅读"].tag:before {
   overflow:auto;
 }
 /*自定义标签 贫穷*/
+/*自定义标签 精神结构  结构*/
+:is(a[data-ref^="精神结构"],.page-title-sizer-wrapper span[data-ref^="精神结构"],a[data-ref^="结构"],.page-title-sizer-wrapper span[data-ref^="结构"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="精神结构"],.page-title-sizer-wrapper span[data-ref^="精神结构"],a[data-ref^="结构"],.page-title-sizer-wrapper span[data-ref^="结构"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="精神结构"].tag,a[data-ref^="结构"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref^="精神结构"],.page-title-sizer-wrapper span[data-ref^="精神结构"],a[data-ref^="结构"],.page-title-sizer-wrapper span[data-ref^="结构"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpxMuiwSiKaEfA446g/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="精神结构"],[data-ref^="结构"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="精神结构"],[data-ref^="结构"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpxMuiwSiKaEfA446g/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 精神结构  结构*/
