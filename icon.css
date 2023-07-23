@@ -1744,3 +1744,45 @@ a[data-ref^="阅读"].tag:before {
   overflow:auto;
 }
 /*自定义标签 精神结构  结构*/
+/*自定义标签 ChatGPT gpt chatgpt Chatgpt Gpt Chatgpt*/
+:is(a[data-ref*="ChatGPT"],.page-title-sizer-wrapper span[data-ref*="ChatGPT"],a[data-ref*="gpt"],.page-title-sizer-wrapper span[data-ref*="gpt"],a[data-ref*="chatgpt"],.page-title-sizer-wrapper span[data-ref*="chatgpt"],a[data-ref*="Chatgpt"],.page-title-sizer-wrapper span[data-ref*="Chatgpt"],a[data-ref*="Gpt"],.page-title-sizer-wrapper span[data-ref*="Gpt"],a[data-ref*="Chatgpt"],.page-title-sizer-wrapper span[data-ref*="Chatgpt"]){
+  color: inherit!important;
+}
+:is(a[data-ref*="ChatGPT"],.page-title-sizer-wrapper span[data-ref*="ChatGPT"],a[data-ref*="gpt"],.page-title-sizer-wrapper span[data-ref*="gpt"],a[data-ref*="chatgpt"],.page-title-sizer-wrapper span[data-ref*="chatgpt"],a[data-ref*="Chatgpt"],.page-title-sizer-wrapper span[data-ref*="Chatgpt"],a[data-ref*="Gpt"],.page-title-sizer-wrapper span[data-ref*="Gpt"],a[data-ref*="Chatgpt"],.page-title-sizer-wrapper span[data-ref*="Chatgpt"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref*="ChatGPT"].tag,a[data-ref*="gpt"].tag,a[data-ref*="chatgpt"].tag,a[data-ref*="Chatgpt"].tag,a[data-ref*="Gpt"].tag,a[data-ref*="Chatgpt"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid #a3d3d3;
+}
+:is(a[data-ref*="ChatGPT"],.page-title-sizer-wrapper span[data-ref*="ChatGPT"],a[data-ref*="gpt"],.page-title-sizer-wrapper span[data-ref*="gpt"],a[data-ref*="chatgpt"],.page-title-sizer-wrapper span[data-ref*="chatgpt"],a[data-ref*="Chatgpt"],.page-title-sizer-wrapper span[data-ref*="Chatgpt"],a[data-ref*="Gpt"],.page-title-sizer-wrapper span[data-ref*="Gpt"],a[data-ref*="Chatgpt"],.page-title-sizer-wrapper span[data-ref*="Chatgpt"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpxNAT93AGzGDhu7Cw/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref*="ChatGPT"],[data-ref*="gpt"],[data-ref*="chatgpt"],[data-ref*="Chatgpt"],[data-ref*="Gpt"],[data-ref*="Chatgpt"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref*="ChatGPT"],[data-ref*="gpt"],[data-ref*="chatgpt"],[data-ref*="Chatgpt"],[data-ref*="Gpt"],[data-ref*="Chatgpt"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpxNAT93AGzGDhu7Cw/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 ChatGPT gpt chatgpt Chatgpt Gpt Chatgpt*/
