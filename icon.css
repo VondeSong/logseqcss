@@ -1618,3 +1618,45 @@ a[data-ref^="阅读"].tag:before {
   margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 佛*/
+/*自定义标签 犯罪 罪犯*/
+:is(a[data-ref^="犯罪"],.page-title-sizer-wrapper span[data-ref^="犯罪"],a[data-ref^="罪犯"],.page-title-sizer-wrapper span[data-ref^="罪犯"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="犯罪"],.page-title-sizer-wrapper span[data-ref^="犯罪"],a[data-ref^="罪犯"],.page-title-sizer-wrapper span[data-ref^="罪犯"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="犯罪"].tag,a[data-ref^="罪犯"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid #a3d3d3;
+}
+:is(a[data-ref^="犯罪"],.page-title-sizer-wrapper span[data-ref^="犯罪"],a[data-ref^="罪犯"],.page-title-sizer-wrapper span[data-ref^="罪犯"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpxIjVG1Ry9jL90dow/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="犯罪"],[data-ref^="罪犯"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="犯罪"],[data-ref^="罪犯"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpxIjVG1Ry9jL90dow/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 犯罪 罪犯*/
