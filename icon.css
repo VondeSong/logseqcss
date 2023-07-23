@@ -1,3 +1,497 @@
+/*自定义标签 onedrive Onedrive*/
+:is(a[data-ref="onedrive"],.page-title-sizer-wrapper span[data-ref="onedrive"],a[data-ref="Onedrive"],.page-title-sizer-wrapper span[data-ref="Onedrive"]){
+  color: inherit!important;
+}
+:is(a[data-ref="onedrive"],.page-title-sizer-wrapper span[data-ref="onedrive"],a[data-ref="Onedrive"],.page-title-sizer-wrapper span[data-ref="Onedrive"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="onedrive"],.page-title-sizer-wrapper span[data-ref="onedrive"],a[data-ref="Onedrive"],.page-title-sizer-wrapper span[data-ref="Onedrive"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl5NeHzyPHTL2Rugw/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="onedrive"],[data-ref="Onedrive"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="onedrive"],[data-ref="Onedrive"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl5NeHzyPHTL2Rugw/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 onedrive Onedrive*/
+/*自定义标签 powertoys Powertoys*/
+:is(a[data-ref="powertoys"],.page-title-sizer-wrapper span[data-ref="powertoys"],a[data-ref="Powertoys"],.page-title-sizer-wrapper span[data-ref="Powertoys"]){
+  color: inherit!important;
+}
+:is(a[data-ref="powertoys"],.page-title-sizer-wrapper span[data-ref="powertoys"],a[data-ref="Powertoys"],.page-title-sizer-wrapper span[data-ref="Powertoys"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="powertoys"],.page-title-sizer-wrapper span[data-ref="powertoys"],a[data-ref="Powertoys"],.page-title-sizer-wrapper span[data-ref="Powertoys"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl2K3N_fzv4Yk7zUw/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="powertoys"],[data-ref="Powertoys"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="powertoys"],[data-ref="Powertoys"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl2K3N_fzv4Yk7zUw/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 powertoys Powertoys*/
+/*自定义标签 PotPlayer potplayer Potplayer Potplayer*/
+:is(a[data-ref="PotPlayer"],.page-title-sizer-wrapper span[data-ref="PotPlayer"],a[data-ref="potplayer"],.page-title-sizer-wrapper span[data-ref="potplayer"],a[data-ref="Potplayer"],.page-title-sizer-wrapper span[data-ref="Potplayer"],a[data-ref="Potplayer"],.page-title-sizer-wrapper span[data-ref="Potplayer"]){
+  color: inherit!important;
+}
+:is(a[data-ref="PotPlayer"],.page-title-sizer-wrapper span[data-ref="PotPlayer"],a[data-ref="potplayer"],.page-title-sizer-wrapper span[data-ref="potplayer"],a[data-ref="Potplayer"],.page-title-sizer-wrapper span[data-ref="Potplayer"],a[data-ref="Potplayer"],.page-title-sizer-wrapper span[data-ref="Potplayer"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="PotPlayer"],.page-title-sizer-wrapper span[data-ref="PotPlayer"],a[data-ref="potplayer"],.page-title-sizer-wrapper span[data-ref="potplayer"],a[data-ref="Potplayer"],.page-title-sizer-wrapper span[data-ref="Potplayer"],a[data-ref="Potplayer"],.page-title-sizer-wrapper span[data-ref="Potplayer"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl8bU1Gcu8JmPsBNQ/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="PotPlayer"],[data-ref="potplayer"],[data-ref="Potplayer"],[data-ref="Potplayer"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="PotPlayer"],[data-ref="potplayer"],[data-ref="Potplayer"],[data-ref="Potplayer"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl8bU1Gcu8JmPsBNQ/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 PotPlayer potplayer Potplayer Potplayer*/
+/*自定义标签 IDM idm*/
+:is(a[data-ref="IDM"],.page-title-sizer-wrapper span[data-ref="IDM"],a[data-ref="idm"],.page-title-sizer-wrapper span[data-ref="idm"]){
+  color: inherit!important;
+}
+:is(a[data-ref="IDM"],.page-title-sizer-wrapper span[data-ref="IDM"],a[data-ref="idm"],.page-title-sizer-wrapper span[data-ref="idm"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="IDM"],.page-title-sizer-wrapper span[data-ref="IDM"],a[data-ref="idm"],.page-title-sizer-wrapper span[data-ref="idm"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl98LRdGGUGEK2hGw/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="IDM"],[data-ref="idm"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="IDM"],[data-ref="idm"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl98LRdGGUGEK2hGw/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 IDM idm*/
+/*自定义标签 eagle Eagle*/
+:is(a[data-ref="eagle"],.page-title-sizer-wrapper span[data-ref="eagle"],a[data-ref="Eagle"],.page-title-sizer-wrapper span[data-ref="Eagle"]){
+  color: inherit!important;
+}
+:is(a[data-ref="eagle"],.page-title-sizer-wrapper span[data-ref="eagle"],a[data-ref="Eagle"],.page-title-sizer-wrapper span[data-ref="Eagle"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="eagle"],.page-title-sizer-wrapper span[data-ref="eagle"],a[data-ref="Eagle"],.page-title-sizer-wrapper span[data-ref="Eagle"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl-Iyl8UMEg5FQw1Q/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="eagle"],[data-ref="Eagle"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="eagle"],[data-ref="Eagle"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl-Iyl8UMEg5FQw1Q/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 eagle Eagle*/
+/*自定义标签 Photoshop photoshop photoshop Photoshop*/
+:is(a[data-ref="Photoshop"],.page-title-sizer-wrapper span[data-ref="Photoshop"],a[data-ref="photoshop"],.page-title-sizer-wrapper span[data-ref="photoshop"],a[data-ref="photoshop"],.page-title-sizer-wrapper span[data-ref="photoshop"],a[data-ref="Photoshop"],.page-title-sizer-wrapper span[data-ref="Photoshop"]){
+  color: inherit!important;
+}
+:is(a[data-ref="Photoshop"],.page-title-sizer-wrapper span[data-ref="Photoshop"],a[data-ref="photoshop"],.page-title-sizer-wrapper span[data-ref="photoshop"],a[data-ref="photoshop"],.page-title-sizer-wrapper span[data-ref="photoshop"],a[data-ref="Photoshop"],.page-title-sizer-wrapper span[data-ref="Photoshop"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="Photoshop"],.page-title-sizer-wrapper span[data-ref="Photoshop"],a[data-ref="photoshop"],.page-title-sizer-wrapper span[data-ref="photoshop"],a[data-ref="photoshop"],.page-title-sizer-wrapper span[data-ref="photoshop"],a[data-ref="Photoshop"],.page-title-sizer-wrapper span[data-ref="Photoshop"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl_jADB9eg1BR1oEw/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="Photoshop"],[data-ref="photoshop"],[data-ref="photoshop"],[data-ref="Photoshop"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="Photoshop"],[data-ref="photoshop"],[data-ref="photoshop"],[data-ref="Photoshop"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpl_jADB9eg1BR1oEw/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 Photoshop photoshop photoshop Photoshop*/
+/*自定义标签 TrayS trays Trays Trays*/
+:is(a[data-ref="TrayS"],.page-title-sizer-wrapper span[data-ref="TrayS"],a[data-ref="trays"],.page-title-sizer-wrapper span[data-ref="trays"],a[data-ref="Trays"],.page-title-sizer-wrapper span[data-ref="Trays"],a[data-ref="Trays"],.page-title-sizer-wrapper span[data-ref="Trays"]){
+  color: inherit!important;
+}
+:is(a[data-ref="TrayS"],.page-title-sizer-wrapper span[data-ref="TrayS"],a[data-ref="trays"],.page-title-sizer-wrapper span[data-ref="trays"],a[data-ref="Trays"],.page-title-sizer-wrapper span[data-ref="Trays"],a[data-ref="Trays"],.page-title-sizer-wrapper span[data-ref="Trays"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="TrayS"],.page-title-sizer-wrapper span[data-ref="TrayS"],a[data-ref="trays"],.page-title-sizer-wrapper span[data-ref="trays"],a[data-ref="Trays"],.page-title-sizer-wrapper span[data-ref="Trays"],a[data-ref="Trays"],.page-title-sizer-wrapper span[data-ref="Trays"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpoAeF17hPT9_3GERQ/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="TrayS"],[data-ref="trays"],[data-ref="Trays"],[data-ref="Trays"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="TrayS"],[data-ref="trays"],[data-ref="Trays"],[data-ref="Trays"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpoAeF17hPT9_3GERQ/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 TrayS trays Trays Trays*/
+/*自定义标签 Reduce reduce*/
+:is(a[data-ref="Reduce Memory"],.page-title-sizer-wrapper span[data-ref="Reduce Memory"],a[data-ref="reduce memory"],.page-title-sizer-wrapper span[data-ref="Reduce Memory"]){
+  color: inherit!important;
+}
+:is(a[data-ref="Reduce Memory"],.page-title-sizer-wrapper span[data-ref="Reduce Memory"],a[data-ref="reduce memory"],.page-title-sizer-wrapper span[data-ref="Reduce Memory"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="Reduce Memory"],.page-title-sizer-wrapper span[data-ref="Reduce Memory"],a[data-ref="reduce memory"],.page-title-sizer-wrapper span[data-ref="Reduce Memory"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpoBxoFgChVEDzV15Q/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="Reduce Memory"],[data-ref="reduce memory"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="Reduce Memory"],[data-ref="reduce memory"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpoBxoFgChVEDzV15Q/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 Reduce reduce*/
+/*自定义标签 Directory directory*/
+:is(a[data-ref^="Directory"],.page-title-sizer-wrapper span[data-ref^="Directory"],a[data-ref^="directory"],.page-title-sizer-wrapper span[data-ref^="directory"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="Directory"],.page-title-sizer-wrapper span[data-ref^="Directory"],a[data-ref^="directory"],.page-title-sizer-wrapper span[data-ref^="directory"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="Directory"],.page-title-sizer-wrapper span[data-ref^="Directory"],a[data-ref^="directory"],.page-title-sizer-wrapper span[data-ref^="directory"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpoCw-ni_2-84fDckA/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="Directory"],[data-ref^="directory"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="Directory"],[data-ref^="directory"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpoCw-ni_2-84fDckA/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 Directory directory*/
+/*自定义标签 Listary listary listary Listary*/
+:is(a[data-ref="Listary"],.page-title-sizer-wrapper span[data-ref="Listary"],a[data-ref="listary"],.page-title-sizer-wrapper span[data-ref="listary"],a[data-ref="listary"],.page-title-sizer-wrapper span[data-ref="listary"],a[data-ref="Listary"],.page-title-sizer-wrapper span[data-ref="Listary"]){
+  color: inherit!important;
+}
+:is(a[data-ref="Listary"],.page-title-sizer-wrapper span[data-ref="Listary"],a[data-ref="listary"],.page-title-sizer-wrapper span[data-ref="listary"],a[data-ref="listary"],.page-title-sizer-wrapper span[data-ref="listary"],a[data-ref="Listary"],.page-title-sizer-wrapper span[data-ref="Listary"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="Listary"],.page-title-sizer-wrapper span[data-ref="Listary"],a[data-ref="listary"],.page-title-sizer-wrapper span[data-ref="listary"],a[data-ref="listary"],.page-title-sizer-wrapper span[data-ref="listary"],a[data-ref="Listary"],.page-title-sizer-wrapper span[data-ref="Listary"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpoDZFpd792SaCs5Ig/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="Listary"],[data-ref="listary"],[data-ref="listary"],[data-ref="Listary"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="Listary"],[data-ref="listary"],[data-ref="listary"],[data-ref="Listary"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpoDZFpd792SaCs5Ig/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 Listary listary listary Listary*/
+/*自定义标签 阿里云盘*/
+:is(a[data-ref="阿里云盘"],.page-title-sizer-wrapper span[data-ref="阿里云盘"]){
+  color: inherit!important;
+}
+:is(a[data-ref="阿里云盘"],.page-title-sizer-wrapper span[data-ref="阿里云盘"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="阿里云盘"],.page-title-sizer-wrapper span[data-ref="阿里云盘"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpoFWWmtLzh2Q4cXlA/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="阿里云盘"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="阿里云盘"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpoFWWmtLzh2Q4cXlA/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 阿里云盘*/
+/*自定义标签 滴答清单*/
+:is(a[data-ref="滴答清单"],.page-title-sizer-wrapper span[data-ref="滴答清单"]){
+  color: inherit!important;
+}
+:is(a[data-ref="滴答清单"],.page-title-sizer-wrapper span[data-ref="滴答清单"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="滴答清单"],.page-title-sizer-wrapper span[data-ref="滴答清单"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpoGbkmURQEHPmNd3A/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="滴答清单"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="滴答清单"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpoGbkmURQEHPmNd3A/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 滴答清单*/
+/*自定义标签 clash Clash*/
+:is(a[data-ref^="clash"],.page-title-sizer-wrapper span[data-ref^="clash"],a[data-ref^="Clash"],.page-title-sizer-wrapper span[data-ref^="Clash"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="clash"],.page-title-sizer-wrapper span[data-ref^="clash"],a[data-ref^="Clash"],.page-title-sizer-wrapper span[data-ref^="Clash"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="clash"],.page-title-sizer-wrapper span[data-ref^="clash"],a[data-ref^="Clash"],.page-title-sizer-wrapper span[data-ref^="Clash"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpotVnpAUAjVA9OAkg/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="clash"],[data-ref^="Clash"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="clash"],[data-ref^="Clash"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpotVnpAUAjVA9OAkg/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 clash Clash*/
 /*自定义标签 EmEditor emeditor Emeditor Emeditor*/
 :is(a[data-ref^="EmEditor"],.page-title-sizer-wrapper span[data-ref^="EmEditor"],a[data-ref^="emeditor"],.page-title-sizer-wrapper span[data-ref^="emeditor"],a[data-ref^="Emeditor"],.page-title-sizer-wrapper span[data-ref^="Emeditor"],a[data-ref^="Emeditor"],.page-title-sizer-wrapper span[data-ref^="Emeditor"]){
   color: inherit!important;
