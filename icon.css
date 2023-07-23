@@ -1567,10 +1567,10 @@ a[data-ref^="阅读"].tag:before {
 }
 :is(a[data-ref^="案例"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 1px solid inherit;
+  border: 1px solid #a3d3d3;
 }
 :is(a[data-ref^="案例"],.page-title-sizer-wrapper span[data-ref^="案例"])::before{
-  content: "\EF53";
+  content: "\fb7c";
   font-size: var(--Icon_size_inPage);
   font-family: var(--Font_icon_name);
   color: #217DBA;
@@ -1585,7 +1585,7 @@ a[data-ref^="阅读"].tag:before {
   font-family: var(--Font_icon_name);
   font-size: var(--Sidebar_icon_size);
   color: #217DBA;;
-  content: "\EF53";
+  content: "\fb7c";
   margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 案例*/
