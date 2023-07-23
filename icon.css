@@ -3,6 +3,37 @@
   --leftdocheight : -0.15rem;
   --tagsradius:5px;
 }
+@charset "UTF-8";
+/*变量配置*/
+:root{
+  /*字体图标 fonticon*/
+  --fonticon_Mr: 2px;
+  --iconColor_Color: #217DBA;
+  --Sidebar_icon_size: 1.25em;
+  --Font_icon_name : 'tabler-icons';
+  --pageIconML: -18px;
+  --Icon_size_inPage:1em;
+  /*图片*/
+  --page_picture_Width:1em;
+  --page_picture_Height:1em;
+  --page_picture_Left:0px;
+  --page_picture_Top:0.12em;
+  --page_picture_marginRight:2px;
+  --Lefticon_picture_Width:1.25em;
+  --Lefticon_picture_Height:1.25em;
+  --Lefticon_picture_left:0px;
+  --Lefticon_picture_top:0px;
+ 
+
+  /*emoji*/
+  --emoji_size : 1em;
+  --emoji_marginRight: 2px;
+  --emoji_leftsider_marginRight:-20px;
+
+  /*自定义图标*/
+  --customIcon_bottom_BackgroundColor : red;
+}
+
 /*新增 文件图标*/
 a[data-href$=".xlsx"]{
   color: #107c42 !important;
