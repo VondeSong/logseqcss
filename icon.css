@@ -1555,3 +1555,37 @@ a[data-ref^="阅读"].tag:before {
   margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 主义*/
+/*自定义标签 案例*/
+:is(a[data-ref^="案例"],.page-title-sizer-wrapper span[data-ref^="案例"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="案例"],.page-title-sizer-wrapper span[data-ref^="案例"]):hover{
+    color: inherit!important;
+}
+:is(span[data-ref^="案例"].title){
+  color:#217DBA !important;
+}
+:is(a[data-ref^="案例"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref^="案例"],.page-title-sizer-wrapper span[data-ref^="案例"])::before{
+  content: "\EF53";
+  font-size: var(--Icon_size_inPage);
+  font-family: var(--Font_icon_name);
+  color: #217DBA;
+  margin-right: var(--fonticon_Mr);
+}
+:is([data-ref^="案例"]) > a > span.page-icon {
+  text-indent:-9999px;
+   position: relative;
+  margin-right:var(--pageIconML) !important;
+}
+:is([data-ref^="案例"])>a::before {
+  font-family: var(--Font_icon_name);
+  font-size: var(--Sidebar_icon_size);
+  color: #217DBA;;
+  content: "\EF53";
+  margin-right: var(--fontmarginright) !important;
+}
+/*自定义标签 案例*/
