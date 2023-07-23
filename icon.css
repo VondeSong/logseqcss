@@ -1828,3 +1828,239 @@ a[data-ref^="阅读"].tag:before {
   overflow:auto;
 }
 /*自定义标签 ChatGPT gpt chatgpt Chatgpt Gpt Chatgpt*/
+/*自定义标签 目标可视化*/
+:is(a[data-ref="目标可视化"],.page-title-sizer-wrapper span[data-ref="目标可视化"]){
+  color: #395dfa!important;
+}
+:is(a[data-ref="目标可视化"],.page-title-sizer-wrapper span[data-ref="目标可视化"]):hover{
+    color: #395dfa!important;
+}
+:is(a[data-ref="目标可视化"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 2px solid #395dfa;
+}
+:is(a[data-ref="目标可视化"],.page-title-sizer-wrapper span[data-ref="目标可视化"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVjjHu4kFrhDrwZfA/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="目标可视化"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="目标可视化"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVjjHu4kFrhDrwZfA/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 目标可视化*/
+/*自定义标签 孩子 童年 儿童*/
+:is(a[data-ref="孩子"],.page-title-sizer-wrapper span[data-ref="孩子"],a[data-ref="童年"],.page-title-sizer-wrapper span[data-ref="童年"],a[data-ref="儿童"],.page-title-sizer-wrapper span[data-ref="儿童"]){
+  color: #4ba5d1!important;
+}
+:is(a[data-ref="孩子"],.page-title-sizer-wrapper span[data-ref="孩子"],a[data-ref="童年"],.page-title-sizer-wrapper span[data-ref="童年"],a[data-ref="儿童"],.page-title-sizer-wrapper span[data-ref="儿童"]):hover{
+    color: #4ba5d1!important;
+}
+:is(a[data-ref="孩子"].tag,a[data-ref="童年"].tag,a[data-ref="儿童"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 2px solid #4ba5d1;
+}
+:is(a[data-ref="孩子"],.page-title-sizer-wrapper span[data-ref="孩子"],a[data-ref="童年"],.page-title-sizer-wrapper span[data-ref="童年"],a[data-ref="儿童"],.page-title-sizer-wrapper span[data-ref="儿童"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVpwYSm8kIkGGvNfA/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="孩子"],[data-ref="童年"],[data-ref="儿童"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="孩子"],[data-ref="童年"],[data-ref="儿童"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVpwYSm8kIkGGvNfA/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 孩子 童年 儿童*/
+/*自定义标签 负反馈*/
+:is(a[data-ref="负反馈"],.page-title-sizer-wrapper span[data-ref="负反馈"]){
+  color: inherit!important;
+}
+:is(a[data-ref="负反馈"],.page-title-sizer-wrapper span[data-ref="负反馈"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="负反馈"],.page-title-sizer-wrapper span[data-ref="负反馈"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpZRTyEwgnvr8pAC9g/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="负反馈"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="负反馈"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpZRTyEwgnvr8pAC9g/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 负反馈*/
+/*自定义标签 今日思考*/
+:is(a[data-ref="今日思考"],.page-title-sizer-wrapper span[data-ref="今日思考"]){
+  color: inherit!important;
+}
+:is(a[data-ref="今日思考"],.page-title-sizer-wrapper span[data-ref="今日思考"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="今日思考"],.page-title-sizer-wrapper span[data-ref="今日思考"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpZSOynvimJycad7NA/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="今日思考"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="今日思考"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpZSOynvimJycad7NA/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 今日思考*/
+/*自定义标签 主线*/
+:is(a[data-ref="主线"],.page-title-sizer-wrapper span[data-ref="主线"]){
+  color: inherit!important;
+}
+:is(a[data-ref="主线"],.page-title-sizer-wrapper span[data-ref="主线"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="主线"],.page-title-sizer-wrapper span[data-ref="主线"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpZTTnu68IE9nfw5Gg/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="主线"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="主线"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpZTTnu68IE9nfw5Gg/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 主线*/
+/*自定义标签 阶段*/
+:is(a[data-ref*="阶段"],.page-title-sizer-wrapper span[data-ref*="阶段"]){
+  color: inherit!important;
+}
+:is(a[data-ref*="阶段"],.page-title-sizer-wrapper span[data-ref*="阶段"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref*="阶段"],.page-title-sizer-wrapper span[data-ref*="阶段"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpZVWA6x_xZAF3q4ug/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref*="阶段"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref*="阶段"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpZVWA6x_xZAF3q4ug/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 阶段*/
