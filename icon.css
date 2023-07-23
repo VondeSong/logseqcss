@@ -34,6 +34,254 @@
   /*自定义图标*/
   --customIcon_bottom_BackgroundColor : red;
 }
+@charset "UTF-8";
+/*变量配置*/
+:root{
+  /*字体图标 fonticon*/
+  --fonticon_Mr: 2px;
+  --iconColor_Color: #217DBA;
+  --Sidebar_icon_size: 1.25em;
+  --Font_icon_name : 'tabler-icons';
+  --pageIconML: -18px;
+  --Icon_size_inPage:1em;
+  /*图片*/
+  --page_picture_Width:1em;
+  --page_picture_Height:1em;
+  --page_picture_Left:0px;
+  --page_picture_Top:0.12em;
+  --page_picture_marginRight:2px;
+  --Lefticon_picture_Width:1.25em;
+  --Lefticon_picture_Height:1.25em;
+  --Lefticon_picture_left:0px;
+  --Lefticon_picture_top:0px;
+  /*emoji*/
+  --emoji_size : 1em;
+  --emoji_marginRight: 2px;
+  --emoji_leftsider_marginRight:-20px;
+  /*自定义图标*/
+  --customIcon_bottom_BackgroundColor : red;
+}
+/*自定义标签 1分*/
+:is(a[data-ref="1分"],.page-title-sizer-wrapper span[data-ref="1分"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="1分"],.page-title-sizer-wrapper span[data-ref="1分"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="1分"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 0 solid #a3d3d3;
+}
+:is(a[data-ref="1分"],.page-title-sizer-wrapper span[data-ref="1分"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfkWBzKCBIvBZ3V6qQ/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="1分"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="1分"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfkWBzKCBIvBZ3V6qQ/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 1分*/
+/*自定义标签 2分*/
+:is(a[data-ref^="2分"],.page-title-sizer-wrapper span[data-ref^="2分"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref^="2分"],.page-title-sizer-wrapper span[data-ref^="2分"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref^="2分"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 0 solid #a3d3d3;
+}
+:is(a[data-ref^="2分"],.page-title-sizer-wrapper span[data-ref^="2分"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfkYufU81jpjbCESKw/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="2分"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="2分"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfkYufU81jpjbCESKw/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 2分*/
+/*自定义标签 3分*/
+:is(a[data-ref="3分"],.page-title-sizer-wrapper span[data-ref="3分"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="3分"],.page-title-sizer-wrapper span[data-ref="3分"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="3分"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 0 solid #a3d3d3;
+}
+:is(a[data-ref="3分"],.page-title-sizer-wrapper span[data-ref="3分"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfkZKoi0V2nn-5JYmQ/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="3分"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="3分"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfkZKoi0V2nn-5JYmQ/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 3分*/
+/*自定义标签 4分*/
+:is(a[data-ref="4分"],.page-title-sizer-wrapper span[data-ref="4分"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="4分"],.page-title-sizer-wrapper span[data-ref="4分"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="4分"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 0 solid #a3d3d3;
+}
+:is(a[data-ref="4分"],.page-title-sizer-wrapper span[data-ref="4分"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfkaDt_bc4cjGDdCuw/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="4分"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="4分"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfkaDt_bc4cjGDdCuw/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 4分*/
+/*自定义标签 5分*/
+:is(a[data-ref="5分"],.page-title-sizer-wrapper span[data-ref="5分"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="5分"],.page-title-sizer-wrapper span[data-ref="5分"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="5分"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 0 solid #a3d3d3;
+}
+:is(a[data-ref="5分"],.page-title-sizer-wrapper span[data-ref="5分"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfkbq0A96LV_Td-g8A/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="5分"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="5分"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfkbq0A96LV_Td-g8A/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 5分*/
+
 /*自定义标签 预设价值观*/
 :is(a[data-ref^="预设价值观"],.page-title-sizer-wrapper span[data-ref^="预设价值观"]){
   color: #9c27b0!important;
