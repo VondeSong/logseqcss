@@ -1286,3 +1286,34 @@ a[data-href$=".docx"]::before{
   margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 执行*/
+/*自定义标签 随烦恼*/
+:is(a[data-ref="随烦恼"],.page-title-sizer-wrapper span[data-ref="随烦恼"]){
+  color: #217DBA!important;
+}
+:is(a[data-ref="随烦恼"],.page-title-sizer-wrapper span[data-ref="随烦恼"]):hover{
+    color: #217DBA!important;
+}
+:is(a[data-ref="随烦恼"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid #a3d3d3;
+}
+:is(a[data-ref="随烦恼"],.page-title-sizer-wrapper span[data-ref="随烦恼"])::before{
+  content: "\F2E0";
+  font-size: var(--Icon_size_inPage);
+  font-family: var(--Font_icon_name);
+  color: #217DBA;
+  margin-right: var(--fonticon_Mr);
+}
+:is([data-ref="随烦恼"]) > a > span.page-icon {
+  text-indent:-9999px;
+   position: relative;
+  margin-right:var(--pageIconML) !important;
+}
+:is([data-ref="随烦恼"])>a::before {
+  font-family: var(--Font_icon_name);
+  font-size: var(--Sidebar_icon_size);
+  color: #217DBA;;
+  content: "\F2E0";
+  margin-right: var(--fontmarginright) !important;
+}
+/*自定义标签 随烦恼*/
