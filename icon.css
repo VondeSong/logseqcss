@@ -34,7 +34,489 @@
   /*自定义图标*/
   --customIcon_bottom_BackgroundColor : red;
 }
+/*实力商家*/
+a[data-ref="实力商家"] {
+  border-color: #ff0d0d !important;
+  background-color: #ff0d0d !important;
+  color: #f1f1f1 !important;
+  font-size: 12px !important;
+  opacity: 1;
+}
+a[data-ref="实力商家"]:hover {
+  border-color: #ff0d0d ;
+  background-color: #ff0d0d;
+  color: #ffffff;
+  font-size: 12px !important;
+}
 
+/*自定义标签 任务清单*//*自定义标签 货源 工厂*/
+:is(a[data-ref="货源"],.page-title-sizer-wrapper span[data-ref="货源"],a[data-ref="工厂"],.page-title-sizer-wrapper span[data-ref="工厂"]){
+  position: relative;
+  color: #000000!important;
+}
+:is(a[data-ref="货源"],.page-title-sizer-wrapper span[data-ref="货源"],a[data-ref="工厂"],.page-title-sizer-wrapper span[data-ref="工厂"]):hover{
+  position: relative;
+    color: #000000!important;
+}
+:is(a[data-ref="货源"].tag,a[data-ref="工厂"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 2px solid #000000;
+}
+:is(a[data-ref="货源"],.page-title-sizer-wrapper span[data-ref="货源"],a[data-ref="工厂"],.page-title-sizer-wrapper span[data-ref="工厂"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjho9mD7gTPLo2W-oltw/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="货源"],[data-ref="工厂"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="货源"],[data-ref="工厂"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjho9mD7gTPLo2W-oltw/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 货源 工厂*/
+:is(a[data-ref^="任务清单"],.page-title-sizer-wrapper span[data-ref^="任务清单"]){
+  position: relative;
+  color: #185ABD!important;
+}
+:is(a[data-ref^="任务清单"],.page-title-sizer-wrapper span[data-ref^="任务清单"]):hover{
+  position: relative;
+    color: #185ABD!important;
+}
+:is(a[data-ref^="任务清单"],.page-title-sizer-wrapper span[data-ref^="任务清单"])::before{
+  content: "";
+  background-image: url("https://img.icons8.com/fluency/240/000000/microsoft-todo-2019.png");
+  background-size: 100%;
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="任务清单"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="任务清单"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://img.icons8.com/fluency/240/000000/microsoft-todo-2019.png");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 任务清单*/
+/*自定义标签 Maintain maintain*/
+:is(a[data-ref^="Maintain"],.page-title-sizer-wrapper span[data-ref^="Maintain"],a[data-ref^="maintain"],.page-title-sizer-wrapper span[data-ref^="maintain"]){
+  position: relative;
+  color: #17C1F1!important;
+  font-weight: 550!important;
+}
+:is(a[data-ref^="Maintain"],.page-title-sizer-wrapper span[data-ref^="Maintain"],a[data-ref^="maintain"],.page-title-sizer-wrapper span[data-ref^="maintain"]):hover{
+  position: relative;
+    color: #17C1F1!important;
+  font-weight: 550!important;
+}
+:is(a[data-ref^="Maintain"],.page-title-sizer-wrapper span[data-ref^="Maintain"],a[data-ref^="maintain"],.page-title-sizer-wrapper span[data-ref^="maintain"])::before{
+  content: "";
+  background-image: url("https://files.getquicker.net/_icons/6848215A5A775CA36267CA688DBE28D91DD69E68.png");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="Maintain"],[data-ref^="maintain"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="Maintain"],[data-ref^="maintain"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://files.getquicker.net/_icons/6848215A5A775CA36267CA688DBE28D91DD69E68.png");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 Maintain maintain*/
+
+/*自定义标签 测试*//*自定义标签 世界观*/
+
+:is(a[data-ref="世界观"],.page-title-sizer-wrapper span[data-ref="世界观"]){
+  position: relative;
+}
+:is(a[data-ref="世界观"],.page-title-sizer-wrapper span[data-ref="世界观"]):hover{
+  position: relative;
+}
+:is(a[data-ref="世界观"],.page-title-sizer-wrapper span[data-ref="世界观"])::before{
+  content: "\EB54";
+  font-size: 1em;
+  font-family: 'tabler-icons';
+  color: #217DBA;
+  margin-right: 2px;
+}
+:is([data-ref="世界观"]) > a > span.page-icon {
+  text-indent:-9999px;
+   position: relative;
+  margin-right:var(--pageIconML) !important;
+}
+:is([data-ref="世界观"])>a::before {
+  font-family: 'tabler-icons';
+  font-size: 1.2em;
+  color: #217DBA;
+  content: "\EB54";
+}
+/*自定义标签 世界观*/
+
+/*自定义标签 货源*//*自定义标签 申通 中通 邮政 极兔 韵达 顺丰 圆通 京东 德邦 百世 优速*/
+:is(a[data-ref^="申通"],.page-title-sizer-wrapper span[data-ref^="申通"],a[data-ref^="中通"],.page-title-sizer-wrapper span[data-ref^="中通"],a[data-ref^="邮政"],.page-title-sizer-wrapper span[data-ref^="邮政"],a[data-ref^="极兔"],.page-title-sizer-wrapper span[data-ref^="极兔"],a[data-ref^="韵达"],.page-title-sizer-wrapper span[data-ref^="韵达"],a[data-ref^="顺丰"],.page-title-sizer-wrapper span[data-ref^="顺丰"],a[data-ref^="圆通"],.page-title-sizer-wrapper span[data-ref^="圆通"],a[data-ref^="京东"],.page-title-sizer-wrapper span[data-ref^="京东"],a[data-ref^="德邦"],.page-title-sizer-wrapper span[data-ref^="德邦"],a[data-ref^="百世"],.page-title-sizer-wrapper span[data-ref^="百世"],a[data-ref^="优速"],.page-title-sizer-wrapper span[data-ref^="优速"]){
+  position: relative;
+  border: 0;
+  border-bottom: 1px solid #338ce1;
+  font-size: 12px;
+}
+:is(a[data-ref^="申通"],.page-title-sizer-wrapper span[data-ref^="申通"],a[data-ref^="中通"],.page-title-sizer-wrapper span[data-ref^="中通"],a[data-ref^="邮政"],.page-title-sizer-wrapper span[data-ref^="邮政"],a[data-ref^="极兔"],.page-title-sizer-wrapper span[data-ref^="极兔"],a[data-ref^="韵达"],.page-title-sizer-wrapper span[data-ref^="韵达"],a[data-ref^="顺丰"],.page-title-sizer-wrapper span[data-ref^="顺丰"],a[data-ref^="圆通"],.page-title-sizer-wrapper span[data-ref^="圆通"],a[data-ref^="京东"],.page-title-sizer-wrapper span[data-ref^="京东"],a[data-ref^="德邦"],.page-title-sizer-wrapper span[data-ref^="德邦"],a[data-ref^="百世"],.page-title-sizer-wrapper span[data-ref^="百世"],a[data-ref^="优速"],.page-title-sizer-wrapper span[data-ref^="优速"]):hover{
+  position: relative;
+}
+:is(a[data-ref^="申通"],.page-title-sizer-wrapper span[data-ref^="申通"],a[data-ref^="中通"],.page-title-sizer-wrapper span[data-ref^="中通"],a[data-ref^="邮政"],.page-title-sizer-wrapper span[data-ref^="邮政"],a[data-ref^="极兔"],.page-title-sizer-wrapper span[data-ref^="极兔"],a[data-ref^="韵达"],.page-title-sizer-wrapper span[data-ref^="韵达"],a[data-ref^="顺丰"],.page-title-sizer-wrapper span[data-ref^="顺丰"],a[data-ref^="圆通"],.page-title-sizer-wrapper span[data-ref^="圆通"],a[data-ref^="京东"],.page-title-sizer-wrapper span[data-ref^="京东"],a[data-ref^="德邦"],.page-title-sizer-wrapper span[data-ref^="德邦"],a[data-ref^="百世"],.page-title-sizer-wrapper span[data-ref^="百世"],a[data-ref^="优速"],.page-title-sizer-wrapper span[data-ref^="优速"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhdwfO2dj1KUYAYsQWQ/root/content");
+  background-size: 100%;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: var(--pageIconTop);
+  left: 0px;
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: 2px;
+}
+:is([data-ref^="申通"],[data-ref^="中通"],[data-ref^="邮政"],[data-ref^="极兔"],[data-ref^="韵达"],[data-ref^="顺丰"],[data-ref^="圆通"],[data-ref^="京东"],[data-ref^="德邦"],[data-ref^="百世"],[data-ref^="优速"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="申通"],[data-ref^="中通"],[data-ref^="邮政"],[data-ref^="极兔"],[data-ref^="韵达"],[data-ref^="顺丰"],[data-ref^="圆通"],[data-ref^="京东"],[data-ref^="德邦"],[data-ref^="百世"],[data-ref^="优速"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhdwfO2dj1KUYAYsQWQ/root/content");
+  background-size: 100%;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 0;
+  left: 0px;
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+
+/*自定义标签 好小猪童装*/
+:is(a[data-ref="好小猪童装"],.page-title-sizer-wrapper span[data-ref="好小猪童装"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="好小猪童装"],.page-title-sizer-wrapper span[data-ref="好小猪童装"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="好小猪童装"],.page-title-sizer-wrapper span[data-ref="好小猪童装"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfo7RpvnVrLsE86xCw/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="好小猪童装"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="好小猪童装"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfo7RpvnVrLsE86xCw/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 好小猪童装*/
+/*自定义标签 香港MOMO童装*/
+:is(a[data-ref^="香港MOMO童装"],.page-title-sizer-wrapper span[data-ref^="香港MOMO童装"]){
+  position: relative;
+}
+:is(a[data-ref^="香港MOMO童装"],.page-title-sizer-wrapper span[data-ref^="香港MOMO童装"]):hover{
+  position: relative;
+}
+:is(a[data-ref^="香港MOMO童装"],.page-title-sizer-wrapper span[data-ref^="香港MOMO童装"])::before{
+  content: "";
+  background-image: url("https://files.getquicker.net/_icons/51C5165944B3C62C0CCAF173CF4FC4A767F224EF.png");
+  background-size: 100%;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: var(--pageIconTop);
+  left: 0px;
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: 2px;
+}
+:is([data-ref^="香港MOMO童装"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="香港MOMO童装"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://files.getquicker.net/_icons/51C5165944B3C62C0CCAF173CF4FC4A767F224EF.png");
+  background-size: 100%;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 0;
+  left: 0px;
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 香港MOMO童装*//*自定义标签 MOMO momo*/
+:is(a[data-ref*="MOMO"],.page-title-sizer-wrapper span[data-ref*="MOMO"],a[data-ref*="momo"],.page-title-sizer-wrapper span[data-ref*="momo"]){
+  position: relative;
+}
+:is(a[data-ref*="MOMO"],.page-title-sizer-wrapper span[data-ref*="MOMO"],a[data-ref*="momo"],.page-title-sizer-wrapper span[data-ref*="momo"]):hover{
+  position: relative;
+}
+:is(a[data-ref*="MOMO"],.page-title-sizer-wrapper span[data-ref*="MOMO"],a[data-ref*="momo"],.page-title-sizer-wrapper span[data-ref*="momo"])::before{
+  content: "";
+  background-image: url("https://files.getquicker.net/_icons/51C5165944B3C62C0CCAF173CF4FC4A767F224EF.png");
+  background-size: 100%;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: var(--pageIconTop);
+  left: 0px;
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: 2px;
+}
+:is([data-ref*="MOMO"],[data-ref*="momo"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref*="MOMO"],[data-ref*="momo"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://files.getquicker.net/_icons/51C5165944B3C62C0CCAF173CF4FC4A767F224EF.png");
+  background-size: 100%;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 0;
+  left: 0px;
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 MOMO momo*//*自定义标签 宋得洋*/
+:is(a[data-ref^="宋得洋"],.page-title-sizer-wrapper span[data-ref^="宋得洋"]){
+  position: relative;
+}
+:is(a[data-ref^="宋得洋"],.page-title-sizer-wrapper span[data-ref^="宋得洋"]):hover{
+  position: relative;
+}
+:is(a[data-ref^="宋得洋"],.page-title-sizer-wrapper span[data-ref^="宋得洋"])::before{
+  content: "";
+  background-image: url("https://files.getquicker.net/_icons/EEC9F5F274A89184EA7D5B222D267FE58CDB0719.png");
+  background-size: 100%;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: var(--pageIconTop);
+  left: 0px;
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: 2px;
+}
+:is([data-ref^="宋得洋"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="宋得洋"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://files.getquicker.net/_icons/EEC9F5F274A89184EA7D5B222D267FE58CDB0719.png");
+  background-size: 100%;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  top: 0;
+  left: 0px;
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 宋得洋*/
+/*自定义标签 归档*/
+:is(a[data-ref^="归档"],.page-title-sizer-wrapper span[data-ref^="归档"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref^="归档"],.page-title-sizer-wrapper span[data-ref^="归档"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref^="归档"],.page-title-sizer-wrapper span[data-ref^="归档"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfha45CALtVp9UnQXQ/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="归档"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="归档"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfha45CALtVp9UnQXQ/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 归档*/
+/*自定义标签 下一步行动*/
+:is(a[data-ref="下一步行动"],.page-title-sizer-wrapper span[data-ref="下一步行动"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="下一步行动"],.page-title-sizer-wrapper span[data-ref="下一步行动"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="下一步行动"],.page-title-sizer-wrapper span[data-ref="下一步行动"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfhS04jul5J9HPQACw/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="下一步行动"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="下一步行动"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfhS04jul5J9HPQACw/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 下一步行动*/
+/*自定义标签 等待清单*/
+:is(a[data-ref="等待清单"],.page-title-sizer-wrapper span[data-ref="等待清单"]){
+  position: relative;
+  color: inherit!important;
+}
+:is(a[data-ref="等待清单"],.page-title-sizer-wrapper span[data-ref="等待清单"]):hover{
+  position: relative;
+    color: inherit!important;
+}
+:is(a[data-ref="等待清单"],.page-title-sizer-wrapper span[data-ref="等待清单"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfhUuBjPNrDQJ5x3JQ/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref="等待清单"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="等待清单"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfhUuBjPNrDQJ5x3JQ/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 等待清单*/
 /*自定义标签 Claude claude claude Claude*/
 :is(a[data-ref^="Claude"],.page-title-sizer-wrapper span[data-ref^="Claude"],a[data-ref^="claude"],.page-title-sizer-wrapper span[data-ref^="claude"],a[data-ref^="claude"],.page-title-sizer-wrapper span[data-ref^="claude"],a[data-ref^="Claude"],.page-title-sizer-wrapper span[data-ref^="Claude"]){
   color: inherit!important;
