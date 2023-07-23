@@ -1224,3 +1224,34 @@ a[data-href$=".docx"]::before{
   margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 电脑*/
+/*自定义标签 领导力*/
+:is(a[data-ref^="领导力"],.page-title-sizer-wrapper span[data-ref^="领导力"]){
+  color: #217DBA!important;
+}
+:is(a[data-ref^="领导力"],.page-title-sizer-wrapper span[data-ref^="领导力"]):hover{
+    color: #217DBA!important;
+}
+:is(a[data-ref^="领导力"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid #a3d3d3;
+}
+:is(a[data-ref^="领导力"],.page-title-sizer-wrapper span[data-ref^="领导力"])::before{
+  content: "\EF3E";
+  font-size: var(--Icon_size_inPage);
+  font-family: var(--Font_icon_name);
+  color: #217DBA;
+  margin-right: var(--fonticon_Mr);
+}
+:is([data-ref^="领导力"]) > a > span.page-icon {
+  text-indent:-9999px;
+   position: relative;
+  margin-right:var(--pageIconML) !important;
+}
+:is([data-ref^="领导力"])>a::before {
+  font-family: var(--Font_icon_name);
+  font-size: var(--Sidebar_icon_size);
+  color: #217DBA;;
+  content: "\EF3E";
+  margin-right: var(--fontmarginright) !important;
+}
+/*自定义标签 领导力*/
