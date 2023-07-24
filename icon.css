@@ -50,6 +50,48 @@
   /*自定义图标*/
   --customIcon_bottom_BackgroundColor : red;
 }
+/*自定义标签 生意 business Business*/
+:is(a[data-ref^="生意"],.page-title-sizer-wrapper span[data-ref^="生意"],a[data-ref^="business"],.page-title-sizer-wrapper span[data-ref^="business"],a[data-ref^="Business"],.page-title-sizer-wrapper span[data-ref^="Business"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="生意"],.page-title-sizer-wrapper span[data-ref^="生意"],a[data-ref^="business"],.page-title-sizer-wrapper span[data-ref^="business"],a[data-ref^="Business"],.page-title-sizer-wrapper span[data-ref^="Business"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="生意"].tag,a[data-ref^="business"].tag,a[data-ref^="Business"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid #a3d3d3;
+}
+:is(a[data-ref^="生意"],.page-title-sizer-wrapper span[data-ref^="生意"],a[data-ref^="business"],.page-title-sizer-wrapper span[data-ref^="business"],a[data-ref^="Business"],.page-title-sizer-wrapper span[data-ref^="Business"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0FOlcQ2s4DIYO0XA/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="生意"],[data-ref^="business"],[data-ref^="Business"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="生意"],[data-ref^="business"],[data-ref^="Business"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0FOlcQ2s4DIYO0XA/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 生意 business Business*/
 /*自定义标签 notion Notion*/
 :is(a[data-ref^="notion"],.page-title-sizer-wrapper span[data-ref^="notion"],a[data-ref^="Notion"],.page-title-sizer-wrapper span[data-ref^="Notion"]){
   color: inherit!important;
