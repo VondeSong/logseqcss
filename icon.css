@@ -61,6 +61,48 @@
   /*自定义图标*/
   --customIcon_bottom_BackgroundColor : red;
 }
+/*自定义标签 midjourney Midjourney*/
+:is(a[data-ref^="midjourney"],.page-title-sizer-wrapper span[data-ref^="midjourney"],a[data-ref^="Midjourney"],.page-title-sizer-wrapper span[data-ref^="Midjourney"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="midjourney"],.page-title-sizer-wrapper span[data-ref^="midjourney"],a[data-ref^="Midjourney"],.page-title-sizer-wrapper span[data-ref^="Midjourney"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="midjourney"].tag,a[data-ref^="Midjourney"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid #a3d3d3;
+}
+:is(a[data-ref^="midjourney"],.page-title-sizer-wrapper span[data-ref^="midjourney"],a[data-ref^="Midjourney"],.page-title-sizer-wrapper span[data-ref^="Midjourney"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpx7I3F5wlG31Ybojw/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="midjourney"],[data-ref^="Midjourney"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="midjourney"],[data-ref^="Midjourney"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpx7I3F5wlG31Ybojw/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 midjourney Midjourney*/
 /*自定义标签 丛林法则*/
 :is(a[data-ref="丛林法则"],.page-title-sizer-wrapper span[data-ref="丛林法则"]){
   color: inherit!important;
