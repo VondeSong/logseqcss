@@ -63,7 +63,7 @@
 }
 :is(a[data-ref^="notion"],.page-title-sizer-wrapper span[data-ref^="notion"],a[data-ref^="Notion"],.page-title-sizer-wrapper span[data-ref^="Notion"])::before{
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0DawIV4WqOKLF_9A/root/content");
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0ErUNVzBAoCox40w/root/content");
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -80,7 +80,7 @@
 }
 :is([data-ref^="notion"],[data-ref^="Notion"])>a>span.page-icon {
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0DawIV4WqOKLF_9A/root/content");
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0ErUNVzBAoCox40w/root/content");
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
