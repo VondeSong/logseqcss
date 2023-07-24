@@ -3,11 +3,7 @@
   --leftdocheight : -0.15rem;
   --tagsradius:5px;
   --fontmarginright:5px;
-}
-@charset "UTF-8";
-/*变量配置*/
-:root{
-  /*字体图标 fonticon*/
+   /*字体图标 fonticon*/
   --fonticon_Mr: 2px;
   --iconColor_Color: #217DBA;
   --Sidebar_icon_size: 1.25em;
@@ -24,20 +20,13 @@
   --Lefticon_picture_Height:1.25em;
   --Lefticon_picture_left:0px;
   --Lefticon_picture_top:0px;
- 
-
   /*emoji*/
   --emoji_size : 1em;
   --emoji_marginRight: 2px;
   --emoji_leftsider_marginRight:-20px;
-
   /*自定义图标*/
   --customIcon_bottom_BackgroundColor : red;
-}
-@charset "UTF-8";
-/*变量配置*/
-:root{
-  /*字体图标 fonticon*/
+   /*字体图标 fonticon*/
   --fonticon_Mr: 2px;
   --iconColor_Color: #217DBA;
   --Sidebar_icon_size: 1.25em;
@@ -61,6 +50,48 @@
   /*自定义图标*/
   --customIcon_bottom_BackgroundColor : red;
 }
+/*自定义标签 notion Notion*/
+:is(a[data-ref^="notion"],.page-title-sizer-wrapper span[data-ref^="notion"],a[data-ref^="Notion"],.page-title-sizer-wrapper span[data-ref^="Notion"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="notion"],.page-title-sizer-wrapper span[data-ref^="notion"],a[data-ref^="Notion"],.page-title-sizer-wrapper span[data-ref^="Notion"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="notion"].tag,a[data-ref^="Notion"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid #a3d3d3;
+}
+:is(a[data-ref^="notion"],.page-title-sizer-wrapper span[data-ref^="notion"],a[data-ref^="Notion"],.page-title-sizer-wrapper span[data-ref^="Notion"])::before{
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0DawIV4WqOKLF_9A/root/content");
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is([data-ref^="notion"],[data-ref^="Notion"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="notion"],[data-ref^="Notion"])>a>span.page-icon {
+  content: "";
+  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0DawIV4WqOKLF_9A/root/content");
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 notion Notion*/
 /*自定义标签 Android android*/
 :is(a[data-ref^="Android"],.page-title-sizer-wrapper span[data-ref^="Android"],a[data-ref^="android"],.page-title-sizer-wrapper span[data-ref^="android"]){
   color: inherit!important;
