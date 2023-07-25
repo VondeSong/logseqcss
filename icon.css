@@ -437,7 +437,7 @@
 }
 :is(a[data-ref^="ai"].tag,a[data-ref^="Ai"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 1px solid #a3d3d3;
+  border: 1px solid inherit;
 }
 :is(a[data-ref^="ai"],.page-title-sizer-wrapper span[data-ref^="ai"],a[data-ref^="Ai"],.page-title-sizer-wrapper span[data-ref^="Ai"])::before{
   content: "";
