@@ -51,7 +51,54 @@
   /*自定义图标*/
   --customIcon_bottom_BackgroundColor : red;
 }
-
+/*自定义标签 客服*/
+:root{
+   --26221725imageurl:url("data:image/png;base64,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");
+}
+:is(a[data-ref^="客服"],.page-title-sizer-wrapper span[data-ref^="客服"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="客服"],.page-title-sizer-wrapper span[data-ref^="客服"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="客服"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref^="客服"],.page-title-sizer-wrapper span[data-ref^="客服"])::before{
+  content: "";
+  background-image: var(--26221725imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref^="客服"])::before{
+  top: var(--page_title_topicon) !important;
+}
+:is([data-ref^="客服"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="客服"])>a>span.page-icon {
+  content: "";
+  background-image: var(--26221725imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 客服*/
 /*自定义标签 工具 tool Tool*/
 :is(a[data-ref^="工具"],.page-title-sizer-wrapper span[data-ref^="工具"],a[data-ref^="tool"],.page-title-sizer-wrapper span[data-ref^="tool"],a[data-ref^="Tool"],.page-title-sizer-wrapper span[data-ref^="Tool"]){
   color: inherit!important;
