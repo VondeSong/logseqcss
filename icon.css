@@ -53,7 +53,7 @@
 }
 /*自定义标签 巨量千川 千川*/
 :root{
-   --27112247imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0Swwsa41JlE9WD8g/root/content");
+   --27112406imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0Swwsa41JlE9WD8g/root/content");
 }
 :is(a[data-ref^="巨量千川 千川"],.page-title-sizer-wrapper span[data-ref^="巨量千川 千川"]){
   color: inherit!important;
@@ -67,7 +67,7 @@
 }
 :is(a[data-ref^="巨量千川 千川"],.page-title-sizer-wrapper span[data-ref^="巨量千川 千川"])::before{
   content: "";
-  background-image: var(--27112247imageurl);
+  background-image: var(--27112406imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -87,7 +87,7 @@
 }
 :is([data-ref^="巨量千川 千川"])>a>span.page-icon {
   content: "";
-  background-image: var(--27112247imageurl);
+  background-image: var(--27112406imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
