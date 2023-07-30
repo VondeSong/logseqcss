@@ -1484,48 +1484,7 @@
   overflow:auto;
 }
 /*自定义标签 恐惧 害怕*/
-/*自定义标签 规划 计划*/
-:is(a[data-ref="规划"],.page-title-sizer-wrapper span[data-ref="规划"],a[data-ref="计划"],.page-title-sizer-wrapper span[data-ref="计划"]){
-  color: #032c89!important;
-}
-:is(a[data-ref="规划"],.page-title-sizer-wrapper span[data-ref="规划"],a[data-ref="计划"],.page-title-sizer-wrapper span[data-ref="计划"]):hover{
-    color: #032c89!important;
-}
-:is(a[data-ref="规划"].tag,a[data-ref="计划"].tag) {
-/*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 2px solid #032c89;
-}
-:is(a[data-ref="规划"],.page-title-sizer-wrapper span[data-ref="规划"],a[data-ref="计划"],.page-title-sizer-wrapper span[data-ref="计划"])::before{
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVVpuQH0rSxwIOU8A/root/content");
-  background-size: 100%;
-  width: var(--page_picture_Width);
-  height: var(--page_picture_Height);
-  position: relative;
-  top: var(--page_picture_Top);
-  left: var(--page_picture_Left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-  margin-right: var(--page_picture_marginRight);
-}
-:is([data-ref="规划"],[data-ref="计划"]) > a > span.page-icon {
-  text-indent:-9999px;
-}
-:is([data-ref="规划"],[data-ref="计划"])>a>span.page-icon {
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVVpuQH0rSxwIOU8A/root/content");
-  background-size: 100%;
-  width: var(--Lefticon_picture_Width);
-  height: var(--Lefticon_picture_Height);
-  position: relative;
-  top: var(--Lefticon_picture_top);
-  left: var(--Lefticon_picture_left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-}
-/*自定义标签 规划 计划*/
+
 /*自定义标签 内耗 精神内耗 心理内耗 消耗 纠结 纠结不决*/
 :is(a[data-ref="内耗"],.page-title-sizer-wrapper span[data-ref="内耗"],a[data-ref="精神内耗"],.page-title-sizer-wrapper span[data-ref="精神内耗"],a[data-ref="心理内耗"],.page-title-sizer-wrapper span[data-ref="心理内耗"],a[data-ref="消耗"],.page-title-sizer-wrapper span[data-ref="消耗"],a[data-ref="纠结"],.page-title-sizer-wrapper span[data-ref="纠结"],a[data-ref="纠结不决"],.page-title-sizer-wrapper span[data-ref="纠结不决"]){
   color: #768d99!important;
