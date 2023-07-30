@@ -63,7 +63,7 @@
 }
 :is(a[data-ref^="规划"].tag,a[data-ref^="计划"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 1px dashed inherit;
+  border: 1px dashed #e59700;
 }
 :is(a[data-ref^="规划"],.page-title-sizer-wrapper span[data-ref^="规划"],a[data-ref^="计划"],.page-title-sizer-wrapper span[data-ref^="计划"])::before{
   content: "";
