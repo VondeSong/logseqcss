@@ -7325,50 +7325,7 @@ a[data-ref="大童"]:hover {
 }
 /*自定义标签 我的问题*/
 
-/*自定义标签 错误*/
-:is(a[data-ref^="错误"],.page-title-sizer-wrapper span[data-ref^="错误"]){
-  position: relative;
-  color: #a639ed!important;
-}
-:is(a[data-ref^="错误"],.page-title-sizer-wrapper span[data-ref^="错误"]):hover{
-  position: relative;
-    color: #a639ed!important;
-}
-:is(a[data-ref^="错误"].tag) {
-/*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 1px dashed #a639ed;
-}
-:is(a[data-ref^="错误"],.page-title-sizer-wrapper span[data-ref^="错误"])::before{
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfhcRsDVSx5P0U1wQQ/root/content");
-  background-size: 100%;
-  width: var(--page_picture_Width);
-  height: var(--page_picture_Height);
-  position: relative;
-  top: var(--page_picture_Top);
-  left: var(--page_picture_Left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-  margin-right: var(--page_picture_marginRight);
-}
-:is([data-ref^="错误"]) > a > span.page-icon {
-  text-indent:-9999px;
-}
-:is([data-ref^="错误"])>a>span.page-icon {
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfhcRsDVSx5P0U1wQQ/root/content");
-  background-size: 100%;
-  width: var(--Lefticon_picture_Width);
-  height: var(--Lefticon_picture_Height);
-  position: relative;
-  top: var(--Lefticon_picture_top);
-  left: var(--Lefticon_picture_left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-}
-/*自定义标签 错误*/
+
 
 /*自定义标签 日志 日记 每日总结*/
 :is(a[data-ref="日志"],.page-title-sizer-wrapper span[data-ref="日志"],a[data-ref="日记"],.page-title-sizer-wrapper span[data-ref="日记"],a[data-ref="每日总结"],.page-title-sizer-wrapper span[data-ref="每日总结"]){
