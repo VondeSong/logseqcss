@@ -3478,46 +3478,6 @@ a[data-ref="card"] {
 
 
 
-
-/*自定义标签 正反馈*/
-:is(a[data-ref="正反馈"],.page-title-sizer-wrapper span[data-ref="正反馈"]){
-  color: inherit!important;
-}
-:is(a[data-ref="正反馈"],.page-title-sizer-wrapper span[data-ref="正反馈"]):hover{
-    color: inherit!important;
-}
-:is(a[data-ref="正反馈"],.page-title-sizer-wrapper span[data-ref="正反馈"])::before{
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpNmhB4mA2Au_ekGVQ/root/content");
-  background-size: 100%;
-  width: var(--page_picture_Width);
-  height: var(--page_picture_Height);
-  position: relative;
-  top: var(--page_picture_Top);
-  left: var(--page_picture_Left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-  margin-right: var(--page_picture_marginRight);
-}
-:is([data-ref="正反馈"]) > a > span.page-icon {
-  text-indent:-9999px;
-}
-:is([data-ref="正反馈"])>a>span.page-icon {
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpNmhB4mA2Au_ekGVQ/root/content");
-  background-size: 100%;
-  width: var(--Lefticon_picture_Width);
-  height: var(--Lefticon_picture_Height);
-  position: relative;
-  top: var(--Lefticon_picture_top);
-  left: var(--Lefticon_picture_left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-}
-/*自定义标签 正反馈*/
-/
 /*自定义标签 王者荣耀*/
 :is(a[data-ref="王者荣耀"],.page-title-sizer-wrapper span[data-ref="王者荣耀"]){
   color: inherit!important;
