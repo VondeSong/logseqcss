@@ -51,6 +51,102 @@
   /*自定义图标*/
   --customIcon_bottom_BackgroundColor : red;
 }
+/*自定义标签 重要事件*/
+:root{
+  --31214543imageurl:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFvklEQVR4nO1ZbWwURRje1MYo/lKBmbleW5DvFhUtCtR2plct0EJBUBGktWgDpS0f1vjRNsCBGqBQ2t3aQKpINVBadiVR/lg/+YGKIQpRJBp+NBGNBCj8kKgtsX3Nu73b27veXXfvzismfZM32czezTzPvO/MvPOsJI3YiI1YTGx0Ep9EKa+gjLcSJk4RKn4hVPxJqOglVFyjTPxAGNcIE9WE5MySJClBulnM4RAzEChlAqw6oeICpXz73cmZjuHGL1HKl9oB70+E91Ammp3O2XcNIwWRSJh4gzDxHmPiBUqzOWOPpDCWMSotLe1WxsRoSsVMSrNLMMUoE5eCELlCCF8m/T9MJI518EWE8hNBotKM72M6HM4kIdmVjGXPjWnHkiQRBy+kTHT5kaDimNM5+/aYDIApQCn/zNN5PyGudCv/A3XPRNCUSlDlw6DKp0FTroIm39Bdlbv1NlV/V9G56dX7KRUdgSRiEglPzoIVAnDcnQiqshI05WvQFLDjfUfkr5ZkLf3AnwR/MzrwVBT7LTQmqkOCV5X5oCrn7QKHAN+8vLQ7IBJPRgg+a4znAPLOxoGgwI+1jAJN2R8tcPB4vyrDmgUrzZN2OSUl607bBAgTLaZZOE9I3h2DwB/dOxZU5btgQLr2bYeHpxfojs92SPxxsB5mpuebU6nJFvikJOH0O1kpLwgKXlN+DgVCXl1hAMBnu5HodFebCfTYOrEpFTt9eciPB02bEDPv9d3PrzUA4HMk6VSYudToIzXJVWcVfwKh/DcjB4lYOIiAhZyPBYFOUxSmTsi7bqkAHOvgc0yzfzFwLwZNmWtl8FgQuNHRCOmT5ppSsXzj0AQYrzUt3v1B9vnz8SIAmgIbHn/W6Kdu1ZrLoKq3hCVAmDjqI5Bd4j/7cpHVgWNFoP2lF41+Vhc8A6DKy8MSoIz/6P0DY64MPwKqfDLeBE7Xu41+XBmLkMCX4SNAuXESYhkcUNtAvAlcOVBn9JM2MQ8J9IPaND4MAd/+j4WcL32UyuEg0NveaPSTkuwaaFebyuwTwMpxGAj81bbH6Gd86qOedvmQ/RTSlDN2Bo72JAaP//72TqOfB6bN97Z/G5IAZfysaRudaYpAt52Bo6mFwORn6rcaBHJxEQ9E4HLoCDD+vukUXmWKQG+kIKLx1g0bDQIVhcWeNSD3hCEgaoKV0MNFYN2iYoPAW+vWWyBAcmaZLhSXvKWE3RSKhfe0N8Dkex4zCHzfsG3oFBoo5sQF759QPYhkEX+6tQZmTJ2nL7zPt9VEROBY7SsG+Mz7FpjfhV7EaKiYmfQa/eQDTWmzMzgC9/bxoG/3sOX5s5cYfTSUlvveqcrBsAScztwkj2I2QMLBC1E9iCeBj7ZU++3/l96pMxEIc5AZUWCi2bQWulD60I9xiwAwbZAEgv/itVrbBMoXFhkEXi9abQIv90N747ghCaBWiXKf6Uzo6FPtyyWR+oc1L0Oy0wVz7i2Aa+/uNr87IVk11CrNEgfqNvEiAJ4y4p8jcmC7Pf00IJV03Qalj3gSAcPlc0NeaAabSESZz0wCdRuUPuJOQG3KlSIxFFoDSTyUnq9fuqMF9Ym7BpblPAWblpdCX9jIynsjAu8XiYB0QkfpA7c8vIBbBY2//dhdDYuznvDr6+SOzSFmXvkGWltvk2JhqFUG+0CB6sH6xcX6HRYryO7WXTrQvw83wMX9dXC2cRscqqqCqiUlMH3yvMBvAoBtePsaDF7+CdrqjbI+JoZaJcp9lHJb38WCeUqyCzavKIWr/lulb+ZVZYz0XxnKfanJrropE/Ku2wWekZYPO0rK4NeWHSFzPmZpY8ES6p9bW4m6DUofePGYNjFPP4jGpeTqRR0qCrh77StfB6d2bQmzYOVzEe820Rru0aA1rUDpw07ZAQO/PQFq49Pgdt8c349R+sCiCy/guhA8cJ/o9fgVLIlBf9dUZqm2GTHp5rR/AVH7EL9SuCEtAAAAAElFTkSuQmCC");
+}
+:is(a[data-ref$="重要事件"],.page-title-sizer-wrapper span[data-ref$="重要事件"]){
+ color: inherit!important;
+}
+:is(a[data-ref$="重要事件"],.page-title-sizer-wrapper span[data-ref$="重要事件"]):hover{
+   color: inherit!important;
+}
+:is(a[data-ref$="重要事件"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+ border: 1px solid inherit;
+}
+:is(a[data-ref$="重要事件"],.page-title-sizer-wrapper span[data-ref$="重要事件"])::before{
+ content: "";
+ background-image: var(--31214543imageurl);
+ background-size: 100%;
+ width: var(--page_picture_Width);
+ height: var(--page_picture_Height);
+ position: relative;
+ top: var(--page_picture_Top);
+ left: var(--page_picture_Left);
+ z-index: 0;
+ display: inline-block;
+ overflow:auto;
+ margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref$="重要事件"])::before{
+ top: var(--page_title_topicon) !important;
+}
+:is([data-ref$="重要事件"]) > a > span.page-icon {
+ text-indent:-9999px;
+}
+:is([data-ref$="重要事件"])>a>span.page-icon {
+ content: "";
+ background-image: var(--31214543imageurl);
+ background-size: 100%;
+ width: var(--Lefticon_picture_Width);
+ height: var(--Lefticon_picture_Height);
+ position: relative;
+ top: var(--Lefticon_picture_top);
+ left: var(--Lefticon_picture_left);
+ z-index: 0;
+ display: inline-block;
+ overflow:auto;
+}
+/*自定义标签 重要事件*/
+/*自定义标签 人生节点*/
+:root{
+  --31215306imageurl:url("data:image/svg+xml,%3Csvg%20t%3D%221668613883687%22%20class%3D%22icon%22%20viewBox%3D%220%200%201024%201024%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20p-id%3D%223650%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Cpath%20d%3D%22M640%20960v-256h128v-192H256v192h128v256H64v-256h128v-256h288v-128h-160V64h384v256h-160v128h288v256h128v256H640z%22%20fill%3D%22%230590DF%22%20p-id%3D%223651%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+}
+:is(a[data-ref$="人生节点"],.page-title-sizer-wrapper span[data-ref$="人生节点"]){
+ color: inherit!important;
+}
+:is(a[data-ref$="人生节点"],.page-title-sizer-wrapper span[data-ref$="人生节点"]):hover{
+   color: inherit!important;
+}
+:is(a[data-ref$="人生节点"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+ border: 1px solid inherit;
+}
+:is(a[data-ref$="人生节点"],.page-title-sizer-wrapper span[data-ref$="人生节点"])::before{
+ content: "";
+ background-image: var(--31215306imageurl);
+ background-size: 100%;
+ width: var(--page_picture_Width);
+ height: var(--page_picture_Height);
+ position: relative;
+ top: var(--page_picture_Top);
+ left: var(--page_picture_Left);
+ z-index: 0;
+ display: inline-block;
+ overflow:auto;
+ margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref$="人生节点"])::before{
+ top: var(--page_title_topicon) !important;
+}
+:is([data-ref$="人生节点"]) > a > span.page-icon {
+ text-indent:-9999px;
+}
+:is([data-ref$="人生节点"])>a>span.page-icon {
+ content: "";
+ background-image: var(--31215306imageurl);
+ background-size: 100%;
+ width: var(--Lefticon_picture_Width);
+ height: var(--Lefticon_picture_Height);
+ position: relative;
+ top: var(--Lefticon_picture_top);
+ left: var(--Lefticon_picture_left);
+ z-index: 0;
+ display: inline-block;
+ overflow:auto;
+}
+/*自定义标签 人生节点*/
 /*自定义标签 规划#计划*/
 :root{
    --30232718imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVVpuQH0rSxwIOU8A/root/content");
