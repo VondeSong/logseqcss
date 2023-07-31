@@ -7869,17 +7869,22 @@ a[data-ref="大童"]:hover {
 }
 /*自定义标签 inbox box 收集箱 Inbox Box*/
 /*自定义标签 我真棒*/
-:is(a[data-ref="我真棒"],.page-title-sizer-wrapper span[data-ref="我真棒"]){
-  position: relative;
+:root{
+   --31220449imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoPd1uIvQs3qEVRbw/root/content");
+}
+:is(a[data-ref$="我真棒"],.page-title-sizer-wrapper span[data-ref$="我真棒"]){
   color: inherit!important;
 }
-:is(a[data-ref="我真棒"],.page-title-sizer-wrapper span[data-ref="我真棒"]):hover{
-  position: relative;
+:is(a[data-ref$="我真棒"],.page-title-sizer-wrapper span[data-ref$="我真棒"]):hover{
     color: inherit!important;
 }
-:is(a[data-ref="我真棒"],.page-title-sizer-wrapper span[data-ref="我真棒"])::before{
+:is(a[data-ref$="我真棒"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref$="我真棒"],.page-title-sizer-wrapper span[data-ref$="我真棒"])::before{
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoPd1uIvQs3qEVRbw/root/content");
+  background-image: var(--31220449imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -7891,12 +7896,15 @@ a[data-ref="大童"]:hover {
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is([data-ref="我真棒"]) > a > span.page-icon {
+:is(.page-title-sizer-wrapper span[data-ref$="我真棒"])::before{
+  top: var(--page_title_topicon) !important;
+}
+:is([data-ref$="我真棒"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref="我真棒"])>a>span.page-icon {
+:is([data-ref$="我真棒"])>a>span.page-icon {
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoPd1uIvQs3qEVRbw/root/content");
+  background-image: var(--31220449imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -7909,17 +7917,22 @@ a[data-ref="大童"]:hover {
 }
 /*自定义标签 我真棒*/
 /*自定义标签 自我对话*/
-:is(a[data-ref^="自我对话"],.page-title-sizer-wrapper span[data-ref^="自我对话"]){
-  position: relative;
+:root{
+   --31220424imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoQDvRlNvRQo3GrFw/root/content");
+}
+:is(a[data-ref$="自我对话"],.page-title-sizer-wrapper span[data-ref$="自我对话"]){
   color: inherit!important;
 }
-:is(a[data-ref^="自我对话"],.page-title-sizer-wrapper span[data-ref^="自我对话"]):hover{
-  position: relative;
+:is(a[data-ref$="自我对话"],.page-title-sizer-wrapper span[data-ref$="自我对话"]):hover{
     color: inherit!important;
 }
-:is(a[data-ref^="自我对话"],.page-title-sizer-wrapper span[data-ref^="自我对话"])::before{
+:is(a[data-ref$="自我对话"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref$="自我对话"],.page-title-sizer-wrapper span[data-ref$="自我对话"])::before{
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoQDvRlNvRQo3GrFw/root/content");
+  background-image: var(--31220424imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -7931,12 +7944,15 @@ a[data-ref="大童"]:hover {
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is([data-ref^="自我对话"]) > a > span.page-icon {
+:is(.page-title-sizer-wrapper span[data-ref$="自我对话"])::before{
+  top: var(--page_title_topicon) !important;
+}
+:is([data-ref$="自我对话"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref^="自我对话"])>a>span.page-icon {
+:is([data-ref$="自我对话"])>a>span.page-icon {
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoQDvRlNvRQo3GrFw/root/content");
+  background-image: var(--31220424imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -7949,17 +7965,22 @@ a[data-ref="大童"]:hover {
 }
 /*自定义标签 自我对话*/
 /*自定义标签 高光时刻*/
-:is(a[data-ref^="高光时刻"],.page-title-sizer-wrapper span[data-ref^="高光时刻"]){
-  position: relative;
+:root{
+   --31220403imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoRxMz7byTrtZ9zkQ/root/content");
+}
+:is(a[data-ref$="高光时刻"],.page-title-sizer-wrapper span[data-ref$="高光时刻"]){
   color: inherit!important;
 }
-:is(a[data-ref^="高光时刻"],.page-title-sizer-wrapper span[data-ref^="高光时刻"]):hover{
-  position: relative;
+:is(a[data-ref$="高光时刻"],.page-title-sizer-wrapper span[data-ref$="高光时刻"]):hover{
     color: inherit!important;
 }
-:is(a[data-ref^="高光时刻"],.page-title-sizer-wrapper span[data-ref^="高光时刻"])::before{
+:is(a[data-ref$="高光时刻"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref$="高光时刻"],.page-title-sizer-wrapper span[data-ref$="高光时刻"])::before{
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoRxMz7byTrtZ9zkQ/root/content");
+  background-image: var(--31220403imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -7971,12 +7992,15 @@ a[data-ref="大童"]:hover {
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is([data-ref^="高光时刻"]) > a > span.page-icon {
+:is(.page-title-sizer-wrapper span[data-ref$="高光时刻"])::before{
+  top: var(--page_title_topicon) !important;
+}
+:is([data-ref$="高光时刻"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref^="高光时刻"])>a>span.page-icon {
+:is([data-ref$="高光时刻"])>a>span.page-icon {
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoRxMz7byTrtZ9zkQ/root/content");
+  background-image: var(--31220403imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -7989,17 +8013,22 @@ a[data-ref="大童"]:hover {
 }
 /*自定义标签 高光时刻*/
 /*自定义标签 至暗时刻*/
-:is(a[data-ref="至暗时刻"],.page-title-sizer-wrapper span[data-ref="至暗时刻"]){
-  position: relative;
+:root{
+   --31220334imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoSO2ZIUY-BuIIZIQ/root/content");
+}
+:is(a[data-ref$="至暗时刻"],.page-title-sizer-wrapper span[data-ref$="至暗时刻"]){
   color: inherit!important;
 }
-:is(a[data-ref="至暗时刻"],.page-title-sizer-wrapper span[data-ref="至暗时刻"]):hover{
-  position: relative;
+:is(a[data-ref$="至暗时刻"],.page-title-sizer-wrapper span[data-ref$="至暗时刻"]):hover{
     color: inherit!important;
 }
-:is(a[data-ref="至暗时刻"],.page-title-sizer-wrapper span[data-ref="至暗时刻"])::before{
+:is(a[data-ref$="至暗时刻"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref$="至暗时刻"],.page-title-sizer-wrapper span[data-ref$="至暗时刻"])::before{
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoSO2ZIUY-BuIIZIQ/root/content");
+  background-image: var(--31220334imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -8011,12 +8040,15 @@ a[data-ref="大童"]:hover {
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is([data-ref="至暗时刻"]) > a > span.page-icon {
+:is(.page-title-sizer-wrapper span[data-ref$="至暗时刻"])::before{
+  top: var(--page_title_topicon) !important;
+}
+:is([data-ref$="至暗时刻"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref="至暗时刻"])>a>span.page-icon {
+:is([data-ref$="至暗时刻"])>a>span.page-icon {
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoSO2ZIUY-BuIIZIQ/root/content");
+  background-image: var(--31220334imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -8028,18 +8060,23 @@ a[data-ref="大童"]:hover {
   overflow:auto;
 }
 /*自定义标签 至暗时刻*/
-/*自定义标签 经验集*/
-:is(a[data-ref="经验集"],.page-title-sizer-wrapper span[data-ref="经验集"]){
-  position: relative;
+/*自定义标签 经验*/
+:root{
+   --31220243imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoTPcerTUSC5sYAgw/root/content");
+}
+:is(a[data-ref^="经验"],.page-title-sizer-wrapper span[data-ref^="经验"]){
   color: inherit!important;
 }
-:is(a[data-ref="经验集"],.page-title-sizer-wrapper span[data-ref="经验集"]):hover{
-  position: relative;
+:is(a[data-ref^="经验"],.page-title-sizer-wrapper span[data-ref^="经验"]):hover{
     color: inherit!important;
 }
-:is(a[data-ref="经验集"],.page-title-sizer-wrapper span[data-ref="经验集"])::before{
+:is(a[data-ref^="经验"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref^="经验"],.page-title-sizer-wrapper span[data-ref^="经验"])::before{
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoTPcerTUSC5sYAgw/root/content");
+  background-image: var(--31220243imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -8051,12 +8088,15 @@ a[data-ref="大童"]:hover {
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is([data-ref="经验集"]) > a > span.page-icon {
+:is(.page-title-sizer-wrapper span[data-ref^="经验"])::before{
+  top: var(--page_title_topicon) !important;
+}
+:is([data-ref^="经验"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref="经验集"])>a>span.page-icon {
+:is([data-ref^="经验"])>a>span.page-icon {
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoTPcerTUSC5sYAgw/root/content");
+  background-image: var(--31220243imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -8067,7 +8107,7 @@ a[data-ref="大童"]:hover {
   display: inline-block;
   overflow:auto;
 }
-/*自定义标签 经验集*/
+/*自定义标签 经验*/
 
 /*自定义标签 下载*/
 :is(a[data-ref="下载"],.page-title-sizer-wrapper span[data-ref="下载"]){
