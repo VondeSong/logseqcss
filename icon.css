@@ -6630,17 +6630,22 @@ a[data-ref="大童"]:hover {
 }
 /*自定义标签 管理系统*/
 /*自定义标签 人生节点*/
-:is(a[data-ref^="人生节点"],.page-title-sizer-wrapper span[data-ref^="人生节点"]){
-  position: relative;
+:root{
+   --31211446imageurl:url("data:image/svg+xml,data%3Aimage%2Fsvg%2Bxml%2C%253Csvg%2520t%253D%25221668613883687%2522%2520class%253D%2522icon%2522%2520viewBox%253D%25220%25200%25201024%25201024%2522%2520version%253D%25221.1%2522%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520p-id%253D%25223650%2522%2520width%253D%2522200%2522%2520height%253D%2522200%2522%253E%253Cpath%2520d%253D%2522M640%2520960v-256h128v-192H256v192h128v256H64v-256h128v-256h288v-128h-160V64h384v256h-160v128h288v256h128v256H640z%2522%2520fill%253D%2522%25230590DF%2522%2520p-id%253D%25223651%2522%253E%253C%252Fpath%253E%253C%252Fsvg%253E");
+}
+:is(a[data-ref$="人生节点"],.page-title-sizer-wrapper span[data-ref$="人生节点"]){
   color: inherit!important;
 }
-:is(a[data-ref^="人生节点"],.page-title-sizer-wrapper span[data-ref^="人生节点"]):hover{
-  position: relative;
+:is(a[data-ref$="人生节点"],.page-title-sizer-wrapper span[data-ref$="人生节点"]):hover{
     color: inherit!important;
 }
-:is(a[data-ref^="人生节点"],.page-title-sizer-wrapper span[data-ref^="人生节点"])::before{
+:is(a[data-ref$="人生节点"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref$="人生节点"],.page-title-sizer-wrapper span[data-ref$="人生节点"])::before{
   content: "";
-  background-image: url("data:image/svg+xml,%3Csvg%20t%3D%221668613883687%22%20class%3D%22icon%22%20viewBox%3D%220%200%201024%201024%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20p-id%3D%223650%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Cpath%20d%3D%22M640%20960v-256h128v-192H256v192h128v256H64v-256h128v-256h288v-128h-160V64h384v256h-160v128h288v256h128v256H640z%22%20fill%3D%22%230590DF%22%20p-id%3D%223651%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+  background-image: var(--31211446imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -6652,12 +6657,15 @@ a[data-ref="大童"]:hover {
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is([data-ref^="人生节点"]) > a > span.page-icon {
+:is(.page-title-sizer-wrapper span[data-ref$="人生节点"])::before{
+  top: var(--page_title_topicon) !important;
+}
+:is([data-ref$="人生节点"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref^="人生节点"])>a>span.page-icon {
+:is([data-ref$="人生节点"])>a>span.page-icon {
   content: "";
-  background-image: url("data:image/svg+xml,%3Csvg%20t%3D%221668613883687%22%20class%3D%22icon%22%20viewBox%3D%220%200%201024%201024%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20p-id%3D%223650%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Cpath%20d%3D%22M640%20960v-256h128v-192H256v192h128v256H64v-256h128v-256h288v-128h-160V64h384v256h-160v128h288v256h128v256H640z%22%20fill%3D%22%230590DF%22%20p-id%3D%223651%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
+  background-image: var(--31211446imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -6720,7 +6728,7 @@ a[data-ref="大童"]:hover {
 }
 :is(a[data-ref="节日"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 1px solid #959592;
+  border: 1px solid inherit;
 }
 :is(a[data-ref="节日"],.page-title-sizer-wrapper span[data-ref="节日"])::before{
   content: "";
