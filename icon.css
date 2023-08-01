@@ -51,6 +51,54 @@
   /*自定义图标*/
   --customIcon_bottom_BackgroundColor : red;
 }
+/*自定义标签 宋维骏#宋岳#岳岳#大骏#小火车*/
+:root{
+   --01231139imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0vQqYjSjbwSYDu1A/root/content");
+}
+:is(a[data-ref$="宋维骏"],.page-title-sizer-wrapper span[data-ref$="宋维骏"],a[data-ref$="宋岳"],.page-title-sizer-wrapper span[data-ref$="宋岳"],a[data-ref$="岳岳"],.page-title-sizer-wrapper span[data-ref$="岳岳"],a[data-ref$="大骏"],.page-title-sizer-wrapper span[data-ref$="大骏"],a[data-ref$="小火车"],.page-title-sizer-wrapper span[data-ref$="小火车"]){
+  color: inherit!important;
+}
+:is(a[data-ref$="宋维骏"],.page-title-sizer-wrapper span[data-ref$="宋维骏"],a[data-ref$="宋岳"],.page-title-sizer-wrapper span[data-ref$="宋岳"],a[data-ref$="岳岳"],.page-title-sizer-wrapper span[data-ref$="岳岳"],a[data-ref$="大骏"],.page-title-sizer-wrapper span[data-ref$="大骏"],a[data-ref$="小火车"],.page-title-sizer-wrapper span[data-ref$="小火车"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref$="宋维骏"].tag,a[data-ref$="宋岳"].tag,a[data-ref$="岳岳"].tag,a[data-ref$="大骏"].tag,a[data-ref$="小火车"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref$="宋维骏"],.page-title-sizer-wrapper span[data-ref$="宋维骏"],a[data-ref$="宋岳"],.page-title-sizer-wrapper span[data-ref$="宋岳"],a[data-ref$="岳岳"],.page-title-sizer-wrapper span[data-ref$="岳岳"],a[data-ref$="大骏"],.page-title-sizer-wrapper span[data-ref$="大骏"],a[data-ref$="小火车"],.page-title-sizer-wrapper span[data-ref$="小火车"])::before{
+  content: "";
+  background-image: var(--01231139imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref$="宋维骏"],.page-title-sizer-wrapper span[data-ref$="宋岳"],.page-title-sizer-wrapper span[data-ref$="岳岳"],.page-title-sizer-wrapper span[data-ref$="大骏"],.page-title-sizer-wrapper span[data-ref$="小火车"])::before{
+  top: var(--page_title_topicon) !important;
+}
+:is([data-ref$="宋维骏"],[data-ref$="宋岳"],[data-ref$="岳岳"],[data-ref$="大骏"],[data-ref$="小火车"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref$="宋维骏"],[data-ref$="宋岳"],[data-ref$="岳岳"],[data-ref$="大骏"],[data-ref$="小火车"])>a>span.page-icon {
+  content: "";
+  background-image: var(--01231139imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 宋维骏#宋岳#岳岳#大骏#小火车*/
 /*自定义标签 决策*/
 :root{
    --01101011imageurl:url("data:image/png;base64,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");
