@@ -2702,46 +2702,7 @@
   overflow:auto;
 }
 /*自定义标签 城市 city City*/
-/*自定义标签 小火车*/
-:is(a[data-ref="小火车"],.page-title-sizer-wrapper span[data-ref="小火车"]){
-  position: relative;
-  color: inherit!important;
-}
-:is(a[data-ref="小火车"],.page-title-sizer-wrapper span[data-ref="小火车"]):hover{
-  position: relative;
-    color: inherit!important;
-}
-:is(a[data-ref="小火车"],.page-title-sizer-wrapper span[data-ref="小火车"])::before{
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhoRYDtOBJUI1WKtaRg/root/content");
-  background-size: 100%;
-  width: var(--page_picture_Width);
-  height: var(--page_picture_Height);
-  position: relative;
-  top: var(--page_picture_Top);
-  left: var(--page_picture_Left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-  margin-right: var(--page_picture_marginRight);
-}
-:is([data-ref="小火车"]) > a > span.page-icon {
-  text-indent:-9999px;
-}
-:is([data-ref="小火车"])>a>span.page-icon {
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhoRYDtOBJUI1WKtaRg/root/content");
-  background-size: 100%;
-  width: var(--Lefticon_picture_Width);
-  height: var(--Lefticon_picture_Height);
-  position: relative;
-  top: var(--Lefticon_picture_top);
-  left: var(--Lefticon_picture_left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-}
-/*自定义标签 小火车*/
+
 /*自定义标签 2023/01 2023/01*/
 :is(a[data-ref="2023/01"],.page-title-sizer-wrapper span[data-ref="2023/01"],a[data-ref="2023/01"],.page-title-sizer-wrapper span[data-ref="2023/01"]){
   position: relative;
