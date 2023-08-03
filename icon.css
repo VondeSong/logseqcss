@@ -51,6 +51,37 @@
   /*自定义图标*/
   --customIcon_bottom_BackgroundColor : red;
 }
+/*自定义标签 状态*/
+:is(a[data-ref$="状态"],.page-title-sizer-wrapper span[data-ref$="状态"]){
+  color: #217DBA!important;
+}
+:is(a[data-ref$="状态"],.page-title-sizer-wrapper span[data-ref$="状态"]):hover{
+    color: #217DBA!important;
+}
+:is(a[data-ref$="状态"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref$="状态"],.page-title-sizer-wrapper span[data-ref$="状态"])::before{
+  content: "\EF7C";
+  font-size: var(--Icon_size_inPage);
+  font-family: var(--Font_icon_name);
+  color: #217DBA;
+  margin-right: var(--fonticon_Mr);
+}
+:is([data-ref$="状态"]) > a > span.page-icon {
+  text-indent:-9999px;
+   position: relative;
+  margin-right:var(--pageIconML) !important;
+}
+:is([data-ref$="状态"])>a::before {
+  font-family: var(--Font_icon_name);
+  font-size: var(--Sidebar_icon_size);
+  color: #217DBA;;
+  content: "\EF7C";
+  margin-right: var(--fontmarginright) !important;
+}
+/*自定义标签 状态*/
 /*自定义标签 宋维骏#宋岳#岳岳#大骏#小火车*/
 :root{
    --01231139imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0vQqYjSjbwSYDu1A/root/content");
