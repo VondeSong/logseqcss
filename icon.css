@@ -1938,7 +1938,7 @@
 }
 :is(a[data-ref^="行动"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 2px solid  #4da24d;
+  border: 1px solid  #4da24d;
 }
 :is(a[data-ref^="行动"],.page-title-sizer-wrapper span[data-ref^="行动"])::before{
   content: "";
