@@ -52,6 +52,9 @@
   --customIcon_bottom_BackgroundColor : red;
 }
 /*自定义标签 chatgpt*/
+:root{
+   --08234107imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp1MPkIgpVrmSguPrw/root/content");
+}
 :is(a[data-ref="chatgpt"],.page-title-sizer-wrapper span[data-ref="chatgpt"]){
   color: inherit!important;
 }
@@ -63,17 +66,37 @@
   border: 1px solid inherit;
 }
 :is(a[data-ref="chatgpt"],.page-title-sizer-wrapper span[data-ref="chatgpt"])::before{
-  content: "https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp1Ls6bPnDWAR7jdJQ/root/content";
-  font-size: var(--emoji_size);
-  margin-right: var(--emoji_marginRight);
+  content: "";
+  background-image: var(--08234107imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref="chatgpt"])::before{
+  top: var(--page_title_topicon) !important;
 }
 :is([data-ref="chatgpt"]) > a > span.page-icon {
   text-indent:-9999px;
-  position: relative;
-  margin-right:var(--emoji_leftsider_marginRight) !important;
 }
-:is([data-ref="chatgpt"])>a::before {
-  content: "https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp1Ls6bPnDWAR7jdJQ/root/content";
+:is([data-ref="chatgpt"])>a>span.page-icon {
+  content: "";
+  background-image: var(--08234107imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
 }
 /*自定义标签 chatgpt*/
 /*自定义标签 chatgptlink*/
