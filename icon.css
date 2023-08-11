@@ -4401,7 +4401,54 @@ a[data-ref="实力商家"]:hover {
   overflow:auto;
 }
 /*自定义标签 Claude claude claude Claude*/
-
+/*自定义标签 claudelink*/
+:root{
+   --11183043imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp1Slo-Zm_CVRDxw6Q/root/content");
+}
+:is(a[data-ref="claudelink"],.page-title-sizer-wrapper span[data-ref="claudelink"]){
+  color: inherit!important;
+}
+:is(a[data-ref="claudelink"],.page-title-sizer-wrapper span[data-ref="claudelink"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref="claudelink"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref="claudelink"],.page-title-sizer-wrapper span[data-ref="claudelink"])::before{
+  content: "";
+  background-image: var(--11183043imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref="claudelink"])::before{
+  top: var(--page_title_topicon) !important;
+}
+:is([data-ref="claudelink"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="claudelink"])>a>span.page-icon {
+  content: "";
+  background-image: var(--11183043imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 claudelink*/
 /*新增 文件图标*/
 a[data-href$=".xlsx"]{
   color: #107c42 !important;
