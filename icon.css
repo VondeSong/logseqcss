@@ -22,14 +22,14 @@
   --page_picture_Height:1em;
   --page_picture_Left:0px;
   --page_picture_Top:0.12em;
-  --page_picture_marginRight:0.75rem;
+  --page_picture_marginRight:0.25rem;
   /*页面标题右间距*/
   --page_title_margin_right: .6rem;
   --Lefticon_picture_Width:1.25em;
   --Lefticon_picture_Height:1.25em;
   --Lefticon_picture_left:-.6rem;
   --Lefticon_picture_top:0px;
-}
+
 /*自定义标签 宋得洋*/
 :root{
    --18142158imageurl:url("https://files.getquicker.net/_icons/EEC9F5F274A89184EA7D5B222D267FE58CDB0719.png");
