@@ -30,31 +30,7 @@
   --Lefticon_picture_left:-.6rem;
   --Lefticon_picture_top:0px;
 }
-/*自定义标签 宋得洋*/
-:is(a[data-ref="宋得洋"],.page-title-sizer-wrapper span[data-ref="宋得洋"]){
-  color: inherit!important;
-}
-:is(a[data-ref="宋得洋"],.page-title-sizer-wrapper span[data-ref="宋得洋"]):hover{
-    color: inherit!important;
-}
-:is(a[data-ref="宋得洋"].tag) {
-/*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 1px solid inherit;
-}
-:is(a[data-ref="宋得洋"],.page-title-sizer-wrapper span[data-ref="宋得洋"])::before{
-  content: "🎩";
-  font-size: var(--emoji_size);
-  margin-right: var(--emoji_marginRight);
-}
-:is([data-ref="宋得洋"]) > a > span.page-icon {
-  text-indent:-9999px;
-  position: relative;
-  margin-right:var(--emoji_leftsider_marginRight) !important;
-}
-:is([data-ref="宋得洋"])>a::before {
-  content: "🎩";
-}
-/*自定义标签 宋得洋*/
+
 /*自定义标签 任务管理*/
 :root{
    --14143136imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhf1AqxezM3xMT61S9Q/root/content");
