@@ -9,47 +9,26 @@
   --iconColor_Color: #217DBA;
   --Sidebar_icon_size: 1.25em;
   --Font_icon_name : 'tabler-icons';
-  --pageIconML: -18px;
+  --pageIconML: -1.1rem;
   --Icon_size_inPage:1em;
-  /*图片*/
-  --page_picture_Width:1em;
-  --page_picture_Height:1em;
-  --page_picture_Left:0px;
-  --page_picture_Top:0.12em;
-  --page_picture_marginRight:2px;
-  --Lefticon_picture_Width:1.25em;
-  --Lefticon_picture_Height:1.25em;
-  --Lefticon_picture_left:0px;
-  --Lefticon_picture_top:0px;
   /*emoji*/
   --emoji_size : 1em;
   --emoji_marginRight: 2px;
   --emoji_leftsider_marginRight:-20px;
   /*自定义图标*/
   --customIcon_bottom_BackgroundColor : red;
-   /*字体图标 fonticon*/
-  --fonticon_Mr: 2px;
-  --iconColor_Color: #217DBA;
-  --Sidebar_icon_size: 1.25em;
-  --Font_icon_name : 'tabler-icons';
-  --pageIconML: -18px;
-  --Icon_size_inPage:1em;
   /*图片*/
   --page_picture_Width:1em;
   --page_picture_Height:1em;
   --page_picture_Left:0px;
   --page_picture_Top:0.12em;
-  --page_picture_marginRight:2px;
+  --page_picture_marginRight:0.12rem;
+  /*页面标题右间距*/
+  --page_title_margin_right: .6rem;
   --Lefticon_picture_Width:1.25em;
   --Lefticon_picture_Height:1.25em;
-  --Lefticon_picture_left:0px;
+  --Lefticon_picture_left:-.6rem;
   --Lefticon_picture_top:0px;
-  /*emoji*/
-  --emoji_size : 1em;
-  --emoji_marginRight: 2px;
-  --emoji_leftsider_marginRight:-20px;
-  /*自定义图标*/
-  --customIcon_bottom_BackgroundColor : red;
 }
 /*自定义标签 任务管理*/
 :root{
@@ -80,7 +59,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="任务管理"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="任务管理"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -128,7 +107,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref="chatgpt"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref="chatgpt"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -176,7 +155,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref^="chatgptlink"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref^="chatgptlink"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -255,7 +234,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="宋维骏"],.page-title-sizer-wrapper span[data-ref$="宋岳"],.page-title-sizer-wrapper span[data-ref$="岳岳"],.page-title-sizer-wrapper span[data-ref$="大骏"],.page-title-sizer-wrapper span[data-ref$="小火车"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="宋维骏"],[data-ref$="宋岳"],[data-ref$="岳岳"],[data-ref$="大骏"],[data-ref$="小火车"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -303,7 +282,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="决策"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);; margin-right: var(--page_title_margin_right);; margin-right: var(--page_title_margin_right);
 }
 :is([data-ref$="决策"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -351,7 +330,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="选择"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="选择"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -399,7 +378,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="正反馈"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="正反馈"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -447,7 +426,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="错误"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="错误"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -495,7 +474,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="经验"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="经验"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -543,7 +522,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="阶段汇总"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="阶段汇总"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -591,7 +570,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="主线"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="主线"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -639,7 +618,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="思考"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="思考"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -687,7 +666,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="负反馈"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="负反馈"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -735,7 +714,7 @@
  margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="重要事件"])::before{
- top: var(--page_title_topicon) !important;
+ top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="重要事件"]) > a > span.page-icon {
  text-indent:-9999px;
@@ -783,7 +762,7 @@
  margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="人生节点"])::before{
- top: var(--page_title_topicon) !important;
+ top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="人生节点"]) > a > span.page-icon {
  text-indent:-9999px;
@@ -831,7 +810,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref^="规划"],.page-title-sizer-wrapper span[data-ref^="计划"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref^="规划"],[data-ref^="计划"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -879,7 +858,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref^="认知"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref^="认知"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -927,7 +906,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref^="店铺"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref^="店铺"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -975,7 +954,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref^="选品"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref^="选品"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -1023,7 +1002,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref^="千川"],.page-title-sizer-wrapper span[data-ref^="巨量千川"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref^="千川"],[data-ref^="巨量千川"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -1071,7 +1050,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref^="优惠券"],.page-title-sizer-wrapper span[data-ref^="coupon"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref^="优惠券"],[data-ref^="coupon"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -1119,7 +1098,7 @@
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref^="客服"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref^="客服"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -4249,44 +4228,7 @@ a[data-ref="实力商家"]:hover {
   display: inline-block;
   overflow:auto;
 }
-/*自定义标签 MOMO momo*//*自定义标签 宋得洋*/
-:is(a[data-ref^="宋得洋"],.page-title-sizer-wrapper span[data-ref^="宋得洋"]){
-  position: relative;
-}
-:is(a[data-ref^="宋得洋"],.page-title-sizer-wrapper span[data-ref^="宋得洋"]):hover{
-  position: relative;
-}
-:is(a[data-ref^="宋得洋"],.page-title-sizer-wrapper span[data-ref^="宋得洋"])::before{
-  content: "";
-  background-image: url("https://files.getquicker.net/_icons/EEC9F5F274A89184EA7D5B222D267FE58CDB0719.png");
-  background-size: 100%;
-  width: 1em;
-  height: 1em;
-  position: relative;
-  top: var(--pageIconTop);
-  left: 0px;
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-  margin-right: 2px;
-}
-:is([data-ref^="宋得洋"]) > a > span.page-icon {
-  text-indent:-9999px;
-}
-:is([data-ref^="宋得洋"])>a>span.page-icon {
-  content: "";
-  background-image: url("https://files.getquicker.net/_icons/EEC9F5F274A89184EA7D5B222D267FE58CDB0719.png");
-  background-size: 100%;
-  width: 1em;
-  height: 1em;
-  position: relative;
-  top: 0;
-  left: 0px;
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-}
-/*自定义标签 宋得洋*/
+
 /*自定义标签 归档*/
 :is(a[data-ref^="归档"],.page-title-sizer-wrapper span[data-ref^="归档"]){
   position: relative;
@@ -4478,7 +4420,7 @@ a[data-ref="实力商家"]:hover {
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref="claudelink"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref="claudelink"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -6923,49 +6865,6 @@ a[data-ref="大童"]:hover {
   content: "🎨";
 }
 /*自定义标签 南京生活*/
-/*自定义标签 时间线 Timeline 生命轨迹 timeline*/
-:is(a[data-ref="时间线"],.page-title-sizer-wrapper span[data-ref="时间线"],a[data-ref="Timeline"],.page-title-sizer-wrapper span[data-ref="Timeline"],a[data-ref="生命轨迹"],.page-title-sizer-wrapper span[data-ref="生命轨迹"],a[data-ref="timeline"],.page-title-sizer-wrapper span[data-ref="timeline"]){
-  position: relative;
-  color: #2ea818!important;
-}
-:is(a[data-ref="时间线"],.page-title-sizer-wrapper span[data-ref="时间线"],a[data-ref="Timeline"],.page-title-sizer-wrapper span[data-ref="Timeline"],a[data-ref="生命轨迹"],.page-title-sizer-wrapper span[data-ref="生命轨迹"],a[data-ref="timeline"],.page-title-sizer-wrapper span[data-ref="timeline"]):hover{
-  position: relative;
-    color: #2ea818!important;
-}
-:is(a[data-ref="时间线"].tag,a[data-ref="Timeline"].tag,a[data-ref="生命轨迹"].tag,a[data-ref="timeline"].tag) {
-/*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 2px solid #2ea818;
-}
-:is(a[data-ref="时间线"],.page-title-sizer-wrapper span[data-ref="时间线"],a[data-ref="Timeline"],.page-title-sizer-wrapper span[data-ref="Timeline"],a[data-ref="生命轨迹"],.page-title-sizer-wrapper span[data-ref="生命轨迹"],a[data-ref="timeline"],.page-title-sizer-wrapper span[data-ref="timeline"])::before{
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjho9oMbmCwPJdzkuzmw/root/content");
-  background-size: 100%;
-  width: var(--page_picture_Width);
-  height: var(--page_picture_Height);
-  position: relative;
-  top: var(--page_picture_Top);
-  left: var(--page_picture_Left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-  margin-right: var(--page_picture_marginRight);
-}
-:is([data-ref="时间线"],[data-ref="Timeline"],[data-ref="生命轨迹"],[data-ref="timeline"]) > a > span.page-icon {
-  text-indent:-9999px;
-}
-:is([data-ref="时间线"],[data-ref="Timeline"],[data-ref="生命轨迹"],[data-ref="timeline"])>a>span.page-icon {
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjho9oMbmCwPJdzkuzmw/root/content");
-  background-size: 100%;
-  width: var(--Lefticon_picture_Width);
-  height: var(--Lefticon_picture_Height);
-  position: relative;
-  top: var(--Lefticon_picture_top);
-  left: var(--Lefticon_picture_left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-}
 
 /*自定义标签 检视*/
 :is(a[data-ref$="检视"],.page-title-sizer-wrapper span[data-ref$="检视"]){
@@ -7582,46 +7481,7 @@ a[data-ref="大童"]:hover {
 }
 /*自定义标签 知乎问题*/
 
-/*自定义标签 我的问题*/
-:is(a[data-ref="我的问题"],.page-title-sizer-wrapper span[data-ref="我的问题"]){
-  position: relative;
-  color: inherit!important;
-}
-:is(a[data-ref="我的问题"],.page-title-sizer-wrapper span[data-ref="我的问题"]):hover{
-  position: relative;
-    color: inherit!important;
-}
-:is(a[data-ref="我的问题"],.page-title-sizer-wrapper span[data-ref="我的问题"])::before{
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfhy5vXB4hvH1Dz74A/root/content");
-  background-size: 100%;
-  width: var(--page_picture_Width);
-  height: var(--page_picture_Height);
-  position: relative;
-  top: var(--page_picture_Top);
-  left: var(--page_picture_Left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-  margin-right: var(--page_picture_marginRight);
-}
-:is([data-ref="我的问题"]) > a > span.page-icon {
-  text-indent:-9999px;
-}
-:is([data-ref="我的问题"])>a>span.page-icon {
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfhy5vXB4hvH1Dz74A/root/content");
-  background-size: 100%;
-  width: var(--Lefticon_picture_Width);
-  height: var(--Lefticon_picture_Height);
-  position: relative;
-  top: var(--Lefticon_picture_top);
-  left: var(--Lefticon_picture_left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-}
-/*自定义标签 我的问题*/
+
 
 
 
@@ -8202,7 +8062,7 @@ a[data-ref="大童"]:hover {
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="我真棒"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="我真棒"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -8250,7 +8110,7 @@ a[data-ref="大童"]:hover {
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="自我对话"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="自我对话"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -8298,7 +8158,7 @@ a[data-ref="大童"]:hover {
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="高光时刻"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="高光时刻"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -8346,7 +8206,7 @@ a[data-ref="大童"]:hover {
   margin-right: var(--page_picture_marginRight);
 }
 :is(.page-title-sizer-wrapper span[data-ref$="至暗时刻"])::before{
-  top: var(--page_title_topicon) !important;
+  top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
 :is([data-ref$="至暗时刻"]) > a > span.page-icon {
   text-indent:-9999px;
@@ -8438,3 +8298,4 @@ a[data-ref="大童"]:hover {
   margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 戒色 js 手淫 色欲 好色 打飞机 Js masturbation Js js Masturbation*/
+
