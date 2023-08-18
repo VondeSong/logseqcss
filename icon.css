@@ -31,28 +31,52 @@
   --Lefticon_picture_top:0px;
 }
 /*自定义标签 宋得洋*/
-:is(a[data-ref="宋得洋"],.page-title-sizer-wrapper span[data-ref="宋得洋"]){
+:root{
+   --18142158imageurl:url("https://files.getquicker.net/_icons/EEC9F5F274A89184EA7D5B222D267FE58CDB0719.png");
+}
+:is(a[data-ref^="宋得洋"],.page-title-sizer-wrapper span[data-ref^="宋得洋"]){
   color: inherit!important;
 }
-:is(a[data-ref="宋得洋"],.page-title-sizer-wrapper span[data-ref="宋得洋"]):hover{
+:is(a[data-ref^="宋得洋"],.page-title-sizer-wrapper span[data-ref^="宋得洋"]):hover{
     color: inherit!important;
 }
-:is(a[data-ref="宋得洋"].tag) {
+:is(a[data-ref^="宋得洋"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref="宋得洋"],.page-title-sizer-wrapper span[data-ref="宋得洋"])::before{
-  content: "👔";
-  font-size: var(--emoji_size);
-  margin-right: var(--emoji_marginRight);
-}
-:is([data-ref="宋得洋"]) > a > span.page-icon {
-  text-indent:-9999px;
+:is(a[data-ref^="宋得洋"],.page-title-sizer-wrapper span[data-ref^="宋得洋"])::before{
+  content: "";
+  background-image: var(--18142158imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
   position: relative;
-  margin-right:var(--emoji_leftsider_marginRight) !important;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
 }
-:is([data-ref="宋得洋"])>a::before {
-  content: "👔";
+:is(.page-title-sizer-wrapper span[data-ref^="宋得洋"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref^="宋得洋"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="宋得洋"])>a>span.page-icon {
+  content: "";
+  background-image: var(--18142158imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
 }
 /*自定义标签 宋得洋*/
 /*自定义标签 任务管理*/
