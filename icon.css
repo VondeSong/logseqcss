@@ -30,6 +30,55 @@
   --Lefticon_picture_left:-.6rem;
   --Lefticon_picture_top:0px;
 }
+/*自定义标签 个人管理*/
+:root{
+   --18195032imageurl:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAE1ElEQVR4nO2cT2gcVRzHtznoyT9JzL7fm6QppYiwIN5am3beS9oiWnooCOJNsOgp6qHHgD2k6IrSUshFKTu52F1yFPQm9S9WEHrR2pmAStu0B6mpDdSSgisvmzbrzszum52d/Jqd7wcehM1veG+/3/dv3p8tFAAAAAAAAAAAbCm2CeEeEFLPC6kvCdJ/kVTnR0annuMuWN/jOFPPCKm/JqnrrUmQ+tNxDg5zl7FvkVK5gtRylPgPErmvcZezL3lqVD1NUt1qK75pBY56nbusfQmR/r6j+KSWhdhbNPHDwxOPEanDUk7uKxQKA9zl39JI6b7QQfx/hVQ/CTG5x8SPOO6EGQ82/q8ujI09P2STV6lUeoRIf0BSXyfSS0S6bD5rFy+kOtWYCLSvIFklk7cpQ7typoJIn42p8XeF1NODg4eeaAofIKl/i4ifs8yrHB5XdDkuXpA6zSV8hB6neyJ4hChBZIZST7fGOo67PSb2F6u8pL4efl7diIsXpG9yC9/UEm6m1TpGFLUSleGOHfrJ1tihod2PxxTwb6u8SC9F1KxrOTdA37Y1wPT1MQW83X0XpN7PdRckSF2OzFCqt1tji1K9E1O4XxMMwuX1ARiD8LoBn8SIeteYMD6+f9DUfCO++Swq9sjRmXteLbjg1fy3znwRPJpBPelfio4+lLZ5zsx+VvdqwVqqVIOL8wv+KPf32lKQ1F92K/5e940H4jebcAYtwR4h3J3/f7mySzt3Ha5/OPdtyABvzQQ/NI0F7VoBuSrJG6cR/8R7n0eK7zUM+AGCd7cod76T+BPum/WP5r6LFd8zqRqswIAuKTqTB4XUH5sNmcaLmloxfx85OrPaPOC2S5Wab/VyBhJQqQY/2ojvoQvKBjPPT2DANGp3jzFTSzPF7Cx+cHFh4edslm/7ESn3jQupZtfW/RnX3slyHX4z9wmy3g/YRqTeFaT+4RacEiyCcSzSZbEYN0CkznELTF0sA3MsU/d8OdrUfG5xKa8GjI0dGBWk73CLS3ntgoTUJ7mFpTwPwma2E5PZNyMjU7s6PR9X2J4VsN+J60NtxDfAgJSYsz5pajAMSElaAWFASpIKWKkubq/Ugjmv5v/hVYN7cc+HlyX8q/PVyy+lLW/fQVKvRgi4GhXrVRcnK1V/uVlYewMCY8KVzf+GDzlmthM1A4qs+S3iJzcgwOyolWJRPWuOBG6Ip26Yz0IGrHU7YUFhQA8wxwyFUK+YZP6OiqnUgt9hACNmwIUBjMT16d12QSXcD9hASPeYkOqrRnKPbYYBhPsB94VQx0MCkjqeuQES9wMatZ/UNZtz+hm0gCWbfPv+foDtm/DmdEEqf/cDuAwo4X4ArwFgHRjADAxgBgYwAwOYgQHMZDVXxizIEhjADAxgJos1FnNpD12QJVmssbz86iz2A2y5f7ayd+KfrJ/99BL2A3o9HU27BuRhP+AhM4CwH8BtQDn0fB73A7gMKGE/IKkB/tX0Bvg4mthtCzAHa5tNSG6Af8U7t/hiT5ttngxIGw86AAOYgQHMwABmYAAzMIAZGMAMDMiZASXcD+A1gHA/gNkAifsBvAYQ9gO4DSiHns/zfkDU6Yh2N0GSxreC/QCLGtbO6aTxoAPNvzxl88tQSeMBAAAAAAAAAABQyAH/AdHYZl8NobT0AAAAAElFTkSuQmCC");
+}
+:is(a[data-ref^="个人管理"],.page-title-sizer-wrapper span[data-ref^="个人管理"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="个人管理"],.page-title-sizer-wrapper span[data-ref^="个人管理"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="个人管理"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref^="个人管理"],.page-title-sizer-wrapper span[data-ref^="个人管理"])::before{
+  content: "";
+  background-image: var(--18195032imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref^="个人管理"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref^="个人管理"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="个人管理"])>a>span.page-icon {
+  content: "";
+  background-image: var(--18195032imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+/*自定义标签 个人管理*/
 /*自定义标签 我的问题*/
 :root{
    --18191707imageurl:url("data:image/png;base64,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");
