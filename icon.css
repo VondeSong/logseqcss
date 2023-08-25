@@ -2165,19 +2165,22 @@
 /*自定义标签 5分*/
 
 /*自定义标签 预设价值观*/
-:is(a[data-ref^="预设价值观"],.page-title-sizer-wrapper span[data-ref^="预设价值观"]){
-  color: #9c27b0!important;
+:root{
+   --25231839imageurl:url("data:image/png;base64,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");
 }
-:is(a[data-ref^="预设价值观"],.page-title-sizer-wrapper span[data-ref^="预设价值观"]):hover{
-    color: #9c27b0!important;
+:is(a[data-ref$="预设价值观"],.page-title-sizer-wrapper span[data-ref$="预设价值观"]){
+  color: inherit!important;
 }
-:is(a[data-ref^="预设价值观"].tag) {
+:is(a[data-ref$="预设价值观"],.page-title-sizer-wrapper span[data-ref$="预设价值观"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref$="预设价值观"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref^="预设价值观"],.page-title-sizer-wrapper span[data-ref^="预设价值观"])::before{
+:is(a[data-ref$="预设价值观"],.page-title-sizer-wrapper span[data-ref$="预设价值观"])::before{
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpx2ILTFna1bk5ZaEg/root/content");
+  background-image: var(--25231839imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -2189,12 +2192,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is([data-ref^="预设价值观"]) > a > span.page-icon {
+:is(.page-title-sizer-wrapper span[data-ref$="预设价值观"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref$="预设价值观"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref^="预设价值观"])>a>span.page-icon {
+:is([data-ref$="预设价值观"])>a>span.page-icon {
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpx2ILTFna1bk5ZaEg/root/content");
+  background-image: var(--25231839imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
