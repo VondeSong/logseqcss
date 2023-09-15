@@ -4939,7 +4939,7 @@ a[data-href$=".docx"]::before{
         z-index: 0;
         display: inline-block;
         overflow:auto;
-          opacity: .8;
+          opacity: 1;
         }
 /*自定义标签 office Office*/
 :is(a[data-ref^="office"],.page-title-sizer-wrapper span[data-ref^="office"],a[data-ref^="Office"],.page-title-sizer-wrapper span[data-ref^="Office"]){
