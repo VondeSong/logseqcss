@@ -4839,8 +4839,9 @@ a[data-ref="实力商家"]:hover {
 }
 /*自定义标签 claudelink*/
 /*新增 文件图标*/
+
 a[data-href$=".xlsx"]{
-  color: #107c42 !important;
+  color: var(--ls-primary-text-color) !important;
 }
 a[data-href$=".xlsx"]::before{
 
@@ -4857,7 +4858,7 @@ display: inline-block;
 overflow:auto;
 }
 a[data-href$=".docx"] {
-  color: #154eb0 !important;
+  color: var(--ls-primary-text-color) !important;
 }
 a[data-href$=".docx"]::before{
   color: red !important;
@@ -4874,7 +4875,7 @@ a[data-href$=".docx"]::before{
   overflow:auto;
   }
   a[data-href$=".txt"]{
-    color: #6d6d75 !important;
+   color: var(--ls-primary-text-color) !important;
   }
   a[data-href$=".txt"]::before{
     color: red !important;
@@ -4907,7 +4908,7 @@ a[data-href$=".docx"]::before{
       overflow:auto;
       }
       a[data-href$=".html"]{
-        color: #6d6d75 !important;
+       color: var(--ls-primary-text-color) !important;
       }
       html[data-theme="light"] a[data-href$=".html"]::before{
         color: red !important;
