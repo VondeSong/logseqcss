@@ -8648,35 +8648,53 @@ a[data-ref="大童"]:hover {
   overflow:auto;
 }
 /*自定义标签 下载*/
-/*自定义标签 戒色 js 手淫 色欲 好色 打飞机 Js masturbation Js js Masturbation*/
-:is(a[data-ref^="戒色"],.page-title-sizer-wrapper span[data-ref^="戒色"],a[data-ref^="js"],.page-title-sizer-wrapper span[data-ref^="js"],a[data-ref^="手淫"],.page-title-sizer-wrapper span[data-ref^="手淫"],a[data-ref^="色欲"],.page-title-sizer-wrapper span[data-ref^="色欲"],a[data-ref^="好色"],.page-title-sizer-wrapper span[data-ref^="好色"],a[data-ref^="打飞机"],.page-title-sizer-wrapper span[data-ref^="打飞机"],a[data-ref^="Js"],.page-title-sizer-wrapper span[data-ref^="Js"],a[data-ref^="masturbation"],.page-title-sizer-wrapper span[data-ref^="masturbation"],a[data-ref^="Js"],.page-title-sizer-wrapper span[data-ref^="Js"],a[data-ref^="js"],.page-title-sizer-wrapper span[data-ref^="js"],a[data-ref^="Masturbation"],.page-title-sizer-wrapper span[data-ref^="Masturbation"]){
-  color: #217DBA!important;
+/*自定义标签 手淫#masturbation#打飞机#自慰*/
+:root{
+   --18225010imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqBGDxgSKEwHpV22Vg/root/content");
 }
-:is(a[data-ref^="戒色"],.page-title-sizer-wrapper span[data-ref^="戒色"],a[data-ref^="js"],.page-title-sizer-wrapper span[data-ref^="js"],a[data-ref^="手淫"],.page-title-sizer-wrapper span[data-ref^="手淫"],a[data-ref^="色欲"],.page-title-sizer-wrapper span[data-ref^="色欲"],a[data-ref^="好色"],.page-title-sizer-wrapper span[data-ref^="好色"],a[data-ref^="打飞机"],.page-title-sizer-wrapper span[data-ref^="打飞机"],a[data-ref^="Js"],.page-title-sizer-wrapper span[data-ref^="Js"],a[data-ref^="masturbation"],.page-title-sizer-wrapper span[data-ref^="masturbation"],a[data-ref^="Js"],.page-title-sizer-wrapper span[data-ref^="Js"],a[data-ref^="js"],.page-title-sizer-wrapper span[data-ref^="js"],a[data-ref^="Masturbation"],.page-title-sizer-wrapper span[data-ref^="Masturbation"]):hover{
-    color: #217DBA!important;
+:is(a[data-ref$="手淫"],.page-title-sizer-wrapper span[data-ref$="手淫"],a[data-ref$="masturbation"],.page-title-sizer-wrapper span[data-ref$="masturbation"],a[data-ref$="打飞机"],.page-title-sizer-wrapper span[data-ref$="打飞机"],a[data-ref$="自慰"],.page-title-sizer-wrapper span[data-ref$="自慰"]){
+  color: inherit!important;
 }
-:is(a[data-ref^="戒色"].tag,a[data-ref^="js"].tag,a[data-ref^="手淫"].tag,a[data-ref^="色欲"].tag,a[data-ref^="好色"].tag,a[data-ref^="打飞机"].tag,a[data-ref^="Js"].tag,a[data-ref^="masturbation"].tag,a[data-ref^="Js"].tag,a[data-ref^="js"].tag,a[data-ref^="Masturbation"].tag) {
+:is(a[data-ref$="手淫"],.page-title-sizer-wrapper span[data-ref$="手淫"],a[data-ref$="masturbation"],.page-title-sizer-wrapper span[data-ref$="masturbation"],a[data-ref$="打飞机"],.page-title-sizer-wrapper span[data-ref$="打飞机"],a[data-ref$="自慰"],.page-title-sizer-wrapper span[data-ref$="自慰"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref$="手淫"].tag,a[data-ref$="masturbation"].tag,a[data-ref$="打飞机"].tag,a[data-ref$="自慰"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref^="戒色"],.page-title-sizer-wrapper span[data-ref^="戒色"],a[data-ref^="js"],.page-title-sizer-wrapper span[data-ref^="js"],a[data-ref^="手淫"],.page-title-sizer-wrapper span[data-ref^="手淫"],a[data-ref^="色欲"],.page-title-sizer-wrapper span[data-ref^="色欲"],a[data-ref^="好色"],.page-title-sizer-wrapper span[data-ref^="好色"],a[data-ref^="打飞机"],.page-title-sizer-wrapper span[data-ref^="打飞机"],a[data-ref^="Js"],.page-title-sizer-wrapper span[data-ref^="Js"],a[data-ref^="masturbation"],.page-title-sizer-wrapper span[data-ref^="masturbation"],a[data-ref^="Js"],.page-title-sizer-wrapper span[data-ref^="Js"],a[data-ref^="js"],.page-title-sizer-wrapper span[data-ref^="js"],a[data-ref^="Masturbation"],.page-title-sizer-wrapper span[data-ref^="Masturbation"])::before{
-  content: "\EB10";
-  font-size: var(--Icon_size_inPage);
-  font-family: var(--Font_icon_name);
-  color: #217DBA;
-  margin-right: var(--fonticon_Mr);
+:is(a[data-ref$="手淫"],.page-title-sizer-wrapper span[data-ref$="手淫"],a[data-ref$="masturbation"],.page-title-sizer-wrapper span[data-ref$="masturbation"],a[data-ref$="打飞机"],.page-title-sizer-wrapper span[data-ref$="打飞机"],a[data-ref$="自慰"],.page-title-sizer-wrapper span[data-ref$="自慰"])::before{
+  content: "";
+  background-image: var(--18225010imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
 }
-:is([data-ref^="戒色"],[data-ref^="js"],[data-ref^="手淫"],[data-ref^="色欲"],[data-ref^="好色"],[data-ref^="打飞机"],[data-ref^="Js"],[data-ref^="masturbation"],[data-ref^="Js"],[data-ref^="js"],[data-ref^="Masturbation"]) > a > span.page-icon {
+:is(.page-title-sizer-wrapper span[data-ref$="手淫"],.page-title-sizer-wrapper span[data-ref$="masturbation"],.page-title-sizer-wrapper span[data-ref$="打飞机"],.page-title-sizer-wrapper span[data-ref$="自慰"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref$="手淫"],[data-ref$="masturbation"],[data-ref$="打飞机"],[data-ref$="自慰"]) > a > span.page-icon {
   text-indent:-9999px;
-   position: relative;
-  margin-right:var(--pageIconML) !important;
 }
-:is([data-ref^="戒色"],[data-ref^="js"],[data-ref^="手淫"],[data-ref^="色欲"],[data-ref^="好色"],[data-ref^="打飞机"],[data-ref^="Js"],[data-ref^="masturbation"],[data-ref^="Js"],[data-ref^="js"],[data-ref^="Masturbation"])>a::before {
-  font-family: var(--Font_icon_name);
-  font-size: var(--Sidebar_icon_size);
-  color: #217DBA;;
-  content: "\EB10";
-  margin-right: var(--fontmarginright) !important;
+:is([data-ref$="手淫"],[data-ref$="masturbation"],[data-ref$="打飞机"],[data-ref$="自慰"])>a>span.page-icon {
+  content: "";
+  background-image: var(--18225010imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
 }
-/*自定义标签 戒色 js 手淫 色欲 好色 打飞机 Js masturbation Js js Masturbation*/
+/*自定义标签 手淫#masturbation#打飞机#自慰*/
 
