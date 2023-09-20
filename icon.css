@@ -3247,18 +3247,23 @@
   overflow:auto;
 }
 /*自定义标签 儿童*/
-/*自定义标签 说话 沟通*/
-:is(a[data-ref="说话"],.page-title-sizer-wrapper span[data-ref="说话"],a[data-ref="沟通"],.page-title-sizer-wrapper span[data-ref="沟通"]){
-  position: relative;
+/*自定义标签 沟通*/
+:root{
+   --20104305imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqBL4oom-hdJi8L7Tw/root/content");
+}
+:is(a[data-ref="沟通"],.page-title-sizer-wrapper span[data-ref="沟通"]){
   color: inherit!important;
 }
-:is(a[data-ref="说话"],.page-title-sizer-wrapper span[data-ref="说话"],a[data-ref="沟通"],.page-title-sizer-wrapper span[data-ref="沟通"]):hover{
-  position: relative;
+:is(a[data-ref="沟通"],.page-title-sizer-wrapper span[data-ref="沟通"]):hover{
     color: inherit!important;
 }
-:is(a[data-ref="说话"],.page-title-sizer-wrapper span[data-ref="说话"],a[data-ref="沟通"],.page-title-sizer-wrapper span[data-ref="沟通"])::before{
+:is(a[data-ref="沟通"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref="沟通"],.page-title-sizer-wrapper span[data-ref="沟通"])::before{
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoxBGeukBkQCVnFeg/root/content");
+  background-image: var(--20104305imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -3270,12 +3275,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is([data-ref="说话"],[data-ref="沟通"]) > a > span.page-icon {
+:is(.page-title-sizer-wrapper span[data-ref="沟通"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref="沟通"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref="说话"],[data-ref="沟通"])>a>span.page-icon {
+:is([data-ref="沟通"])>a>span.page-icon {
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoxBGeukBkQCVnFeg/root/content");
+  background-image: var(--20104305imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -3286,7 +3295,7 @@
   display: inline-block;
   overflow:auto;
 }
-/*自定义标签 说话 沟通*/
+/*自定义标签 沟通*/
 /*自定义标签 历史 过去*/
 :is(a[data-ref="历史"],.page-title-sizer-wrapper span[data-ref="历史"],a[data-ref="过去"],.page-title-sizer-wrapper span[data-ref="过去"]){
   position: relative;
