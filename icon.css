@@ -1272,54 +1272,7 @@
  overflow:auto;
 }
 /*自定义标签 重要事件*/
-/*自定义标签 人生节点*/
-:root{
-  --31215306imageurl:url("data:image/svg+xml,%3Csvg%20t%3D%221668613883687%22%20class%3D%22icon%22%20viewBox%3D%220%200%201024%201024%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20p-id%3D%223650%22%20width%3D%22200%22%20height%3D%22200%22%3E%3Cpath%20d%3D%22M640%20960v-256h128v-192H256v192h128v256H64v-256h128v-256h288v-128h-160V64h384v256h-160v128h288v256h128v256H640z%22%20fill%3D%22%230590DF%22%20p-id%3D%223651%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E");
-}
-:is(a[data-ref$="人生节点"],.page-title-sizer-wrapper span[data-ref$="人生节点"]){
- color: inherit!important;
-}
-:is(a[data-ref$="人生节点"],.page-title-sizer-wrapper span[data-ref$="人生节点"]):hover{
-   color: inherit!important;
-}
-:is(a[data-ref$="人生节点"].tag) {
-/*只有data-ref^="XX"并且class=tag的才添加边框*/
- border: 1px solid inherit;
-}
-:is(a[data-ref$="人生节点"],.page-title-sizer-wrapper span[data-ref$="人生节点"])::before{
- content: "";
- background-image: var(--31215306imageurl);
- background-size: 100%;
- width: var(--page_picture_Width);
- height: var(--page_picture_Height);
- position: relative;
- top: var(--page_picture_Top);
- left: var(--page_picture_Left);
- z-index: 0;
- display: inline-block;
- overflow:auto;
- margin-right: var(--page_picture_marginRight);
-}
-:is(.page-title-sizer-wrapper span[data-ref$="人生节点"])::before{
- top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
-}
-:is([data-ref$="人生节点"]) > a > span.page-icon {
- text-indent:-9999px;
-}
-:is([data-ref$="人生节点"])>a>span.page-icon {
- content: "";
- background-image: var(--31215306imageurl);
- background-size: 100%;
- width: var(--Lefticon_picture_Width);
- height: var(--Lefticon_picture_Height);
- position: relative;
- top: var(--Lefticon_picture_top);
- left: var(--Lefticon_picture_left);
- z-index: 0;
- display: inline-block;
- overflow:auto;
-}
-/*自定义标签 人生节点*/
+
 /*自定义标签 规划#计划*/
 :root{
    --30232718imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVVpuQH0rSxwIOU8A/root/content");
