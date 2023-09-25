@@ -8132,46 +8132,7 @@ a[data-ref="大童"]:hover {
 }
 /*自定义标签 禅宗*/
 
-/*自定义标签 项目*/
-:is(a[data-ref="项目"],.page-title-sizer-wrapper span[data-ref="项目"]){
-  position: relative;
-  color: inherit!important;
-}
-:is(a[data-ref="项目"],.page-title-sizer-wrapper span[data-ref="项目"]):hover{
-  position: relative;
-    color: inherit!important;
-}
-:is(a[data-ref="项目"],.page-title-sizer-wrapper span[data-ref="项目"])::before{
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfhQ9faiXZJDj6GwTQ/root/content");
-  background-size: 100%;
-  width: var(--page_picture_Width);
-  height: var(--page_picture_Height);
-  position: relative;
-  top: var(--page_picture_Top);
-  left: var(--page_picture_Left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-  margin-right: var(--page_picture_marginRight);
-}
-:is([data-ref="项目"]) > a > span.page-icon {
-  text-indent:-9999px;
-}
-:is([data-ref="项目"])>a>span.page-icon {
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfhQ9faiXZJDj6GwTQ/root/content");
-  background-size: 100%;
-  width: var(--Lefticon_picture_Width);
-  height: var(--Lefticon_picture_Height);
-  position: relative;
-  top: var(--Lefticon_picture_top);
-  left: var(--Lefticon_picture_left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-}
-/*自定义标签 项目*/
+
 /*自定义标签 健康 healthy 身体 Healthy*/
 :is(a[data-ref="健康"],.page-title-sizer-wrapper span[data-ref="健康"],a[data-ref="healthy"],.page-title-sizer-wrapper span[data-ref="healthy"],a[data-ref="身体"],.page-title-sizer-wrapper span[data-ref="身体"],a[data-ref="Healthy"],.page-title-sizer-wrapper span[data-ref="Healthy"]){
  
