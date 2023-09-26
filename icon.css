@@ -30,6 +30,31 @@
   --Lefticon_picture_left:-.6rem;
   --Lefticon_picture_top:0px;
 }
+/*tree icon 设置*/
+:root{
+  --treeicon0_width :1rem;
+  --treeicon0_top:.2rem;
+  --treeicon0_left:0;
+  --treeicon0_margin-right:5px;
+}
+.kef-ft-fav-item-name[title^="自我量化"]::before {
+  content: "";
+  background-image: var(--25232241imageurl);
+  background-size: 100%;
+  width: var(--treeicon0_width);
+  height: var(--treeicon0_width);
+  position: relative;
+  top: var(--treeicon0_top);
+  left: 0px;
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--treeicon0_margin-right);
+ }
+ .ui__icon:has( ~ .kef-ft-fav-item-name[title^="自我量化"] ){
+  display: none !important;
+}
+
 /*自定义标签 项目#projects*/
 :root{
    --25202031imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqBrlobM_kkI2wITrA/root/content");
