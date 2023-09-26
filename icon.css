@@ -4148,6 +4148,73 @@
   overflow:auto;
 }
 /*自定义标签 2023/11 2023/11*/
+/*自定义标签 家庭*/
+:root{
+   --26104109imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqBxkQfHMbNha1J1ig/root/content");
+}
+:is(a[data-ref^="家庭"],.page-title-sizer-wrapper span[data-ref^="家庭"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="家庭"],.page-title-sizer-wrapper span[data-ref^="家庭"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="家庭"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref^="家庭"],.page-title-sizer-wrapper span[data-ref^="家庭"])::before{
+  content: "";
+  background-image: var(--26104109imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref^="家庭"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref^="家庭"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="家庭"])>a>span.page-icon {
+  content: "";
+  background-image: var(--26104109imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title^="家庭"]::before  {
+	  content: "";
+	  background-image: var(--26104109imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title^="家庭"]){
+	  display: none !important;
+}
+/*自定义标签 家庭*/
 /*自定义标签 2023/12 2023/12*/
 :is(a[data-ref="2023/12"],.page-title-sizer-wrapper span[data-ref="2023/12"],a[data-ref="2023/12"],.page-title-sizer-wrapper span[data-ref="2023/12"]){
   position: relative;
@@ -4188,46 +4255,7 @@
   overflow:auto;
 }
 /*自定义标签 2023/12 2023/12*/
-/*自定义标签 home 家 家庭 Home*/
-:is(a[data-ref="home"],.page-title-sizer-wrapper span[data-ref="home"],a[data-ref="家"],.page-title-sizer-wrapper span[data-ref="家"],a[data-ref="家庭"],.page-title-sizer-wrapper span[data-ref="家庭"],a[data-ref="Home"],.page-title-sizer-wrapper span[data-ref="Home"]){
- /*position: relative;
-  color: inherit!important;*/
-}
-:is(a[data-ref="home"],.page-title-sizer-wrapper span[data-ref="home"],a[data-ref="家"],.page-title-sizer-wrapper span[data-ref="家"],a[data-ref="家庭"],.page-title-sizer-wrapper span[data-ref="家庭"],a[data-ref="Home"],.page-title-sizer-wrapper span[data-ref="Home"]):hover{
- /*position: relative;
-    color: inherit!important;*/
-}
-:is(a[data-ref="home"],.page-title-sizer-wrapper span[data-ref="home"],a[data-ref="家"],.page-title-sizer-wrapper span[data-ref="家"],a[data-ref="家庭"],.page-title-sizer-wrapper span[data-ref="家庭"],a[data-ref="Home"],.page-title-sizer-wrapper span[data-ref="Home"])::before{
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjho9SP4DSOcdA2yJ9sQ/root/content");
-  background-size: 100%;
-  width: var(--page_picture_Width);
-  height: var(--page_picture_Height);
-  position: relative;
-  top: var(--page_picture_Top);
-  left: var(--page_picture_Left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-  margin-right: var(--page_picture_marginRight);
-}
-:is([data-ref="home"],[data-ref="家"],[data-ref="家庭"],[data-ref="Home"]) > a > span.page-icon {
-  text-indent:-9999px;
-}
-:is([data-ref="home"],[data-ref="家"],[data-ref="家庭"],[data-ref="Home"])>a>span.page-icon {
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjho9SP4DSOcdA2yJ9sQ/root/content");
-  background-size: 100%;
-  width: var(--Lefticon_picture_Width);
-  height: var(--Lefticon_picture_Height);
-  position: relative;
-  top: var(--Lefticon_picture_top);
-  left: var(--Lefticon_picture_left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-}
-/*自定义标签 home 家 家庭 Home*/
+
 /*自定义标签 觉悟社*/
 :is(a[data-ref="觉悟社"],.page-title-sizer-wrapper span[data-ref="觉悟社"]){
   position: relative;
