@@ -3521,48 +3521,7 @@
   content: "🍫";
 }
 /*自定义标签 注意 注意力*/
-/*自定义标签 减法*/
-:is(a[data-ref="减法"],.page-title-sizer-wrapper span[data-ref="减法"]){
-  color: #000000!important;
-}
-:is(a[data-ref="减法"],.page-title-sizer-wrapper span[data-ref="减法"]):hover{
-    color: #000000!important;
-}
-:is(a[data-ref="减法"].tag) {
-/*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 2px solid #000000;
-}
-:is(a[data-ref="减法"],.page-title-sizer-wrapper span[data-ref="减法"])::before{
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVi_bGFJ3PY3717VA/root/content");
-  background-size: 100%;
-  width: var(--page_picture_Width);
-  height: var(--page_picture_Height);
-  position: relative;
-  top: var(--page_picture_Top);
-  left: var(--page_picture_Left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-  margin-right: var(--page_picture_marginRight);
-}
-:is([data-ref="减法"]) > a > span.page-icon {
-  text-indent:-9999px;
-}
-:is([data-ref="减法"])>a>span.page-icon {
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVi_bGFJ3PY3717VA/root/content");
-  background-size: 100%;
-  width: var(--Lefticon_picture_Width);
-  height: var(--Lefticon_picture_Height);
-  position: relative;
-  top: var(--Lefticon_picture_top);
-  left: var(--Lefticon_picture_left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-}
-/*自定义标签 减法*/
+
 /*自定义标签 云盘 云存储*/
 :is(a[data-ref="云盘"],.page-title-sizer-wrapper span[data-ref="云盘"],a[data-ref="云存储"],.page-title-sizer-wrapper span[data-ref="云存储"]){
   position: relative;
