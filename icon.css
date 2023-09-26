@@ -1881,20 +1881,23 @@
   overflow:auto;
 }
 /*自定义标签 客服*/
-/*自定义标签 工具 tool Tool*/
-:is(a[data-ref^="工具"],.page-title-sizer-wrapper span[data-ref^="工具"],a[data-ref^="tool"],.page-title-sizer-wrapper span[data-ref^="tool"],a[data-ref^="Tool"],.page-title-sizer-wrapper span[data-ref^="Tool"]){
+/*自定义标签 工具#tools#tool*/
+:root{
+   --26145139imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqBzuk1P7GsoyPbyEQ/root/content");
+}
+:is(a[data-ref^="工具"],.page-title-sizer-wrapper span[data-ref^="工具"],a[data-ref^="tools"],.page-title-sizer-wrapper span[data-ref^="tools"],a[data-ref^="tool"],.page-title-sizer-wrapper span[data-ref^="tool"]){
   color: inherit!important;
 }
-:is(a[data-ref^="工具"],.page-title-sizer-wrapper span[data-ref^="工具"],a[data-ref^="tool"],.page-title-sizer-wrapper span[data-ref^="tool"],a[data-ref^="Tool"],.page-title-sizer-wrapper span[data-ref^="Tool"]):hover{
+:is(a[data-ref^="工具"],.page-title-sizer-wrapper span[data-ref^="工具"],a[data-ref^="tools"],.page-title-sizer-wrapper span[data-ref^="tools"],a[data-ref^="tool"],.page-title-sizer-wrapper span[data-ref^="tool"]):hover{
     color: inherit!important;
 }
-:is(a[data-ref^="工具"].tag,a[data-ref^="tool"].tag,a[data-ref^="Tool"].tag) {
+:is(a[data-ref^="工具"].tag,a[data-ref^="tools"].tag,a[data-ref^="tool"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 1px solid #a3d3d3;
+  border: 1px solid inherit;
 }
-:is(a[data-ref^="工具"],.page-title-sizer-wrapper span[data-ref^="工具"],a[data-ref^="tool"],.page-title-sizer-wrapper span[data-ref^="tool"],a[data-ref^="Tool"],.page-title-sizer-wrapper span[data-ref^="Tool"])::before{
+:is(a[data-ref^="工具"],.page-title-sizer-wrapper span[data-ref^="工具"],a[data-ref^="tools"],.page-title-sizer-wrapper span[data-ref^="tools"],a[data-ref^="tool"],.page-title-sizer-wrapper span[data-ref^="tool"])::before{
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0KhFUDSOh4U1Y-5w/root/content");
+  background-image: var(--26145139imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -1906,12 +1909,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is([data-ref^="工具"],[data-ref^="tool"],[data-ref^="Tool"]) > a > span.page-icon {
+:is(.page-title-sizer-wrapper span[data-ref^="工具"],.page-title-sizer-wrapper span[data-ref^="tools"],.page-title-sizer-wrapper span[data-ref^="tool"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref^="工具"],[data-ref^="tools"],[data-ref^="tool"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref^="工具"],[data-ref^="tool"],[data-ref^="Tool"])>a>span.page-icon {
+:is([data-ref^="工具"],[data-ref^="tools"],[data-ref^="tool"])>a>span.page-icon {
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0KhFUDSOh4U1Y-5w/root/content");
+  background-image: var(--26145139imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -1922,7 +1929,25 @@
   display: inline-block;
   overflow:auto;
 }
-/*自定义标签 工具 tool Tool*/
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title^="tool"]::before,.kef-ft-fav-item-name[title^="tools"]::before,.kef-ft-fav-item-name[title^="工具"]::before  {
+	  content: "";
+	  background-image: var(--26145139imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title^="tool"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title^="tools"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title^="工具"]){
+	  display: none !important;
+}
+/*自定义标签 工具#tools#tool*/
 /*自定义标签 短视频*/
 :is(a[data-ref^="短视频"],.page-title-sizer-wrapper span[data-ref^="短视频"]){
   color: inherit!important;
