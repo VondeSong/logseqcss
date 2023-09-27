@@ -39,21 +39,22 @@
 }
 /*自定义标签 自我量化*/
 :root{
-   --26162905imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqB3GApxLy7vLqc_RQ/root/content");
+   --27201237imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqB3GApxLy7vLqc_RQ/root/content
+");
 }
-:is(a[data-ref^="自我量化"],.page-title-sizer-wrapper span[data-ref^="自我量化"]){
+:is(a[data-ref="自我量化"],.page-title-sizer-wrapper span[data-ref="自我量化"]){
   color: inherit!important;
 }
-:is(a[data-ref^="自我量化"],.page-title-sizer-wrapper span[data-ref^="自我量化"]):hover{
+:is(a[data-ref="自我量化"],.page-title-sizer-wrapper span[data-ref="自我量化"]):hover{
     color: inherit!important;
 }
-:is(a[data-ref^="自我量化"].tag) {
+:is(a[data-ref="自我量化"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref^="自我量化"],.page-title-sizer-wrapper span[data-ref^="自我量化"])::before{
+:is(a[data-ref="自我量化"],.page-title-sizer-wrapper span[data-ref="自我量化"])::before{
   content: "";
-  background-image: var(--26162905imageurl);
+  background-image: var(--27201237imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -65,16 +66,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is(.page-title-sizer-wrapper span[data-ref^="自我量化"])::before{
+:is(.page-title-sizer-wrapper span[data-ref="自我量化"])::before{
   top: var(--page_title_topicon) !important;
   margin-right: var(--page_title_margin_right);
 }
-:is([data-ref^="自我量化"]) > a > span.page-icon {
+:is([data-ref="自我量化"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref^="自我量化"])>a>span.page-icon {
+:is([data-ref="自我量化"])>a>span.page-icon {
   content: "";
-  background-image: var(--26162905imageurl);
+  background-image: var(--27201237imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -86,9 +87,9 @@
   overflow:auto;
 }
 		/*插件 tree icon*/
-		.kef-ft-fav-item-name[title^="自我量化"]::before  {
+		.kef-ft-fav-item-name[title="自我量化"]::before  {
 	  content: "";
-	  background-image: var(--26162905imageurl);
+	  background-image: var(--27201237imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
@@ -100,7 +101,7 @@
 	  overflow:auto;
 	  margin-right: var(--treeicon0_margin-right);
 	 }
-	 .ui__icon:has( ~ .kef-ft-fav-item-name[title^="自我量化"]){
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="自我量化"]){
 	  display: none !important;
 }
 /*自定义标签 自我量化*/
