@@ -37,6 +37,73 @@
   --treeicon0_left:0;
   --treeicon0_margin-right:5px;
 }
+/*自定义标签 认知偏差#认知扭曲*/
+:root{
+   --27215852imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqBIkaNO6dYSCbCJsw/root/content				");
+}
+:is(a[data-ref^="认知偏差"],.page-title-sizer-wrapper span[data-ref^="认知偏差"],a[data-ref^="认知扭曲"],.page-title-sizer-wrapper span[data-ref^="认知扭曲"]){
+  color: inherit!important;
+}
+:is(a[data-ref^="认知偏差"],.page-title-sizer-wrapper span[data-ref^="认知偏差"],a[data-ref^="认知扭曲"],.page-title-sizer-wrapper span[data-ref^="认知扭曲"]):hover{
+    color: inherit!important;
+}
+:is(a[data-ref^="认知偏差"].tag,a[data-ref^="认知扭曲"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref^="认知偏差"],.page-title-sizer-wrapper span[data-ref^="认知偏差"],a[data-ref^="认知扭曲"],.page-title-sizer-wrapper span[data-ref^="认知扭曲"])::before{
+  content: "";
+  background-image: var(--27215852imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref^="认知偏差"],.page-title-sizer-wrapper span[data-ref^="认知扭曲"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref^="认知偏差"],[data-ref^="认知扭曲"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref^="认知偏差"],[data-ref^="认知扭曲"])>a>span.page-icon {
+  content: "";
+  background-image: var(--27215852imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title^="认知扭曲"]::before,.kef-ft-fav-item-name[title^="认知偏差"]::before  {
+	  content: "";
+	  background-image: var(--27215852imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title^="认知扭曲"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title^="认知偏差"]){
+	  display: none !important;
+}
+/*自定义标签 认知偏差#认知扭曲*/
 /*自定义标签 自我量化*/
 :root{
    --27201516imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqB3GApxLy7vLqc_RQ/root/content");
