@@ -246,7 +246,7 @@
 /*自定义标签 运动部件*/
 /*自定义标签 间距*/
 :root{
-   --18234638imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFOc0jAJs3cH0x7Sw/root/content");
+   --19000902imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFTPEobR93BnTrKVg/root/content");
 }
 :is(a[data-ref="间距"],.page-title-sizer-wrapper span[data-ref="间距"]){
   color: inherit!important;
@@ -262,7 +262,7 @@
 }
 :is(a[data-ref="间距"],.page-title-sizer-wrapper span[data-ref="间距"])::before{
   content: "";
-  background-image: var(--18234638imageurl);
+  background-image: var(--19000902imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -283,7 +283,7 @@
 }
 :is([data-ref="间距"])>a>span.page-icon {
   content: "";
-  background-image: var(--18234638imageurl);
+  background-image: var(--19000902imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -297,7 +297,7 @@
 		/*插件 tree icon*/
 		.kef-ft-fav-item-name[title="间距"]::before  {
 	  content: "";
-	  background-image: var(--18234638imageurl);
+	  background-image: var(--19000902imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
