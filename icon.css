@@ -37,6 +37,75 @@
   --treeicon0_left:0;
   --treeicon0_margin-right:5px;
 }
+/*自定义标签 发动机*/
+:root{
+   --19000629imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFR3eRW26ZOyAMpXg/root/content");
+}
+:is(a[data-ref="发动机"],.page-title-sizer-wrapper span[data-ref="发动机"]){
+  color: inherit!important;
+  
+}
+:is(a[data-ref="发动机"],.page-title-sizer-wrapper span[data-ref="发动机"]):hover{
+    color: inherit!important;
+  
+}
+:is(a[data-ref="发动机"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref="发动机"],.page-title-sizer-wrapper span[data-ref="发动机"])::before{
+  content: "";
+  background-image: var(--19000629imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref="发动机"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref="发动机"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="发动机"])>a>span.page-icon {
+  content: "";
+  background-image: var(--19000629imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title="发动机"]::before  {
+	  content: "";
+	  background-image: var(--19000629imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="发动机"]){
+	  display: none !important;
+}
+/*自定义标签 发动机*/
 /*自定义标签 运动部件*/
 :root{
    --19000300imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFQA5sV5PXQtJTUbg/root/content");
