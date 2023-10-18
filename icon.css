@@ -727,25 +727,25 @@
 	  display: none !important;
 }
 /*自定义标签 设计*/
-/*自定义标签 要求*/
+/*自定义标签 3d*/
 :root{
-   --18133130imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqE7M_A3WcG6mhWaNg/root/content");
+   --18234904imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFPoRtKh0hWkaBXhQ/root/content");
 }
-:is(a[data-ref$="要求"],.page-title-sizer-wrapper span[data-ref$="要求"]){
+:is(a[data-ref^="3d"],.page-title-sizer-wrapper span[data-ref^="3d"]){
   color: inherit!important;
   
 }
-:is(a[data-ref$="要求"],.page-title-sizer-wrapper span[data-ref$="要求"]):hover{
+:is(a[data-ref^="3d"],.page-title-sizer-wrapper span[data-ref^="3d"]):hover{
     color: inherit!important;
   
 }
-:is(a[data-ref$="要求"].tag) {
+:is(a[data-ref^="3d"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref$="要求"],.page-title-sizer-wrapper span[data-ref$="要求"])::before{
+:is(a[data-ref^="3d"],.page-title-sizer-wrapper span[data-ref^="3d"])::before{
   content: "";
-  background-image: var(--18133130imageurl);
+  background-image: var(--18234904imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -757,16 +757,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is(.page-title-sizer-wrapper span[data-ref$="要求"])::before{
+:is(.page-title-sizer-wrapper span[data-ref^="3d"])::before{
   top: var(--page_title_topicon) !important;
   margin-right: var(--page_title_margin_right);
 }
-:is([data-ref$="要求"]) > a > span.page-icon {
+:is([data-ref^="3d"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref$="要求"])>a>span.page-icon {
+:is([data-ref^="3d"])>a>span.page-icon {
   content: "";
-  background-image: var(--18133130imageurl);
+  background-image: var(--18234904imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -778,9 +778,9 @@
   overflow:auto;
 }
 		/*插件 tree icon*/
-		.kef-ft-fav-item-name[title$="要求"]::before  {
+		.kef-ft-fav-item-name[title^="3d"]::before  {
 	  content: "";
-	  background-image: var(--18133130imageurl);
+	  background-image: var(--18234904imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
@@ -792,10 +792,10 @@
 	  overflow:auto;
 	  margin-right: var(--treeicon0_margin-right);
 	 }
-	 .ui__icon:has( ~ .kef-ft-fav-item-name[title$="要求"]){
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title^="3d"]){
 	  display: none !important;
 }
-/*自定义标签 要求*/
+/*自定义标签 3d*/
 /*自定义标签 汽车名词*/
 :root{
    --18132932imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqE6wV4KXGl_CNB3PA/root/content");
