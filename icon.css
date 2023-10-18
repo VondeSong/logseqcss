@@ -451,25 +451,25 @@
 	  display: none !important;
 }
 /*自定义标签 物料*/
-/*自定义标签 零部件*/
+/*自定义标签 汽车零部件*/
 :root{
-   --18133924imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFAfcDxT9SlWNb-qQ/root/content");
+   --18134129imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFBMuwbq-ViygxB1w/root/content");
 }
-:is(a[data-ref$="零部件"],.page-title-sizer-wrapper span[data-ref$="零部件"]){
+:is(a[data-ref="汽车零部件"],.page-title-sizer-wrapper span[data-ref="汽车零部件"]){
   color: inherit!important;
   
 }
-:is(a[data-ref$="零部件"],.page-title-sizer-wrapper span[data-ref$="零部件"]):hover{
+:is(a[data-ref="汽车零部件"],.page-title-sizer-wrapper span[data-ref="汽车零部件"]):hover{
     color: inherit!important;
   
 }
-:is(a[data-ref$="零部件"].tag) {
+:is(a[data-ref="汽车零部件"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref$="零部件"],.page-title-sizer-wrapper span[data-ref$="零部件"])::before{
+:is(a[data-ref="汽车零部件"],.page-title-sizer-wrapper span[data-ref="汽车零部件"])::before{
   content: "";
-  background-image: var(--18133924imageurl);
+  background-image: var(--18134129imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -481,16 +481,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is(.page-title-sizer-wrapper span[data-ref$="零部件"])::before{
+:is(.page-title-sizer-wrapper span[data-ref="汽车零部件"])::before{
   top: var(--page_title_topicon) !important;
   margin-right: var(--page_title_margin_right);
 }
-:is([data-ref$="零部件"]) > a > span.page-icon {
+:is([data-ref="汽车零部件"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref$="零部件"])>a>span.page-icon {
+:is([data-ref="汽车零部件"])>a>span.page-icon {
   content: "";
-  background-image: var(--18133924imageurl);
+  background-image: var(--18134129imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -502,9 +502,9 @@
   overflow:auto;
 }
 		/*插件 tree icon*/
-		.kef-ft-fav-item-name[title$="零部件"]::before  {
+		.kef-ft-fav-item-name[title="汽车零部件"]::before  {
 	  content: "";
-	  background-image: var(--18133924imageurl);
+	  background-image: var(--18134129imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
@@ -516,10 +516,10 @@
 	  overflow:auto;
 	  margin-right: var(--treeicon0_margin-right);
 	 }
-	 .ui__icon:has( ~ .kef-ft-fav-item-name[title$="零部件"]){
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="汽车零部件"]){
 	  display: none !important;
 }
-/*自定义标签 零部件*/
+/*自定义标签 汽车零部件*/
 /*自定义标签 认知偏差#认知扭曲*/
 :root{
    --27215852imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqBIkaNO6dYSCbCJsw/root/content				");
