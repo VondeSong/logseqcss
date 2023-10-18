@@ -384,7 +384,7 @@
 /*自定义标签 汽车名词*/
 /*自定义标签 物料*/
 :root{
-   --18132736imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqE5CyTvvHAs5bs6lA/root/content");
+   --18133649imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqE_ovvOQPceg-nodw/root/content");
 }
 :is(a[data-ref$="物料"],.page-title-sizer-wrapper span[data-ref$="物料"]){
   color: inherit!important;
@@ -400,7 +400,7 @@
 }
 :is(a[data-ref$="物料"],.page-title-sizer-wrapper span[data-ref$="物料"])::before{
   content: "";
-  background-image: var(--18132736imageurl);
+  background-image: var(--18133649imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -421,7 +421,7 @@
 }
 :is([data-ref$="物料"])>a>span.page-icon {
   content: "";
-  background-image: var(--18132736imageurl);
+  background-image: var(--18133649imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -435,7 +435,7 @@
 		/*插件 tree icon*/
 		.kef-ft-fav-item-name[title$="物料"]::before  {
 	  content: "";
-	  background-image: var(--18132736imageurl);
+	  background-image: var(--18133649imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
@@ -453,7 +453,7 @@
 /*自定义标签 物料*/
 /*自定义标签 零部件*/
 :root{
-   --18132338imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqE4W9W92lLCyk3lYA/root/content");
+   --18133924imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFAfcDxT9SlWNb-qQ/root/content");
 }
 :is(a[data-ref$="零部件"],.page-title-sizer-wrapper span[data-ref$="零部件"]){
   color: inherit!important;
@@ -469,7 +469,7 @@
 }
 :is(a[data-ref$="零部件"],.page-title-sizer-wrapper span[data-ref$="零部件"])::before{
   content: "";
-  background-image: var(--18132338imageurl);
+  background-image: var(--18133924imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -490,7 +490,7 @@
 }
 :is([data-ref$="零部件"])>a>span.page-icon {
   content: "";
-  background-image: var(--18132338imageurl);
+  background-image: var(--18133924imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -504,7 +504,7 @@
 		/*插件 tree icon*/
 		.kef-ft-fav-item-name[title$="零部件"]::before  {
 	  content: "";
-	  background-image: var(--18132338imageurl);
+	  background-image: var(--18133924imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
