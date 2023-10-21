@@ -37,25 +37,25 @@
   --treeicon0_left:0;
   --treeicon0_margin-right:5px;
 }
-/*自定义标签 https://api.onedrive.com/v1.0/shares/s!alypmeviu_sjhqfszd8zogrz454p3a/root/content*/
+/*自定义标签 防水*/
 :root{
-   --21110125imageurl:url("防水");
+   --21110247imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFszd8zOgrZ454p3A/root/content");
 }
-:is(a[data-ref^="https://api.onedrive.com/v1.0/shares/s!alypmeviu_sjhqfszd8zogrz454p3a/root/content"],.page-title-sizer-wrapper span[data-ref^="https://api.onedrive.com/v1.0/shares/s!alypmeviu_sjhqfszd8zogrz454p3a/root/content"]){
+:is(a[data-ref^="防水"],.page-title-sizer-wrapper span[data-ref^="防水"]){
   color: inherit!important;
   
 }
-:is(a[data-ref^="https://api.onedrive.com/v1.0/shares/s!alypmeviu_sjhqfszd8zogrz454p3a/root/content"],.page-title-sizer-wrapper span[data-ref^="https://api.onedrive.com/v1.0/shares/s!alypmeviu_sjhqfszd8zogrz454p3a/root/content"]):hover{
+:is(a[data-ref^="防水"],.page-title-sizer-wrapper span[data-ref^="防水"]):hover{
     color: inherit!important;
   
 }
-:is(a[data-ref^="https://api.onedrive.com/v1.0/shares/s!alypmeviu_sjhqfszd8zogrz454p3a/root/content"].tag) {
+:is(a[data-ref^="防水"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref^="https://api.onedrive.com/v1.0/shares/s!alypmeviu_sjhqfszd8zogrz454p3a/root/content"],.page-title-sizer-wrapper span[data-ref^="https://api.onedrive.com/v1.0/shares/s!alypmeviu_sjhqfszd8zogrz454p3a/root/content"])::before{
+:is(a[data-ref^="防水"],.page-title-sizer-wrapper span[data-ref^="防水"])::before{
   content: "";
-  background-image: var(--21110125imageurl);
+  background-image: var(--21110247imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -67,16 +67,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is(.page-title-sizer-wrapper span[data-ref^="https://api.onedrive.com/v1.0/shares/s!alypmeviu_sjhqfszd8zogrz454p3a/root/content"])::before{
+:is(.page-title-sizer-wrapper span[data-ref^="防水"])::before{
   top: var(--page_title_topicon) !important;
   margin-right: var(--page_title_margin_right);
 }
-:is([data-ref^="https://api.onedrive.com/v1.0/shares/s!alypmeviu_sjhqfszd8zogrz454p3a/root/content"]) > a > span.page-icon {
+:is([data-ref^="防水"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref^="https://api.onedrive.com/v1.0/shares/s!alypmeviu_sjhqfszd8zogrz454p3a/root/content"])>a>span.page-icon {
+:is([data-ref^="防水"])>a>span.page-icon {
   content: "";
-  background-image: var(--21110125imageurl);
+  background-image: var(--21110247imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -88,9 +88,9 @@
   overflow:auto;
 }
 		/*插件 tree icon*/
-		.kef-ft-fav-item-name[title^="https://api.onedrive.com/v1.0/shares/s!alypmeviu_sjhqfszd8zogrz454p3a/root/content"]::before  {
+		.kef-ft-fav-item-name[title^="防水"]::before  {
 	  content: "";
-	  background-image: var(--21110125imageurl);
+	  background-image: var(--21110247imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
@@ -102,10 +102,10 @@
 	  overflow:auto;
 	  margin-right: var(--treeicon0_margin-right);
 	 }
-	 .ui__icon:has( ~ .kef-ft-fav-item-name[title^="https://api.onedrive.com/v1.0/shares/s!alypmeviu_sjhqfszd8zogrz454p3a/root/content"]){
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title^="防水"]){
 	  display: none !important;
 }
-/*自定义标签 https://api.onedrive.com/v1.0/shares/s!alypmeviu_sjhqfszd8zogrz454p3a/root/content*/
+/*自定义标签 防水*/
 /*自定义标签 接插件*/
 :root{
    --21091521imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFryjNHw5lvZRkr3A/root/content");
