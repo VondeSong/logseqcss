@@ -37,6 +37,75 @@
   --treeicon0_left:0;
   --treeicon0_margin-right:5px;
 }
+/*自定义标签 新能源汽车维修*/
+:root{
+   --21135630imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFvlMd94IRT-_NLBQ/root/content");
+}
+:is(a[data-ref="新能源汽车维修"],.page-title-sizer-wrapper span[data-ref="新能源汽车维修"]){
+  color: inherit!important;
+  
+}
+:is(a[data-ref="新能源汽车维修"],.page-title-sizer-wrapper span[data-ref="新能源汽车维修"]):hover{
+    color: inherit!important;
+  
+}
+:is(a[data-ref="新能源汽车维修"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref="新能源汽车维修"],.page-title-sizer-wrapper span[data-ref="新能源汽车维修"])::before{
+  content: "";
+  background-image: var(--21135630imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref="新能源汽车维修"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref="新能源汽车维修"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="新能源汽车维修"])>a>span.page-icon {
+  content: "";
+  background-image: var(--21135630imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title="新能源汽车维修"]::before  {
+	  content: "";
+	  background-image: var(--21135630imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="新能源汽车维修"]){
+	  display: none !important;
+}
+/*自定义标签 新能源汽车维修*/
 /*自定义标签 橡胶套*/
 :root{
    --21110800imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFuA84_Ko7eOwj6Ow/root/content");
