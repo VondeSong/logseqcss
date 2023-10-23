@@ -106,6 +106,75 @@
 	  display: none !important;
 }
 /*自定义标签 dc/dc*/
+/*自定义标签 电机管理器#mcu*/
+:root{
+   --23191752imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIF22PUCADHEp8ktA/root/content");
+}
+:is(a[data-ref="电机管理器"],.page-title-sizer-wrapper span[data-ref="电机管理器"],a[data-ref="mcu"],.page-title-sizer-wrapper span[data-ref="mcu"]){
+  color: inherit!important;
+  
+}
+:is(a[data-ref="电机管理器"],.page-title-sizer-wrapper span[data-ref="电机管理器"],a[data-ref="mcu"],.page-title-sizer-wrapper span[data-ref="mcu"]):hover{
+    color: inherit!important;
+  
+}
+:is(a[data-ref="电机管理器"].tag,a[data-ref="mcu"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref="电机管理器"],.page-title-sizer-wrapper span[data-ref="电机管理器"],a[data-ref="mcu"],.page-title-sizer-wrapper span[data-ref="mcu"])::before{
+  content: "";
+  background-image: var(--23191752imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref="电机管理器"],.page-title-sizer-wrapper span[data-ref="mcu"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref="电机管理器"],[data-ref="mcu"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="电机管理器"],[data-ref="mcu"])>a>span.page-icon {
+  content: "";
+  background-image: var(--23191752imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title="mcu"]::before,.kef-ft-fav-item-name[title="电机管理器"]::before  {
+	  content: "";
+	  background-image: var(--23191752imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="mcu"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="电机管理器"]){
+	  display: none !important;
+}
+/*自定义标签 电机管理器#mcu*/
 /*自定义标签 充电*/
 :root{
    --23183643imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIDYgFDPMFbUyO4cA/root/content");
