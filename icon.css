@@ -175,6 +175,75 @@
 	  display: none !important;
 }
 /*自定义标签 噪音*/
+/*自定义标签 车载充电器#obc#chg#ipu*/
+:root{
+   --23202025imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIKdUeIJ-fBODjNSg/root/content");
+}
+:is(a[data-ref="车载充电器"],.page-title-sizer-wrapper span[data-ref="车载充电器"],a[data-ref="obc"],.page-title-sizer-wrapper span[data-ref="obc"],a[data-ref="chg"],.page-title-sizer-wrapper span[data-ref="chg"],a[data-ref="ipu"],.page-title-sizer-wrapper span[data-ref="ipu"]){
+  color: inherit!important;
+  
+}
+:is(a[data-ref="车载充电器"],.page-title-sizer-wrapper span[data-ref="车载充电器"],a[data-ref="obc"],.page-title-sizer-wrapper span[data-ref="obc"],a[data-ref="chg"],.page-title-sizer-wrapper span[data-ref="chg"],a[data-ref="ipu"],.page-title-sizer-wrapper span[data-ref="ipu"]):hover{
+    color: inherit!important;
+  
+}
+:is(a[data-ref="车载充电器"].tag,a[data-ref="obc"].tag,a[data-ref="chg"].tag,a[data-ref="ipu"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref="车载充电器"],.page-title-sizer-wrapper span[data-ref="车载充电器"],a[data-ref="obc"],.page-title-sizer-wrapper span[data-ref="obc"],a[data-ref="chg"],.page-title-sizer-wrapper span[data-ref="chg"],a[data-ref="ipu"],.page-title-sizer-wrapper span[data-ref="ipu"])::before{
+  content: "";
+  background-image: var(--23202025imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref="车载充电器"],.page-title-sizer-wrapper span[data-ref="obc"],.page-title-sizer-wrapper span[data-ref="chg"],.page-title-sizer-wrapper span[data-ref="ipu"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref="车载充电器"],[data-ref="obc"],[data-ref="chg"],[data-ref="ipu"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="车载充电器"],[data-ref="obc"],[data-ref="chg"],[data-ref="ipu"])>a>span.page-icon {
+  content: "";
+  background-image: var(--23202025imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title="ipu"]::before,.kef-ft-fav-item-name[title="chg"]::before,.kef-ft-fav-item-name[title="obc"]::before,.kef-ft-fav-item-name[title="车载充电器"]::before  {
+	  content: "";
+	  background-image: var(--23202025imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="ipu"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="chg"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="obc"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="车载充电器"]){
+	  display: none !important;
+}
+/*自定义标签 车载充电器#obc#chg#ipu*/
 /*自定义标签 悬*/
 :root{
    --23194423imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIH4URoIx47399Tpw/root/content");
