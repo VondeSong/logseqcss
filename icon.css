@@ -37,25 +37,25 @@
   --treeicon0_left:0;
   --treeicon0_margin-right:5px;
 }
-/*自定义标签 悬架*/
+/*自定义标签 悬*/
 :root{
-   --23194259imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIH4URoIx47399Tpw/root/content");
+   --23194423imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIH4URoIx47399Tpw/root/content");
 }
-:is(a[data-ref^="悬架"],.page-title-sizer-wrapper span[data-ref^="悬架"]){
+:is(a[data-ref^="悬"],.page-title-sizer-wrapper span[data-ref^="悬"]){
   color: inherit!important;
   
 }
-:is(a[data-ref^="悬架"],.page-title-sizer-wrapper span[data-ref^="悬架"]):hover{
+:is(a[data-ref^="悬"],.page-title-sizer-wrapper span[data-ref^="悬"]):hover{
     color: inherit!important;
   
 }
-:is(a[data-ref^="悬架"].tag) {
+:is(a[data-ref^="悬"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref^="悬架"],.page-title-sizer-wrapper span[data-ref^="悬架"])::before{
+:is(a[data-ref^="悬"],.page-title-sizer-wrapper span[data-ref^="悬"])::before{
   content: "";
-  background-image: var(--23194259imageurl);
+  background-image: var(--23194423imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -67,16 +67,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is(.page-title-sizer-wrapper span[data-ref^="悬架"])::before{
+:is(.page-title-sizer-wrapper span[data-ref^="悬"])::before{
   top: var(--page_title_topicon) !important;
   margin-right: var(--page_title_margin_right);
 }
-:is([data-ref^="悬架"]) > a > span.page-icon {
+:is([data-ref^="悬"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref^="悬架"])>a>span.page-icon {
+:is([data-ref^="悬"])>a>span.page-icon {
   content: "";
-  background-image: var(--23194259imageurl);
+  background-image: var(--23194423imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -88,9 +88,9 @@
   overflow:auto;
 }
 		/*插件 tree icon*/
-		.kef-ft-fav-item-name[title^="悬架"]::before  {
+		.kef-ft-fav-item-name[title^="悬"]::before  {
 	  content: "";
-	  background-image: var(--23194259imageurl);
+	  background-image: var(--23194423imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
@@ -102,10 +102,10 @@
 	  overflow:auto;
 	  margin-right: var(--treeicon0_margin-right);
 	 }
-	 .ui__icon:has( ~ .kef-ft-fav-item-name[title^="悬架"]){
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title^="悬"]){
 	  display: none !important;
 }
-/*自定义标签 悬架*/
+/*自定义标签 悬*/
 /*自定义标签 bms#电池管理器*/
 :root{
    --23192621imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIG85N1ZVrf8TL3Xg/root/content");
