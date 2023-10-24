@@ -39,7 +39,7 @@
 }
 /*自定义标签 思路*/
 :root{
-   --24104509imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqILWtobsiPm_z9Q8A/root/content");
+   --24112207imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIMPOopmYOrq4O8EQ/root/content");
 }
 :is(a[data-ref$="思路"],.page-title-sizer-wrapper span[data-ref$="思路"]){
   color: inherit!important;
@@ -55,7 +55,7 @@
 }
 :is(a[data-ref$="思路"],.page-title-sizer-wrapper span[data-ref$="思路"])::before{
   content: "";
-  background-image: var(--24104509imageurl);
+  background-image: var(--24112207imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -76,7 +76,7 @@
 }
 :is([data-ref$="思路"])>a>span.page-icon {
   content: "";
-  background-image: var(--24104509imageurl);
+  background-image: var(--24112207imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -90,7 +90,7 @@
 		/*插件 tree icon*/
 		.kef-ft-fav-item-name[title$="思路"]::before  {
 	  content: "";
-	  background-image: var(--24104509imageurl);
+	  background-image: var(--24112207imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
