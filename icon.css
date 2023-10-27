@@ -315,23 +315,23 @@
 /*自定义标签 流程*/
 /*自定义标签 角色*/
 :root{
-   --26184014imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIVp1aBc1mWc2OZdQ/root/content");
+   --27231653imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIao6siwzqVV3id_g/root/content");
 }
-:is(a[data-ref="角色"],.page-title-sizer-wrapper span[data-ref="角色"]){
+:is(a[data-ref$="角色"],.page-title-sizer-wrapper span[data-ref$="角色"]){
   color: inherit!important;
   
 }
-:is(a[data-ref="角色"],.page-title-sizer-wrapper span[data-ref="角色"]):hover{
+:is(a[data-ref$="角色"],.page-title-sizer-wrapper span[data-ref$="角色"]):hover{
     color: inherit!important;
   
 }
-:is(a[data-ref="角色"].tag) {
+:is(a[data-ref$="角色"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref="角色"],.page-title-sizer-wrapper span[data-ref="角色"])::before{
+:is(a[data-ref$="角色"],.page-title-sizer-wrapper span[data-ref$="角色"])::before{
   content: "";
-  background-image: var(--26184014imageurl);
+  background-image: var(--27231653imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -343,16 +343,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is(.page-title-sizer-wrapper span[data-ref="角色"])::before{
+:is(.page-title-sizer-wrapper span[data-ref$="角色"])::before{
   top: var(--page_title_topicon) !important;
   margin-right: var(--page_title_margin_right);
 }
-:is([data-ref="角色"]) > a > span.page-icon {
+:is([data-ref$="角色"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref="角色"])>a>span.page-icon {
+:is([data-ref$="角色"])>a>span.page-icon {
   content: "";
-  background-image: var(--26184014imageurl);
+  background-image: var(--27231653imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -364,9 +364,9 @@
   overflow:auto;
 }
 		/*插件 tree icon*/
-		.kef-ft-fav-item-name[title="角色"]::before  {
+		.kef-ft-fav-item-name[title$="角色"]::before  {
 	  content: "";
-	  background-image: var(--26184014imageurl);
+	  background-image: var(--27231653imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
@@ -378,7 +378,7 @@
 	  overflow:auto;
 	  margin-right: var(--treeicon0_margin-right);
 	 }
-	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="角色"]){
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title$="角色"]){
 	  display: none !important;
 }
 /*自定义标签 角色*/
