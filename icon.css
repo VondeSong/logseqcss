@@ -39,7 +39,7 @@
 }
 /*自定义标签 交付物*/
 :root{
-   --27225913imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIXyH-5ZoZh6b62gw/root/content");
+   --27230008imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIXyH-5ZoZh6b62gw/root/content");
 }
 :is(a[data-ref$="交付物"],.page-title-sizer-wrapper span[data-ref$="交付物"]){
   color: inherit!important;
@@ -55,7 +55,7 @@
 }
 :is(a[data-ref$="交付物"],.page-title-sizer-wrapper span[data-ref$="交付物"])::before{
   content: "";
-  background-image: var(--27225913imageurl);
+  background-image: var(--27230008imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -76,7 +76,7 @@
 }
 :is([data-ref$="交付物"])>a>span.page-icon {
   content: "";
-  background-image: var(--27225913imageurl);
+  background-image: var(--27230008imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -90,7 +90,7 @@
 		/*插件 tree icon*/
 		.kef-ft-fav-item-name[title$="交付物"]::before  {
 	  content: "";
-	  background-image: var(--27225913imageurl);
+	  background-image: var(--27230008imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
