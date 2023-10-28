@@ -2593,23 +2593,23 @@
 /*自定义标签 附件*/
 /*自定义标签 线束*/
 :root{
-   --20214759imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFfNe-RgE9l9A4YTw/root/content");
+   --28100453imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIcGogonsQHoYRJaQ/root/content");
 }
-:is(a[data-ref="线束"],.page-title-sizer-wrapper span[data-ref="线束"]){
+:is(a[data-ref$="线束"],.page-title-sizer-wrapper span[data-ref$="线束"]){
   color: inherit!important;
   
 }
-:is(a[data-ref="线束"],.page-title-sizer-wrapper span[data-ref="线束"]):hover{
+:is(a[data-ref$="线束"],.page-title-sizer-wrapper span[data-ref$="线束"]):hover{
     color: inherit!important;
   
 }
-:is(a[data-ref="线束"].tag) {
+:is(a[data-ref$="线束"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref="线束"],.page-title-sizer-wrapper span[data-ref="线束"])::before{
+:is(a[data-ref$="线束"],.page-title-sizer-wrapper span[data-ref$="线束"])::before{
   content: "";
-  background-image: var(--20214759imageurl);
+  background-image: var(--28100453imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -2621,16 +2621,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is(.page-title-sizer-wrapper span[data-ref="线束"])::before{
+:is(.page-title-sizer-wrapper span[data-ref$="线束"])::before{
   top: var(--page_title_topicon) !important;
   margin-right: var(--page_title_margin_right);
 }
-:is([data-ref="线束"]) > a > span.page-icon {
+:is([data-ref$="线束"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref="线束"])>a>span.page-icon {
+:is([data-ref$="线束"])>a>span.page-icon {
   content: "";
-  background-image: var(--20214759imageurl);
+  background-image: var(--28100453imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -2642,9 +2642,9 @@
   overflow:auto;
 }
 		/*插件 tree icon*/
-		.kef-ft-fav-item-name[title="线束"]::before  {
+		.kef-ft-fav-item-name[title$="线束"]::before  {
 	  content: "";
-	  background-image: var(--20214759imageurl);
+	  background-image: var(--28100453imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
@@ -2656,7 +2656,7 @@
 	  overflow:auto;
 	  margin-right: var(--treeicon0_margin-right);
 	 }
-	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="线束"]){
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title$="线束"]){
 	  display: none !important;
 }
 /*自定义标签 线束*/
