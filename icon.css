@@ -5659,7 +5659,7 @@
   overflow:auto;
 }
 		/*插件 tree icon*/
-		.kef-ft-fav-item-name[title^="时间轴"]::before,.kef-ft-fav-item-name[title^="timeline"]::before,.kef-ft-fav-item-name[title^="timeline"]::before  {
+		.kef-ft-fav-item-name[title^="时间轴"]::before,.kef-ft-fav-item-name[title^="Timeline"]::before,.kef-ft-fav-item-name[title^="timeline"]::before  {
 	  content: "";
 	  background-image: var(--02152850imageurl);
 	  background-size: 100%;
@@ -5673,7 +5673,7 @@
 	  overflow:auto;
 	  margin-right: var(--treeicon0_margin-right);
 	 }
-	 .ui__icon:has( ~ .kef-ft-fav-item-name[title^="时间轴"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title^="timeline"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title^="timeline"]){
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title^="时间轴"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title^="Timeline"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title^="timeline"]){
 	  display: none !important;
 }
 /*自定义标签 timeline#timeline#时间轴*/
