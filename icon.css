@@ -6499,21 +6499,23 @@
 /*自定义标签 archives#归档*/
 /*自定义标签 resource#资源*/
 :root{
-   --25192254imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqBpvLdVZNdQtegwKQ/root/content");
+   --02224843imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgTiTvNjSZTLbccUt/root/content");
 }
-:is(a[data-ref^="resource"],.page-title-sizer-wrapper span[data-ref^="resource"],a[data-ref^="资源"],.page-title-sizer-wrapper span[data-ref^="资源"]){
+:is(a[data-ref="resource"],.page-title-sizer-wrapper span[data-ref="resource"],a[data-ref="资源"],.page-title-sizer-wrapper span[data-ref="资源"]){
   color: inherit!important;
+  
 }
-:is(a[data-ref^="resource"],.page-title-sizer-wrapper span[data-ref^="resource"],a[data-ref^="资源"],.page-title-sizer-wrapper span[data-ref^="资源"]):hover{
+:is(a[data-ref="resource"],.page-title-sizer-wrapper span[data-ref="resource"],a[data-ref="资源"],.page-title-sizer-wrapper span[data-ref="资源"]):hover{
     color: inherit!important;
+  
 }
-:is(a[data-ref^="resource"].tag,a[data-ref^="资源"].tag) {
+:is(a[data-ref="resource"].tag,a[data-ref="资源"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref^="resource"],.page-title-sizer-wrapper span[data-ref^="resource"],a[data-ref^="资源"],.page-title-sizer-wrapper span[data-ref^="资源"])::before{
+:is(a[data-ref="resource"],.page-title-sizer-wrapper span[data-ref="resource"],a[data-ref="资源"],.page-title-sizer-wrapper span[data-ref="资源"])::before{
   content: "";
-  background-image: var(--25192254imageurl);
+  background-image: var(--02224843imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -6525,16 +6527,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is(.page-title-sizer-wrapper span[data-ref^="resource"],.page-title-sizer-wrapper span[data-ref^="资源"])::before{
+:is(.page-title-sizer-wrapper span[data-ref="resource"],.page-title-sizer-wrapper span[data-ref="资源"])::before{
   top: var(--page_title_topicon) !important;
   margin-right: var(--page_title_margin_right);
 }
-:is([data-ref^="resource"],[data-ref^="资源"]) > a > span.page-icon {
+:is([data-ref="resource"],[data-ref="资源"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref^="resource"],[data-ref^="资源"])>a>span.page-icon {
+:is([data-ref="resource"],[data-ref="资源"])>a>span.page-icon {
   content: "";
-  background-image: var(--25192254imageurl);
+  background-image: var(--02224843imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -6544,6 +6546,24 @@
   z-index: 0;
   display: inline-block;
   overflow:auto;
+}
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title="资源"]::before,.kef-ft-fav-item-name[title="resource"]::before  {
+	  content: "";
+	  background-image: var(--02224843imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="资源"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="resource"]){
+	  display: none !important;
 }
 /*自定义标签 resource#资源*/
 /*自定义标签 area*/
