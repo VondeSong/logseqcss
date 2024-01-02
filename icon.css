@@ -6401,21 +6401,23 @@
 
 /*自定义标签 项目#projects*/
 :root{
-   --25202031imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqBrlobM_kkI2wITrA/root/content");
+   --02225555imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgTm638yt6-HL8L2h/root/content");
 }
-:is(a[data-ref^="项目"],.page-title-sizer-wrapper span[data-ref^="项目"],a[data-ref^="projects"],.page-title-sizer-wrapper span[data-ref^="projects"]){
+:is(a[data-ref="项目"],.page-title-sizer-wrapper span[data-ref="项目"],a[data-ref="projects"],.page-title-sizer-wrapper span[data-ref="projects"]){
   color: inherit!important;
+  
 }
-:is(a[data-ref^="项目"],.page-title-sizer-wrapper span[data-ref^="项目"],a[data-ref^="projects"],.page-title-sizer-wrapper span[data-ref^="projects"]):hover{
+:is(a[data-ref="项目"],.page-title-sizer-wrapper span[data-ref="项目"],a[data-ref="projects"],.page-title-sizer-wrapper span[data-ref="projects"]):hover{
     color: inherit!important;
+  
 }
-:is(a[data-ref^="项目"].tag,a[data-ref^="projects"].tag) {
+:is(a[data-ref="项目"].tag,a[data-ref="projects"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref^="项目"],.page-title-sizer-wrapper span[data-ref^="项目"],a[data-ref^="projects"],.page-title-sizer-wrapper span[data-ref^="projects"])::before{
+:is(a[data-ref="项目"],.page-title-sizer-wrapper span[data-ref="项目"],a[data-ref="projects"],.page-title-sizer-wrapper span[data-ref="projects"])::before{
   content: "";
-  background-image: var(--25202031imageurl);
+  background-image: var(--02225555imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -6427,16 +6429,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is(.page-title-sizer-wrapper span[data-ref^="项目"],.page-title-sizer-wrapper span[data-ref^="projects"])::before{
+:is(.page-title-sizer-wrapper span[data-ref="项目"],.page-title-sizer-wrapper span[data-ref="projects"])::before{
   top: var(--page_title_topicon) !important;
   margin-right: var(--page_title_margin_right);
 }
-:is([data-ref^="项目"],[data-ref^="projects"]) > a > span.page-icon {
+:is([data-ref="项目"],[data-ref="projects"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref^="项目"],[data-ref^="projects"])>a>span.page-icon {
+:is([data-ref="项目"],[data-ref="projects"])>a>span.page-icon {
   content: "";
-  background-image: var(--25202031imageurl);
+  background-image: var(--02225555imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -6446,6 +6448,24 @@
   z-index: 0;
   display: inline-block;
   overflow:auto;
+}
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title="projects"]::before,.kef-ft-fav-item-name[title="项目"]::before  {
+	  content: "";
+	  background-image: var(--02225555imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="projects"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="项目"]){
+	  display: none !important;
 }
 /*自定义标签 项目#projects*/
 /*自定义标签 archives#归档*/
