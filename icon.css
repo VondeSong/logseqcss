@@ -6446,55 +6446,7 @@
   overflow:auto;
 }
 /*自定义标签 执行力*/
-/*自定义标签 生存结构*/
-:root{
-   --01141551imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp43FrwkNGCXe4x4Mg/root/content");
-}
-:is(a[data-ref^="生存结构"],.page-title-sizer-wrapper span[data-ref^="生存结构"]){
-  color: inherit!important;
-}
-:is(a[data-ref^="生存结构"],.page-title-sizer-wrapper span[data-ref^="生存结构"]):hover{
-    color: inherit!important;
-}
-:is(a[data-ref^="生存结构"].tag) {
-/*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 1px solid inherit;
-}
-:is(a[data-ref^="生存结构"],.page-title-sizer-wrapper span[data-ref^="生存结构"])::before{
-  content: "";
-  background-image: var(--01141551imageurl);
-  background-size: 100%;
-  width: var(--page_picture_Width);
-  height: var(--page_picture_Height);
-  position: relative;
-  top: var(--page_picture_Top);
-  left: var(--page_picture_Left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-  margin-right: var(--page_picture_marginRight);
-}
-:is(.page-title-sizer-wrapper span[data-ref^="生存结构"])::before{
-  top: var(--page_title_topicon) !important;
-  margin-right: var(--page_title_margin_right);
-}
-:is([data-ref^="生存结构"]) > a > span.page-icon {
-  text-indent:-9999px;
-}
-:is([data-ref^="生存结构"])>a>span.page-icon {
-  content: "";
-  background-image: var(--01141551imageurl);
-  background-size: 100%;
-  width: var(--Lefticon_picture_Width);
-  height: var(--Lefticon_picture_Height);
-  position: relative;
-  top: var(--Lefticon_picture_top);
-  left: var(--Lefticon_picture_left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-}
-/*自定义标签 生存结构*/
+
 /*自定义标签 百度网盘*/
 :root{
    --30212139imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp4uV5fDOgl31JUf6g/root/content");
@@ -10317,75 +10269,7 @@ a[data-ref="card"] {
   overflow:auto;
 }
 /*自定义标签 王者荣耀*/
-/*自定义标签 结构学*/
-:root{
-   --02193155imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgSWhtgtIg1L-rGxA/root/content");
-}
-:is(a[data-ref="结构学"],.page-title-sizer-wrapper span[data-ref="结构学"]){
-  color: inherit!important;
-  
-}
-:is(a[data-ref="结构学"],.page-title-sizer-wrapper span[data-ref="结构学"]):hover{
-    color: inherit!important;
-  
-}
-:is(a[data-ref="结构学"].tag) {
-/*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 1px solid inherit;
-}
-:is(a[data-ref="结构学"],.page-title-sizer-wrapper span[data-ref="结构学"])::before{
-  content: "";
-  background-image: var(--02193155imageurl);
-  background-size: 100%;
-  width: var(--page_picture_Width);
-  height: var(--page_picture_Height);
-  position: relative;
-  top: var(--page_picture_Top);
-  left: var(--page_picture_Left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-  margin-right: var(--page_picture_marginRight);
-}
-:is(.page-title-sizer-wrapper span[data-ref="结构学"])::before{
-  top: var(--page_title_topicon) !important;
-  margin-right: var(--page_title_margin_right);
-}
-:is([data-ref="结构学"]) > a > span.page-icon {
-  text-indent:-9999px;
-}
-:is([data-ref="结构学"])>a>span.page-icon {
-  content: "";
-  background-image: var(--02193155imageurl);
-  background-size: 100%;
-  width: var(--Lefticon_picture_Width);
-  height: var(--Lefticon_picture_Height);
-  position: relative;
-  top: var(--Lefticon_picture_top);
-  left: var(--Lefticon_picture_left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-}
-		/*插件 tree icon*/
-		.kef-ft-fav-item-name[title="结构学"]::before  {
-	  content: "";
-	  background-image: var(--02193155imageurl);
-	  background-size: 100%;
-	  width: var(--treeicon0_width);
-	  height: var(--treeicon0_width);
-	  position: relative;
-	  top: var(--treeicon0_top);
-	  left: 0px;
-	  z-index: 0;
-	  display: inline-block;
-	  overflow:auto;
-	  margin-right: var(--treeicon0_margin-right);
-	 }
-	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="结构学"]){
-	  display: none !important;
-}
-/*自定义标签 结构学*/
+
 /*自定义标签 主题学习*/
 :is(a[data-ref="主题学习"],.page-title-sizer-wrapper span[data-ref="主题学习"]){
   color: inherit!important;
@@ -12525,48 +12409,7 @@ a[data-ref^="阅读"].tag:before {
   overflow:auto;
 }
 /*自定义标签 贫穷*/
-/*自定义标签 精神结构  结构*/
-:is(a[data-ref^="精神结构"],.page-title-sizer-wrapper span[data-ref^="精神结构"],a[data-ref^="结构"],.page-title-sizer-wrapper span[data-ref^="结构"]){
-  color: inherit!important;
-}
-:is(a[data-ref^="精神结构"],.page-title-sizer-wrapper span[data-ref^="精神结构"],a[data-ref^="结构"],.page-title-sizer-wrapper span[data-ref^="结构"]):hover{
-    color: inherit!important;
-}
-:is(a[data-ref^="精神结构"].tag,a[data-ref^="结构"].tag) {
-/*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 1px solid inherit;
-}
-:is(a[data-ref^="精神结构"],.page-title-sizer-wrapper span[data-ref^="精神结构"],a[data-ref^="结构"],.page-title-sizer-wrapper span[data-ref^="结构"])::before{
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpxMuiwSiKaEfA446g/root/content");
-  background-size: 100%;
-  width: var(--page_picture_Width);
-  height: var(--page_picture_Height);
-  position: relative;
-  top: var(--page_picture_Top);
-  left: var(--page_picture_Left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-  margin-right: var(--page_picture_marginRight);
-}
-:is([data-ref^="精神结构"],[data-ref^="结构"]) > a > span.page-icon {
-  text-indent:-9999px;
-}
-:is([data-ref^="精神结构"],[data-ref^="结构"])>a>span.page-icon {
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpxMuiwSiKaEfA446g/root/content");
-  background-size: 100%;
-  width: var(--Lefticon_picture_Width);
-  height: var(--Lefticon_picture_Height);
-  position: relative;
-  top: var(--Lefticon_picture_top);
-  left: var(--Lefticon_picture_left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-}
-/*自定义标签 精神结构  结构*/
+
 
 /*自定义标签 目标可视化*/
 :is(a[data-ref="目标可视化"],.page-title-sizer-wrapper span[data-ref="目标可视化"]){
