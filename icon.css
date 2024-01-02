@@ -7021,21 +7021,23 @@
 /*自定义标签 个人管理*/
 /*自定义标签 我的问题*/
 :root{
-   --18191707imageurl:url("data:image/png;base64,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");
+   --02230436imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgTyRqVBnDig3B-_r/root/content");
 }
-:is(a[data-ref^="我的问题"],.page-title-sizer-wrapper span[data-ref^="我的问题"]){
+:is(a[data-ref="我的问题"],.page-title-sizer-wrapper span[data-ref="我的问题"]){
   color: inherit!important;
+  
 }
-:is(a[data-ref^="我的问题"],.page-title-sizer-wrapper span[data-ref^="我的问题"]):hover{
+:is(a[data-ref="我的问题"],.page-title-sizer-wrapper span[data-ref="我的问题"]):hover{
     color: inherit!important;
+  
 }
-:is(a[data-ref^="我的问题"].tag) {
+:is(a[data-ref="我的问题"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref^="我的问题"],.page-title-sizer-wrapper span[data-ref^="我的问题"])::before{
+:is(a[data-ref="我的问题"],.page-title-sizer-wrapper span[data-ref="我的问题"])::before{
   content: "";
-  background-image: var(--18191707imageurl);
+  background-image: var(--02230436imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -7047,16 +7049,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is(.page-title-sizer-wrapper span[data-ref^="我的问题"])::before{
+:is(.page-title-sizer-wrapper span[data-ref="我的问题"])::before{
   top: var(--page_title_topicon) !important;
   margin-right: var(--page_title_margin_right);
 }
-:is([data-ref^="我的问题"]) > a > span.page-icon {
+:is([data-ref="我的问题"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref^="我的问题"])>a>span.page-icon {
+:is([data-ref="我的问题"])>a>span.page-icon {
   content: "";
-  background-image: var(--18191707imageurl);
+  background-image: var(--02230436imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -7066,6 +7068,24 @@
   z-index: 0;
   display: inline-block;
   overflow:auto;
+}
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title="我的问题"]::before  {
+	  content: "";
+	  background-image: var(--02230436imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="我的问题"]){
+	  display: none !important;
 }
 /*自定义标签 我的问题*/
 /*自定义标签 timeline#timeline#时间轴*/
