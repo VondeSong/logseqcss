@@ -6763,6 +6763,23 @@
 	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="归档"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="archives"]){
 	  display: none !important;
 }
+.kef-ft-fav-item-name[title="归档"]::before,.kef-ft-fav-item-name[title="Archives"]::before  {
+	  content: "";
+	  background-image: var(--02230100imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="归档"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="Archives"]){
+	  display: none !important;
+}
 /*自定义标签 archives#归档*/
 /*自定义标签 resource#资源*/
 :root{
@@ -6832,6 +6849,23 @@
 	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="资源"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="resource"]){
 	  display: none !important;
 }
+.kef-ft-fav-item-name[title="资源"]::before,.kef-ft-fav-item-name[title="Resource"]::before  {
+	  content: "";
+	  background-image: var(--02224843imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="资源"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="Resource"]){
+	  display: none !important;
+}
 /*自定义标签 resource#资源*/
 /*自定义标签 area*/
 :root{
@@ -6899,6 +6933,23 @@
 	  margin-right: var(--treeicon0_margin-right);
 	 }
 	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="area"]){
+	  display: none !important;
+}
+	.kef-ft-fav-item-name[title="Area"]::before  {
+	  content: "";
+	  background-image: var(--02224659imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="Area"]){
 	  display: none !important;
 }
 /*自定义标签 area*/
