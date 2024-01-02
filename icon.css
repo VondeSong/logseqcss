@@ -10302,23 +10302,25 @@
   overflow:auto;
 }
 /*自定义标签 2023/11 2023/11*/
-/*自定义标签 家庭*/
+/*自定义标签 家庭#亲人#血缘*/
 :root{
-   --26104109imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqBxkQfHMbNha1J1ig/root/content");
+   --02231341imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgT5cbc_kzaMLo-6L/root/content");
 }
-:is(a[data-ref^="家庭"],.page-title-sizer-wrapper span[data-ref^="家庭"]){
+:is(a[data-ref="家庭"],.page-title-sizer-wrapper span[data-ref="家庭"],a[data-ref="亲人"],.page-title-sizer-wrapper span[data-ref="亲人"],a[data-ref="血缘"],.page-title-sizer-wrapper span[data-ref="血缘"]){
   color: inherit!important;
+  
 }
-:is(a[data-ref^="家庭"],.page-title-sizer-wrapper span[data-ref^="家庭"]):hover{
+:is(a[data-ref="家庭"],.page-title-sizer-wrapper span[data-ref="家庭"],a[data-ref="亲人"],.page-title-sizer-wrapper span[data-ref="亲人"],a[data-ref="血缘"],.page-title-sizer-wrapper span[data-ref="血缘"]):hover{
     color: inherit!important;
+  
 }
-:is(a[data-ref^="家庭"].tag) {
+:is(a[data-ref="家庭"].tag,a[data-ref="亲人"].tag,a[data-ref="血缘"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref^="家庭"],.page-title-sizer-wrapper span[data-ref^="家庭"])::before{
+:is(a[data-ref="家庭"],.page-title-sizer-wrapper span[data-ref="家庭"],a[data-ref="亲人"],.page-title-sizer-wrapper span[data-ref="亲人"],a[data-ref="血缘"],.page-title-sizer-wrapper span[data-ref="血缘"])::before{
   content: "";
-  background-image: var(--26104109imageurl);
+  background-image: var(--02231341imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -10330,16 +10332,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is(.page-title-sizer-wrapper span[data-ref^="家庭"])::before{
+:is(.page-title-sizer-wrapper span[data-ref="家庭"],.page-title-sizer-wrapper span[data-ref="亲人"],.page-title-sizer-wrapper span[data-ref="血缘"])::before{
   top: var(--page_title_topicon) !important;
   margin-right: var(--page_title_margin_right);
 }
-:is([data-ref^="家庭"]) > a > span.page-icon {
+:is([data-ref="家庭"],[data-ref="亲人"],[data-ref="血缘"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref^="家庭"])>a>span.page-icon {
+:is([data-ref="家庭"],[data-ref="亲人"],[data-ref="血缘"])>a>span.page-icon {
   content: "";
-  background-image: var(--26104109imageurl);
+  background-image: var(--02231341imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -10351,9 +10353,9 @@
   overflow:auto;
 }
 		/*插件 tree icon*/
-		.kef-ft-fav-item-name[title^="家庭"]::before  {
+		.kef-ft-fav-item-name[title="血缘"]::before,.kef-ft-fav-item-name[title="亲人"]::before,.kef-ft-fav-item-name[title="家庭"]::before  {
 	  content: "";
-	  background-image: var(--26104109imageurl);
+	  background-image: var(--02231341imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
@@ -10365,10 +10367,10 @@
 	  overflow:auto;
 	  margin-right: var(--treeicon0_margin-right);
 	 }
-	 .ui__icon:has( ~ .kef-ft-fav-item-name[title^="家庭"]){
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="血缘"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="亲人"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="家庭"]){
 	  display: none !important;
 }
-/*自定义标签 家庭*/
+/*自定义标签 家庭#亲人#血缘*/
 /*自定义标签 2023/12 2023/12*/
 :is(a[data-ref="2023/12"],.page-title-sizer-wrapper span[data-ref="2023/12"],a[data-ref="2023/12"],.page-title-sizer-wrapper span[data-ref="2023/12"]){
   position: relative;
