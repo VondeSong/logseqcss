@@ -12066,33 +12066,7 @@ a[data-ref="实力商家"]:hover {
  margin-right: var(--fontmarginright) !important;
 }
 /*自定义标签 自律*/
-/*自定义标签 哲学*/
-:is(a[data-ref^="哲学"],.page-title-sizer-wrapper span[data-ref^="哲学"]){
-  color: #217DBA!important;
-}
-:is(a[data-ref^="哲学"],.page-title-sizer-wrapper span[data-ref^="哲学"]):hover{
-    color: #217DBA!important;
-}
-:is(a[data-ref^="哲学"],.page-title-sizer-wrapper span[data-ref^="哲学"])::before{
-  content: "\EC8B";
-  font-size: var(--Icon_size_inPage);
-  font-family: var(--Font_icon_name);
-  color: #217DBA;
-  margin-right: var(--fonticon_Mr);
-}
-:is([data-ref^="哲学"]) > a > span.page-icon {
-  text-indent:-9999px;
-   position: relative;
-  margin-right:var(--pageIconML) !important;
-}
-:is([data-ref^="哲学"])>a::before {
-  font-family: var(--Font_icon_name);
-  font-size: var(--Sidebar_icon_size);
-  color: #217DBA;;
-  content: "\EC8B";
-  margin-right: var(--fontmarginright) !important;
-}
-/*自定义标签 哲学*/
+
 /*自定义标签 修行*/
 :is(a[data-ref^="修行"],.page-title-sizer-wrapper span[data-ref^="修行"]){
   color: #217DBA!important;
