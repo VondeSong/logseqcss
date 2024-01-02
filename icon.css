@@ -175,33 +175,7 @@
 	  display: none !important;
 }
 /*自定义标签 新观念*/
-/*自定义标签 心理学*/
-:is(a[data-ref="心理学"],.page-title-sizer-wrapper span[data-ref="心理学"]){
-  color: inherit!important;
-  
-}
-:is(a[data-ref="心理学"],.page-title-sizer-wrapper span[data-ref="心理学"]):hover{
-    color: inherit!important;
-  
-}
-:is(a[data-ref="心理学"].tag) {
-/*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 1px solid inherit;
-}
-:is(a[data-ref="心理学"],.page-title-sizer-wrapper span[data-ref="心理学"])::before{
-  content: "https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgR2W9Eu4lLL1HR-R/root/content";
-  font-size: var(--emoji_size);
-  margin-right: var(--emoji_marginRight);
-}
-:is([data-ref="心理学"]) > a > span.page-icon {
-  text-indent:-9999px;
-  position: relative;
-  margin-right:var(--emoji_leftsider_marginRight) !important;
-}
-:is([data-ref="心理学"])>a::before {
-  content: "https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgR2W9Eu4lLL1HR-R/root/content";
-}
-/*自定义标签 心理学*/
+
 /*自定义标签 2023*/
 :is(a[data-ref="2023"],.page-title-sizer-wrapper span[data-ref="2023"]){
   color: inherit!important;
