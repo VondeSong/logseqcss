@@ -312,6 +312,23 @@
 	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="para"]){
 	  display: none !important;
 }
+.kef-ft-fav-item-name[title="PARA"]::before  {
+	  content: "";
+	  background-image: var(--02230745imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="PARA"]){
+	  display: none !important;
+}
 /*自定义标签 para*/
 /*自定义标签 健康*/
 :root{
