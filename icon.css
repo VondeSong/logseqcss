@@ -12961,37 +12961,6 @@ a[data-ref^="折腾"].tag:before {
     -webkit-mask: linear-gradient(#000,#000) content-box,linear-gradient(#000,#000) !important;
     -webkit-mask-composite: xor;
 }
-/*自定义标签 学习*/
-:is(a[data-ref^="学习"],.page-title-sizer-wrapper span[data-ref^="学习"]){
-  color: #217DBA!important;
-}
-:is(a[data-ref^="学习"],.page-title-sizer-wrapper span[data-ref^="学习"]):hover{
-    color: #217DBA!important;
-}
-:is(a[data-ref^="学习"].tag) {
-/*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 1px solid #a3d3d3;
-}
-:is(a[data-ref^="学习"],.page-title-sizer-wrapper span[data-ref^="学习"])::before{
-  content: "\EE90";
-  font-size: var(--Icon_size_inPage);
-  font-family: var(--Font_icon_name);
-  color: #217DBA;
-  margin-right: var(--fonticon_Mr);
-}
-:is([data-ref^="学习"]) > a > span.page-icon {
-  text-indent:-9999px;
-   position: relative;
-  margin-right:var(--pageIconML) !important;
-}
-:is([data-ref^="学习"])>a::before {
-  font-family: var(--Font_icon_name);
-  font-size: var(--Sidebar_icon_size);
-  color: #217DBA;;
-  content: "\EE90";
-  margin-right: var(--fontmarginright) !important;
-}
-/*自定义标签 学习*/
 
 /*自定义标签 积极心态*/
 :is(a[data-ref^="积极心态"],.page-title-sizer-wrapper span[data-ref^="积极心态"]){
