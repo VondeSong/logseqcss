@@ -37,6 +37,75 @@
   --treeicon0_left:0;
   --treeicon0_margin-right:5px;
 }
+/*自定义标签 经济学#经济理论*/
+:root{
+   --03121408imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVOKGGlfXsJERQxX/root/content");
+}
+:is(a[data-ref="经济学"],.page-title-sizer-wrapper span[data-ref="经济学"],a[data-ref="经济理论"],.page-title-sizer-wrapper span[data-ref="经济理论"]){
+  color: inherit!important;
+  
+}
+:is(a[data-ref="经济学"],.page-title-sizer-wrapper span[data-ref="经济学"],a[data-ref="经济理论"],.page-title-sizer-wrapper span[data-ref="经济理论"]):hover{
+    color: inherit!important;
+  
+}
+:is(a[data-ref="经济学"].tag,a[data-ref="经济理论"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref="经济学"],.page-title-sizer-wrapper span[data-ref="经济学"],a[data-ref="经济理论"],.page-title-sizer-wrapper span[data-ref="经济理论"])::before{
+  content: "";
+  background-image: var(--03121408imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref="经济学"],.page-title-sizer-wrapper span[data-ref="经济理论"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref="经济学"],[data-ref="经济理论"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="经济学"],[data-ref="经济理论"])>a>span.page-icon {
+  content: "";
+  background-image: var(--03121408imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title="经济理论"]::before,.kef-ft-fav-item-name[title="经济学"]::before  {
+	  content: "";
+	  background-image: var(--03121408imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="经济理论"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="经济学"]){
+	  display: none !important;
+}
+/*自定义标签 经济学#经济理论*/
 /*自定义标签 心态#心境#心理状态#心理素质*/
 :root{
    --03115338imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVIY8yOl0-XSHOlh/root/content");
