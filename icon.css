@@ -14363,22 +14363,25 @@ a[data-ref="大童"]:hover {
 }
 /*自定义标签 禅宗*/
 
-
-
-
-
-/*自定义标签 软件 sofeware Sofeware*/
-:is(a[data-ref="软件"],.page-title-sizer-wrapper span[data-ref="软件"],a[data-ref="sofeware"],.page-title-sizer-wrapper span[data-ref="sofeware"],a[data-ref="Sofeware"],.page-title-sizer-wrapper span[data-ref="Sofeware"]){
-  position: relative;
+/*自定义标签 软件#software*/
+:root{
+   --03095359imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgUQQs9Sq-9OePe8Y/root/content");
+}
+:is(a[data-ref="软件"],.page-title-sizer-wrapper span[data-ref="软件"],a[data-ref="software"],.page-title-sizer-wrapper span[data-ref="software"]){
   color: inherit!important;
+  
 }
-:is(a[data-ref="软件"],.page-title-sizer-wrapper span[data-ref="软件"],a[data-ref="sofeware"],.page-title-sizer-wrapper span[data-ref="sofeware"],a[data-ref="Sofeware"],.page-title-sizer-wrapper span[data-ref="Sofeware"]):hover{
-  position: relative;
+:is(a[data-ref="软件"],.page-title-sizer-wrapper span[data-ref="软件"],a[data-ref="software"],.page-title-sizer-wrapper span[data-ref="software"]):hover{
     color: inherit!important;
+  
 }
-:is(a[data-ref="软件"],.page-title-sizer-wrapper span[data-ref="软件"],a[data-ref="sofeware"],.page-title-sizer-wrapper span[data-ref="sofeware"],a[data-ref="Sofeware"],.page-title-sizer-wrapper span[data-ref="Sofeware"])::before{
+:is(a[data-ref="软件"].tag,a[data-ref="software"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref="软件"],.page-title-sizer-wrapper span[data-ref="软件"],a[data-ref="software"],.page-title-sizer-wrapper span[data-ref="software"])::before{
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpln3_R3yDik1TZFxQ/root/content");
+  background-image: var(--03095359imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -14390,12 +14393,16 @@ a[data-ref="大童"]:hover {
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is([data-ref="软件"],[data-ref="sofeware"],[data-ref="Sofeware"]) > a > span.page-icon {
+:is(.page-title-sizer-wrapper span[data-ref="软件"],.page-title-sizer-wrapper span[data-ref="software"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref="软件"],[data-ref="software"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref="软件"],[data-ref="sofeware"],[data-ref="Sofeware"])>a>span.page-icon {
+:is([data-ref="软件"],[data-ref="software"])>a>span.page-icon {
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhpln3_R3yDik1TZFxQ/root/content");
+  background-image: var(--03095359imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -14406,7 +14413,29 @@ a[data-ref="大童"]:hover {
   display: inline-block;
   overflow:auto;
 }
-/*自定义标签 软件 sofeware Sofeware*/
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title="software"]::before,.kef-ft-fav-item-name[title="软件"]::before  {
+	  content: "";
+	  background-image: var(--03095359imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="software"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="软件"]){
+	  display: none !important;
+}
+/*自定义标签 软件#software*/
+
+
+
+
 /*自定义标签 文章 article Article*/
 :is(a[data-ref="文章"],.page-title-sizer-wrapper span[data-ref="文章"],a[data-ref="article"],.page-title-sizer-wrapper span[data-ref="article"],a[data-ref="Article"],.page-title-sizer-wrapper span[data-ref="Article"]){
   position: relative;
