@@ -37,6 +37,75 @@
   --treeicon0_left:0;
   --treeicon0_margin-right:5px;
 }
+/*自定义标签 规则#准则*/
+:root{
+   --03145456imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgWRPnMpUl2ab29v8/root/content");
+}
+:is(a[data-ref="规则"],.page-title-sizer-wrapper span[data-ref="规则"],a[data-ref="准则"],.page-title-sizer-wrapper span[data-ref="准则"]){
+  color: inherit!important;
+  
+}
+:is(a[data-ref="规则"],.page-title-sizer-wrapper span[data-ref="规则"],a[data-ref="准则"],.page-title-sizer-wrapper span[data-ref="准则"]):hover{
+    color: inherit!important;
+  
+}
+:is(a[data-ref="规则"].tag,a[data-ref="准则"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref="规则"],.page-title-sizer-wrapper span[data-ref="规则"],a[data-ref="准则"],.page-title-sizer-wrapper span[data-ref="准则"])::before{
+  content: "";
+  background-image: var(--03145456imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref="规则"],.page-title-sizer-wrapper span[data-ref="准则"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref="规则"],[data-ref="准则"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="规则"],[data-ref="准则"])>a>span.page-icon {
+  content: "";
+  background-image: var(--03145456imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title="准则"]::before,.kef-ft-fav-item-name[title="规则"]::before  {
+	  content: "";
+	  background-image: var(--03145456imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="准则"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="规则"]){
+	  display: none !important;
+}
+/*自定义标签 规则#准则*/
 /*自定义标签 生存#生活*/
 :root{
    --03145117imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgWMm6RqPj2AGVzz8/root/content");
