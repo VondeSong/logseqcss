@@ -11604,34 +11604,75 @@ a[data-ref="实力商家"]:hover {
 }
 /*自定义标签 Maintain maintain*/
 
-/*自定义标签 测试*//*自定义标签 世界观*/
-
+/*自定义标签 世界观*/
+:root{
+   --03104955imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgUxxuZqgXO8BrZKr/root/content");
+}
 :is(a[data-ref="世界观"],.page-title-sizer-wrapper span[data-ref="世界观"]){
-  position: relative;
+  color: inherit!important;
+  
 }
 :is(a[data-ref="世界观"],.page-title-sizer-wrapper span[data-ref="世界观"]):hover{
-  position: relative;
+    color: inherit!important;
+  
+}
+:is(a[data-ref="世界观"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
 }
 :is(a[data-ref="世界观"],.page-title-sizer-wrapper span[data-ref="世界观"])::before{
-  content: "\EB54";
-  font-size: 1em;
-  font-family: 'tabler-icons';
-  color: #217DBA;
-  margin-right: 2px;
+  content: "";
+  background-image: var(--03104955imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref="世界观"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
 }
 :is([data-ref="世界观"]) > a > span.page-icon {
   text-indent:-9999px;
-   position: relative;
-  margin-right:var(--pageIconML) !important;
 }
-:is([data-ref="世界观"])>a::before {
-  font-family: 'tabler-icons';
-  font-size: 1.2em;
-  color: #217DBA;
-  content: "\EB54";
+:is([data-ref="世界观"])>a>span.page-icon {
+  content: "";
+  background-image: var(--03104955imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title="世界观"]::before  {
+	  content: "";
+	  background-image: var(--03104955imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="世界观"]){
+	  display: none !important;
 }
 /*自定义标签 世界观*/
-
 /*自定义标签 货源*//*自定义标签 申通 中通 邮政 极兔 韵达 顺丰 圆通 京东 德邦 百世 优速*/
 :is(a[data-ref^="申通"],.page-title-sizer-wrapper span[data-ref^="申通"],a[data-ref^="中通"],.page-title-sizer-wrapper span[data-ref^="中通"],a[data-ref^="邮政"],.page-title-sizer-wrapper span[data-ref^="邮政"],a[data-ref^="极兔"],.page-title-sizer-wrapper span[data-ref^="极兔"],a[data-ref^="韵达"],.page-title-sizer-wrapper span[data-ref^="韵达"],a[data-ref^="顺丰"],.page-title-sizer-wrapper span[data-ref^="顺丰"],a[data-ref^="圆通"],.page-title-sizer-wrapper span[data-ref^="圆通"],a[data-ref^="京东"],.page-title-sizer-wrapper span[data-ref^="京东"],a[data-ref^="德邦"],.page-title-sizer-wrapper span[data-ref^="德邦"],a[data-ref^="百世"],.page-title-sizer-wrapper span[data-ref^="百世"],a[data-ref^="优速"],.page-title-sizer-wrapper span[data-ref^="优速"]){
   position: relative;
