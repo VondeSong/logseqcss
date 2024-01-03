@@ -108,7 +108,7 @@
 /*自定义标签 原则*/
 /*自定义标签 价值观*/
 :root{
-   --03100856imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgUaKorJ_n_5lkqfO/root/content");
+   --03101603imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgUaKorJ_n_5lkqfO/root/content");
 }
 :is(a[data-ref="价值观"],.page-title-sizer-wrapper span[data-ref="价值观"]){
   color: inherit!important;
@@ -124,7 +124,7 @@
 }
 :is(a[data-ref="价值观"],.page-title-sizer-wrapper span[data-ref="价值观"])::before{
   content: "";
-  background-image: var(--03100856imageurl);
+  background-image: var(--03101603imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -145,7 +145,7 @@
 }
 :is([data-ref="价值观"])>a>span.page-icon {
   content: "";
-  background-image: var(--03100856imageurl);
+  background-image: var(--03101603imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -159,7 +159,7 @@
 		/*插件 tree icon*/
 		.kef-ft-fav-item-name[title="价值观"]::before  {
 	  content: "";
-	  background-image: var(--03100856imageurl);
+	  background-image: var(--03101603imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
