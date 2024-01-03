@@ -12932,33 +12932,7 @@ a[data-ref="实力商家"]:hover {
 }
 /*自定义标签 自律*/
 
-/*自定义标签 修行*/
-:is(a[data-ref^="修行"],.page-title-sizer-wrapper span[data-ref^="修行"]){
-  color: #217DBA!important;
-}
-:is(a[data-ref^="修行"],.page-title-sizer-wrapper span[data-ref^="修行"]):hover{
-    color: #217DBA!important;
-}
-:is(a[data-ref^="修行"],.page-title-sizer-wrapper span[data-ref^="修行"])::before{
-  content: "\ecc9";
-  font-size: var(--Icon_size_inPage);
-  font-family: var(--Font_icon_name);
-  color: #217DBA;
-  margin-right: var(--fonticon_Mr);
-}
-:is([data-ref^="修行"]) > a > span.page-icon {
-  text-indent:-9999px;
-   position: relative;
-  margin-right:var(--pageIconML) !important;
-}
-:is([data-ref^="修行"])>a::before {
-  font-family: var(--Font_icon_name);
-  font-size: var(--Sidebar_icon_size);
-  color: #217DBA;;
-  content: "\ecc9";
-  margin-right: var(--fontmarginright) !important;
-}
-/*自定义标签 修行*/
+
 /*自定义标签 命运#人类命运#个体命运*/
 :root{
    --03110157imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgU6MSltu1qpphkZO/root/content");
