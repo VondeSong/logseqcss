@@ -12075,20 +12075,25 @@
 	  display: none !important;
 }
 /*自定义标签 恐惧#恐惧感*/
-/*自定义标签 内耗 精神内耗 心理内耗 消耗 纠结 纠结不决*/
-:is(a[data-ref="内耗"],.page-title-sizer-wrapper span[data-ref="内耗"],a[data-ref="精神内耗"],.page-title-sizer-wrapper span[data-ref="精神内耗"],a[data-ref="心理内耗"],.page-title-sizer-wrapper span[data-ref="心理内耗"],a[data-ref="消耗"],.page-title-sizer-wrapper span[data-ref="消耗"],a[data-ref="纠结"],.page-title-sizer-wrapper span[data-ref="纠结"],a[data-ref="纠结不决"],.page-title-sizer-wrapper span[data-ref="纠结不决"]){
-  color: #768d99!important;
+/*自定义标签 内耗#精神消耗#心理内耗#纠结*/
+:root{
+   --08230051imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgg03SrUPoYYkVbpm/root/content");
 }
-:is(a[data-ref="内耗"],.page-title-sizer-wrapper span[data-ref="内耗"],a[data-ref="精神内耗"],.page-title-sizer-wrapper span[data-ref="精神内耗"],a[data-ref="心理内耗"],.page-title-sizer-wrapper span[data-ref="心理内耗"],a[data-ref="消耗"],.page-title-sizer-wrapper span[data-ref="消耗"],a[data-ref="纠结"],.page-title-sizer-wrapper span[data-ref="纠结"],a[data-ref="纠结不决"],.page-title-sizer-wrapper span[data-ref="纠结不决"]):hover{
-    color: #768d99!important;
+:is(a[data-ref="内耗"],.page-title-sizer-wrapper span[data-ref="内耗"],a[data-ref="精神消耗"],.page-title-sizer-wrapper span[data-ref="精神消耗"],a[data-ref="心理内耗"],.page-title-sizer-wrapper span[data-ref="心理内耗"],a[data-ref="纠结"],.page-title-sizer-wrapper span[data-ref="纠结"]){
+  color: inherit!important;
+  
 }
-:is(a[data-ref="内耗"].tag,a[data-ref="精神内耗"].tag,a[data-ref="心理内耗"].tag,a[data-ref="消耗"].tag,a[data-ref="纠结"].tag,a[data-ref="纠结不决"].tag) {
+:is(a[data-ref="内耗"],.page-title-sizer-wrapper span[data-ref="内耗"],a[data-ref="精神消耗"],.page-title-sizer-wrapper span[data-ref="精神消耗"],a[data-ref="心理内耗"],.page-title-sizer-wrapper span[data-ref="心理内耗"],a[data-ref="纠结"],.page-title-sizer-wrapper span[data-ref="纠结"]):hover{
+    color: inherit!important;
+  
+}
+:is(a[data-ref="内耗"].tag,a[data-ref="精神消耗"].tag,a[data-ref="心理内耗"].tag,a[data-ref="纠结"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 2px solid #768d99;
+  border: 1px solid inherit;
 }
-:is(a[data-ref="内耗"],.page-title-sizer-wrapper span[data-ref="内耗"],a[data-ref="精神内耗"],.page-title-sizer-wrapper span[data-ref="精神内耗"],a[data-ref="心理内耗"],.page-title-sizer-wrapper span[data-ref="心理内耗"],a[data-ref="消耗"],.page-title-sizer-wrapper span[data-ref="消耗"],a[data-ref="纠结"],.page-title-sizer-wrapper span[data-ref="纠结"],a[data-ref="纠结不决"],.page-title-sizer-wrapper span[data-ref="纠结不决"])::before{
+:is(a[data-ref="内耗"],.page-title-sizer-wrapper span[data-ref="内耗"],a[data-ref="精神消耗"],.page-title-sizer-wrapper span[data-ref="精神消耗"],a[data-ref="心理内耗"],.page-title-sizer-wrapper span[data-ref="心理内耗"],a[data-ref="纠结"],.page-title-sizer-wrapper span[data-ref="纠结"])::before{
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVWrDNiI2KmDk8QRA/root/content");
+  background-image: var(--08230051imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -12100,12 +12105,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is([data-ref="内耗"],[data-ref="精神内耗"],[data-ref="心理内耗"],[data-ref="消耗"],[data-ref="纠结"],[data-ref="纠结不决"]) > a > span.page-icon {
+:is(.page-title-sizer-wrapper span[data-ref="内耗"],.page-title-sizer-wrapper span[data-ref="精神消耗"],.page-title-sizer-wrapper span[data-ref="心理内耗"],.page-title-sizer-wrapper span[data-ref="纠结"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref="内耗"],[data-ref="精神消耗"],[data-ref="心理内耗"],[data-ref="纠结"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref="内耗"],[data-ref="精神内耗"],[data-ref="心理内耗"],[data-ref="消耗"],[data-ref="纠结"],[data-ref="纠结不决"])>a>span.page-icon {
+:is([data-ref="内耗"],[data-ref="精神消耗"],[data-ref="心理内耗"],[data-ref="纠结"])>a>span.page-icon {
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVWrDNiI2KmDk8QRA/root/content");
+  background-image: var(--08230051imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -12116,7 +12125,25 @@
   display: inline-block;
   overflow:auto;
 }
-/*自定义标签 内耗 精神内耗 心理内耗 消耗 纠结 纠结不决*/
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title="纠结"]::before,.kef-ft-fav-item-name[title="心理内耗"]::before,.kef-ft-fav-item-name[title="精神消耗"]::before,.kef-ft-fav-item-name[title="内耗"]::before  {
+	  content: "";
+	  background-image: var(--08230051imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="纠结"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="心理内耗"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="精神消耗"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="内耗"]){
+	  display: none !important;
+}
+/*自定义标签 内耗#精神消耗#心理内耗#纠结*/
 
 /*自定义标签 颓废 丧文化*/
 :is(a[data-ref*="颓废"],.page-title-sizer-wrapper span[data-ref*="颓废"],a[data-ref*="丧文化"],.page-title-sizer-wrapper span[data-ref*="丧文化"]){
