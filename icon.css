@@ -12006,20 +12006,25 @@
   overflow:auto;
 }
 /*自定义标签 借口*/
-/*自定义标签 恐惧 害怕*/
-:is(a[data-ref="恐惧"],.page-title-sizer-wrapper span[data-ref="恐惧"],a[data-ref="害怕"],.page-title-sizer-wrapper span[data-ref="害怕"]){
-  color: #e65100!important;
+/*自定义标签 恐惧#恐惧感*/
+:root{
+   --08225809imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMggshwCUxZyGwq2px/root/content");
 }
-:is(a[data-ref="恐惧"],.page-title-sizer-wrapper span[data-ref="恐惧"],a[data-ref="害怕"],.page-title-sizer-wrapper span[data-ref="害怕"]):hover{
-    color: #e65100!important;
+:is(a[data-ref="恐惧"],.page-title-sizer-wrapper span[data-ref="恐惧"],a[data-ref="恐惧感"],.page-title-sizer-wrapper span[data-ref="恐惧感"]){
+  color: inherit!important;
+  
 }
-:is(a[data-ref="恐惧"].tag,a[data-ref="害怕"].tag) {
+:is(a[data-ref="恐惧"],.page-title-sizer-wrapper span[data-ref="恐惧"],a[data-ref="恐惧感"],.page-title-sizer-wrapper span[data-ref="恐惧感"]):hover{
+    color: inherit!important;
+  
+}
+:is(a[data-ref="恐惧"].tag,a[data-ref="恐惧感"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 2px solid #e65100;
+  border: 1px solid inherit;
 }
-:is(a[data-ref="恐惧"],.page-title-sizer-wrapper span[data-ref="恐惧"],a[data-ref="害怕"],.page-title-sizer-wrapper span[data-ref="害怕"])::before{
+:is(a[data-ref="恐惧"],.page-title-sizer-wrapper span[data-ref="恐惧"],a[data-ref="恐惧感"],.page-title-sizer-wrapper span[data-ref="恐惧感"])::before{
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVUxgEgdjXRtuPrhQ/root/content");
+  background-image: var(--08225809imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -12031,12 +12036,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is([data-ref="恐惧"],[data-ref="害怕"]) > a > span.page-icon {
+:is(.page-title-sizer-wrapper span[data-ref="恐惧"],.page-title-sizer-wrapper span[data-ref="恐惧感"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref="恐惧"],[data-ref="恐惧感"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref="恐惧"],[data-ref="害怕"])>a>span.page-icon {
+:is([data-ref="恐惧"],[data-ref="恐惧感"])>a>span.page-icon {
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVUxgEgdjXRtuPrhQ/root/content");
+  background-image: var(--08225809imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -12047,8 +12056,25 @@
   display: inline-block;
   overflow:auto;
 }
-/*自定义标签 恐惧 害怕*/
-
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title="恐惧感"]::before,.kef-ft-fav-item-name[title="恐惧"]::before  {
+	  content: "";
+	  background-image: var(--08225809imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="恐惧感"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="恐惧"]){
+	  display: none !important;
+}
+/*自定义标签 恐惧#恐惧感*/
 /*自定义标签 内耗 精神内耗 心理内耗 消耗 纠结 纠结不决*/
 :is(a[data-ref="内耗"],.page-title-sizer-wrapper span[data-ref="内耗"],a[data-ref="精神内耗"],.page-title-sizer-wrapper span[data-ref="精神内耗"],a[data-ref="心理内耗"],.page-title-sizer-wrapper span[data-ref="心理内耗"],a[data-ref="消耗"],.page-title-sizer-wrapper span[data-ref="消耗"],a[data-ref="纠结"],.page-title-sizer-wrapper span[data-ref="纠结"],a[data-ref="纠结不决"],.page-title-sizer-wrapper span[data-ref="纠结不决"]){
   color: #768d99!important;
