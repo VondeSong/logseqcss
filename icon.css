@@ -12289,50 +12289,7 @@
   overflow:auto;
 }
 /*自定义标签 沟通*/
-/*自定义标签 历史 过去*/
-:is(a[data-ref="历史"],.page-title-sizer-wrapper span[data-ref="历史"],a[data-ref="过去"],.page-title-sizer-wrapper span[data-ref="过去"]){
-  position: relative;
-  color: #324561!important;
-}
-:is(a[data-ref="历史"],.page-title-sizer-wrapper span[data-ref="历史"],a[data-ref="过去"],.page-title-sizer-wrapper span[data-ref="过去"]):hover{
-  position: relative;
-    color: #324561!important;
-}
-:is(a[data-ref="历史"].tag,a[data-ref="过去"].tag) {
-/*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 2px solid #324561;
-}
-:is(a[data-ref="历史"],.page-title-sizer-wrapper span[data-ref="历史"],a[data-ref="过去"],.page-title-sizer-wrapper span[data-ref="过去"])::before{
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfo3amVf82jZMBshpg/root/content");
-  background-size: 100%;
-  width: var(--page_picture_Width);
-  height: var(--page_picture_Height);
-  position: relative;
-  top: var(--page_picture_Top);
-  left: var(--page_picture_Left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-  margin-right: var(--page_picture_marginRight);
-}
-:is([data-ref="历史"],[data-ref="过去"]) > a > span.page-icon {
-  text-indent:-9999px;
-}
-:is([data-ref="历史"],[data-ref="过去"])>a>span.page-icon {
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfo3amVf82jZMBshpg/root/content");
-  background-size: 100%;
-  width: var(--Lefticon_picture_Width);
-  height: var(--Lefticon_picture_Height);
-  position: relative;
-  top: var(--Lefticon_picture_top);
-  left: var(--Lefticon_picture_left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-}
-/*自定义标签 历史 过去*/
+
 /*自定义标签 诗词 诗歌 诗*/
 :is(a[data-ref="诗词"],.page-title-sizer-wrapper span[data-ref="诗词"],a[data-ref="诗歌"],.page-title-sizer-wrapper span[data-ref="诗歌"],a[data-ref="诗"],.page-title-sizer-wrapper span[data-ref="诗"]){
   position: relative;
