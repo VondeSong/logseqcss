@@ -37,6 +37,7 @@
   --treeicon0_left:0;
   --treeicon0_margin-right:5px;
 }
+
 /*自定义标签 完美主义*/
 :root{
    --08171910imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVXSKzY3vpTMsu3gw/root/content");
@@ -11853,19 +11854,24 @@
 
 
 /*自定义标签 抱怨*/
+:root{
+   --08225224imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMggmYYZl4TDfsdxvQ/root/content");
+}
 :is(a[data-ref="抱怨"],.page-title-sizer-wrapper span[data-ref="抱怨"]){
   color: inherit!important;
+  
 }
 :is(a[data-ref="抱怨"],.page-title-sizer-wrapper span[data-ref="抱怨"]):hover{
     color: inherit!important;
+  
 }
 :is(a[data-ref="抱怨"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 2px solid #008794;
+  border: 1px solid inherit;
 }
 :is(a[data-ref="抱怨"],.page-title-sizer-wrapper span[data-ref="抱怨"])::before{
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVPuVc5cr7XFmjUgw/root/content");
+  background-image: var(--08225224imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -11877,12 +11883,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
+:is(.page-title-sizer-wrapper span[data-ref="抱怨"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
 :is([data-ref="抱怨"]) > a > span.page-icon {
   text-indent:-9999px;
 }
 :is([data-ref="抱怨"])>a>span.page-icon {
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVPuVc5cr7XFmjUgw/root/content");
+  background-image: var(--08225224imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -11892,6 +11902,24 @@
   z-index: 0;
   display: inline-block;
   overflow:auto;
+}
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title="抱怨"]::before  {
+	  content: "";
+	  background-image: var(--08225224imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="抱怨"]){
+	  display: none !important;
 }
 /*自定义标签 抱怨*/
 /*自定义标签 专注力*/
