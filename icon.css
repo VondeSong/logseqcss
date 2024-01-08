@@ -29,6 +29,7 @@
   --Lefticon_picture_Height:1.25em;
   --Lefticon_picture_left:-.6rem;
   --Lefticon_picture_top:0px;
+  --FontColor : ;
 }
 /*tree icon 设置*/
 :root{
@@ -42,11 +43,11 @@
    --06073131imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgXnqQNgXVqBwI0Dv/root/content");
 }
 :is(a[data-ref="怪圈"],.page-title-sizer-wrapper span[data-ref="怪圈"],a[data-ref="恶性循环"],.page-title-sizer-wrapper span[data-ref="恶性循环"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="怪圈"],.page-title-sizer-wrapper span[data-ref="怪圈"],a[data-ref="恶性循环"],.page-title-sizer-wrapper span[data-ref="恶性循环"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="怪圈"].tag,a[data-ref="恶性循环"].tag) {
@@ -111,11 +112,11 @@
    --05192829imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgXdDP3O72I9LTrdN/root/content");
 }
 :is(a[data-ref="理想"],.page-title-sizer-wrapper span[data-ref="理想"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="理想"],.page-title-sizer-wrapper span[data-ref="理想"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="理想"].tag) {
@@ -180,11 +181,11 @@
    --04122451imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgXM9f03vdxXHY_Cv/root/content");
 }
 :is(a[data-ref="毅力"],.page-title-sizer-wrapper span[data-ref="毅力"],a[data-ref="意志力"],.page-title-sizer-wrapper span[data-ref="意志力"],a[data-ref="意志"],.page-title-sizer-wrapper span[data-ref="意志"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="毅力"],.page-title-sizer-wrapper span[data-ref="毅力"],a[data-ref="意志力"],.page-title-sizer-wrapper span[data-ref="意志力"],a[data-ref="意志"],.page-title-sizer-wrapper span[data-ref="意志"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="毅力"].tag,a[data-ref="意志力"].tag,a[data-ref="意志"].tag) {
@@ -249,11 +250,11 @@
    --04122054imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgXKsWI_QFbmJQ6nV/root/content");
 }
 :is(a[data-ref="努力"],.page-title-sizer-wrapper span[data-ref="努力"],a[data-ref="奋斗"],.page-title-sizer-wrapper span[data-ref="奋斗"],a[data-ref="勤奋"],.page-title-sizer-wrapper span[data-ref="勤奋"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="努力"],.page-title-sizer-wrapper span[data-ref="努力"],a[data-ref="奋斗"],.page-title-sizer-wrapper span[data-ref="奋斗"],a[data-ref="勤奋"],.page-title-sizer-wrapper span[data-ref="勤奋"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="努力"].tag,a[data-ref="奋斗"].tag,a[data-ref="勤奋"].tag) {
@@ -318,11 +319,11 @@
    --04121934imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgXE28-l6XJkuD8Ts/root/content");
 }
 :is(a[data-ref="deadline"],.page-title-sizer-wrapper span[data-ref="deadline"],a[data-ref="截止日期"],.page-title-sizer-wrapper span[data-ref="截止日期"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="deadline"],.page-title-sizer-wrapper span[data-ref="deadline"],a[data-ref="截止日期"],.page-title-sizer-wrapper span[data-ref="截止日期"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="deadline"].tag,a[data-ref="截止日期"].tag) {
@@ -387,11 +388,11 @@
    --04120424imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgXBQfVqlbNTmZ9Rp/root/content");
 }
 :is(a[data-ref="生产力"],.page-title-sizer-wrapper span[data-ref="生产力"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="生产力"],.page-title-sizer-wrapper span[data-ref="生产力"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="生产力"].tag) {
@@ -456,11 +457,11 @@
    --04115628imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgW_H_QwmdglzkUfq/root/content");
 }
 :is(a[data-ref="人格障碍"],.page-title-sizer-wrapper span[data-ref="人格障碍"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="人格障碍"],.page-title-sizer-wrapper span[data-ref="人格障碍"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="人格障碍"].tag) {
@@ -525,11 +526,11 @@
    --04113817imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgW7SvJ4q4Kf1GJpp/root/content");
 }
 :is(a[data-ref="中庸"],.page-title-sizer-wrapper span[data-ref="中庸"],a[data-ref="平衡"],.page-title-sizer-wrapper span[data-ref="平衡"],a[data-ref="稳定"],.page-title-sizer-wrapper span[data-ref="稳定"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="中庸"],.page-title-sizer-wrapper span[data-ref="中庸"],a[data-ref="平衡"],.page-title-sizer-wrapper span[data-ref="平衡"],a[data-ref="稳定"],.page-title-sizer-wrapper span[data-ref="稳定"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="中庸"].tag,a[data-ref="平衡"].tag,a[data-ref="稳定"].tag) {
@@ -594,11 +595,11 @@
    --04113523imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgW0RlaD0cLxGXDTv/root/content");
 }
 :is(a[data-ref^="社会"],.page-title-sizer-wrapper span[data-ref^="社会"],a[data-ref^="society"],.page-title-sizer-wrapper span[data-ref^="society"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="社会"],.page-title-sizer-wrapper span[data-ref^="社会"],a[data-ref^="society"],.page-title-sizer-wrapper span[data-ref^="society"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="社会"].tag,a[data-ref^="society"].tag) {
@@ -663,11 +664,11 @@
    --04112902imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgWvXJ5s3qhgoMF2h/root/content");
 }
 :is(a[data-ref="中国"],.page-title-sizer-wrapper span[data-ref="中国"],a[data-ref="china"],.page-title-sizer-wrapper span[data-ref="china"],a[data-ref="中华人民共和国"],.page-title-sizer-wrapper span[data-ref="中华人民共和国"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="中国"],.page-title-sizer-wrapper span[data-ref="中国"],a[data-ref="china"],.page-title-sizer-wrapper span[data-ref="china"],a[data-ref="中华人民共和国"],.page-title-sizer-wrapper span[data-ref="中华人民共和国"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="中国"].tag,a[data-ref="china"].tag,a[data-ref="中华人民共和国"].tag) {
@@ -732,11 +733,11 @@
    --04111828imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgWr3jh2Tf9N90IUQ/root/content");
 }
 :is(a[data-ref="人格"],.page-title-sizer-wrapper span[data-ref="人格"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="人格"],.page-title-sizer-wrapper span[data-ref="人格"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="人格"].tag) {
@@ -801,11 +802,11 @@
    --03205700imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgWhE5pdAw-3j9NIl/root/content");
 }
 :is(a[data-ref="思想"],.page-title-sizer-wrapper span[data-ref="思想"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="思想"],.page-title-sizer-wrapper span[data-ref="思想"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="思想"].tag) {
@@ -870,11 +871,11 @@
    --03145634imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgWX9dZJM2jhhQdpQ/root/content");
 }
 :is(a[data-ref*="意义"],.page-title-sizer-wrapper span[data-ref*="意义"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref*="意义"],.page-title-sizer-wrapper span[data-ref*="意义"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref*="意义"].tag) {
@@ -939,11 +940,11 @@
    --03150436imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgWfLjlyE0HzLKEdT/root/content");
 }
 :is(a[data-ref^="书籍"],.page-title-sizer-wrapper span[data-ref^="书籍"],a[data-ref^="图书"],.page-title-sizer-wrapper span[data-ref^="图书"],a[data-ref^="书本"],.page-title-sizer-wrapper span[data-ref^="书本"],a[data-ref^="著作"],.page-title-sizer-wrapper span[data-ref^="著作"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="书籍"],.page-title-sizer-wrapper span[data-ref^="书籍"],a[data-ref^="图书"],.page-title-sizer-wrapper span[data-ref^="图书"],a[data-ref^="书本"],.page-title-sizer-wrapper span[data-ref^="书本"],a[data-ref^="著作"],.page-title-sizer-wrapper span[data-ref^="著作"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="书籍"].tag,a[data-ref^="图书"].tag,a[data-ref^="书本"].tag,a[data-ref^="著作"].tag) {
@@ -1008,11 +1009,11 @@
    --03145456imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgWRPnMpUl2ab29v8/root/content");
 }
 :is(a[data-ref="规则"],.page-title-sizer-wrapper span[data-ref="规则"],a[data-ref="准则"],.page-title-sizer-wrapper span[data-ref="准则"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="规则"],.page-title-sizer-wrapper span[data-ref="规则"],a[data-ref="准则"],.page-title-sizer-wrapper span[data-ref="准则"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="规则"].tag,a[data-ref="准则"].tag) {
@@ -1077,11 +1078,11 @@
    --03145117imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgWMm6RqPj2AGVzz8/root/content");
 }
 :is(a[data-ref="生存"],.page-title-sizer-wrapper span[data-ref="生存"],a[data-ref="生活"],.page-title-sizer-wrapper span[data-ref="生活"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="生存"],.page-title-sizer-wrapper span[data-ref="生存"],a[data-ref="生活"],.page-title-sizer-wrapper span[data-ref="生活"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="生存"].tag,a[data-ref="生活"].tag) {
@@ -1146,11 +1147,11 @@
    --03124206imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgV37FYn7IP6PTNiq/root/content");
 }
 :is(a[data-ref="教育"],.page-title-sizer-wrapper span[data-ref="教育"],a[data-ref="培训"],.page-title-sizer-wrapper span[data-ref="培训"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="教育"],.page-title-sizer-wrapper span[data-ref="教育"],a[data-ref="培训"],.page-title-sizer-wrapper span[data-ref="培训"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="教育"].tag,a[data-ref="培训"].tag) {
@@ -1215,11 +1216,11 @@
    --03125426imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVyywkA_89cAF4pm/root/content");
 }
 :is(a[data-ref="子女教育"],.page-title-sizer-wrapper span[data-ref="子女教育"],a[data-ref="亲子教育"],.page-title-sizer-wrapper span[data-ref="亲子教育"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="子女教育"],.page-title-sizer-wrapper span[data-ref="子女教育"],a[data-ref="亲子教育"],.page-title-sizer-wrapper span[data-ref="亲子教育"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="子女教育"].tag,a[data-ref="亲子教育"].tag) {
@@ -1284,11 +1285,11 @@
    --03123622imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVtxNbU-ySD-IOtN/root/content");
 }
 :is(a[data-ref="行为模式"],.page-title-sizer-wrapper span[data-ref="行为模式"],a[data-ref="行为方式"],.page-title-sizer-wrapper span[data-ref="行为方式"],a[data-ref="举止"],.page-title-sizer-wrapper span[data-ref="举止"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="行为模式"],.page-title-sizer-wrapper span[data-ref="行为模式"],a[data-ref="行为方式"],.page-title-sizer-wrapper span[data-ref="行为方式"],a[data-ref="举止"],.page-title-sizer-wrapper span[data-ref="举止"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="行为模式"].tag,a[data-ref="行为方式"].tag,a[data-ref="举止"].tag) {
@@ -1353,11 +1354,11 @@
    --03123400imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVp8gUlKIZkL-RsN/root/content");
 }
 :is(a[data-ref="个人成长"],.page-title-sizer-wrapper span[data-ref="个人成长"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="个人成长"],.page-title-sizer-wrapper span[data-ref="个人成长"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="个人成长"].tag) {
@@ -1422,11 +1423,11 @@
    --03123136imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVlmir8qcucrpPM0/root/content");
 }
 :is(a[data-ref="认知"],.page-title-sizer-wrapper span[data-ref="认知"],a[data-ref="感知"],.page-title-sizer-wrapper span[data-ref="感知"],a[data-ref="知觉"],.page-title-sizer-wrapper span[data-ref="知觉"],a[data-ref="觉察"],.page-title-sizer-wrapper span[data-ref="觉察"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="认知"],.page-title-sizer-wrapper span[data-ref="认知"],a[data-ref="感知"],.page-title-sizer-wrapper span[data-ref="感知"],a[data-ref="知觉"],.page-title-sizer-wrapper span[data-ref="知觉"],a[data-ref="觉察"],.page-title-sizer-wrapper span[data-ref="觉察"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="认知"].tag,a[data-ref="感知"].tag,a[data-ref="知觉"].tag,a[data-ref="觉察"].tag) {
@@ -1491,11 +1492,11 @@
    --03122947imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVjqC-ClB7GWGsvz/root/content");
 }
 :is(a[data-ref="思维"],.page-title-sizer-wrapper span[data-ref="思维"],a[data-ref="思考"],.page-title-sizer-wrapper span[data-ref="思考"],a[data-ref="思维模式"],.page-title-sizer-wrapper span[data-ref="思维模式"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="思维"],.page-title-sizer-wrapper span[data-ref="思维"],a[data-ref="思考"],.page-title-sizer-wrapper span[data-ref="思考"],a[data-ref="思维模式"],.page-title-sizer-wrapper span[data-ref="思维模式"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="思维"].tag,a[data-ref="思考"].tag,a[data-ref="思维模式"].tag) {
@@ -1560,11 +1561,11 @@
    --03122710imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVeJv_Pua2AEJmr4/root/content");
 }
 :is(a[data-ref="资本"],.page-title-sizer-wrapper span[data-ref="资本"],a[data-ref="资金"],.page-title-sizer-wrapper span[data-ref="资金"],a[data-ref="资本家"],.page-title-sizer-wrapper span[data-ref="资本家"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="资本"],.page-title-sizer-wrapper span[data-ref="资本"],a[data-ref="资金"],.page-title-sizer-wrapper span[data-ref="资金"],a[data-ref="资本家"],.page-title-sizer-wrapper span[data-ref="资本家"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="资本"].tag,a[data-ref="资金"].tag,a[data-ref="资本家"].tag) {
@@ -1629,11 +1630,11 @@
    --03122100imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVZRuQPV6V2qH4b4/root/content");
 }
 :is(a[data-ref="赚钱"],.page-title-sizer-wrapper span[data-ref="赚钱"],a[data-ref="挣钱"],.page-title-sizer-wrapper span[data-ref="挣钱"],a[data-ref="财富"],.page-title-sizer-wrapper span[data-ref="财富"],a[data-ref="财产"],.page-title-sizer-wrapper span[data-ref="财产"],a[data-ref="财源"],.page-title-sizer-wrapper span[data-ref="财源"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="赚钱"],.page-title-sizer-wrapper span[data-ref="赚钱"],a[data-ref="挣钱"],.page-title-sizer-wrapper span[data-ref="挣钱"],a[data-ref="财富"],.page-title-sizer-wrapper span[data-ref="财富"],a[data-ref="财产"],.page-title-sizer-wrapper span[data-ref="财产"],a[data-ref="财源"],.page-title-sizer-wrapper span[data-ref="财源"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="赚钱"].tag,a[data-ref="挣钱"].tag,a[data-ref="财富"].tag,a[data-ref="财产"].tag,a[data-ref="财源"].tag) {
@@ -1698,11 +1699,11 @@
    --03121906imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVWDawFhYDkjrnWM/root/content");
 }
 :is(a[data-ref="创业"],.page-title-sizer-wrapper span[data-ref="创业"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="创业"],.page-title-sizer-wrapper span[data-ref="创业"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="创业"].tag) {
@@ -1767,11 +1768,11 @@
    --03121635imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVRS0nVuGJjRvyJZ/root/content");
 }
 :is(a[data-ref="投资"],.page-title-sizer-wrapper span[data-ref="投资"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="投资"],.page-title-sizer-wrapper span[data-ref="投资"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="投资"].tag) {
@@ -1836,11 +1837,11 @@
    --03121408imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVOKGGlfXsJERQxX/root/content");
 }
 :is(a[data-ref="经济学"],.page-title-sizer-wrapper span[data-ref="经济学"],a[data-ref="经济理论"],.page-title-sizer-wrapper span[data-ref="经济理论"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="经济学"],.page-title-sizer-wrapper span[data-ref="经济学"],a[data-ref="经济理论"],.page-title-sizer-wrapper span[data-ref="经济理论"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="经济学"].tag,a[data-ref="经济理论"].tag) {
@@ -1905,11 +1906,11 @@
    --03115338imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVIY8yOl0-XSHOlh/root/content");
 }
 :is(a[data-ref="心态"],.page-title-sizer-wrapper span[data-ref="心态"],a[data-ref="心境"],.page-title-sizer-wrapper span[data-ref="心境"],a[data-ref="心理状态"],.page-title-sizer-wrapper span[data-ref="心理状态"],a[data-ref="心理素质"],.page-title-sizer-wrapper span[data-ref="心理素质"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="心态"],.page-title-sizer-wrapper span[data-ref="心态"],a[data-ref="心境"],.page-title-sizer-wrapper span[data-ref="心境"],a[data-ref="心理状态"],.page-title-sizer-wrapper span[data-ref="心理状态"],a[data-ref="心理素质"],.page-title-sizer-wrapper span[data-ref="心理素质"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="心态"].tag,a[data-ref="心境"].tag,a[data-ref="心理状态"].tag,a[data-ref="心理素质"].tag) {
@@ -1974,11 +1975,11 @@
    --03114437imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgU9uuoORKq2Fik1v/root/content");
 }
 :is(a[data-ref="传记"],.page-title-sizer-wrapper span[data-ref="传记"],a[data-ref="自传"],.page-title-sizer-wrapper span[data-ref="自传"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="传记"],.page-title-sizer-wrapper span[data-ref="传记"],a[data-ref="自传"],.page-title-sizer-wrapper span[data-ref="自传"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="传记"].tag,a[data-ref="自传"].tag) {
@@ -2043,11 +2044,11 @@
    --03104602imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgUtOXq3h88iOPedf/root/content");
 }
 :is(a[data-ref="知识体系"],.page-title-sizer-wrapper span[data-ref="知识体系"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="知识体系"],.page-title-sizer-wrapper span[data-ref="知识体系"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="知识体系"].tag) {
@@ -2112,11 +2113,11 @@
    --03104428imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgUoXYq8zZkLhH5OM/root/content");
 }
 :is(a[data-ref="逻辑思维"],.page-title-sizer-wrapper span[data-ref="逻辑思维"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="逻辑思维"],.page-title-sizer-wrapper span[data-ref="逻辑思维"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="逻辑思维"].tag) {
@@ -2181,11 +2182,11 @@
    --03104239imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgUmd7nOG-RipJZVZ/root/content");
 }
 :is(a[data-ref="学习"],.page-title-sizer-wrapper span[data-ref="学习"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="学习"],.page-title-sizer-wrapper span[data-ref="学习"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="学习"].tag) {
@@ -2250,11 +2251,11 @@
    --03102148imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgUjDy6aaZ3pwCiM7/root/content");
 }
 :is(a[data-ref="压力"],.page-title-sizer-wrapper span[data-ref="压力"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="压力"],.page-title-sizer-wrapper span[data-ref="压力"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="压力"].tag) {
@@ -2319,11 +2320,11 @@
    --03101440imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgUc_2j8PG4jUTuig/root/content");
 }
 :is(a[data-ref="原则"],.page-title-sizer-wrapper span[data-ref="原则"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="原则"],.page-title-sizer-wrapper span[data-ref="原则"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="原则"].tag) {
@@ -2388,11 +2389,11 @@
    --03101603imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgUaKorJ_n_5lkqfO/root/content");
 }
 :is(a[data-ref="价值观"],.page-title-sizer-wrapper span[data-ref="价值观"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="价值观"],.page-title-sizer-wrapper span[data-ref="价值观"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="价值观"].tag) {
@@ -2457,11 +2458,11 @@
    --03095911imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgUQQs9Sq-9OePe8Y/root/content");
 }
 :is(a[data-ref="折腾软件"],.page-title-sizer-wrapper span[data-ref="折腾软件"],a[data-ref="软件"],.page-title-sizer-wrapper span[data-ref="软件"],a[data-ref="software"],.page-title-sizer-wrapper span[data-ref="software"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="折腾软件"],.page-title-sizer-wrapper span[data-ref="折腾软件"],a[data-ref="软件"],.page-title-sizer-wrapper span[data-ref="软件"],a[data-ref="software"],.page-title-sizer-wrapper span[data-ref="software"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="折腾软件"].tag,a[data-ref="软件"].tag,a[data-ref="software"].tag) {
@@ -2526,11 +2527,11 @@
    --03095636imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgUVKlBx9x1dTzoS9/root/content");
 }
 :is(a[data-ref="个人管理"],.page-title-sizer-wrapper span[data-ref="个人管理"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="个人管理"],.page-title-sizer-wrapper span[data-ref="个人管理"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="个人管理"].tag) {
@@ -2595,11 +2596,11 @@
    --02232847imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgUHi39OV65IvlhDD/root/content");
 }
 :is(a[data-ref^="心理"],.page-title-sizer-wrapper span[data-ref^="心理"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="心理"],.page-title-sizer-wrapper span[data-ref^="心理"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="心理"].tag) {
@@ -2664,11 +2665,11 @@
    --02232509imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgUBcSLkSwI6cJkp6/root/content");
 }
 :is(a[data-ref="自媒体"],.page-title-sizer-wrapper span[data-ref="自媒体"],a[data-ref="短视频"],.page-title-sizer-wrapper span[data-ref="短视频"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="自媒体"],.page-title-sizer-wrapper span[data-ref="自媒体"],a[data-ref="短视频"],.page-title-sizer-wrapper span[data-ref="短视频"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="自媒体"].tag,a[data-ref="短视频"].tag) {
@@ -2733,11 +2734,11 @@
    --02231932imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgT-XOfb74h3GoXmQ/root/content");
 }
 :is(a[data-ref^="社交"],.page-title-sizer-wrapper span[data-ref^="社交"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="社交"],.page-title-sizer-wrapper span[data-ref^="社交"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="社交"].tag) {
@@ -2802,11 +2803,11 @@
    --02230745imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgT09Q1G5rCnLzZFn/root/content");
 }
 :is(a[data-ref="para"],.page-title-sizer-wrapper span[data-ref="para"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="para"],.page-title-sizer-wrapper span[data-ref="para"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="para"].tag) {
@@ -2888,11 +2889,11 @@
    --02224332imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgTakCwfnjRPJjy9b/root/content");
 }
 :is(a[data-ref="健康"],.page-title-sizer-wrapper span[data-ref="健康"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="健康"],.page-title-sizer-wrapper span[data-ref="健康"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="健康"].tag) {
@@ -2957,11 +2958,11 @@
    --02223624imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgTSmvg25pqjHkzsc/root/content");
 }
 :is(a[data-ref="笔记"],.page-title-sizer-wrapper span[data-ref="笔记"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="笔记"],.page-title-sizer-wrapper span[data-ref="笔记"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="笔记"].tag) {
@@ -3027,11 +3028,11 @@
    --02222521imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgTMHP5KGNIq_sIbG/root/content");
 }
 :is(a[data-ref="性"],.page-title-sizer-wrapper span[data-ref="性"],a[data-ref="做爱"],.page-title-sizer-wrapper span[data-ref="做爱"],a[data-ref="性幻想"],.page-title-sizer-wrapper span[data-ref="性幻想"],a[data-ref="意淫"],.page-title-sizer-wrapper span[data-ref="意淫"],a[data-ref="masturbation"],.page-title-sizer-wrapper span[data-ref="masturbation"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="性"],.page-title-sizer-wrapper span[data-ref="性"],a[data-ref="做爱"],.page-title-sizer-wrapper span[data-ref="做爱"],a[data-ref="性幻想"],.page-title-sizer-wrapper span[data-ref="性幻想"],a[data-ref="意淫"],.page-title-sizer-wrapper span[data-ref="意淫"],a[data-ref="masturbation"],.page-title-sizer-wrapper span[data-ref="masturbation"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="性"].tag,a[data-ref="做爱"].tag,a[data-ref="性幻想"].tag,a[data-ref="意淫"].tag,a[data-ref="masturbation"].tag) {
@@ -3096,11 +3097,11 @@
    --02222233imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgTIaGM5Us20XVKCw/root/content");
 }
 :is(a[data-ref="幻想"],.page-title-sizer-wrapper span[data-ref="幻想"],a[data-ref="意淫"],.page-title-sizer-wrapper span[data-ref="意淫"],a[data-ref="妄想"],.page-title-sizer-wrapper span[data-ref="妄想"],a[data-ref="打妄想"],.page-title-sizer-wrapper span[data-ref="打妄想"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="幻想"],.page-title-sizer-wrapper span[data-ref="幻想"],a[data-ref="意淫"],.page-title-sizer-wrapper span[data-ref="意淫"],a[data-ref="妄想"],.page-title-sizer-wrapper span[data-ref="妄想"],a[data-ref="打妄想"],.page-title-sizer-wrapper span[data-ref="打妄想"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="幻想"].tag,a[data-ref="意淫"].tag,a[data-ref="妄想"].tag,a[data-ref="打妄想"].tag) {
@@ -3165,11 +3166,11 @@
    --02222036imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgTF6mWNT6FikmgLo/root/content");
 }
 :is(a[data-ref="结构学"],.page-title-sizer-wrapper span[data-ref="结构学"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="结构学"],.page-title-sizer-wrapper span[data-ref="结构学"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="结构学"].tag) {
@@ -3234,11 +3235,11 @@
    --02202114imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgSv5U1TnUq4EkLoF/root/content");
 }
 :is(a[data-ref="研究创作"],.page-title-sizer-wrapper span[data-ref="研究创作"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="研究创作"],.page-title-sizer-wrapper span[data-ref="研究创作"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="研究创作"].tag) {
@@ -3303,11 +3304,11 @@
    --02201733imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgSpykOcji0PUENuH/root/content");
 }
 :is(a[data-ref^="人际"],.page-title-sizer-wrapper span[data-ref^="人际"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="人际"],.page-title-sizer-wrapper span[data-ref^="人际"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="人际"].tag) {
@@ -3372,11 +3373,11 @@
    --02201540imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgSmq1Iyrnw0N3Abp/root/content");
 }
 :is(a[data-ref^="信息"],.page-title-sizer-wrapper span[data-ref^="信息"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="信息"],.page-title-sizer-wrapper span[data-ref^="信息"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="信息"].tag) {
@@ -3441,11 +3442,11 @@
    --02193545imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgSfi0YJdwbRtNeq6/root/content");
 }
 :is(a[data-ref="运营"],.page-title-sizer-wrapper span[data-ref="运营"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="运营"],.page-title-sizer-wrapper span[data-ref="运营"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="运营"].tag) {
@@ -3510,11 +3511,11 @@
    --02193411imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgSaPxuU5rWMY7fF5/root/content");
 }
 :is(a[data-ref="读书俱乐部"],.page-title-sizer-wrapper span[data-ref="读书俱乐部"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="读书俱乐部"],.page-title-sizer-wrapper span[data-ref="读书俱乐部"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="读书俱乐部"].tag) {
@@ -3579,11 +3580,11 @@
    --02192047imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgSPvdYU_ab--1jFH/root/content");
 }
 :is(a[data-ref^="组织"],.page-title-sizer-wrapper span[data-ref^="组织"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="组织"],.page-title-sizer-wrapper span[data-ref^="组织"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="组织"].tag) {
@@ -3648,11 +3649,11 @@
    --02191839imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgSIKGh2Rwy3SFP1N/root/content");
 }
 :is(a[data-ref="方法"],.page-title-sizer-wrapper span[data-ref="方法"],a[data-ref="方法论"],.page-title-sizer-wrapper span[data-ref="方法论"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="方法"],.page-title-sizer-wrapper span[data-ref="方法"],a[data-ref="方法论"],.page-title-sizer-wrapper span[data-ref="方法论"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="方法"].tag,a[data-ref="方法论"].tag) {
@@ -3717,11 +3718,11 @@
    --02191714imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgSHBw9Yo-jLUwq48/root/content");
 }
 :is(a[data-ref="哲学"],.page-title-sizer-wrapper span[data-ref="哲学"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="哲学"],.page-title-sizer-wrapper span[data-ref="哲学"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="哲学"].tag) {
@@ -3786,11 +3787,11 @@
    --02191518imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgSB-xoK3IbRk6kNs/root/content");
 }
 :is(a[data-ref="政治"],.page-title-sizer-wrapper span[data-ref="政治"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="政治"],.page-title-sizer-wrapper span[data-ref="政治"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="政治"].tag) {
@@ -3855,11 +3856,11 @@
    --02191403imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgSB-xoK3IbRk6kNs/root/content");
 }
 :is(a[data-ref="政治"],.page-title-sizer-wrapper span[data-ref="政治"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="政治"],.page-title-sizer-wrapper span[data-ref="政治"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="政治"].tag) {
@@ -3924,11 +3925,11 @@
    --02191239imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgR2W9Eu4lLL1HR-R/root/content");
 }
 :is(a[data-ref="心理学"],.page-title-sizer-wrapper span[data-ref="心理学"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="心理学"],.page-title-sizer-wrapper span[data-ref="心理学"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="心理学"].tag) {
@@ -3993,11 +3994,11 @@
    --02220407imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgS7gPEvgVWDjDy7b/root/content");
 }
 :is(a[data-ref="新趋势"],.page-title-sizer-wrapper span[data-ref="新趋势"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="新趋势"],.page-title-sizer-wrapper span[data-ref="新趋势"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="新趋势"].tag) {
@@ -4062,11 +4063,11 @@
    --02190746imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgR4jFfTvi0EmLbBk/root/content");
 }
 :is(a[data-ref="新观念"],.page-title-sizer-wrapper span[data-ref="新观念"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="新观念"],.page-title-sizer-wrapper span[data-ref="新观念"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="新观念"].tag) {
@@ -4129,11 +4130,11 @@
 
 /*自定义标签 2023*/
 :is(a[data-ref="2023"],.page-title-sizer-wrapper span[data-ref="2023"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="2023"],.page-title-sizer-wrapper span[data-ref="2023"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="2023"].tag) {
@@ -4177,11 +4178,11 @@
    --02185943imageurl:url("https://files.getquicker.net/_icons/EEC9F5F274A89184EA7D5B222D267FE58CDB0719.png");
 }
 :is(a[data-ref$="宋得洋"],.page-title-sizer-wrapper span[data-ref$="宋得洋"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="宋得洋"],.page-title-sizer-wrapper span[data-ref$="宋得洋"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="宋得洋"].tag) {
@@ -4246,11 +4247,11 @@
    --02152508imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgRpu-gIRqGRDVZ6T/root/content");
 }
 :is(a[data-ref="运动"],.page-title-sizer-wrapper span[data-ref="运动"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="运动"],.page-title-sizer-wrapper span[data-ref="运动"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="运动"].tag) {
@@ -4315,11 +4316,11 @@
    --01181233imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgRlhgqQ7_vV1JxPs/root/content");
 }
 :is(a[data-ref^="自由"],.page-title-sizer-wrapper span[data-ref^="自由"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="自由"],.page-title-sizer-wrapper span[data-ref^="自由"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="自由"].tag) {
@@ -4384,11 +4385,11 @@
    --01181025imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgRgAb-pzQSet1Ywr/root/content");
 }
 :is(a[data-ref="监狱"],.page-title-sizer-wrapper span[data-ref="监狱"],a[data-ref="牢笼"],.page-title-sizer-wrapper span[data-ref="牢笼"],a[data-ref="鸡笼"],.page-title-sizer-wrapper span[data-ref="鸡笼"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="监狱"],.page-title-sizer-wrapper span[data-ref="监狱"],a[data-ref="牢笼"],.page-title-sizer-wrapper span[data-ref="牢笼"],a[data-ref="鸡笼"],.page-title-sizer-wrapper span[data-ref="鸡笼"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="监狱"].tag,a[data-ref="牢笼"].tag,a[data-ref="鸡笼"].tag) {
@@ -4453,11 +4454,11 @@
    --01154034imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgReYVnOYw9LHCRPG/root/content");
 }
 :is(a[data-ref="愿景"],.page-title-sizer-wrapper span[data-ref="愿景"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="愿景"],.page-title-sizer-wrapper span[data-ref="愿景"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="愿景"].tag) {
@@ -4519,11 +4520,11 @@
 /*自定义标签 愿景*/
 /*自定义标签 2024*/
 :is(a[data-ref="2024"],.page-title-sizer-wrapper span[data-ref="2024"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="2024"],.page-title-sizer-wrapper span[data-ref="2024"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="2024"].tag) {
@@ -4566,11 +4567,11 @@
    --29172212imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgRIE3JasPJGkPFVB/root/content");
 }
 :is(a[data-ref^="vivaldi"],.page-title-sizer-wrapper span[data-ref^="vivaldi"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="vivaldi"],.page-title-sizer-wrapper span[data-ref^="vivaldi"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="vivaldi"].tag) {
@@ -4635,11 +4636,11 @@
    --05205535imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0A5Q5vebKXITQVbw/root/content");
 }
 :is(a[data-ref^="stable diffusion"],.page-title-sizer-wrapper span[data-ref^="stable diffusion"],a[data-ref^="sd"],.page-title-sizer-wrapper span[data-ref^="sd"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="stable diffusion"],.page-title-sizer-wrapper span[data-ref^="stable diffusion"],a[data-ref^="sd"],.page-title-sizer-wrapper span[data-ref^="sd"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="stable diffusion"].tag,a[data-ref^="sd"].tag) {
@@ -4704,11 +4705,11 @@
    --31184655imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIfCTkNd_pdccYL4A/root/content");
 }
 :is(a[data-ref="设计标准"],.page-title-sizer-wrapper span[data-ref="设计标准"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="设计标准"],.page-title-sizer-wrapper span[data-ref="设计标准"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="设计标准"].tag) {
@@ -4773,11 +4774,11 @@
    --31164505imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIebNgLQvcY5jBuMw/root/content");
 }
 :is(a[data-ref^="面试"],.page-title-sizer-wrapper span[data-ref^="面试"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="面试"],.page-title-sizer-wrapper span[data-ref^="面试"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="面试"].tag) {
@@ -4842,11 +4843,11 @@
    --28100136imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIbgA-bwPp91gIcAg/root/content");
 }
 :is(a[data-ref^="装配"],.page-title-sizer-wrapper span[data-ref^="装配"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="装配"],.page-title-sizer-wrapper span[data-ref^="装配"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="装配"].tag) {
@@ -4911,11 +4912,11 @@
    --27231357imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIZbrn_1lcqBhNfAQ/root/content");
 }
 :is(a[data-ref$="检查"],.page-title-sizer-wrapper span[data-ref$="检查"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="检查"],.page-title-sizer-wrapper span[data-ref$="检查"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="检查"].tag) {
@@ -4980,11 +4981,11 @@
    --27230008imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIXyH-5ZoZh6b62gw/root/content");
 }
 :is(a[data-ref$="交付物"],.page-title-sizer-wrapper span[data-ref$="交付物"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="交付物"],.page-title-sizer-wrapper span[data-ref$="交付物"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="交付物"].tag) {
@@ -5049,11 +5050,11 @@
    --27225639imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIW1qSivNH5u5g3sA/root/content");
 }
 :is(a[data-ref$="管控文件"],.page-title-sizer-wrapper span[data-ref$="管控文件"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="管控文件"],.page-title-sizer-wrapper span[data-ref$="管控文件"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="管控文件"].tag) {
@@ -5118,11 +5119,11 @@
    --27100852imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFm1f5mgOGsOM8sLw/root/content");
 }
 :is(a[data-ref$="流程"],.page-title-sizer-wrapper span[data-ref$="流程"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="流程"],.page-title-sizer-wrapper span[data-ref$="流程"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="流程"].tag) {
@@ -5187,11 +5188,11 @@
    --27231838imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIao6siwzqVV3id_g/root/content");
 }
 :is(a[data-ref$="专业"],.page-title-sizer-wrapper span[data-ref$="专业"],a[data-ref$="校色"],.page-title-sizer-wrapper span[data-ref$="校色"],a[data-ref$="专业角色"],.page-title-sizer-wrapper span[data-ref$="专业角色"],a[data-ref$="代表"],.page-title-sizer-wrapper span[data-ref$="代表"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="专业"],.page-title-sizer-wrapper span[data-ref$="专业"],a[data-ref$="校色"],.page-title-sizer-wrapper span[data-ref$="校色"],a[data-ref$="专业角色"],.page-title-sizer-wrapper span[data-ref$="专业角色"],a[data-ref$="代表"],.page-title-sizer-wrapper span[data-ref$="代表"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="专业"].tag,a[data-ref$="校色"].tag,a[data-ref$="专业角色"].tag,a[data-ref$="代表"].tag) {
@@ -5256,11 +5257,11 @@
    --26160305imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIUB-k5iHYmqFOFhw/root/content");
 }
 :is(a[data-ref="风扇"],.page-title-sizer-wrapper span[data-ref="风扇"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="风扇"],.page-title-sizer-wrapper span[data-ref="风扇"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="风扇"].tag) {
@@ -5325,11 +5326,11 @@
    --26160051imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqITXnxvA7sTsfbZNw/root/content");
 }
 :is(a[data-ref="散热器"],.page-title-sizer-wrapper span[data-ref="散热器"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="散热器"],.page-title-sizer-wrapper span[data-ref="散热器"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="散热器"].tag) {
@@ -5394,11 +5395,11 @@
    --26155421imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqISkRQ2iGRgG3XgZA/root/content");
 }
 :is(a[data-ref$="大灯"],.page-title-sizer-wrapper span[data-ref$="大灯"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="大灯"],.page-title-sizer-wrapper span[data-ref$="大灯"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="大灯"].tag) {
@@ -5463,11 +5464,11 @@
    --26150324imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFTPEobR93BnTrKVg/root/content");
 }
 :is(a[data-ref$="间距"],.page-title-sizer-wrapper span[data-ref$="间距"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="间距"],.page-title-sizer-wrapper span[data-ref$="间距"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="间距"].tag) {
@@ -5532,11 +5533,11 @@
    --25162813imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIR1dL4FwGIg4Zz2w/root/content");
 }
 :is(a[data-ref$="孔"],.page-title-sizer-wrapper span[data-ref$="孔"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="孔"],.page-title-sizer-wrapper span[data-ref$="孔"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="孔"].tag) {
@@ -5601,11 +5602,11 @@
    --24121748imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIQRRhREHdxcSQuZA/root/content");
 }
 :is(a[data-ref^="护套"],.page-title-sizer-wrapper span[data-ref^="护套"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="护套"],.page-title-sizer-wrapper span[data-ref^="护套"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="护套"].tag) {
@@ -5670,11 +5671,11 @@
    --24120813imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIPpeyNVErpHLrRfw/root/content");
 }
 :is(a[data-ref$="喇叭"],.page-title-sizer-wrapper span[data-ref$="喇叭"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="喇叭"],.page-title-sizer-wrapper span[data-ref$="喇叭"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="喇叭"].tag) {
@@ -5739,11 +5740,11 @@
    --24120309imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIOWvWLBnvd1znMwA/root/content");
 }
 :is(a[data-ref^="电瓶"],.page-title-sizer-wrapper span[data-ref^="电瓶"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="电瓶"],.page-title-sizer-wrapper span[data-ref^="电瓶"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="电瓶"].tag) {
@@ -5808,11 +5809,11 @@
    --24112207imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIMPOopmYOrq4O8EQ/root/content");
 }
 :is(a[data-ref$="思路"],.page-title-sizer-wrapper span[data-ref$="思路"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="思路"],.page-title-sizer-wrapper span[data-ref$="思路"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="思路"].tag) {
@@ -5877,11 +5878,11 @@
    --23201658imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIJpd5_omNecCA96g/root/content");
 }
 :is(a[data-ref$="电器件"],.page-title-sizer-wrapper span[data-ref$="电器件"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="电器件"],.page-title-sizer-wrapper span[data-ref$="电器件"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="电器件"].tag) {
@@ -5946,11 +5947,11 @@
    --23195317imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIIEdC0dafXkv3Meg/root/content");
 }
 :is(a[data-ref="噪音"],.page-title-sizer-wrapper span[data-ref="噪音"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="噪音"],.page-title-sizer-wrapper span[data-ref="噪音"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="噪音"].tag) {
@@ -6015,11 +6016,11 @@
    --23202025imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIKdUeIJ-fBODjNSg/root/content");
 }
 :is(a[data-ref="车载充电器"],.page-title-sizer-wrapper span[data-ref="车载充电器"],a[data-ref="obc"],.page-title-sizer-wrapper span[data-ref="obc"],a[data-ref="chg"],.page-title-sizer-wrapper span[data-ref="chg"],a[data-ref="ipu"],.page-title-sizer-wrapper span[data-ref="ipu"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="车载充电器"],.page-title-sizer-wrapper span[data-ref="车载充电器"],a[data-ref="obc"],.page-title-sizer-wrapper span[data-ref="obc"],a[data-ref="chg"],.page-title-sizer-wrapper span[data-ref="chg"],a[data-ref="ipu"],.page-title-sizer-wrapper span[data-ref="ipu"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="车载充电器"].tag,a[data-ref="obc"].tag,a[data-ref="chg"].tag,a[data-ref="ipu"].tag) {
@@ -6084,11 +6085,11 @@
    --23194423imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIH4URoIx47399Tpw/root/content");
 }
 :is(a[data-ref^="悬"],.page-title-sizer-wrapper span[data-ref^="悬"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="悬"],.page-title-sizer-wrapper span[data-ref^="悬"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="悬"].tag) {
@@ -6153,11 +6154,11 @@
    --23192621imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIG85N1ZVrf8TL3Xg/root/content");
 }
 :is(a[data-ref="bms"],.page-title-sizer-wrapper span[data-ref="bms"],a[data-ref="电池管理器"],.page-title-sizer-wrapper span[data-ref="电池管理器"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="bms"],.page-title-sizer-wrapper span[data-ref="bms"],a[data-ref="电池管理器"],.page-title-sizer-wrapper span[data-ref="电池管理器"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="bms"].tag,a[data-ref="电池管理器"].tag) {
@@ -6222,11 +6223,11 @@
    --23184318imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIE57FWiOSeFG97uQ/root/content");
 }
 :is(a[data-ref^="dc/dc"],.page-title-sizer-wrapper span[data-ref^="dc/dc"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="dc/dc"],.page-title-sizer-wrapper span[data-ref^="dc/dc"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="dc/dc"].tag) {
@@ -6291,11 +6292,11 @@
    --23191752imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIF22PUCADHEp8ktA/root/content");
 }
 :is(a[data-ref="电机管理器"],.page-title-sizer-wrapper span[data-ref="电机管理器"],a[data-ref="mcu"],.page-title-sizer-wrapper span[data-ref="mcu"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="电机管理器"],.page-title-sizer-wrapper span[data-ref="电机管理器"],a[data-ref="mcu"],.page-title-sizer-wrapper span[data-ref="mcu"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="电机管理器"].tag,a[data-ref="mcu"].tag) {
@@ -6360,11 +6361,11 @@
    --23183643imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIDYgFDPMFbUyO4cA/root/content");
 }
 :is(a[data-ref^="充电"],.page-title-sizer-wrapper span[data-ref^="充电"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="充电"],.page-title-sizer-wrapper span[data-ref^="充电"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="充电"].tag) {
@@ -6429,11 +6430,11 @@
    --23163909imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqICXBkeVeDBH-Wv_g/root/content");
 }
 :is(a[data-ref$="电线"],.page-title-sizer-wrapper span[data-ref$="电线"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="电线"],.page-title-sizer-wrapper span[data-ref$="电线"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="电线"].tag) {
@@ -6498,11 +6499,11 @@
    --21135630imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFvlMd94IRT-_NLBQ/root/content");
 }
 :is(a[data-ref="新能源汽车维修"],.page-title-sizer-wrapper span[data-ref="新能源汽车维修"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="新能源汽车维修"],.page-title-sizer-wrapper span[data-ref="新能源汽车维修"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="新能源汽车维修"].tag) {
@@ -6567,11 +6568,11 @@
    --21110800imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFuA84_Ko7eOwj6Ow/root/content");
 }
 :is(a[data-ref="橡胶套"],.page-title-sizer-wrapper span[data-ref="橡胶套"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="橡胶套"],.page-title-sizer-wrapper span[data-ref="橡胶套"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="橡胶套"].tag) {
@@ -6636,11 +6637,11 @@
    --21110435imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFte9Q1U5QK2OGHRQ/root/content");
 }
 :is(a[data-ref="密封圈"],.page-title-sizer-wrapper span[data-ref="密封圈"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="密封圈"],.page-title-sizer-wrapper span[data-ref="密封圈"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="密封圈"].tag) {
@@ -6705,11 +6706,11 @@
    --21110247imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFszd8zOgrZ454p3A/root/content");
 }
 :is(a[data-ref^="防水"],.page-title-sizer-wrapper span[data-ref^="防水"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="防水"],.page-title-sizer-wrapper span[data-ref^="防水"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="防水"].tag) {
@@ -6774,11 +6775,11 @@
    --21091521imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFryjNHw5lvZRkr3A/root/content");
 }
 :is(a[data-ref="接插件"],.page-title-sizer-wrapper span[data-ref="接插件"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="接插件"],.page-title-sizer-wrapper span[data-ref="接插件"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="接插件"].tag) {
@@ -6843,11 +6844,11 @@
    --21091153imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFqZqYM1GDVFIpGTQ/root/content");
 }
 :is(a[data-ref="紧固件"],.page-title-sizer-wrapper span[data-ref="紧固件"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="紧固件"],.page-title-sizer-wrapper span[data-ref="紧固件"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="紧固件"].tag) {
@@ -6912,11 +6913,11 @@
    --21090825imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFpQq86huajDqLh-g/root/content");
 }
 :is(a[data-ref="对手件"],.page-title-sizer-wrapper span[data-ref="对手件"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="对手件"],.page-title-sizer-wrapper span[data-ref="对手件"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="对手件"].tag) {
@@ -6981,11 +6982,11 @@
    --21085452imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFofYsrwBMjehd9qQ/root/content");
 }
 :is(a[data-ref="简历"],.page-title-sizer-wrapper span[data-ref="简历"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="简历"],.page-title-sizer-wrapper span[data-ref="简历"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="简历"].tag) {
@@ -7050,11 +7051,11 @@
    --21072045imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFnVrihsyFxkiQeCQ/root/content");
 }
 :is(a[data-ref="端子"],.page-title-sizer-wrapper span[data-ref="端子"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="端子"],.page-title-sizer-wrapper span[data-ref="端子"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="端子"].tag) {
@@ -7120,11 +7121,11 @@
    --20221007imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFlqNxhBoKoNWOa7A/root/content");
 }
 :is(a[data-ref$="规划"],.page-title-sizer-wrapper span[data-ref$="规划"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="规划"],.page-title-sizer-wrapper span[data-ref$="规划"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="规划"].tag) {
@@ -7189,11 +7190,11 @@
    --20220121imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFioV5bLJ51TBHb4A/root/content");
 }
 :is(a[data-ref="卡扣"],.page-title-sizer-wrapper span[data-ref="卡扣"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="卡扣"],.page-title-sizer-wrapper span[data-ref="卡扣"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="卡扣"].tag) {
@@ -7258,11 +7259,11 @@
    --20215940imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFhs4znJxeCumAOzQ/root/content");
 }
 :is(a[data-ref="胶带"],.page-title-sizer-wrapper span[data-ref="胶带"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="胶带"],.page-title-sizer-wrapper span[data-ref="胶带"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="胶带"].tag) {
@@ -7327,11 +7328,11 @@
    --20215834imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFgQJqWscPYPpqF5w/root/content");
 }
 :is(a[data-ref="附件"],.page-title-sizer-wrapper span[data-ref="附件"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="附件"],.page-title-sizer-wrapper span[data-ref="附件"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="附件"].tag) {
@@ -7396,11 +7397,11 @@
    --28100453imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqIcGogonsQHoYRJaQ/root/content");
 }
 :is(a[data-ref$="线束"],.page-title-sizer-wrapper span[data-ref$="线束"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="线束"],.page-title-sizer-wrapper span[data-ref$="线束"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="线束"].tag) {
@@ -7465,11 +7466,11 @@
    --20212035imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFeQj8MxynsWXHdpA/root/content");
 }
 :is(a[data-ref="材质"],.page-title-sizer-wrapper span[data-ref="材质"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="材质"],.page-title-sizer-wrapper span[data-ref="材质"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="材质"].tag) {
@@ -7534,11 +7535,11 @@
    --20142254imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFdSXSMBvax1AS-FQ/root/content");
 }
 :is(a[data-ref="汽车组成部分"],.page-title-sizer-wrapper span[data-ref="汽车组成部分"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="汽车组成部分"],.page-title-sizer-wrapper span[data-ref="汽车组成部分"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="汽车组成部分"].tag) {
@@ -7603,11 +7604,11 @@
    --20134524imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFcYM0QX8SnWeD6Aw/root/content");
 }
 :is(a[data-ref="位置"],.page-title-sizer-wrapper span[data-ref="位置"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="位置"],.page-title-sizer-wrapper span[data-ref="位置"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="位置"].tag) {
@@ -7672,11 +7673,11 @@
    --19000726imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFSUaypGDAf5VSKsA/root/content");
 }
 :is(a[data-ref="继电器"],.page-title-sizer-wrapper span[data-ref="继电器"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="继电器"],.page-title-sizer-wrapper span[data-ref="继电器"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="继电器"].tag) {
@@ -7741,11 +7742,11 @@
    --19000629imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFR3eRW26ZOyAMpXg/root/content");
 }
 :is(a[data-ref="发动机"],.page-title-sizer-wrapper span[data-ref="发动机"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="发动机"],.page-title-sizer-wrapper span[data-ref="发动机"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="发动机"].tag) {
@@ -7810,11 +7811,11 @@
    --19000300imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFQA5sV5PXQtJTUbg/root/content");
 }
 :is(a[data-ref$="运动部件"],.page-title-sizer-wrapper span[data-ref$="运动部件"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="运动部件"],.page-title-sizer-wrapper span[data-ref$="运动部件"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="运动部件"].tag) {
@@ -7880,11 +7881,11 @@
    --18233954imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFNk_a6Y8lonQ4F5w/root/content");
 }
 :is(a[data-ref$="踏板"],.page-title-sizer-wrapper span[data-ref$="踏板"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="踏板"],.page-title-sizer-wrapper span[data-ref$="踏板"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="踏板"].tag) {
@@ -7949,11 +7950,11 @@
    --18232359imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFMEDqtUZmwMtfc7w/root/content");
 }
 :is(a[data-ref$="问题"],.page-title-sizer-wrapper span[data-ref$="问题"],a[data-ref$="疑问"],.page-title-sizer-wrapper span[data-ref$="疑问"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="问题"],.page-title-sizer-wrapper span[data-ref$="问题"],a[data-ref$="疑问"],.page-title-sizer-wrapper span[data-ref$="疑问"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="问题"].tag,a[data-ref$="疑问"].tag) {
@@ -8018,11 +8019,11 @@
    --18152018imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFJSfICS-dox437EA/root/content");
 }
 :is(a[data-ref="分支线束"],.page-title-sizer-wrapper span[data-ref="分支线束"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="分支线束"],.page-title-sizer-wrapper span[data-ref="分支线束"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="分支线束"].tag) {
@@ -8087,11 +8088,11 @@
    --18134449imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFDzehzSZ-rJ65xUQ/root/content");
 }
 :is(a[data-ref="轮胎"],.page-title-sizer-wrapper span[data-ref="轮胎"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="轮胎"],.page-title-sizer-wrapper span[data-ref="轮胎"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="轮胎"].tag) {
@@ -8156,11 +8157,11 @@
    --18134645imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFE_5gLYRx1HRykJA/root/content");
 }
 :is(a[data-ref="主线束"],.page-title-sizer-wrapper span[data-ref="主线束"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="主线束"],.page-title-sizer-wrapper span[data-ref="主线束"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="主线束"].tag) {
@@ -8225,11 +8226,11 @@
    --18134249imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFC25pSizRU_Ol3mg/root/content");
 }
 :is(a[data-ref="汽车"],.page-title-sizer-wrapper span[data-ref="汽车"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="汽车"],.page-title-sizer-wrapper span[data-ref="汽车"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="汽车"].tag) {
@@ -8294,11 +8295,11 @@
    --18133523imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqE-WYc4b8UGdL_dIw/root/content");
 }
 :is(a[data-ref^="高压"],.page-title-sizer-wrapper span[data-ref^="高压"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="高压"],.page-title-sizer-wrapper span[data-ref^="高压"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="高压"].tag) {
@@ -8363,11 +8364,11 @@
    --18133415imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqE9hPPmLca5Jz5zng/root/content");
 }
 :is(a[data-ref^="低压"],.page-title-sizer-wrapper span[data-ref^="低压"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="低压"],.page-title-sizer-wrapper span[data-ref^="低压"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="低压"].tag) {
@@ -8432,11 +8433,11 @@
    --18133329imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqE8QFKpLmelhLijIQ/root/content");
 }
 :is(a[data-ref$="设计"],.page-title-sizer-wrapper span[data-ref$="设计"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="设计"],.page-title-sizer-wrapper span[data-ref$="设计"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="设计"].tag) {
@@ -8501,11 +8502,11 @@
    --18234904imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFPoRtKh0hWkaBXhQ/root/content");
 }
 :is(a[data-ref^="3d"],.page-title-sizer-wrapper span[data-ref^="3d"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="3d"],.page-title-sizer-wrapper span[data-ref^="3d"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="3d"].tag) {
@@ -8570,11 +8571,11 @@
    --18132932imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqE6wV4KXGl_CNB3PA/root/content");
 }
 :is(a[data-ref^="汽车名词"],.page-title-sizer-wrapper span[data-ref^="汽车名词"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="汽车名词"],.page-title-sizer-wrapper span[data-ref^="汽车名词"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="汽车名词"].tag) {
@@ -8639,11 +8640,11 @@
    --24115333imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqINCNwv2rNMrah2aQ/root/content");
 }
 :is(a[data-ref$="物料"],.page-title-sizer-wrapper span[data-ref$="物料"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="物料"],.page-title-sizer-wrapper span[data-ref$="物料"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref$="物料"].tag) {
@@ -8708,11 +8709,11 @@
    --18134129imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqFBMuwbq-ViygxB1w/root/content");
 }
 :is(a[data-ref="汽车零部件"],.page-title-sizer-wrapper span[data-ref="汽车零部件"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="汽车零部件"],.page-title-sizer-wrapper span[data-ref="汽车零部件"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="汽车零部件"].tag) {
@@ -8777,10 +8778,10 @@
    --27215852imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqBIkaNO6dYSCbCJsw/root/content				");
 }
 :is(a[data-ref^="认知偏差"],.page-title-sizer-wrapper span[data-ref^="认知偏差"],a[data-ref^="认知扭曲"],.page-title-sizer-wrapper span[data-ref^="认知扭曲"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="认知偏差"],.page-title-sizer-wrapper span[data-ref^="认知偏差"],a[data-ref^="认知扭曲"],.page-title-sizer-wrapper span[data-ref^="认知扭曲"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="认知偏差"].tag,a[data-ref^="认知扭曲"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -8844,10 +8845,10 @@
    --27201516imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqB3GApxLy7vLqc_RQ/root/content");
 }
 :is(a[data-ref="自我量化"],.page-title-sizer-wrapper span[data-ref="自我量化"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="自我量化"],.page-title-sizer-wrapper span[data-ref="自我量化"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="自我量化"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -8911,10 +8912,10 @@
    --26162625imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqB22W8mMX0qju0U5w/root/content");
 }
 :is(a[data-ref^="研究对象"],.page-title-sizer-wrapper span[data-ref^="研究对象"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="研究对象"],.page-title-sizer-wrapper span[data-ref^="研究对象"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="研究对象"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -8978,11 +8979,11 @@
    --02220707imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgS-TH1-Bg6pIj3vP/root/content");
 }
 :is(a[data-ref="影视"],.page-title-sizer-wrapper span[data-ref="影视"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="影视"],.page-title-sizer-wrapper span[data-ref="影视"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="影视"].tag) {
@@ -9047,10 +9048,10 @@
    --26145557imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqB0ZNNIA1mB6IDSzw/root/content");
 }
 :is(a[data-ref^="旅行"],.page-title-sizer-wrapper span[data-ref^="旅行"],a[data-ref^="travel"],.page-title-sizer-wrapper span[data-ref^="travel"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="旅行"],.page-title-sizer-wrapper span[data-ref^="旅行"],a[data-ref^="travel"],.page-title-sizer-wrapper span[data-ref^="travel"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="旅行"].tag,a[data-ref^="travel"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -9116,11 +9117,11 @@
    --02225555imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgTm638yt6-HL8L2h/root/content");
 }
 :is(a[data-ref="项目"],.page-title-sizer-wrapper span[data-ref="项目"],a[data-ref="projects"],.page-title-sizer-wrapper span[data-ref="projects"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="项目"],.page-title-sizer-wrapper span[data-ref="项目"],a[data-ref="projects"],.page-title-sizer-wrapper span[data-ref="projects"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="项目"].tag,a[data-ref="projects"].tag) {
@@ -9185,11 +9186,11 @@
    --02230100imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgTvSXCJOwvd_epMX/root/content");
 }
 :is(a[data-ref="archives"],.page-title-sizer-wrapper span[data-ref="archives"],a[data-ref="归档"],.page-title-sizer-wrapper span[data-ref="归档"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="archives"],.page-title-sizer-wrapper span[data-ref="archives"],a[data-ref="归档"],.page-title-sizer-wrapper span[data-ref="归档"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="archives"].tag,a[data-ref="归档"].tag) {
@@ -9271,11 +9272,11 @@
    --02224843imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgTiTvNjSZTLbccUt/root/content");
 }
 :is(a[data-ref="resource"],.page-title-sizer-wrapper span[data-ref="resource"],a[data-ref="资源"],.page-title-sizer-wrapper span[data-ref="资源"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="resource"],.page-title-sizer-wrapper span[data-ref="resource"],a[data-ref="资源"],.page-title-sizer-wrapper span[data-ref="资源"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="resource"].tag,a[data-ref="资源"].tag) {
@@ -9357,11 +9358,11 @@
    --02224659imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgTdhVN_-8qDCx76G/root/content");
 }
 :is(a[data-ref="area"],.page-title-sizer-wrapper span[data-ref="area"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="area"],.page-title-sizer-wrapper span[data-ref="area"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="area"].tag) {
@@ -9443,11 +9444,11 @@
    --03114813imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVCg7bi_5aOoV2_i/root/content");
 }
 :is(a[data-ref="电视剧"],.page-title-sizer-wrapper span[data-ref="电视剧"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="电视剧"],.page-title-sizer-wrapper span[data-ref="电视剧"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="电视剧"].tag) {
@@ -9512,11 +9513,11 @@
    --03114959imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVELhiyu8jSdkAW4/root/content");
 }
 :is(a[data-ref="电影"],.page-title-sizer-wrapper span[data-ref="电影"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="电影"],.page-title-sizer-wrapper span[data-ref="电影"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="电影"].tag) {
@@ -9581,10 +9582,10 @@
    --01195141imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp47oMCuDKsvoOuFew/root/content");
 }
 :is(a[data-ref^="生存策略"],.page-title-sizer-wrapper span[data-ref^="生存策略"],a[data-ref^="道义"],.page-title-sizer-wrapper span[data-ref^="道义"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="生存策略"],.page-title-sizer-wrapper span[data-ref^="生存策略"],a[data-ref^="道义"],.page-title-sizer-wrapper span[data-ref^="道义"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="生存策略"].tag,a[data-ref^="道义"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -9630,10 +9631,10 @@
    --16134048imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqAuMyQxjGkXRHEChQ/root/content");
 }
 :is(a[data-ref$="执行力"],.page-title-sizer-wrapper span[data-ref$="执行力"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="执行力"],.page-title-sizer-wrapper span[data-ref$="执行力"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="执行力"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -9680,10 +9681,10 @@
    --30212139imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp4uV5fDOgl31JUf6g/root/content");
 }
 :is(a[data-ref$="百度网盘"],.page-title-sizer-wrapper span[data-ref$="百度网盘"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="百度网盘"],.page-title-sizer-wrapper span[data-ref$="百度网盘"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="百度网盘"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -9729,10 +9730,10 @@
    --30133644imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp4rqAzctjfS_YuSOA/root/content");
 }
 :is(a[data-ref$="自我负限循环"],.page-title-sizer-wrapper span[data-ref$="自我负限循环"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="自我负限循环"],.page-title-sizer-wrapper span[data-ref$="自我负限循环"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="自我负限循环"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -9779,11 +9780,11 @@
    --02230436imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgTyRqVBnDig3B-_r/root/content");
 }
 :is(a[data-ref="我的问题"],.page-title-sizer-wrapper span[data-ref="我的问题"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="我的问题"],.page-title-sizer-wrapper span[data-ref="我的问题"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="我的问题"].tag) {
@@ -9848,11 +9849,11 @@
    --02152850imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgRuqVRpL36gHujZ0/root/content");
 }
 :is(a[data-ref^="timeline"],.page-title-sizer-wrapper span[data-ref^="timeline"],a[data-ref^="timeline"],.page-title-sizer-wrapper span[data-ref^="timeline"],a[data-ref^="时间轴"],.page-title-sizer-wrapper span[data-ref^="时间轴"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="timeline"],.page-title-sizer-wrapper span[data-ref^="timeline"],a[data-ref^="timeline"],.page-title-sizer-wrapper span[data-ref^="timeline"],a[data-ref^="时间轴"],.page-title-sizer-wrapper span[data-ref^="时间轴"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref^="timeline"].tag,a[data-ref^="timeline"].tag,a[data-ref^="时间轴"].tag) {
@@ -9918,10 +9919,10 @@
    --14143136imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhf1AqxezM3xMT61S9Q/root/content");
 }
 :is(a[data-ref$="任务管理"],.page-title-sizer-wrapper span[data-ref$="任务管理"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="任务管理"],.page-title-sizer-wrapper span[data-ref$="任务管理"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="任务管理"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -9966,10 +9967,10 @@
    --08234107imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp1MPkIgpVrmSguPrw/root/content");
 }
 :is(a[data-ref="chatgpt"],.page-title-sizer-wrapper span[data-ref="chatgpt"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="chatgpt"],.page-title-sizer-wrapper span[data-ref="chatgpt"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="chatgpt"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10014,10 +10015,10 @@
    --08233736imageurl:url("data:image/png;base64,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");
 }
 :is(a[data-ref^="chatgptlink"],.page-title-sizer-wrapper span[data-ref^="chatgptlink"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="chatgptlink"],.page-title-sizer-wrapper span[data-ref^="chatgptlink"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="chatgptlink"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10063,10 +10064,10 @@
    --01231139imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0vQqYjSjbwSYDu1A/root/content");
 }
 :is(a[data-ref$="宋维骏"],.page-title-sizer-wrapper span[data-ref$="宋维骏"],a[data-ref$="宋岳"],.page-title-sizer-wrapper span[data-ref$="宋岳"],a[data-ref$="岳岳"],.page-title-sizer-wrapper span[data-ref$="岳岳"],a[data-ref$="大骏"],.page-title-sizer-wrapper span[data-ref$="大骏"],a[data-ref$="小火车"],.page-title-sizer-wrapper span[data-ref$="小火车"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="宋维骏"],.page-title-sizer-wrapper span[data-ref$="宋维骏"],a[data-ref$="宋岳"],.page-title-sizer-wrapper span[data-ref$="宋岳"],a[data-ref$="岳岳"],.page-title-sizer-wrapper span[data-ref$="岳岳"],a[data-ref$="大骏"],.page-title-sizer-wrapper span[data-ref$="大骏"],a[data-ref$="小火车"],.page-title-sizer-wrapper span[data-ref$="小火车"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="宋维骏"].tag,a[data-ref$="宋岳"].tag,a[data-ref$="岳岳"].tag,a[data-ref$="大骏"].tag,a[data-ref$="小火车"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10111,10 +10112,10 @@
    --01101011imageurl:url("data:image/png;base64,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");
 }
 :is(a[data-ref$="决策"],.page-title-sizer-wrapper span[data-ref$="决策"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="决策"],.page-title-sizer-wrapper span[data-ref$="决策"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="决策"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10159,10 +10160,10 @@
    --01100903imageurl:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFXUlEQVR4nO2d32sdRRTHFwQVVFDSdmZvSfPDtJSI7ZvB0jtzk5ioVVoRjOKvtg+CD+2DFNuqFCs11SJWQaQvtnAvd+5AwFrU+g/4om1af3W37WufTSPYBw3ElbMUjd7dzb3N7p6Z3fOFA8vcDXPn+5k5O3eXnHUcEolEIpFIJBKJRCKRSCQSqUutW7f1PlaRuxkXXzAurnBX3OCuDIoR4gaMKRwbk7v6+uS9xkyQvj55J3PlQe6K3/CNkrkE42KeueIAjB3V/J7eLRXuyu+xDeFoIOTFSqXai2Y+4/IatgkcH8I18AIj7ZzDHjw3JsR3Q0OP3ZEbAObKN/AHLY0KxuTrue12ki+44ivGxChjE3c5BdHq1fJuxqpjzJVnYwFweT2X3RFsw2LN5+Itp+DiXB6KH391Z+ZfAPbCcTPfKYlYzEpgrvw8+865vBqdA8WoUxKtqdTGo9OQuJx559wVv0d1Dnky6e/0L/r+ptd6T/n6B+Xr68rXga1xarYemYJ6+8cWwzFeVYMZAojOf3HnzwQztylfH1O+XsA2TqUYcT7AZ02/9afy9FEYOyoA+AJNT3+JbZbKGcC/0TqTOoRuANyc+UF5AegAVgIKgMaVmYFwKZYdgK8X4PqXOwDltd7HNkmZAQCuCdO5A2j6+iK2ScoQAMprXcgdgPL1PLZJyhAATb81hwEA3SRlCgCv9VeaABYjOl4kADI+Bfk6SBGAuNQOQFyyHUDj52YwtXdvMLB+Mgw4hjbzAHCxjbtyYUmnC9BmM4D6T82gtuOlNjOf2bPHPACgNWu3buJcHoOA46hzbDefuzIY3PComQA6ke3mcwKgUc03OgXZvgLqHZgPn8N5BMBP13zY2Yw//XKi+XL7C0H9x3jzUVfA8PDw7cwVx+EhdBiuOA5tNqyARkrmowJgXHz0/06hzXQAjRTNRwYg59oByLZ7HUU2X6H+EIvp2FQAjQzMJwA+rvkEwMc1nwD4uOYTAB/XfALg45pvJYBu77crhNsLhQYAN7ayMqSes/lWAoB761kYU0cwv1AA+AoMwjK/MCmIr8AoTPOtBJCmYXVk860EkNY2sZHjVjMp1vaOtvULbUYDWKmBDUPMh3h48rm2vqHNeAC3amTDIPMhPjz7abDhgcf/6RuOoc0KAN0a2jDM/KX/qrT/xLthwHHSucYB6OZiWkO+4KYRRgJQHa4E02Z+oQCoDleCrTPfCgDqFlaCLTPfGgCqi5Vg08y3CoDqYCXYNvOtA6ASIJhm/r5P3gmq254PA44LA0Dl8ABnpfHq9JttHkBbYQAow2PjpifaPIA2AuDnA8Ct1NoAQBsB8PMBEJcJCIBPAEpxDeC0AjQBKPMuiOOtgOiSZT09W+4pC4DPzkWXLOsfmsgeQHzRvupYWQC83fwgEsCDD+3IBcDp6OUnvi4LgNr2FyMBTD67KwcAiYVb5aGiA9h5YF9s/n/t48PZAwhf1MDFfNyXYK78BupqLveM1KY4NVsP007czIeA+1Unz9ezBwCClxcsd8++bPHK4YOJEFMFAKXaoWQ79qC5ITEyPrXsAyInbdELHGRo/sbNTwYnvj2ZaH4mAECrVlXdMq+EkfGpjsxPtWRZVDpirtifdGEuWgysnwxzfsfPpT39q5O14OUFUD8ffidAFXEoZI1tFE8p+gYfCTaPPBVMTO0Ot5pJu50YALNO3oKSvdjbR2VOHMkdgL6s+5te6w8DBh9gRli+Octy9kmiVaBxZv9/3x3QOoM9CxVWePp0Ju8Q6BqCp48WuZK6iko7vj6Cbv5SQR4MU5LXugC1lAto+tzNsU3D9Q/bbxKJRCKRSCTHaP0NywnXSbV8oJoAAAAASUVORK5CYII=");
 }
 :is(a[data-ref$="选择"],.page-title-sizer-wrapper span[data-ref$="选择"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="选择"],.page-title-sizer-wrapper span[data-ref$="选择"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="选择"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10207,10 +10208,10 @@
    --31221227imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpNmhB4mA2Au_ekGVQ/root/content");
 }
 :is(a[data-ref$="正反馈"],.page-title-sizer-wrapper span[data-ref$="正反馈"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="正反馈"],.page-title-sizer-wrapper span[data-ref$="正反馈"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="正反馈"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10255,10 +10256,10 @@
    --31220909imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfhcRsDVSx5P0U1wQQ/root/content");
 }
 :is(a[data-ref$="错误"],.page-title-sizer-wrapper span[data-ref$="错误"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="错误"],.page-title-sizer-wrapper span[data-ref$="错误"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="错误"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10303,10 +10304,10 @@
    --31220705imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoTPcerTUSC5sYAgw/root/content");
 }
 :is(a[data-ref$="经验"],.page-title-sizer-wrapper span[data-ref$="经验"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="经验"],.page-title-sizer-wrapper span[data-ref$="经验"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="经验"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10351,10 +10352,10 @@
    --31220105imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpZVWA6x_xZAF3q4ug/root/content");
 }
 :is(a[data-ref$="阶段汇总"],.page-title-sizer-wrapper span[data-ref$="阶段汇总"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="阶段汇总"],.page-title-sizer-wrapper span[data-ref$="阶段汇总"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="阶段汇总"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10399,10 +10400,10 @@
    --31220031imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpZTTnu68IE9nfw5Gg/root/content");
 }
 :is(a[data-ref$="主线"],.page-title-sizer-wrapper span[data-ref$="主线"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="主线"],.page-title-sizer-wrapper span[data-ref$="主线"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="主线"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10447,10 +10448,10 @@
    --31215943imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpZSOynvimJycad7NA/root/content");
 }
 :is(a[data-ref$="思考"],.page-title-sizer-wrapper span[data-ref$="思考"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="思考"],.page-title-sizer-wrapper span[data-ref$="思考"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="思考"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10495,10 +10496,10 @@
    --31215842imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpZRTyEwgnvr8pAC9g/root/content");
 }
 :is(a[data-ref$="负反馈"],.page-title-sizer-wrapper span[data-ref$="负反馈"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="负反馈"],.page-title-sizer-wrapper span[data-ref$="负反馈"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="负反馈"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10543,10 +10544,10 @@
   --31214543imageurl:url("data:image/png;base64,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");
 }
 :is(a[data-ref$="重要事件"],.page-title-sizer-wrapper span[data-ref$="重要事件"]){
- color: inherit!important;
+ color: var(--FontColor) !important;
 }
 :is(a[data-ref$="重要事件"],.page-title-sizer-wrapper span[data-ref$="重要事件"]):hover{
-   color: inherit!important;
+   color: var(--FontColor) !important;
 }
 :is(a[data-ref$="重要事件"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10592,10 +10593,10 @@
    --30232718imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpVVpuQH0rSxwIOU8A/root/content");
 }
 :is(a[data-ref^="规划"],.page-title-sizer-wrapper span[data-ref^="规划"],a[data-ref^="计划"],.page-title-sizer-wrapper span[data-ref^="计划"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="规划"],.page-title-sizer-wrapper span[data-ref^="规划"],a[data-ref^="计划"],.page-title-sizer-wrapper span[data-ref^="计划"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="规划"].tag,a[data-ref^="计划"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10641,10 +10642,10 @@
    --28115720imageurl:url("data:image/png;base64,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");
 }
 :is(a[data-ref^="店铺"],.page-title-sizer-wrapper span[data-ref^="店铺"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="店铺"],.page-title-sizer-wrapper span[data-ref^="店铺"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="店铺"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10737,10 +10738,10 @@
    --27112602imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp0Swwsa41JlE9WD8g/root/content");
 }
 :is(a[data-ref^="千川"],.page-title-sizer-wrapper span[data-ref^="千川"],a[data-ref^="巨量千川"],.page-title-sizer-wrapper span[data-ref^="巨量千川"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="千川"],.page-title-sizer-wrapper span[data-ref^="千川"],a[data-ref^="巨量千川"],.page-title-sizer-wrapper span[data-ref^="巨量千川"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="千川"].tag,a[data-ref^="巨量千川"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10785,10 +10786,10 @@
    --26232911imageurl:url("data:image/png;base64,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");
 }
 :is(a[data-ref^="优惠券"],.page-title-sizer-wrapper span[data-ref^="优惠券"],a[data-ref^="coupon"],.page-title-sizer-wrapper span[data-ref^="coupon"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="优惠券"],.page-title-sizer-wrapper span[data-ref^="优惠券"],a[data-ref^="coupon"],.page-title-sizer-wrapper span[data-ref^="coupon"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="优惠券"].tag,a[data-ref^="coupon"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10833,10 +10834,10 @@
    --26222041imageurl:url("data:image/png;base64,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");
 }
 :is(a[data-ref^="客服"],.page-title-sizer-wrapper span[data-ref^="客服"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="客服"],.page-title-sizer-wrapper span[data-ref^="客服"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="客服"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10881,10 +10882,10 @@
    --26145139imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqBzuk1P7GsoyPbyEQ/root/content");
 }
 :is(a[data-ref^="工具"],.page-title-sizer-wrapper span[data-ref^="工具"],a[data-ref^="tools"],.page-title-sizer-wrapper span[data-ref^="tools"],a[data-ref^="tool"],.page-title-sizer-wrapper span[data-ref^="tool"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="工具"],.page-title-sizer-wrapper span[data-ref^="工具"],a[data-ref^="tools"],.page-title-sizer-wrapper span[data-ref^="tools"],a[data-ref^="tool"],.page-title-sizer-wrapper span[data-ref^="tool"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="工具"].tag,a[data-ref^="tools"].tag,a[data-ref^="tool"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10945,10 +10946,10 @@
 /*自定义标签 工具#tools#tool*/
 /*自定义标签 短视频*/
 :is(a[data-ref^="短视频"],.page-title-sizer-wrapper span[data-ref^="短视频"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="短视频"],.page-title-sizer-wrapper span[data-ref^="短视频"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="短视频"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -10987,10 +10988,10 @@
 /*自定义标签 短视频*/
 /*自定义标签 猜你喜欢*/
 :is(a[data-ref="猜你喜欢"],.page-title-sizer-wrapper span[data-ref="猜你喜欢"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="猜你喜欢"],.page-title-sizer-wrapper span[data-ref="猜你喜欢"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="猜你喜欢"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11029,10 +11030,10 @@
 /*自定义标签 猜你喜欢*/
 /*自定义标签 商品卡*/
 :is(a[data-ref^="商品卡"],.page-title-sizer-wrapper span[data-ref^="商品卡"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="商品卡"],.page-title-sizer-wrapper span[data-ref^="商品卡"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="商品卡"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11071,10 +11072,10 @@
 /*自定义标签 商品卡*/
 /*自定义标签 生意 business Business*/
 :is(a[data-ref^="生意"],.page-title-sizer-wrapper span[data-ref^="生意"],a[data-ref^="business"],.page-title-sizer-wrapper span[data-ref^="business"],a[data-ref^="Business"],.page-title-sizer-wrapper span[data-ref^="Business"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="生意"],.page-title-sizer-wrapper span[data-ref^="生意"],a[data-ref^="business"],.page-title-sizer-wrapper span[data-ref^="business"],a[data-ref^="Business"],.page-title-sizer-wrapper span[data-ref^="Business"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="生意"].tag,a[data-ref^="business"].tag,a[data-ref^="Business"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11113,10 +11114,10 @@
 /*自定义标签 生意 business Business*/
 /*自定义标签 notion Notion*/
 :is(a[data-ref^="notion"],.page-title-sizer-wrapper span[data-ref^="notion"],a[data-ref^="Notion"],.page-title-sizer-wrapper span[data-ref^="Notion"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="notion"],.page-title-sizer-wrapper span[data-ref^="notion"],a[data-ref^="Notion"],.page-title-sizer-wrapper span[data-ref^="Notion"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="notion"].tag,a[data-ref^="Notion"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11155,10 +11156,10 @@
 /*自定义标签 notion Notion*/
 /*自定义标签 Android android*/
 :is(a[data-ref^="Android"],.page-title-sizer-wrapper span[data-ref^="Android"],a[data-ref^="android"],.page-title-sizer-wrapper span[data-ref^="android"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="Android"],.page-title-sizer-wrapper span[data-ref^="Android"],a[data-ref^="android"],.page-title-sizer-wrapper span[data-ref^="android"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="Android"].tag,a[data-ref^="android"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11197,10 +11198,10 @@
 /*自定义标签 Android android*/
 /*自定义标签 macos Macos*/
 :is(a[data-ref^="macos"],.page-title-sizer-wrapper span[data-ref^="macos"],a[data-ref^="Macos"],.page-title-sizer-wrapper span[data-ref^="Macos"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="macos"],.page-title-sizer-wrapper span[data-ref^="macos"],a[data-ref^="Macos"],.page-title-sizer-wrapper span[data-ref^="Macos"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="macos"].tag,a[data-ref^="Macos"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11240,10 +11241,10 @@
 
 /*自定义标签 ai Ai*/
 :is(a[data-ref^="ai"],.page-title-sizer-wrapper span[data-ref^="ai"],a[data-ref^="Ai"],.page-title-sizer-wrapper span[data-ref^="Ai"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="ai"],.page-title-sizer-wrapper span[data-ref^="ai"],a[data-ref^="Ai"],.page-title-sizer-wrapper span[data-ref^="Ai"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="ai"].tag,a[data-ref^="Ai"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11282,10 +11283,10 @@
 /*自定义标签 ai Ai*/
 /*自定义标签 立志*/
 :is(a[data-ref="立志"],.page-title-sizer-wrapper span[data-ref="立志"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="立志"],.page-title-sizer-wrapper span[data-ref="立志"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="立志"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11324,10 +11325,10 @@
 /*自定义标签 立志*/
 /*自定义标签 生命力*/
 :is(a[data-ref="生命力"],.page-title-sizer-wrapper span[data-ref="生命力"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="生命力"],.page-title-sizer-wrapper span[data-ref="生命力"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="生命力"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11366,10 +11367,10 @@
 /*自定义标签 生命力*/
 /*自定义标签 能量*/
 :is(a[data-ref^="能量"],.page-title-sizer-wrapper span[data-ref^="能量"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="能量"],.page-title-sizer-wrapper span[data-ref^="能量"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="能量"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11408,10 +11409,10 @@
 /*自定义标签 能量*/
 /*自定义标签 midjourney Midjourney*/
 :is(a[data-ref^="midjourney"],.page-title-sizer-wrapper span[data-ref^="midjourney"],a[data-ref^="Midjourney"],.page-title-sizer-wrapper span[data-ref^="Midjourney"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="midjourney"],.page-title-sizer-wrapper span[data-ref^="midjourney"],a[data-ref^="Midjourney"],.page-title-sizer-wrapper span[data-ref^="Midjourney"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="midjourney"].tag,a[data-ref^="Midjourney"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11450,10 +11451,10 @@
 /*自定义标签 midjourney Midjourney*/
 /*自定义标签 丛林法则*/
 :is(a[data-ref="丛林法则"],.page-title-sizer-wrapper span[data-ref="丛林法则"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="丛林法则"],.page-title-sizer-wrapper span[data-ref="丛林法则"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="丛林法则"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11493,11 +11494,11 @@
 /*自定义标签 1分*/
 :is(a[data-ref="1分"],.page-title-sizer-wrapper span[data-ref="1分"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="1分"],.page-title-sizer-wrapper span[data-ref="1分"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="1分"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11537,11 +11538,11 @@
 /*自定义标签 2分*/
 :is(a[data-ref^="2分"],.page-title-sizer-wrapper span[data-ref^="2分"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="2分"],.page-title-sizer-wrapper span[data-ref^="2分"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="2分"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11581,11 +11582,11 @@
 /*自定义标签 3分*/
 :is(a[data-ref="3分"],.page-title-sizer-wrapper span[data-ref="3分"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="3分"],.page-title-sizer-wrapper span[data-ref="3分"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="3分"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11625,11 +11626,11 @@
 /*自定义标签 4分*/
 :is(a[data-ref="4分"],.page-title-sizer-wrapper span[data-ref="4分"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="4分"],.page-title-sizer-wrapper span[data-ref="4分"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="4分"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11669,11 +11670,11 @@
 /*自定义标签 5分*/
 :is(a[data-ref="5分"],.page-title-sizer-wrapper span[data-ref="5分"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="5分"],.page-title-sizer-wrapper span[data-ref="5分"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="5分"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11716,10 +11717,10 @@
 
 /*自定义标签 抱怨*/
 :is(a[data-ref="抱怨"],.page-title-sizer-wrapper span[data-ref="抱怨"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="抱怨"],.page-title-sizer-wrapper span[data-ref="抱怨"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="抱怨"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11758,10 +11759,10 @@
 /*自定义标签 抱怨*/
 /*自定义标签 专注力*/
 :is(a[data-ref="专注力"],.page-title-sizer-wrapper span[data-ref="专注力"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="专注力"],.page-title-sizer-wrapper span[data-ref="专注力"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="专注力"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -11800,10 +11801,10 @@
 /*自定义标签 专注力*/
 /*自定义标签 借口*/
 :is(a[data-ref="借口"],.page-title-sizer-wrapper span[data-ref="借口"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="借口"],.page-title-sizer-wrapper span[data-ref="借口"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="借口"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -12053,10 +12054,10 @@
 /*自定义标签 短期回报*/
 /*自定义标签 急躁*/
 :is(a[data-ref*="急躁"],.page-title-sizer-wrapper span[data-ref*="急躁"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref*="急躁"],.page-title-sizer-wrapper span[data-ref*="急躁"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref*="急躁"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -12095,10 +12096,10 @@
 /*自定义标签 急躁*/
 /*自定义标签 注意 注意力*/
 :is(a[data-ref="注意"],.page-title-sizer-wrapper span[data-ref="注意"],a[data-ref="注意力"],.page-title-sizer-wrapper span[data-ref="注意力"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="注意"],.page-title-sizer-wrapper span[data-ref="注意"],a[data-ref="注意力"],.page-title-sizer-wrapper span[data-ref="注意力"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="注意"].tag,a[data-ref="注意力"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -12122,11 +12123,11 @@
 /*自定义标签 云盘 云存储*/
 :is(a[data-ref="云盘"],.page-title-sizer-wrapper span[data-ref="云盘"],a[data-ref="云存储"],.page-title-sizer-wrapper span[data-ref="云存储"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="云盘"],.page-title-sizer-wrapper span[data-ref="云盘"],a[data-ref="云存储"],.page-title-sizer-wrapper span[data-ref="云存储"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="云盘"],.page-title-sizer-wrapper span[data-ref="云盘"],a[data-ref="云存储"],.page-title-sizer-wrapper span[data-ref="云存储"])::before{
   content: "";
@@ -12163,11 +12164,11 @@
 /*自定义标签 时间管理*/
 :is(a[data-ref="时间管理"],.page-title-sizer-wrapper span[data-ref="时间管理"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="时间管理"],.page-title-sizer-wrapper span[data-ref="时间管理"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="时间管理"],.page-title-sizer-wrapper span[data-ref="时间管理"])::before{
   content: "";
@@ -12203,11 +12204,11 @@
 /*自定义标签 儿童*/
 :is(a[data-ref="儿童"],.page-title-sizer-wrapper span[data-ref="儿童"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="儿童"],.page-title-sizer-wrapper span[data-ref="儿童"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="儿童"],.page-title-sizer-wrapper span[data-ref="儿童"])::before{
   content: "";
@@ -12245,10 +12246,10 @@
    --20104305imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqBL4oom-hdJi8L7Tw/root/content");
 }
 :is(a[data-ref="沟通"],.page-title-sizer-wrapper span[data-ref="沟通"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="沟通"],.page-title-sizer-wrapper span[data-ref="沟通"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="沟通"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -12336,11 +12337,11 @@
 /*自定义标签 诗词 诗歌 诗*/
 :is(a[data-ref="诗词"],.page-title-sizer-wrapper span[data-ref="诗词"],a[data-ref="诗歌"],.page-title-sizer-wrapper span[data-ref="诗歌"],a[data-ref="诗"],.page-title-sizer-wrapper span[data-ref="诗"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="诗词"],.page-title-sizer-wrapper span[data-ref="诗词"],a[data-ref="诗歌"],.page-title-sizer-wrapper span[data-ref="诗歌"],a[data-ref="诗"],.page-title-sizer-wrapper span[data-ref="诗"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="诗词"],.page-title-sizer-wrapper span[data-ref="诗词"],a[data-ref="诗歌"],.page-title-sizer-wrapper span[data-ref="诗歌"],a[data-ref="诗"],.page-title-sizer-wrapper span[data-ref="诗"])::before{
   content: "";
@@ -12376,11 +12377,11 @@
 /*自定义标签 艺术 art skill Art Skill*/
 :is(a[data-ref="艺术"],.page-title-sizer-wrapper span[data-ref="艺术"],a[data-ref="art"],.page-title-sizer-wrapper span[data-ref="art"],a[data-ref="skill"],.page-title-sizer-wrapper span[data-ref="skill"],a[data-ref="Art"],.page-title-sizer-wrapper span[data-ref="Art"],a[data-ref="Skill"],.page-title-sizer-wrapper span[data-ref="Skill"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="艺术"],.page-title-sizer-wrapper span[data-ref="艺术"],a[data-ref="art"],.page-title-sizer-wrapper span[data-ref="art"],a[data-ref="skill"],.page-title-sizer-wrapper span[data-ref="skill"],a[data-ref="Art"],.page-title-sizer-wrapper span[data-ref="Art"],a[data-ref="Skill"],.page-title-sizer-wrapper span[data-ref="Skill"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="艺术"],.page-title-sizer-wrapper span[data-ref="艺术"],a[data-ref="art"],.page-title-sizer-wrapper span[data-ref="art"],a[data-ref="skill"],.page-title-sizer-wrapper span[data-ref="skill"],a[data-ref="Art"],.page-title-sizer-wrapper span[data-ref="Art"],a[data-ref="Skill"],.page-title-sizer-wrapper span[data-ref="Skill"])::before{
   content: "";
@@ -12416,11 +12417,11 @@
 /*自定义标签 城市 city City*/
 :is(a[data-ref="城市"],.page-title-sizer-wrapper span[data-ref="城市"],a[data-ref="city"],.page-title-sizer-wrapper span[data-ref="city"],a[data-ref="City"],.page-title-sizer-wrapper span[data-ref="City"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="城市"],.page-title-sizer-wrapper span[data-ref="城市"],a[data-ref="city"],.page-title-sizer-wrapper span[data-ref="city"],a[data-ref="City"],.page-title-sizer-wrapper span[data-ref="City"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="城市"],.page-title-sizer-wrapper span[data-ref="城市"],a[data-ref="city"],.page-title-sizer-wrapper span[data-ref="city"],a[data-ref="City"],.page-title-sizer-wrapper span[data-ref="City"])::before{
   content: "";
@@ -12963,11 +12964,11 @@
    --02231341imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgT5cbc_kzaMLo-6L/root/content");
 }
 :is(a[data-ref="家庭"],.page-title-sizer-wrapper span[data-ref="家庭"],a[data-ref="亲人"],.page-title-sizer-wrapper span[data-ref="亲人"],a[data-ref="血缘"],.page-title-sizer-wrapper span[data-ref="血缘"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="家庭"],.page-title-sizer-wrapper span[data-ref="家庭"],a[data-ref="亲人"],.page-title-sizer-wrapper span[data-ref="亲人"],a[data-ref="血缘"],.page-title-sizer-wrapper span[data-ref="血缘"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="家庭"].tag,a[data-ref="亲人"].tag,a[data-ref="血缘"].tag) {
@@ -13071,11 +13072,11 @@
 /*自定义标签 觉悟社*/
 :is(a[data-ref="觉悟社"],.page-title-sizer-wrapper span[data-ref="觉悟社"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="觉悟社"],.page-title-sizer-wrapper span[data-ref="觉悟社"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="觉悟社"],.page-title-sizer-wrapper span[data-ref="觉悟社"])::before{
   content: "";
@@ -13156,10 +13157,10 @@
 /*自定义标签 PUA 搭讪艺术家 Pick-up pua Pick-Up*/
 /*自定义标签 男人 man 爷们 汉子 Man*/
 :is(a[data-ref="男人"],.page-title-sizer-wrapper span[data-ref="男人"],a[data-ref="man"],.page-title-sizer-wrapper span[data-ref="man"],a[data-ref="爷们"],.page-title-sizer-wrapper span[data-ref="爷们"],a[data-ref="汉子"],.page-title-sizer-wrapper span[data-ref="汉子"],a[data-ref="Man"],.page-title-sizer-wrapper span[data-ref="Man"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="男人"],.page-title-sizer-wrapper span[data-ref="男人"],a[data-ref="man"],.page-title-sizer-wrapper span[data-ref="man"],a[data-ref="爷们"],.page-title-sizer-wrapper span[data-ref="爷们"],a[data-ref="汉子"],.page-title-sizer-wrapper span[data-ref="汉子"],a[data-ref="Man"],.page-title-sizer-wrapper span[data-ref="Man"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="男人"],.page-title-sizer-wrapper span[data-ref="男人"],a[data-ref="man"],.page-title-sizer-wrapper span[data-ref="man"],a[data-ref="爷们"],.page-title-sizer-wrapper span[data-ref="爷们"],a[data-ref="汉子"],.page-title-sizer-wrapper span[data-ref="汉子"],a[data-ref="Man"],.page-title-sizer-wrapper span[data-ref="Man"])::before{
   content: "";
@@ -13194,10 +13195,10 @@
 /*自定义标签 男人 man 爷们 汉子 Man*/
 /*自定义标签 女人 美女 熟妇 人妻 woman Woman*/
 :is(a[data-ref="女人"],.page-title-sizer-wrapper span[data-ref="女人"],a[data-ref="美女"],.page-title-sizer-wrapper span[data-ref="美女"],a[data-ref="熟妇"],.page-title-sizer-wrapper span[data-ref="熟妇"],a[data-ref="人妻"],.page-title-sizer-wrapper span[data-ref="人妻"],a[data-ref="woman"],.page-title-sizer-wrapper span[data-ref="woman"],a[data-ref="Woman"],.page-title-sizer-wrapper span[data-ref="Woman"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="女人"],.page-title-sizer-wrapper span[data-ref="女人"],a[data-ref="美女"],.page-title-sizer-wrapper span[data-ref="美女"],a[data-ref="熟妇"],.page-title-sizer-wrapper span[data-ref="熟妇"],a[data-ref="人妻"],.page-title-sizer-wrapper span[data-ref="人妻"],a[data-ref="woman"],.page-title-sizer-wrapper span[data-ref="woman"],a[data-ref="Woman"],.page-title-sizer-wrapper span[data-ref="Woman"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="女人"],.page-title-sizer-wrapper span[data-ref="女人"],a[data-ref="美女"],.page-title-sizer-wrapper span[data-ref="美女"],a[data-ref="熟妇"],.page-title-sizer-wrapper span[data-ref="熟妇"],a[data-ref="人妻"],.page-title-sizer-wrapper span[data-ref="人妻"],a[data-ref="woman"],.page-title-sizer-wrapper span[data-ref="woman"],a[data-ref="Woman"],.page-title-sizer-wrapper span[data-ref="Woman"])::before{
   content: "";
@@ -13279,10 +13280,10 @@ a[data-ref="card"] {
 }
 /*自定义标签 拖延*/
 :is(a[data-ref^="拖延"],.page-title-sizer-wrapper span[data-ref^="拖延"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="拖延"],.page-title-sizer-wrapper span[data-ref^="拖延"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="拖延"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -13325,10 +13326,10 @@ a[data-ref="card"] {
 
 /*自定义标签 王者荣耀*/
 :is(a[data-ref="王者荣耀"],.page-title-sizer-wrapper span[data-ref="王者荣耀"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="王者荣耀"],.page-title-sizer-wrapper span[data-ref="王者荣耀"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="王者荣耀"],.page-title-sizer-wrapper span[data-ref="王者荣耀"])::before{
   content: "";
@@ -13364,10 +13365,10 @@ a[data-ref="card"] {
 
 /*自定义标签 主题学习*/
 :is(a[data-ref="主题学习"],.page-title-sizer-wrapper span[data-ref="主题学习"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="主题学习"],.page-title-sizer-wrapper span[data-ref="主题学习"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="主题学习"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -13552,11 +13553,11 @@ a[data-ref="实力商家"]:hover {
    --03104955imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgUxxuZqgXO8BrZKr/root/content");
 }
 :is(a[data-ref="世界观"],.page-title-sizer-wrapper span[data-ref="世界观"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="世界观"],.page-title-sizer-wrapper span[data-ref="世界观"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="世界观"].tag) {
@@ -13660,11 +13661,11 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 好小猪童装*/
 :is(a[data-ref="好小猪童装"],.page-title-sizer-wrapper span[data-ref="好小猪童装"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="好小猪童装"],.page-title-sizer-wrapper span[data-ref="好小猪童装"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="好小猪童装"],.page-title-sizer-wrapper span[data-ref="好小猪童装"])::before{
   content: "";
@@ -13775,11 +13776,11 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 归档*/
 :is(a[data-ref^="归档"],.page-title-sizer-wrapper span[data-ref^="归档"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="归档"],.page-title-sizer-wrapper span[data-ref^="归档"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="归档"],.page-title-sizer-wrapper span[data-ref^="归档"])::before{
   content: "";
@@ -13815,11 +13816,11 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 下一步行动*/
 :is(a[data-ref="下一步行动"],.page-title-sizer-wrapper span[data-ref="下一步行动"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="下一步行动"],.page-title-sizer-wrapper span[data-ref="下一步行动"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="下一步行动"],.page-title-sizer-wrapper span[data-ref="下一步行动"])::before{
   content: "";
@@ -13855,11 +13856,11 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 等待清单*/
 :is(a[data-ref="等待清单"],.page-title-sizer-wrapper span[data-ref="等待清单"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="等待清单"],.page-title-sizer-wrapper span[data-ref="等待清单"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="等待清单"],.page-title-sizer-wrapper span[data-ref="等待清单"])::before{
   content: "";
@@ -13894,10 +13895,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 等待清单*/
 /*自定义标签 Claude claude claude Claude*/
 :is(a[data-ref^="Claude"],.page-title-sizer-wrapper span[data-ref^="Claude"],a[data-ref^="claude"],.page-title-sizer-wrapper span[data-ref^="claude"],a[data-ref^="claude"],.page-title-sizer-wrapper span[data-ref^="claude"],a[data-ref^="Claude"],.page-title-sizer-wrapper span[data-ref^="Claude"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="Claude"],.page-title-sizer-wrapper span[data-ref^="Claude"],a[data-ref^="claude"],.page-title-sizer-wrapper span[data-ref^="claude"],a[data-ref^="claude"],.page-title-sizer-wrapper span[data-ref^="claude"],a[data-ref^="Claude"],.page-title-sizer-wrapper span[data-ref^="Claude"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="Claude"].tag,a[data-ref^="claude"].tag,a[data-ref^="claude"].tag,a[data-ref^="Claude"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -13939,10 +13940,10 @@ a[data-ref="实力商家"]:hover {
    --11183043imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp1Slo-Zm_CVRDxw6Q/root/content");
 }
 :is(a[data-ref="claudelink"],.page-title-sizer-wrapper span[data-ref="claudelink"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="claudelink"],.page-title-sizer-wrapper span[data-ref="claudelink"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="claudelink"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -13985,10 +13986,10 @@ a[data-ref="实力商家"]:hover {
 
 /*自定义标签 office Office*/
 :is(a[data-ref^="office"],.page-title-sizer-wrapper span[data-ref^="office"],a[data-ref^="Office"],.page-title-sizer-wrapper span[data-ref^="Office"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="office"],.page-title-sizer-wrapper span[data-ref^="office"],a[data-ref^="Office"],.page-title-sizer-wrapper span[data-ref^="Office"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="office"],.page-title-sizer-wrapper span[data-ref^="office"],a[data-ref^="Office"],.page-title-sizer-wrapper span[data-ref^="Office"])::before{
   content: "";
@@ -14023,10 +14024,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 office Office*/
 /*自定义标签 Windows windows*/
 :is(a[data-ref^="Windows"],.page-title-sizer-wrapper span[data-ref^="Windows"],a[data-ref^="windows"],.page-title-sizer-wrapper span[data-ref^="windows"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="Windows"],.page-title-sizer-wrapper span[data-ref^="Windows"],a[data-ref^="windows"],.page-title-sizer-wrapper span[data-ref^="windows"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="Windows"],.page-title-sizer-wrapper span[data-ref^="Windows"],a[data-ref^="windows"],.page-title-sizer-wrapper span[data-ref^="windows"])::before{
   content: "";
@@ -14061,10 +14062,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 Windows windows*/
 /*自定义标签 Twitter twitter  twitter Twitter*/
 :is(a[data-ref="Twitter"],.page-title-sizer-wrapper span[data-ref="Twitter"],a[data-ref="twitter"],.page-title-sizer-wrapper span[data-ref="twitter"],a[data-ref="twitter"],.page-title-sizer-wrapper span[data-ref="twitter"],a[data-ref="Twitter"],.page-title-sizer-wrapper span[data-ref="Twitter"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="Twitter"],.page-title-sizer-wrapper span[data-ref="Twitter"],a[data-ref="twitter"],.page-title-sizer-wrapper span[data-ref="twitter"],a[data-ref="twitter"],.page-title-sizer-wrapper span[data-ref="twitter"],a[data-ref="Twitter"],.page-title-sizer-wrapper span[data-ref="Twitter"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="Twitter"],.page-title-sizer-wrapper span[data-ref="Twitter"],a[data-ref="twitter"],.page-title-sizer-wrapper span[data-ref="twitter"],a[data-ref="twitter"],.page-title-sizer-wrapper span[data-ref="twitter"],a[data-ref="Twitter"],.page-title-sizer-wrapper span[data-ref="Twitter"])::before{
   content: "";
@@ -14100,10 +14101,10 @@ a[data-ref="实力商家"]:hover {
 
 /*自定义标签 Telegram telegram*/
 :is(a[data-ref="Telegram"],.page-title-sizer-wrapper span[data-ref="Telegram"],a[data-ref="telegram"],.page-title-sizer-wrapper span[data-ref="telegram"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="Telegram"],.page-title-sizer-wrapper span[data-ref="Telegram"],a[data-ref="telegram"],.page-title-sizer-wrapper span[data-ref="telegram"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="Telegram"],.page-title-sizer-wrapper span[data-ref="Telegram"],a[data-ref="telegram"],.page-title-sizer-wrapper span[data-ref="telegram"])::before{
   content: "";
@@ -14139,10 +14140,10 @@ a[data-ref="实力商家"]:hover {
 
 /*自定义标签 onedrive Onedrive*/
 :is(a[data-ref="onedrive"],.page-title-sizer-wrapper span[data-ref="onedrive"],a[data-ref="Onedrive"],.page-title-sizer-wrapper span[data-ref="Onedrive"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="onedrive"],.page-title-sizer-wrapper span[data-ref="onedrive"],a[data-ref="Onedrive"],.page-title-sizer-wrapper span[data-ref="Onedrive"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="onedrive"],.page-title-sizer-wrapper span[data-ref="onedrive"],a[data-ref="Onedrive"],.page-title-sizer-wrapper span[data-ref="Onedrive"])::before{
   content: "";
@@ -14177,10 +14178,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 onedrive Onedrive*/
 /*自定义标签 powertoys Powertoys*/
 :is(a[data-ref="powertoys"],.page-title-sizer-wrapper span[data-ref="powertoys"],a[data-ref="Powertoys"],.page-title-sizer-wrapper span[data-ref="Powertoys"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="powertoys"],.page-title-sizer-wrapper span[data-ref="powertoys"],a[data-ref="Powertoys"],.page-title-sizer-wrapper span[data-ref="Powertoys"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="powertoys"],.page-title-sizer-wrapper span[data-ref="powertoys"],a[data-ref="Powertoys"],.page-title-sizer-wrapper span[data-ref="Powertoys"])::before{
   content: "";
@@ -14215,10 +14216,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 powertoys Powertoys*/
 /*自定义标签 PotPlayer potplayer Potplayer Potplayer*/
 :is(a[data-ref="PotPlayer"],.page-title-sizer-wrapper span[data-ref="PotPlayer"],a[data-ref="potplayer"],.page-title-sizer-wrapper span[data-ref="potplayer"],a[data-ref="Potplayer"],.page-title-sizer-wrapper span[data-ref="Potplayer"],a[data-ref="Potplayer"],.page-title-sizer-wrapper span[data-ref="Potplayer"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="PotPlayer"],.page-title-sizer-wrapper span[data-ref="PotPlayer"],a[data-ref="potplayer"],.page-title-sizer-wrapper span[data-ref="potplayer"],a[data-ref="Potplayer"],.page-title-sizer-wrapper span[data-ref="Potplayer"],a[data-ref="Potplayer"],.page-title-sizer-wrapper span[data-ref="Potplayer"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="PotPlayer"],.page-title-sizer-wrapper span[data-ref="PotPlayer"],a[data-ref="potplayer"],.page-title-sizer-wrapper span[data-ref="potplayer"],a[data-ref="Potplayer"],.page-title-sizer-wrapper span[data-ref="Potplayer"],a[data-ref="Potplayer"],.page-title-sizer-wrapper span[data-ref="Potplayer"])::before{
   content: "";
@@ -14253,10 +14254,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 PotPlayer potplayer Potplayer Potplayer*/
 /*自定义标签 IDM idm*/
 :is(a[data-ref="IDM"],.page-title-sizer-wrapper span[data-ref="IDM"],a[data-ref="idm"],.page-title-sizer-wrapper span[data-ref="idm"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="IDM"],.page-title-sizer-wrapper span[data-ref="IDM"],a[data-ref="idm"],.page-title-sizer-wrapper span[data-ref="idm"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="IDM"],.page-title-sizer-wrapper span[data-ref="IDM"],a[data-ref="idm"],.page-title-sizer-wrapper span[data-ref="idm"])::before{
   content: "";
@@ -14291,10 +14292,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 IDM idm*/
 /*自定义标签 eagle Eagle*/
 :is(a[data-ref="eagle"],.page-title-sizer-wrapper span[data-ref="eagle"],a[data-ref="Eagle"],.page-title-sizer-wrapper span[data-ref="Eagle"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="eagle"],.page-title-sizer-wrapper span[data-ref="eagle"],a[data-ref="Eagle"],.page-title-sizer-wrapper span[data-ref="Eagle"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="eagle"],.page-title-sizer-wrapper span[data-ref="eagle"],a[data-ref="Eagle"],.page-title-sizer-wrapper span[data-ref="Eagle"])::before{
   content: "";
@@ -14329,10 +14330,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 eagle Eagle*/
 /*自定义标签 Photoshop photoshop photoshop Photoshop*/
 :is(a[data-ref="Photoshop"],.page-title-sizer-wrapper span[data-ref="Photoshop"],a[data-ref="photoshop"],.page-title-sizer-wrapper span[data-ref="photoshop"],a[data-ref="photoshop"],.page-title-sizer-wrapper span[data-ref="photoshop"],a[data-ref="Photoshop"],.page-title-sizer-wrapper span[data-ref="Photoshop"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="Photoshop"],.page-title-sizer-wrapper span[data-ref="Photoshop"],a[data-ref="photoshop"],.page-title-sizer-wrapper span[data-ref="photoshop"],a[data-ref="photoshop"],.page-title-sizer-wrapper span[data-ref="photoshop"],a[data-ref="Photoshop"],.page-title-sizer-wrapper span[data-ref="Photoshop"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="Photoshop"],.page-title-sizer-wrapper span[data-ref="Photoshop"],a[data-ref="photoshop"],.page-title-sizer-wrapper span[data-ref="photoshop"],a[data-ref="photoshop"],.page-title-sizer-wrapper span[data-ref="photoshop"],a[data-ref="Photoshop"],.page-title-sizer-wrapper span[data-ref="Photoshop"])::before{
   content: "";
@@ -14367,10 +14368,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 Photoshop photoshop photoshop Photoshop*/
 /*自定义标签 TrayS trays Trays Trays*/
 :is(a[data-ref="TrayS"],.page-title-sizer-wrapper span[data-ref="TrayS"],a[data-ref="trays"],.page-title-sizer-wrapper span[data-ref="trays"],a[data-ref="Trays"],.page-title-sizer-wrapper span[data-ref="Trays"],a[data-ref="Trays"],.page-title-sizer-wrapper span[data-ref="Trays"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="TrayS"],.page-title-sizer-wrapper span[data-ref="TrayS"],a[data-ref="trays"],.page-title-sizer-wrapper span[data-ref="trays"],a[data-ref="Trays"],.page-title-sizer-wrapper span[data-ref="Trays"],a[data-ref="Trays"],.page-title-sizer-wrapper span[data-ref="Trays"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="TrayS"],.page-title-sizer-wrapper span[data-ref="TrayS"],a[data-ref="trays"],.page-title-sizer-wrapper span[data-ref="trays"],a[data-ref="Trays"],.page-title-sizer-wrapper span[data-ref="Trays"],a[data-ref="Trays"],.page-title-sizer-wrapper span[data-ref="Trays"])::before{
   content: "";
@@ -14405,10 +14406,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 TrayS trays Trays Trays*/
 /*自定义标签 Reduce reduce*/
 :is(a[data-ref="Reduce Memory"],.page-title-sizer-wrapper span[data-ref="Reduce Memory"],a[data-ref="reduce memory"],.page-title-sizer-wrapper span[data-ref="Reduce Memory"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="Reduce Memory"],.page-title-sizer-wrapper span[data-ref="Reduce Memory"],a[data-ref="reduce memory"],.page-title-sizer-wrapper span[data-ref="Reduce Memory"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="Reduce Memory"],.page-title-sizer-wrapper span[data-ref="Reduce Memory"],a[data-ref="reduce memory"],.page-title-sizer-wrapper span[data-ref="Reduce Memory"])::before{
   content: "";
@@ -14443,10 +14444,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 Reduce reduce*/
 /*自定义标签 Directory directory*/
 :is(a[data-ref^="Directory"],.page-title-sizer-wrapper span[data-ref^="Directory"],a[data-ref^="directory"],.page-title-sizer-wrapper span[data-ref^="directory"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="Directory"],.page-title-sizer-wrapper span[data-ref^="Directory"],a[data-ref^="directory"],.page-title-sizer-wrapper span[data-ref^="directory"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="Directory"],.page-title-sizer-wrapper span[data-ref^="Directory"],a[data-ref^="directory"],.page-title-sizer-wrapper span[data-ref^="directory"])::before{
   content: "";
@@ -14481,10 +14482,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 Directory directory*/
 /*自定义标签 Listary listary listary Listary*/
 :is(a[data-ref="Listary"],.page-title-sizer-wrapper span[data-ref="Listary"],a[data-ref="listary"],.page-title-sizer-wrapper span[data-ref="listary"],a[data-ref="listary"],.page-title-sizer-wrapper span[data-ref="listary"],a[data-ref="Listary"],.page-title-sizer-wrapper span[data-ref="Listary"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="Listary"],.page-title-sizer-wrapper span[data-ref="Listary"],a[data-ref="listary"],.page-title-sizer-wrapper span[data-ref="listary"],a[data-ref="listary"],.page-title-sizer-wrapper span[data-ref="listary"],a[data-ref="Listary"],.page-title-sizer-wrapper span[data-ref="Listary"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="Listary"],.page-title-sizer-wrapper span[data-ref="Listary"],a[data-ref="listary"],.page-title-sizer-wrapper span[data-ref="listary"],a[data-ref="listary"],.page-title-sizer-wrapper span[data-ref="listary"],a[data-ref="Listary"],.page-title-sizer-wrapper span[data-ref="Listary"])::before{
   content: "";
@@ -14519,10 +14520,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 Listary listary listary Listary*/
 /*自定义标签 阿里云盘*/
 :is(a[data-ref="阿里云盘"],.page-title-sizer-wrapper span[data-ref="阿里云盘"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="阿里云盘"],.page-title-sizer-wrapper span[data-ref="阿里云盘"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="阿里云盘"],.page-title-sizer-wrapper span[data-ref="阿里云盘"])::before{
   content: "";
@@ -14557,10 +14558,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 阿里云盘*/
 /*自定义标签 滴答清单*/
 :is(a[data-ref="滴答清单"],.page-title-sizer-wrapper span[data-ref="滴答清单"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="滴答清单"],.page-title-sizer-wrapper span[data-ref="滴答清单"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="滴答清单"],.page-title-sizer-wrapper span[data-ref="滴答清单"])::before{
   content: "";
@@ -14595,10 +14596,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 滴答清单*/
 /*自定义标签 clash Clash*/
 :is(a[data-ref^="clash"],.page-title-sizer-wrapper span[data-ref^="clash"],a[data-ref^="Clash"],.page-title-sizer-wrapper span[data-ref^="Clash"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="clash"],.page-title-sizer-wrapper span[data-ref^="clash"],a[data-ref^="Clash"],.page-title-sizer-wrapper span[data-ref^="Clash"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="clash"],.page-title-sizer-wrapper span[data-ref^="clash"],a[data-ref^="Clash"],.page-title-sizer-wrapper span[data-ref^="Clash"])::before{
   content: "";
@@ -14633,10 +14634,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 clash Clash*/
 /*自定义标签 EmEditor emeditor Emeditor Emeditor*/
 :is(a[data-ref^="EmEditor"],.page-title-sizer-wrapper span[data-ref^="EmEditor"],a[data-ref^="emeditor"],.page-title-sizer-wrapper span[data-ref^="emeditor"],a[data-ref^="Emeditor"],.page-title-sizer-wrapper span[data-ref^="Emeditor"],a[data-ref^="Emeditor"],.page-title-sizer-wrapper span[data-ref^="Emeditor"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="EmEditor"],.page-title-sizer-wrapper span[data-ref^="EmEditor"],a[data-ref^="emeditor"],.page-title-sizer-wrapper span[data-ref^="emeditor"],a[data-ref^="Emeditor"],.page-title-sizer-wrapper span[data-ref^="Emeditor"],a[data-ref^="Emeditor"],.page-title-sizer-wrapper span[data-ref^="Emeditor"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="EmEditor"],.page-title-sizer-wrapper span[data-ref^="EmEditor"],a[data-ref^="emeditor"],.page-title-sizer-wrapper span[data-ref^="emeditor"],a[data-ref^="Emeditor"],.page-title-sizer-wrapper span[data-ref^="Emeditor"],a[data-ref^="Emeditor"],.page-title-sizer-wrapper span[data-ref^="Emeditor"])::before{
   content: "";
@@ -14671,10 +14672,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 EmEditor emeditor Emeditor Emeditor*/
 /*自定义标签 相处之道*/
 :is(a[data-ref^="相处之道"],.page-title-sizer-wrapper span[data-ref^="相处之道"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="相处之道"],.page-title-sizer-wrapper span[data-ref^="相处之道"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="相处之道"],.page-title-sizer-wrapper span[data-ref^="相处之道"])::before{
   content: "";
@@ -14709,10 +14710,10 @@ a[data-ref="实力商家"]:hover {
 /*自定义标签 相处之道*/
 /*自定义标签 抖音 tiktok Tiktok*/
 :is(a[data-ref^="抖音"],.page-title-sizer-wrapper span[data-ref^="抖音"],a[data-ref^="tiktok"],.page-title-sizer-wrapper span[data-ref^="tiktok"],a[data-ref^="Tiktok"],.page-title-sizer-wrapper span[data-ref^="Tiktok"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="抖音"],.page-title-sizer-wrapper span[data-ref^="抖音"],a[data-ref^="tiktok"],.page-title-sizer-wrapper span[data-ref^="tiktok"],a[data-ref^="Tiktok"],.page-title-sizer-wrapper span[data-ref^="Tiktok"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="抖音"],.page-title-sizer-wrapper span[data-ref^="抖音"],a[data-ref^="tiktok"],.page-title-sizer-wrapper span[data-ref^="tiktok"],a[data-ref^="Tiktok"],.page-title-sizer-wrapper span[data-ref^="Tiktok"])::before{
   content: "";
@@ -14780,10 +14781,10 @@ a[data-ref="实力商家"]:hover {
 
 /*自定义标签 课程*/
 :is(a[data-ref^="课程"],.page-title-sizer-wrapper span[data-ref^="课程"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="课程"],.page-title-sizer-wrapper span[data-ref^="课程"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="课程"],.page-title-sizer-wrapper span[data-ref^="课程"])::before{
   content: "";
@@ -14881,11 +14882,11 @@ a[data-ref="实力商家"]:hover {
    --03110157imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgU6MSltu1qpphkZO/root/content");
 }
 :is(a[data-ref="命运"],.page-title-sizer-wrapper span[data-ref="命运"],a[data-ref="人类命运"],.page-title-sizer-wrapper span[data-ref="人类命运"],a[data-ref="个体命运"],.page-title-sizer-wrapper span[data-ref="个体命运"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="命运"],.page-title-sizer-wrapper span[data-ref="命运"],a[data-ref="人类命运"],.page-title-sizer-wrapper span[data-ref="人类命运"],a[data-ref="个体命运"],.page-title-sizer-wrapper span[data-ref="个体命运"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="命运"].tag,a[data-ref="人类命运"].tag,a[data-ref="个体命运"].tag) {
@@ -15082,11 +15083,11 @@ a[data-ref="实力商家"]:hover {
    --02221224imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgTBC3gD5hZOv3K4c/root/content");
 }
 :is(a[data-ref="随烦恼"],.page-title-sizer-wrapper span[data-ref="随烦恼"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="随烦恼"],.page-title-sizer-wrapper span[data-ref="随烦恼"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="随烦恼"].tag) {
@@ -15296,11 +15297,11 @@ a[data-ref^="阅读"].tag:before {
    --03105201imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgU35etW5lZ-hsXao/root/content");
 }
 :is(a[data-ref="人生"],.page-title-sizer-wrapper span[data-ref="人生"],a[data-ref="人生观"],.page-title-sizer-wrapper span[data-ref="人生观"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="人生"],.page-title-sizer-wrapper span[data-ref="人生"],a[data-ref="人生观"],.page-title-sizer-wrapper span[data-ref="人生观"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="人生"].tag,a[data-ref="人生观"].tag) {
@@ -15456,10 +15457,10 @@ a[data-ref^="阅读"].tag:before {
 /*自定义标签 佛*/
 /*自定义标签 罪犯 犯罪*/
 :is(a[data-ref="罪犯"],.page-title-sizer-wrapper span[data-ref="罪犯"],a[data-ref="犯罪"],.page-title-sizer-wrapper span[data-ref="犯罪"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="罪犯"],.page-title-sizer-wrapper span[data-ref="罪犯"],a[data-ref="犯罪"],.page-title-sizer-wrapper span[data-ref="犯罪"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="罪犯"].tag,a[data-ref="犯罪"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -15498,10 +15499,10 @@ a[data-ref^="阅读"].tag:before {
 /*自定义标签 罪犯 犯罪*/
 /*自定义标签 贫穷*/
 :is(a[data-ref^="贫穷"],.page-title-sizer-wrapper span[data-ref^="贫穷"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="贫穷"],.page-title-sizer-wrapper span[data-ref^="贫穷"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="贫穷"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -15628,11 +15629,11 @@ a[data-ref^="阅读"].tag:before {
 /*自定义标签 将来*/
 :is(a[data-ref^="将来"],.page-title-sizer-wrapper span[data-ref^="将来"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="将来"],.page-title-sizer-wrapper span[data-ref^="将来"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="将来"],.page-title-sizer-wrapper span[data-ref^="将来"])::before{
   content: "";
@@ -15668,11 +15669,11 @@ a[data-ref^="阅读"].tag:before {
 /*自定义标签 重复清单*/
 :is(a[data-ref="重复清单"],.page-title-sizer-wrapper span[data-ref="重复清单"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="重复清单"],.page-title-sizer-wrapper span[data-ref="重复清单"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="重复清单"],.page-title-sizer-wrapper span[data-ref="重复清单"])::before{
   content: "";
@@ -16029,11 +16030,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 费曼*/
 :is(a[data-ref^="费曼"],.page-title-sizer-wrapper span[data-ref^="费曼"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="费曼"],.page-title-sizer-wrapper span[data-ref^="费曼"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="费曼"],.page-title-sizer-wrapper span[data-ref^="费曼"])::before{
   display: inline-block;
@@ -16075,11 +16076,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 翻拍*/
 :is(a[data-ref^="翻拍"],.page-title-sizer-wrapper span[data-ref^="翻拍"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="翻拍"],.page-title-sizer-wrapper span[data-ref^="翻拍"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="翻拍"],.page-title-sizer-wrapper span[data-ref^="翻拍"])::before{
   content: "";
@@ -16115,11 +16116,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 你是因为什么开始成熟的？*/
 :is(a[data-ref="你是因为什么开始成熟的？"],.page-title-sizer-wrapper span[data-ref="你是因为什么开始成熟的？"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="你是因为什么开始成熟的？"],.page-title-sizer-wrapper span[data-ref="你是因为什么开始成熟的？"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="你是因为什么开始成熟的？"],.page-title-sizer-wrapper span[data-ref="你是因为什么开始成熟的？"])::before{
   content: "";
@@ -16156,11 +16157,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 你会相信*/
 :is(a[data-ref^="你会相信"],.page-title-sizer-wrapper span[data-ref^="你会相信"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="你会相信"],.page-title-sizer-wrapper span[data-ref^="你会相信"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="你会相信"],.page-title-sizer-wrapper span[data-ref^="你会相信"])::before{
   content: "";
@@ -16196,11 +16197,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 我的寓言*/
 :is(a[data-ref^="我的寓言"],.page-title-sizer-wrapper span[data-ref^="我的寓言"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="我的寓言"],.page-title-sizer-wrapper span[data-ref^="我的寓言"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="我的寓言"],.page-title-sizer-wrapper span[data-ref^="我的寓言"])::before{
   content: "";
@@ -16236,11 +16237,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 南京生活*/
 :is(a[data-ref^="南京生活"],.page-title-sizer-wrapper span[data-ref^="南京生活"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref^="南京生活"],.page-title-sizer-wrapper span[data-ref^="南京生活"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref^="南京生活"],.page-title-sizer-wrapper span[data-ref^="南京生活"])::before{
   content: "🎨";
@@ -16282,11 +16283,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 趣味*/
 :is(a[data-ref*="趣味"],.page-title-sizer-wrapper span[data-ref*="趣味"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref*="趣味"],.page-title-sizer-wrapper span[data-ref*="趣味"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref*="趣味"],.page-title-sizer-wrapper span[data-ref*="趣味"])::before{
   content: "";
@@ -16370,11 +16371,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 2022 2022*/
 :is(a[data-ref="2022"],.page-title-sizer-wrapper span[data-ref="2022"],a[data-ref="2022"],.page-title-sizer-wrapper span[data-ref="2022"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="2022"],.page-title-sizer-wrapper span[data-ref="2022"],a[data-ref="2022"],.page-title-sizer-wrapper span[data-ref="2022"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="2022"],.page-title-sizer-wrapper span[data-ref="2022"],a[data-ref="2022"],.page-title-sizer-wrapper span[data-ref="2022"])::before{
   content: "";
@@ -16411,11 +16412,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 2021 2021*/
 :is(a[data-ref="2021"],.page-title-sizer-wrapper span[data-ref="2021"],a[data-ref="2021"],.page-title-sizer-wrapper span[data-ref="2021"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="2021"],.page-title-sizer-wrapper span[data-ref="2021"],a[data-ref="2021"],.page-title-sizer-wrapper span[data-ref="2021"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="2021"],.page-title-sizer-wrapper span[data-ref="2021"],a[data-ref="2021"],.page-title-sizer-wrapper span[data-ref="2021"])::before{
   content: "";
@@ -16627,11 +16628,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 微信 WeChat Wechat*/
 :is(a[data-ref="微信"],.page-title-sizer-wrapper span[data-ref="微信"],a[data-ref="WeChat"],.page-title-sizer-wrapper span[data-ref="WeChat"],a[data-ref="Wechat"],.page-title-sizer-wrapper span[data-ref="Wechat"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="微信"],.page-title-sizer-wrapper span[data-ref="微信"],a[data-ref="WeChat"],.page-title-sizer-wrapper span[data-ref="WeChat"],a[data-ref="Wechat"],.page-title-sizer-wrapper span[data-ref="Wechat"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="微信"],.page-title-sizer-wrapper span[data-ref="微信"],a[data-ref="WeChat"],.page-title-sizer-wrapper span[data-ref="WeChat"],a[data-ref="Wechat"],.page-title-sizer-wrapper span[data-ref="Wechat"])::before{
   content: "";
@@ -16718,11 +16719,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 日志 日记 每日总结*/
 :is(a[data-ref="日志"],.page-title-sizer-wrapper span[data-ref="日志"],a[data-ref="日记"],.page-title-sizer-wrapper span[data-ref="日记"],a[data-ref="每日总结"],.page-title-sizer-wrapper span[data-ref="每日总结"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="日志"],.page-title-sizer-wrapper span[data-ref="日志"],a[data-ref="日记"],.page-title-sizer-wrapper span[data-ref="日记"],a[data-ref="每日总结"],.page-title-sizer-wrapper span[data-ref="每日总结"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="日志"],.page-title-sizer-wrapper span[data-ref="日志"],a[data-ref="日记"],.page-title-sizer-wrapper span[data-ref="日记"],a[data-ref="每日总结"],.page-title-sizer-wrapper span[data-ref="每日总结"])::before{
   content: "";
@@ -16796,11 +16797,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 禅宗*/
 :is(a[data-ref="禅宗"],.page-title-sizer-wrapper span[data-ref="禅宗"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="禅宗"],.page-title-sizer-wrapper span[data-ref="禅宗"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="禅宗"],.page-title-sizer-wrapper span[data-ref="禅宗"])::before{
   content: "";
@@ -16840,11 +16841,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 文章 article Article*/
 :is(a[data-ref="文章"],.page-title-sizer-wrapper span[data-ref="文章"],a[data-ref="article"],.page-title-sizer-wrapper span[data-ref="article"],a[data-ref="Article"],.page-title-sizer-wrapper span[data-ref="Article"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="文章"],.page-title-sizer-wrapper span[data-ref="文章"],a[data-ref="article"],.page-title-sizer-wrapper span[data-ref="article"],a[data-ref="Article"],.page-title-sizer-wrapper span[data-ref="Article"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="文章"],.page-title-sizer-wrapper span[data-ref="文章"],a[data-ref="article"],.page-title-sizer-wrapper span[data-ref="article"],a[data-ref="Article"],.page-title-sizer-wrapper span[data-ref="Article"])::before{
   content: "";
@@ -16880,11 +16881,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 图片 photo image Photo Image*/
 :is(a[data-ref="图片"],.page-title-sizer-wrapper span[data-ref="图片"],a[data-ref="photo"],.page-title-sizer-wrapper span[data-ref="photo"],a[data-ref="image"],.page-title-sizer-wrapper span[data-ref="image"],a[data-ref="Photo"],.page-title-sizer-wrapper span[data-ref="Photo"],a[data-ref="Image"],.page-title-sizer-wrapper span[data-ref="Image"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="图片"],.page-title-sizer-wrapper span[data-ref="图片"],a[data-ref="photo"],.page-title-sizer-wrapper span[data-ref="photo"],a[data-ref="image"],.page-title-sizer-wrapper span[data-ref="image"],a[data-ref="Photo"],.page-title-sizer-wrapper span[data-ref="Photo"],a[data-ref="Image"],.page-title-sizer-wrapper span[data-ref="Image"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="图片"],.page-title-sizer-wrapper span[data-ref="图片"],a[data-ref="photo"],.page-title-sizer-wrapper span[data-ref="photo"],a[data-ref="image"],.page-title-sizer-wrapper span[data-ref="image"],a[data-ref="Photo"],.page-title-sizer-wrapper span[data-ref="Photo"],a[data-ref="Image"],.page-title-sizer-wrapper span[data-ref="Image"])::before{
   content: "";
@@ -16920,11 +16921,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 诗歌*/
 :is(a[data-ref="诗歌"],.page-title-sizer-wrapper span[data-ref="诗歌"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="诗歌"],.page-title-sizer-wrapper span[data-ref="诗歌"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="诗歌"],.page-title-sizer-wrapper span[data-ref="诗歌"])::before{
   content: "";
@@ -16960,11 +16961,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 音乐 music Music*/
 :is(a[data-ref="音乐"],.page-title-sizer-wrapper span[data-ref="音乐"],a[data-ref="music"],.page-title-sizer-wrapper span[data-ref="music"],a[data-ref="Music"],.page-title-sizer-wrapper span[data-ref="Music"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="音乐"],.page-title-sizer-wrapper span[data-ref="音乐"],a[data-ref="music"],.page-title-sizer-wrapper span[data-ref="music"],a[data-ref="Music"],.page-title-sizer-wrapper span[data-ref="Music"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="音乐"],.page-title-sizer-wrapper span[data-ref="音乐"],a[data-ref="music"],.page-title-sizer-wrapper span[data-ref="music"],a[data-ref="Music"],.page-title-sizer-wrapper span[data-ref="Music"])::before{
   content: "";
@@ -17002,11 +17003,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 inbox box 收集箱 Inbox Box*/
 :is(a[data-ref="inbox"],.page-title-sizer-wrapper span[data-ref="inbox"],a[data-ref="box"],.page-title-sizer-wrapper span[data-ref="box"],a[data-ref="收集箱"],.page-title-sizer-wrapper span[data-ref="收集箱"],a[data-ref="Inbox"],.page-title-sizer-wrapper span[data-ref="Inbox"],a[data-ref="Box"],.page-title-sizer-wrapper span[data-ref="Box"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="inbox"],.page-title-sizer-wrapper span[data-ref="inbox"],a[data-ref="box"],.page-title-sizer-wrapper span[data-ref="box"],a[data-ref="收集箱"],.page-title-sizer-wrapper span[data-ref="收集箱"],a[data-ref="Inbox"],.page-title-sizer-wrapper span[data-ref="Inbox"],a[data-ref="Box"],.page-title-sizer-wrapper span[data-ref="Box"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="inbox"],.page-title-sizer-wrapper span[data-ref="inbox"],a[data-ref="box"],.page-title-sizer-wrapper span[data-ref="box"],a[data-ref="收集箱"],.page-title-sizer-wrapper span[data-ref="收集箱"],a[data-ref="Inbox"],.page-title-sizer-wrapper span[data-ref="Inbox"],a[data-ref="Box"],.page-title-sizer-wrapper span[data-ref="Box"])::before{
   content: "";
@@ -17044,10 +17045,10 @@ a[data-ref="大童"]:hover {
    --31220449imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoPd1uIvQs3qEVRbw/root/content");
 }
 :is(a[data-ref$="我真棒"],.page-title-sizer-wrapper span[data-ref$="我真棒"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="我真棒"],.page-title-sizer-wrapper span[data-ref$="我真棒"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="我真棒"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -17092,10 +17093,10 @@ a[data-ref="大童"]:hover {
    --31220424imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoQDvRlNvRQo3GrFw/root/content");
 }
 :is(a[data-ref$="自我对话"],.page-title-sizer-wrapper span[data-ref$="自我对话"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="自我对话"],.page-title-sizer-wrapper span[data-ref$="自我对话"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="自我对话"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -17140,10 +17141,10 @@ a[data-ref="大童"]:hover {
    --31220403imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoRxMz7byTrtZ9zkQ/root/content");
 }
 :is(a[data-ref$="高光时刻"],.page-title-sizer-wrapper span[data-ref$="高光时刻"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="高光时刻"],.page-title-sizer-wrapper span[data-ref$="高光时刻"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="高光时刻"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -17188,10 +17189,10 @@ a[data-ref="大童"]:hover {
    --31220334imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhfoSO2ZIUY-BuIIZIQ/root/content");
 }
 :is(a[data-ref$="至暗时刻"],.page-title-sizer-wrapper span[data-ref$="至暗时刻"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref$="至暗时刻"],.page-title-sizer-wrapper span[data-ref$="至暗时刻"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref$="至暗时刻"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
@@ -17236,11 +17237,11 @@ a[data-ref="大童"]:hover {
 /*自定义标签 下载*/
 :is(a[data-ref="下载"],.page-title-sizer-wrapper span[data-ref="下载"]){
   position: relative;
-  color: inherit!important;
+  color: var(--FontColor) !important;
 }
 :is(a[data-ref="下载"],.page-title-sizer-wrapper span[data-ref="下载"]):hover{
   position: relative;
-    color: inherit!important;
+    color: var(--FontColor) !important;
 }
 :is(a[data-ref="下载"],.page-title-sizer-wrapper span[data-ref="下载"])::before{
   content: "";
@@ -17279,11 +17280,11 @@ a[data-ref="大童"]:hover {
    --03145938imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgWaK_LKwqAm85ul9/root/content");
 }
 :is(a[data-ref="区块链"],.page-title-sizer-wrapper span[data-ref="区块链"]){
-  color: inherit!important;
+  color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="区块链"],.page-title-sizer-wrapper span[data-ref="区块链"]):hover{
-    color: inherit!important;
+    color: var(--FontColor) !important;
   
 }
 :is(a[data-ref="区块链"].tag) {
