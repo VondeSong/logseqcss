@@ -37,6 +37,75 @@
   --treeicon0_left:0;
   --treeicon0_margin-right:5px;
 }
+/*自定义标签 历史#过去#经历*/
+:root{
+   --08141310imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfo3amVf82jZMBshpg/root/content");
+}
+:is(a[data-ref="历史"],.page-title-sizer-wrapper span[data-ref="历史"],a[data-ref="过去"],.page-title-sizer-wrapper span[data-ref="过去"],a[data-ref="经历"],.page-title-sizer-wrapper span[data-ref="经历"]){
+  color: inherit!important;
+  
+}
+:is(a[data-ref="历史"],.page-title-sizer-wrapper span[data-ref="历史"],a[data-ref="过去"],.page-title-sizer-wrapper span[data-ref="过去"],a[data-ref="经历"],.page-title-sizer-wrapper span[data-ref="经历"]):hover{
+    color: inherit!important;
+  
+}
+:is(a[data-ref="历史"].tag,a[data-ref="过去"].tag,a[data-ref="经历"].tag) {
+/*只有data-ref^="XX"并且class=tag的才添加边框*/
+  border: 1px solid inherit;
+}
+:is(a[data-ref="历史"],.page-title-sizer-wrapper span[data-ref="历史"],a[data-ref="过去"],.page-title-sizer-wrapper span[data-ref="过去"],a[data-ref="经历"],.page-title-sizer-wrapper span[data-ref="经历"])::before{
+  content: "";
+  background-image: var(--08141310imageurl);
+  background-size: 100%;
+  width: var(--page_picture_Width);
+  height: var(--page_picture_Height);
+  position: relative;
+  top: var(--page_picture_Top);
+  left: var(--page_picture_Left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+  margin-right: var(--page_picture_marginRight);
+}
+:is(.page-title-sizer-wrapper span[data-ref="历史"],.page-title-sizer-wrapper span[data-ref="过去"],.page-title-sizer-wrapper span[data-ref="经历"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref="历史"],[data-ref="过去"],[data-ref="经历"]) > a > span.page-icon {
+  text-indent:-9999px;
+}
+:is([data-ref="历史"],[data-ref="过去"],[data-ref="经历"])>a>span.page-icon {
+  content: "";
+  background-image: var(--08141310imageurl);
+  background-size: 100%;
+  width: var(--Lefticon_picture_Width);
+  height: var(--Lefticon_picture_Height);
+  position: relative;
+  top: var(--Lefticon_picture_top);
+  left: var(--Lefticon_picture_left);
+  z-index: 0;
+  display: inline-block;
+  overflow:auto;
+}
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title="经历"]::before,.kef-ft-fav-item-name[title="过去"]::before,.kef-ft-fav-item-name[title="历史"]::before  {
+	  content: "";
+	  background-image: var(--08141310imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="经历"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="过去"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="历史"]){
+	  display: none !important;
+}
+/*自定义标签 历史#过去#经历*/
 /*自定义标签 怪圈#恶性循环*/
 :root{
    --06073131imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgXnqQNgXVqBwI0Dv/root/content");
