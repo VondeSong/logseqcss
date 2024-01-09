@@ -15610,27 +15610,6 @@ a[data-ref="实力商家"]:hover {
 	  display: none !important;
 }
 /*自定义标签 随烦恼*/
-a[data-ref^="折腾"].tag {
-  position: relative;
-  background: none;
-  /*box-shadow: none!important;*/
-  --size: 1.5px;
-  --gradient: linear-gradient(100.41deg,#26a641 0.52%,#f6af0c 100.52%) !important;
-  border: 0 !important;
-  padding: var(--paddingtag) !important;
-}
-
-a[data-ref^="折腾"].tag:before {
-  position: absolute;
-  box-shadow: none!important;
-  padding: var(--size) ;
-    border-radius: inherit !important;
-    background: var(--gradient);
-    content: "";
-    inset: 0;
-    -webkit-mask: linear-gradient(#000,#000) content-box,linear-gradient(#000,#000) !important;
-    -webkit-mask-composite: xor;
-}
 
 /*自定义标签 积极心态*/
 :is(a[data-ref^="积极心态"],.page-title-sizer-wrapper span[data-ref^="积极心态"]){
