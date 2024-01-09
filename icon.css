@@ -13440,19 +13440,24 @@ a[data-ref="card"] {
   font-size: 0.8em !important;
 }
 /*自定义标签 拖延*/
-:is(a[data-ref^="拖延"],.page-title-sizer-wrapper span[data-ref^="拖延"]){
+:root{
+   --09123635imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgg6v71jrUsYKqpLh/root/content");
+}
+:is(a[data-ref*="拖延"],.page-title-sizer-wrapper span[data-ref*="拖延"]){
   color: inherit!important;
+  
 }
-:is(a[data-ref^="拖延"],.page-title-sizer-wrapper span[data-ref^="拖延"]):hover{
+:is(a[data-ref*="拖延"],.page-title-sizer-wrapper span[data-ref*="拖延"]):hover{
     color: inherit!important;
+  
 }
-:is(a[data-ref^="拖延"].tag) {
+:is(a[data-ref*="拖延"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
-  border: 2px solid #8bb7f0;
+  border: 1px solid inherit;
 }
-:is(a[data-ref^="拖延"],.page-title-sizer-wrapper span[data-ref^="拖延"])::before{
+:is(a[data-ref*="拖延"],.page-title-sizer-wrapper span[data-ref*="拖延"])::before{
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpJ_sWC2lfWViZDZ5A/root/content");
+  background-image: var(--09123635imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -13464,12 +13469,16 @@ a[data-ref="card"] {
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is([data-ref^="拖延"]) > a > span.page-icon {
+:is(.page-title-sizer-wrapper span[data-ref*="拖延"])::before{
+  top: var(--page_title_topicon) !important;
+  margin-right: var(--page_title_margin_right);
+}
+:is([data-ref*="拖延"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref^="拖延"])>a>span.page-icon {
+:is([data-ref*="拖延"])>a>span.page-icon {
   content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhpJ_sWC2lfWViZDZ5A/root/content");
+  background-image: var(--09123635imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -13479,6 +13488,24 @@ a[data-ref="card"] {
   z-index: 0;
   display: inline-block;
   overflow:auto;
+}
+		/*插件 tree icon*/
+		.kef-ft-fav-item-name[title*="拖延"]::before  {
+	  content: "";
+	  background-image: var(--09123635imageurl);
+	  background-size: 100%;
+	  width: var(--treeicon0_width);
+	  height: var(--treeicon0_width);
+	  position: relative;
+	  top: var(--treeicon0_top);
+	  left: 0px;
+	  z-index: 0;
+	  display: inline-block;
+	  overflow:auto;
+	  margin-right: var(--treeicon0_margin-right);
+	 }
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title*="拖延"]){
+	  display: none !important;
 }
 /*自定义标签 拖延*/
 
