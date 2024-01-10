@@ -15623,26 +15623,7 @@ a[data-ref^="娱乐"].tag:before {
 }
 
 
-a[data-ref^="阅读"].tag {
-  position: relative;
-  background: none;
-  /*box-shadow: none!important;*/
-  --size: 1.5px;
-  --gradient: linear-gradient(100.41deg,#D1CECE 0.52%,#03AD57 100.52%) !important;
-  border: 0 !important;
-  padding: var(--paddingtag) !important;
-}
-a[data-ref^="阅读"].tag:before {
-  position: absolute;
-  box-shadow: none!important;
-  padding: var(--size) ;
-    border-radius: inherit !important;
-    background: var(--gradient);
-    content: "";
-    inset: 0;
-    -webkit-mask: linear-gradient(#000,#000) content-box,linear-gradient(#000,#000) !important;
-    -webkit-mask-composite: xor;
-}
+
 /*自定义标签 店铺*/
 :is(a[data-ref="店铺"],.page-title-sizer-wrapper span[data-ref="店铺"]){
   color: #217DBA!important;
