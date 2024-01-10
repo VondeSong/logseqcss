@@ -10308,7 +10308,7 @@
   overflow:auto;
 }
 		/*插件 tree icon*/
-		.kef-ft-fav-item-name[title="时间线"]::before,.kef-ft-fav-item-name[title="timeline"]::before  {
+		.kef-ft-fav-item-name[title="时间线"]::before,.kef-ft-fav-item-name[title="Timeline"]::before  {
 	  content: "";
 	  background-image: var(--10112103imageurl);
 	  background-size: 100%;
@@ -10322,7 +10322,7 @@
 	  overflow:auto;
 	  margin-right: var(--treeicon0_margin-right);
 	 }
-	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="时间线"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="timeline"]){
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="时间线"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="Timeline"]){
 	  display: none !important;
 }
 /*自定义标签 timeline#时间线*/
