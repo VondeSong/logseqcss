@@ -12592,46 +12592,7 @@
   overflow:auto;
 }
 /*自定义标签 时间管理*/
-/*自定义标签 儿童*/
-:is(a[data-ref="儿童"],.page-title-sizer-wrapper span[data-ref="儿童"]){
-  position: relative;
-  color: inherit!important;
-}
-:is(a[data-ref="儿童"],.page-title-sizer-wrapper span[data-ref="儿童"]):hover{
-  position: relative;
-    color: inherit!important;
-}
-:is(a[data-ref="儿童"],.page-title-sizer-wrapper span[data-ref="儿童"])::before{
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfotucwn7cBAFzrlPQ/root/content");
-  background-size: 100%;
-  width: var(--page_picture_Width);
-  height: var(--page_picture_Height);
-  position: relative;
-  top: var(--page_picture_Top);
-  left: var(--page_picture_Left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-  margin-right: var(--page_picture_marginRight);
-}
-:is([data-ref="儿童"]) > a > span.page-icon {
-  text-indent:-9999px;
-}
-:is([data-ref="儿童"])>a>span.page-icon {
-  content: "";
-  background-image: url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhfotucwn7cBAFzrlPQ/root/content");
-  background-size: 100%;
-  width: var(--Lefticon_picture_Width);
-  height: var(--Lefticon_picture_Height);
-  position: relative;
-  top: var(--Lefticon_picture_top);
-  left: var(--Lefticon_picture_left);
-  z-index: 0;
-  display: inline-block;
-  overflow:auto;
-}
-/*自定义标签 儿童*/
+
 /*自定义标签 沟通*/
 :root{
    --20104305imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_SjhqBL4oom-hdJi8L7Tw/root/content");
