@@ -32,7 +32,7 @@
 }
 /*tree icon 设置*/
 :root{
-  --treeicon0_width :1rem;
+  --treeicon0_width :1.09rem;
   --treeicon0_top:.2rem;
   --treeicon0_left:0;
   --treeicon0_margin-right:5px;
