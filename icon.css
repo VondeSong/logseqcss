@@ -10250,25 +10250,25 @@
 	  display: none !important;
 }
 /*自定义标签 电视剧*/
-/*自定义标签 电影*/
+/*自定义标签 电影#movie*/
 :root{
-   --03114959imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVELhiyu8jSdkAW4/root/content");
+   --17204453imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgieMLY3LP0pro-Uf/root/content");
 }
-:is(a[data-ref="电影"],.page-title-sizer-wrapper span[data-ref="电影"]){
+:is(a[data-ref="电影"],.page-title-sizer-wrapper span[data-ref="电影"],a[data-ref="movie"],.page-title-sizer-wrapper span[data-ref="movie"]){
   color: inherit!important;
   
 }
-:is(a[data-ref="电影"],.page-title-sizer-wrapper span[data-ref="电影"]):hover{
+:is(a[data-ref="电影"],.page-title-sizer-wrapper span[data-ref="电影"],a[data-ref="movie"],.page-title-sizer-wrapper span[data-ref="movie"]):hover{
     color: inherit!important;
   
 }
-:is(a[data-ref="电影"].tag) {
+:is(a[data-ref="电影"].tag,a[data-ref="movie"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref="电影"],.page-title-sizer-wrapper span[data-ref="电影"])::before{
+:is(a[data-ref="电影"],.page-title-sizer-wrapper span[data-ref="电影"],a[data-ref="movie"],.page-title-sizer-wrapper span[data-ref="movie"])::before{
   content: "";
-  background-image: var(--03114959imageurl);
+  background-image: var(--17204453imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -10280,16 +10280,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is(.page-title-sizer-wrapper span[data-ref="电影"])::before{
+:is(.page-title-sizer-wrapper span[data-ref="电影"],.page-title-sizer-wrapper span[data-ref="movie"])::before{
   top: var(--page_title_topicon) !important;
   margin-right: var(--page_title_margin_right);
 }
-:is([data-ref="电影"]) > a > span.page-icon {
+:is([data-ref="电影"],[data-ref="movie"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref="电影"])>a>span.page-icon {
+:is([data-ref="电影"],[data-ref="movie"])>a>span.page-icon {
   content: "";
-  background-image: var(--03114959imageurl);
+  background-image: var(--17204453imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -10301,9 +10301,9 @@
   overflow:auto;
 }
 		/*插件 tree icon*/
-		.kef-ft-fav-item-name[title="电影"]::before  {
+		.kef-ft-fav-item-name[title="movie"]::before,.kef-ft-fav-item-name[title="电影"]::before  {
 	  content: "";
-	  background-image: var(--03114959imageurl);
+	  background-image: var(--17204453imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
@@ -10315,10 +10315,10 @@
 	  overflow:auto;
 	  margin-right: var(--treeicon0_margin-right);
 	 }
-	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="电影"]){
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="movie"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="电影"]){
 	  display: none !important;
 }
-/*自定义标签 电影*/
+/*自定义标签 电影#movie*/
 /*自定义标签 生存策略#道义*/
 :root{
    --01195141imageurl:url("https://api.onedrive.com/v1.0/shares/s!AlyPMEviU_Sjhp47oMCuDKsvoOuFew/root/content");
