@@ -10181,25 +10181,25 @@
 	  display: none !important;
 }
 /*自定义标签 area*/
-/*自定义标签 电视剧*/
+/*自定义标签 电视剧#tv*/
 :root{
-   --03114813imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgVCg7bi_5aOoV2_i/root/content");
+   --17204740imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgigTi53pt34EBUN2/root/content");
 }
-:is(a[data-ref="电视剧"],.page-title-sizer-wrapper span[data-ref="电视剧"]){
+:is(a[data-ref="电视剧"],.page-title-sizer-wrapper span[data-ref="电视剧"],a[data-ref="tv"],.page-title-sizer-wrapper span[data-ref="tv"]){
   color: inherit!important;
   
 }
-:is(a[data-ref="电视剧"],.page-title-sizer-wrapper span[data-ref="电视剧"]):hover{
+:is(a[data-ref="电视剧"],.page-title-sizer-wrapper span[data-ref="电视剧"],a[data-ref="tv"],.page-title-sizer-wrapper span[data-ref="tv"]):hover{
     color: inherit!important;
   
 }
-:is(a[data-ref="电视剧"].tag) {
+:is(a[data-ref="电视剧"].tag,a[data-ref="tv"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref="电视剧"],.page-title-sizer-wrapper span[data-ref="电视剧"])::before{
+:is(a[data-ref="电视剧"],.page-title-sizer-wrapper span[data-ref="电视剧"],a[data-ref="tv"],.page-title-sizer-wrapper span[data-ref="tv"])::before{
   content: "";
-  background-image: var(--03114813imageurl);
+  background-image: var(--17204740imageurl);
   background-size: 100%;
   width: var(--page_picture_Width);
   height: var(--page_picture_Height);
@@ -10211,16 +10211,16 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is(.page-title-sizer-wrapper span[data-ref="电视剧"])::before{
+:is(.page-title-sizer-wrapper span[data-ref="电视剧"],.page-title-sizer-wrapper span[data-ref="tv"])::before{
   top: var(--page_title_topicon) !important;
   margin-right: var(--page_title_margin_right);
 }
-:is([data-ref="电视剧"]) > a > span.page-icon {
+:is([data-ref="电视剧"],[data-ref="tv"]) > a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref="电视剧"])>a>span.page-icon {
+:is([data-ref="电视剧"],[data-ref="tv"])>a>span.page-icon {
   content: "";
-  background-image: var(--03114813imageurl);
+  background-image: var(--17204740imageurl);
   background-size: 100%;
   width: var(--Lefticon_picture_Width);
   height: var(--Lefticon_picture_Height);
@@ -10232,9 +10232,9 @@
   overflow:auto;
 }
 		/*插件 tree icon*/
-		.kef-ft-fav-item-name[title="电视剧"]::before  {
+		.kef-ft-fav-item-name[title="tv"]::before,.kef-ft-fav-item-name[title="电视剧"]::before  {
 	  content: "";
-	  background-image: var(--03114813imageurl);
+	  background-image: var(--17204740imageurl);
 	  background-size: 100%;
 	  width: var(--treeicon0_width);
 	  height: var(--treeicon0_width);
@@ -10246,10 +10246,10 @@
 	  overflow:auto;
 	  margin-right: var(--treeicon0_margin-right);
 	 }
-	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="电视剧"]){
+	 .ui__icon:has( ~ .kef-ft-fav-item-name[title="tv"]),.ui__icon:has( ~ .kef-ft-fav-item-name[title="电视剧"]){
 	  display: none !important;
 }
-/*自定义标签 电视剧*/
+/*自定义标签 电视剧#tv*/
 /*自定义标签 电影#movie*/
 :root{
    --17204453imageurl:url("https://api.onedrive.com/v1.0/shares/s!AljXQRwfsHTMgieMLY3LP0pro-Uf/root/content");
