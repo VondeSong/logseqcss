@@ -10960,21 +10960,21 @@
   overflow:auto;
 }
 /*自定义标签 chatgpt*/
-/*自定义标签 chatgptlink*/
+/*自定义标签 chatgptlink gpt*/
 :root{
    --08233736imageurl:url("data:image/png;base64,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");
 }
-:is(a[data-ref^="chatgptlink"],.page-title-sizer-wrapper span[data-ref^="chatgptlink"]){
+:is(a[data-ref^="gpt"],.page-title-sizer-wrapper span[data-ref^="gpt"]){
   color: inherit!important;
 }
-:is(a[data-ref^="chatgptlink"],.page-title-sizer-wrapper span[data-ref^="chatgptlink"]):hover{
+:is(a[data-ref^="gpt"],.page-title-sizer-wrapper span[data-ref^="gpt"]):hover{
     color: inherit!important;
 }
-:is(a[data-ref^="chatgptlink"].tag) {
+:is(a[data-ref^="gpt"].tag) {
 /*只有data-ref^="XX"并且class=tag的才添加边框*/
   border: 1px solid inherit;
 }
-:is(a[data-ref^="chatgptlink"],.page-title-sizer-wrapper span[data-ref^="chatgptlink"])::before{
+:is(a[data-ref^="gpt"],.page-title-sizer-wrapper span[data-ref^="gpt"])::before{
   content: "";
   background-image: var(--08233736imageurl);
   background-size: 100%;
@@ -10988,13 +10988,13 @@
   overflow:auto;
   margin-right: var(--page_picture_marginRight);
 }
-:is(.page-title-sizer-wrapper span[data-ref^="chatgptlink"])::before{
+:is(.page-title-sizer-wrapper span[data-ref^="gpt"])::before{
   top: var(--page_title_topicon) !important; margin-right: var(--page_title_margin_right);;
 }
-:is([data-ref^="chatgptlink"])  a > span.page-icon {
+:is([data-ref^="gpt"])  a > span.page-icon {
   text-indent:-9999px;
 }
-:is([data-ref^="chatgptlink"]) a>span.page-icon {
+:is([data-ref^="gpt"]) a>span.page-icon {
   content: "";
   background-image: var(--08233736imageurl);
   background-size: 100%;
@@ -11007,7 +11007,7 @@
   display: inline-block;
   overflow:auto;
 }
-/*自定义标签 chatgptlink*/
+/*自定义标签 gpt*/
 
 /*自定义标签 宋维骏#宋岳#岳岳#大骏#小火车*/
 :root{
